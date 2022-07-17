@@ -1,0 +1,12 @@
+.rasa/*
+*__pycache__*
+logs/*
+**/venv
+**/.rasa/*
+.idea
+.vscode
+**/models/*
+*.xlsx
+*.csv
+*.tsv
+*.xls
