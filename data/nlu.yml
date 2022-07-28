@@ -1,652 +1,176 @@
 version: '3.0'
 nlu:
-
-- intent: bot_challenge
-  examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
-    - আপনি কে 
-    - আপনি কেডায় ভাই 
-
 - intent: ques_0
   examples: |
-    - এজেন্টশীপ নিতে আগ্রহী !
-    - এজেন্ট হতে চাই, কি করতে হবে?
-    - এজেন্ট ব্যাংকিং নিতে চাই।
-    - আপনারা কি এজেন্ট দিচ্ছেন কিনা যদি দেন তাহলে কিভাবে নেওয়া যাবে?
-    - এজেন্ট দেয়া যাবে?
-    - এজেন্ট হতে কি লাগবে?
-    - এজেন্ট হিসাবে কিভাবে যুক্ত হতে পারি ?
-    - এজেন্ট শাখা নিতে হলে করনীয় গুলো কিকি
-    - I want to be an Agent of Agrani Bank/Agrani DOER
-    - I want Agentship
-    - I am interested in taking Agentship/I am interested in Agentship
-    - How to be an agent?
-    - I'm interested to open Agrani Agent Banking in my are
-    - Agent Banking nite chai
+    - অনেক সময় কম্পিউটার এ বিল এন্ট্রি করতে গেলে বাজেট insufficient দেখায়।
+    - অফিস কোড ১০৭০৩০৫১০১১৪০ অফিস কোড (১৩৬০১০১) অপারেশন কোড ১২০০০২৪০১ অর্থনৈতিক কোড ৩২৫৬১০৭, বিল পোষ্টিং করার সময় insufficient বাজেট দেখায়।
+    - বিভিন্ন অর্থনৈতিক কোডে বরাদ্দ পর্যাপ্ত থাকা সত্তেও নির্ধারিত কোডে বিল পরিশোধ করা যায় না।
 - intent: ques_1
   examples: |
-    - মোবাইল নম্বর দেয়ার পর !
-    - কেউ কি যোগাযোগ করবে?
-    - Will anyone contact?
+    - বাজেট বরাদ্দ এবং অর্থ ছাড় করলে বিল পাশ করা যাবে কি?
 - intent: ques_2
   examples: |
-    - ইউনিট এজেন্ট হবার জন্য শর্ত সমূহ !
-    - এজেন্ট হবার জন্য শর্ত কি কি ?
-    - এজেন্ট হবার কোনো শর্ত আছে?
-    - Are there any conditions to be an agent?
-    - এজেন্ট হবার conditions গুলো কি কি?
+    - জুলাই/১৮ ও আগস্ট/১৮ মাসে ইউএও অফিসের বিপরীতে সকল অফিসের বিল পাশ করা হয়। এখন কিভাবে সংশ্লিষ্ট অফিসের বিপরীতে ব্যয় দেখাতে হবে?
 - intent: ques_3
   examples: |
-    - দুয়ার ব্যাংকিং কোথায় আছে !
-    - এজেন্ট পয়েন্ট কোথায় কোথায় আছে?
-    - এজেন্ট আউটলেট কোথায় আছে?
-    - কোথায় কোথায় এজেন্ট আছে?
-    - Where is the agent outlet?
-    - Where is the agent point?
+    - Authority সিএও অফিসের endorse করার দরকার আছে কি?
 - intent: ques_4
   examples: |
-    - অগ্রণী দুয়ার ব্যাংকিং কি ?
-    - অগ্রণী দুয়ার ব্যাংকিং মানে?
-    - What is Agrani Doer Banking?
+    - উপজেলা পরিষদের টাকা কিভাবে পরিশোধ করা হবে?
 - intent: ques_5
   examples: |
-    - দুয়ার ব্যাংকিংয়ে কি কি সেবা প্রদান করা হয় !
-    - এজেন্ট ব্যাংকিংয়ে কি কি সেবা প্রদান করা হয় !
-    - কি কি সুবিধা আছে?
-    - কি কি facility আছে?
-    - এজেন্ট ব্যাংকিংয়ে কি কি সেবা প্রদান করা হয় !
-    - এজেন্ট পয়েন্টে কি কি সেবা প্রদান করা হয় !
-    - এজেন্ট পয়েন্টে কি কি সেবা আছে!
-    - What services are provided in DOER Banking!
-    - What services are available at Agent Point?
+    - উপজেলা পরিবদের বেতন ভাতা ও সরকারি কর্মচারিগণের বেতন ভাতার আলাদা কোড হয় কেন?
 - intent: ques_6
   examples: |
-    - দুয়ার ব্যাংকিং-এ একাউন্ট খুলতে কি কি প্রয়োজন !
-    - দুয়ার ব্যাংকিং-এ একাউন্ট খুলতে চাই!
-    - এজেন্ট পয়েন্টে -এ একাউন্ট খুলতে চাই!
-    - এজেন্ট পয়েন্টে -এ একাউন্ট খুলতে কি লাগে!
-    - I want to open an account at Doer Banking!
-    - What it takes to open an account at Agent Point?
+    - গ্রুপ Level এ সরকারি কর্মচারীদের বেতন ভাতাদি এর পরিবর্তে বেতন ও মজুরী ব্যবহার করা হয়েছে কেন?
 - intent: ques_7
   examples: |
-    - দুয়ার ব্যাংকিংয়ে কোনো প্রতিনিধির সাথে যোগাযোগ করতে পারি !
-    - কার সাথে যোগাযোগ করতে পারি !
-    - Can I contact with any representative!
-    - Who can I contact?
+    - আনুষাংগিক প্রতিষ্ঠান ও আউট-সোর্সিং এর মধ্যে পার্থক্য কি?
 - intent: ques_8
   examples: |
-    - কেউ কি আছেন ?
-    - Hi !
-    - Hello !
+    - প্রাইমারী স্কুলের দপ্তরীরা কোন ধরনের কর্মচারী?
 - intent: ques_9
   examples: |
-    - দুয়ার ব্যাংকিংয়ে একাউন্ট খুলতে কত টাকা লাগবে !
-    - একাউন্ট খুলতে কি টাকা লাগবে !
-    - What does it cost to open an account?
+    - ৫৯ বছর বয়সে কর্মকর্তা/কর্মচারীর ইনক্রিমেন্ট দেয়া যাবে কি?
 - intent: ques_10
   examples: |
-    - দুয়ার ব্যাংকিং থেকে কি ঋণের সুবিধা পাওয়া যাবে !
-    - ঋণ নিতে পারবো?
-    - লোন নিতে পারবো?
-    - Loan নিতে পারবো?
-    - Can I get loan?
+    - মুক্তিযোদ্ধাদের কিভাবে আইডেন্টিফাই (চিহিত) করা যাবে।
 - intent: ques_11
   examples: |
-    - চেকের মাধ্যমে কি লেনদেন করতে পারবো দুয়ার ব্যাংকিংয়ে !
-    - Can I transact through cheque at Doer Banking!
+    - সচিবালয়, মাধ্যমিক ও উচ্চ শিক্ষা বিভাগ এর ১২৫০১০১১৩৭৯৫২- ৩৯১১১১১ কোড পাওয়া যায় না।
 - intent: ques_12
   examples: |
-    - দুয়ার ব্যাংকিংয়ে একাউন্ট খোলার সুবিধা কি !
-    - এজেন্ট পয়েন্টে একাউন্ট খোলার সুবিধা কি !
-    - এজেন্ট পয়েন্টে একাউন্ট খোলার facility কি !
-    - What is the benefit of opening an account at the Doer banking!
+    - বিভিন্ন প্রাতিষ্ঠানিক কোডে অর্থনৈতিক কোড পাওয়া যাচ্ছে না।
 - intent: ques_13
   examples: |
-    - দুয়ার ব্যাংকিং-এ স্কুল ব্যাংকিং একাউন্ট খুলতে কি কি প্রয়োজন !
-    - এজেন্ট পয়েন্টে স্কুল ব্যাংকিং একাউন্ট খুলতে কি কি প্রয়োজন !
-    - স্কুল ব্যাংকিং একাউন্ট খুলতে কি কি লাগবে?
-    - What does it take to open a School Banking account?
+    - ম্যানেজার সোনালী ব্যাংক আমবাড়ী শাখা এল এস ডি, খাদ্য অধিদপ্তর, পার্বতীপুর, দিনাজপুর, প্রাতিষ্ঠানিক কোড - ১৪৮০২০৭১৩১৩১১, অপারেশন - খাদ্য সংগ্রহেও বিতরণ কর্ষক্রম - অভ্যন্তরীণ খাদ্য সংগ্রহ। অর্থনৈতিক কোড - ৩২২১১০৮, ৪১২৪১০১ পাওয়া যাচ্ছে না।
 - intent: ques_14
   examples: |
-    - স্কুল ব্যাংকিং একাউন্ট এ সুবিধা আছে কোনো?
-    - Is there any facility in school banking account?
+    - ১০৯০৩০১১০১৪৩৮ সিজিএ অফিসের বরাদ্দ এবং ১০৯০৩০৫১০১৭৫৮ ইউএও/চিতলমারী, বাগেরহাট, অর্থনৈতিক কোড ৩২৫৭৩০১ পাওয়া যায় না।
 - intent: ques_15
   examples: |
-    - আপনাদের এফডিআরে হার কত ?
-    - অগ্রণী দুয়ারের এফডিআরের রেট কত?
-    - What is the rate of FDR?
+    - অফিস কোড (১৩৭০১০১xxxxxx) (২২১০০০৪০০) এর বরাদ্দ পত্রের মধ্যে অর্থনৈতিক কোড নেই।
 - intent: ques_16
   examples: |
-    - আপনাদের ডিপিএস এর হার কত ?
-    - অগ্রণী দুয়ারের ডিপিএস এর রেট কত?
-    - What is the rate of DPS?
+    - টোকেন এন্ট্রির ক্ষেত্রে কোডের রেঞ্জ পাওয়া যায় না।
 - intent: ques_17
   examples: |
-    - আপনারা কি ডেবিট/ক্রেডিট কার্ড দেন ?
-    - এজেন্ট পয়েন্ট থেকে কি ডেবিট/ক্রেডিট কার্ড দেন ?
-    - Do you give debit / credit cards from Agent Point?
+    - উন্নয়ন প্রকল্পের বিল প্রদানের ক্ষেত্রে বিল টাইপ Wages to non government employees দিয়ে টোকেন দিলেও বিল এন্ট্রির সময় অর্থনৈতিক কোড পাওয়া যায় না।
 - intent: ques_18
   examples: |
-    - অনলাইনে একাউন্ট খুলতে চাই ?
-    - অনলাইনে একাউন্ট খুলতে পারবো?
-    - Can I open an account online?
+    - পূর্ববর্তী iBAS System এ Code permission এর ব্যবস্থা ছিল। এতে প্রয়োজন অনুযায়ী কোড খুলে DDO করে তাৎক্ষনিক ভাবে বিল পাশ করা যেত কিন্ত বর্তমান iBAS System এ Code permission এর ব্যবস্থা না থাকায় জরুরী অনুদানের বিলগুলি পাস করা যায় না। এ ক্ষেত্রে iBAS System এ Code permission এর ব্যবস্থা থাকা প্রয়োজন
 - intent: ques_19
   examples: |
-    - সুপার সেভিংস লাভ সমূহ সম্পর্কে জানতে চাচ্ছি?
-    - সুপার সেভিংস এ লাভ কত হবে?
-    - সুপার সেভিংস এ কত ইন্টারেস্ট হবে?
-    - What will be the profit at Super Savings Account?
+    - প্রকল্পের কর্মরত কর্মকর্তার বিল এন্ট্রি দেওয়ার সময় Economic code পাওয়া যাচ্ছে না।
 - intent: ques_20
   examples: |
-    - আপনাদের অফিস কোথায় ?
-    - আপনাদের অফিস এড্রেস দিবেন।
-    - Give your office address please
+    - নির্বাচন অফিসের জামানত ফেরত (মেম্বার/ চেয়ারম্যান) এর বিল উপজেলা নির্বাচন কর্মকর্তার ডিডিও দিয়ে others deposit বিল টাইপে টোকেন প্রদানের পর বিল এন্ট্রিতে কোন ইকনোমিক কোড পাওয়ার যায় না।
 - intent: ques_21
   examples: |
-    - রেমিট্যান্সে ২% বোনাস কি পাওয়া যাবে ?
-    - ২% বোনাস কি পাবো?
-    - Will I get 2% bonus?
+    - জামানত ফেরতের অর্থনৈতিক কোড পাওয়া যাচ্ছে না।
+    - অফিস কোড (১৩৭০১০১xxxxx) (২২১০০০৪০০) সিকিউরিটি ডিপোজিট বিল টোকেন দেওয়ার সময় বিল টাইপ কি হবে এবং উক্ত কোডের সিকিউরিটি ডিপোজিট উত্তোলনের অর্থনৈতিক কোড কত হবে।
 - intent: ques_22
   examples: |
-    - ধন্যবাদ! প্রশংসাসূচক বক্তব্যের জন্য!
-    - প্রশংসাসূচক বক্তব্যের জন্য ধন্যবাদ! 
-    - ধন্যবাদ! 
-    - ধন্যবাদ আপনাকে !
-    - Thanks
-    - Thank you
-    - Thanks for your help
-    - Thanks for your comment
+    - উপজেলা পুলিশগণের তদন্তবিল কিভাবে/কোথায় পরিশোধ করা হবে?
 - intent: ques_23
   examples: |
-    - নতুন আরো ফিচারস লাগবে।
-    - Need more new features.
+    - ওসির টিএ বিল ইতোপূর্বে জেলা বরাদ্ধ হতে উপজেলা হিসাবরক্ষণ অফিস কর্তৃক ডিডিও এর সাথে লিংকের মাধ্যমে পরিশোধ করা হতো। বর্তমানে বিভিন্ন উপজেলা হতে পরিশোধ করা যায় না।
 - intent: ques_24
   examples: |
-    - রেমিট্যান্স নিতে অনেক সময় নেয় তাই আমি বেশি রেমিট্যান্স নিতে পারিনা
-    - It takes a long time to take remittance so I can't take more remittance
+    - বকেয়া বেতন বিল পরিশোধ এর অর্থনৈতিক কোড নেই।
 - intent: ques_25
   examples: |
-    - মোবাইল এর মাধ্যমে একাউন্ট ব্যলেন্স চেক করা যাবে কিভাবে?
-    - মোবাইল এ একাউন্ট ব্যলেন্স চেক করা যাবে?
-    - Can I check account balance on mobile?
+    - পুরাতন কোড - ৭-৩৭০৫-৩৬০৯-৯৩২৬ উপজেলা পরিবদের' বাড়ী ভাড়া পরিশোধ করা যাচ্ছে না।
+    - পরিষদের বাসা ভাড়া বিল পরিশোধ করতে গেলে অর্থনৈতিক কোড ৯৩২৬ এর পরিবর্তে ৮১১৩১১০ কোড পাওয়া যাচ্ছে না।
 - intent: ques_26
   examples: |
-    - এসএমএস এর চার্জ কতো কর্তন করে?
-    - এসএমএস এর চার্জ কতো?
-    - How much is the charge for SMS?
+    - প্রাতিষ্ঠানিক কোড - ১০৭০৩০৫১০১১০৯২, অর্থনৈতিক কোড - ১৪৪১২০২ - (অতিরিক্ত গৃহিত টাকা আদায়) পাওয়া যাচ্ছে না।
+    - অতি: গৃহিত অর্থ কর্তনের কোড পাওয়া যাচ্ছে না।
+    - আনুতোষিক প্রদানের ক্ষেত্রে অতিরিক্ত গৃহিত টাকা সরকারী কোষাগারে জমার অর্থনৈতিক কোড পাওয়া যাচ্ছে না।
+    - পেনশনারের মাসিক পেনশন হতে অতিরিক্ত গৃহিত অর্থ কর্তনের কোড পাওয়া যাচ্ছে না।
 - intent: ques_27
   examples: |
-    - মোবাইল নাম্বার কিভাবে আপডেট করবো ?
-    - মোবাইল নাম্বার আপডেট করতে কোথায় যোগাযোগ করবো ?
-    - মোবাইল নাম্বার আপডেট করতে চাই।
-    - How to update mobile number?
+    - বিলুপ্ত মন্ত্রণালয়: ১। ০২,০৪,১৮/ ২। ১৯,২৬,৩২,৪৭ / ৩। ৫৪,৫৬,৬৩,৬৫/ ৭২,৭৩,৭৪ বিল সমুহ কোন মন্ত্রনালয়ে Entry দিতে হবে তার কোন নির্দেশনা থাকে না।
 - intent: ques_28
   examples: |
-    - কেন মোবাইল নাম্বার আপডেট করা জরুরি ?
-    - মোবাইল নাম্বার আপডেট করা লাগে কেনো?
-    - Why it is important to update mobile numbers
+    - সকল DDO তে ভ্যাট ও আইটি কোড পাওয়া যায় না।
+    - নারী ও শিশু নির্যাতন দমন ট্রাইবুনাল বিল পোস্টিং এ ভ্যাট ও আইটি কোড নেই।
+    - খাদ্য পুণর্ভরন বিলের কমিশন বিলের ভ্যাট, আয়করের অর্থনৈতিক কোড ৩২১১১০৮ পাওয়া যায় না।
 - intent: ques_29
   examples: |
-    - মোবাইল নাম্বার আপডেট এর সুবিধা কি কি ?
-    - মোবাইল নাম্বার আপডেট এর সুবিধা আছে?
-    - What are the benefits of mobile number update?
+    - পুরাতন কোড ৩-০৪০১-০০০১-৫৮১১ নতুন কোড ১০৭০৩০২-৩৬৩১১০১- DDO-DC বিল পাশের ক্ষেত্রে VAT এবং IT এর কোড পাওয়া যাচ্ছে না।
 - intent: ques_30
   examples: |
-    - ফেইসবুক এ ছবি পোস্ট করতে চাই ?
-    - I want to post pictures on Facebook
+    - ভ্রমণ ব্যয় বিল হতে ভ্যাট কর্তনের কোড পাওয়া যাচ্ছে না।
 - intent: ques_31
   examples: |
-    - BEFTN, RTGS এর সুবিধা কি আসবে এজেন্ট শাখায় ?
-    - BEFTN, RTGS এর সুবিধা কি আছে?
-    - Does Agent Point have BEFTN, RTGS advantage?
+    - বিল Entry তে Economic ০০৪ ক্রমানুসারে না থাকা, জার্নাল Option না থাকা, জামানতের বিল থেকে অনেক সময় জরিমানা কর্তন করে, পরিশোধ করতে হয় জরিমানা বাবদ ফেরত নেওয়ার জন্য, কর্তনের Economic Code না থাকায় বিল এন্ট্রিতে সমস্যা হয়।
+    - জামানতের বিল থেকে অনেক সময় জরিমানা/আয়কর/ভ্যাট কর্তন করে বিল পরিশোধ করতে হয়। জরিমানা/আয়কর/ভ্যাট বাবদ অর্থ কর্তনের জন্য Economic Code এর ব্যবস্থা থাকা প্রয়োজন।
 - intent: ques_32
   examples: |
-    - বিবিধ রসিদ এর মাধ্যমে টাকা জমা দেয়া যাবে কি দুয়ারে ?
-    - Can I deposit money using receipt?
+    - জামানত বিল পাশ করার সময় insufficient budget দেখা যায়।
 - intent: ques_33
   examples: |
-    - প্রতিটি সেবার জন্য আলাদা আলাদা পেজ খুললে ভালো হয় ?
-    - প্রতিটি সেবার জন্য আলাদা আলাদা পেইজ আছে?
-    - Is there a separate page for each service?
+    - টেলিফোন বিল Entry তে Supplier না থাকা: DDO Option থাকলে Supplier Option পাওয়া যায় না।
 - intent: ques_34
   examples: |
-    - আপনার এজেন্ট পয়েন্টে অনিয়ম হচ্ছে।
-    - There are irregularities at your agent point.
+    - উপজেলা স্বাস্থ্য কমপ্লেক্স, টাঙ্গাইল সদর অফিসে আইডি পাওয়া যায় না।
 - intent: ques_35
   examples: |
-    - E-KYC কি?
-    - E-KYC মানে কি?
-    - What is E-KYC?
+    - প্রাপ্তির কোডে ভুল থাকলে তা সংশোধন করা যায় না। সংশোধন অপশন থাকা আবশ্যক।
+    - ভুল কোডে চালানের টাকা জমা হলে সংশোধন করা যাবে কি?
 - intent: ques_36
   examples: |
-    - E-KYC হলে কি সুবিধা?
-    - What are the benefits of E-KYC?
+    - Book Transfer Entry -এই অপশনে জেলা কারাগার, জেলা আনসার ও ভিডিপি, এবং পুলিশ সুপারের কার্যালয়ে রেশন সামগ্রীর জন্য বরাদ্দ পাওয়া যায়। যাহা Book Transfer Entry এর মাধ্যমে সংশ্লিষ্ট অফিসের কোডে ডেবিট এবং খাদ্য খাত (চাউল+ গম) ক্রেডিট করা হয়, কিন্তু উক্ত অপশনপগুলি পাওয়া যাচ্ছে না।
 - intent: ques_37
   examples: |
-    - E-KYC কবে চালু হচ্ছে?
-    - When will E-KYC launch?
+    - iBAS++ জেলা পুলিশ, মুক্তিযোদ্ধা এবং এন,এস,আই কার্যালয়ের রেশন সামগ্রী খাতে যে বরাদা পাওয়া যায় তাহা PL খাতে Book Transfer এর মাধ্যমে জমা এবং খরচ দেখানো হয়। কিন্তু উক্ত কোড পাওয়া যাচ্ছে না।
 - intent: ques_38
   examples: |
-    - এই লোকেশনে কি আপনাদের এজেন্ট পয়েন্ট আছে?
-    - Do you have an agent point in this location?
+    - Book Transfer: LA চেক এর বিপরীতে IT Option না থাকা।
 - intent: ques_39
   examples: |
-    - এজেন্ট পয়েন্টে কি ব্যাংক কতৃপক্ষ দৈনিক কার্যক্রম পরিচালনার জন্য কোনো লোক দিয়ে থাকেন।
-    - At Agent Point, does the bank authorize a person to conduct daily activities?
+    - বুক ট্রান্সফার শুণ্য value দিয়ে টোকেন এন্ট্রি দিয়ে বিল এন্ট্রি করতে হয়। কিন্তু কোন পেমেন্ট ইস্যু করা যাবে না। এই অপশন চালু করা হয় নাই।
 - intent: ques_40
   examples: |
-    - আমার দুয়ার এজেন্ট শাখা আছে কিন্তু বিল নিতে পারি না
-    - বিল নিতে পারি না, কি করবো?
-    - I can't take bills, what should I do?
+    - পুলিশ বাহিনীর রেশন ক্রয়ের বিল book Adjustment করার সময় পূর্বে অর্থনৈতিক কোড-৮৪২১ এর বিপরীতে কোড পাওয়া যায় না।
+    - পুলিশের রেশন ভাতা BT করার ক্ষেত্রে কোড পাওয়া যাচ্ছে না।
 - intent: ques_41
   examples: |
-    - আমি উচ্চ মাধ্যমিক স্তরের এক জন শিক্ষার্থী আমি এখন পর্যন্ত কোনো টাকা পায়নি কয়েক দিনের ভিতরে আমি কি টাকা পাব?
-    - Will I get scholarship?
+    - Book transfer এ অর্থনৈতিক কোড ৩২১১১১৯ পাওয়া যায় না।
 - intent: ques_42
   examples: |
-    - ফিঙ্গার প্রিন্ট না থাকে তাহলে কি করবে ?
-    - What if I don't have a fingerprint?
+    - ভুমি উন্নয়ন কর এর টাকা BT করা যাচ্ছে না।
 - intent: ques_43
   examples: |
-    - সার্ভারে সমস্যা!
-    - Server problem!
-    - Server সমস্যা, কি করবো?
+    - বুক ট্রান্সফার এন্ট্রিতে জিপিএফ সংক্রান্ত এলপিসি প্রাপ্তি ও প্রেরণ করা যাচ্ছে না।
 - intent: ques_44
   examples: |
-    - অনলাইনে একাউন্ট আপডেট করা যায়?
-    - Can I update account in online?
+    - Postal Book adjustment এর ক্ষেত্রে ৩-৫৪৩১-xxxx-৩২১১ নতুন অফিস কোড আসেনা |
 - intent: ques_45
   examples: |
-    - পল্লী বিদ্যুৎ সমিতি থেকে নির্ধারিত চার্জ আছে?
-    - Is there a fixed charge from Palli Bidyut Samiti?
+    - পেনশন আনুতোষিক প্রদানের কোড পাওয়া যাচ্ছে না।
 - intent: ques_46
   examples: |
-    - এটিএম বুথ আছে?
-    - Is there any Agrani bank's ATM booth?
-    - অগ্রণী ব্যাংকের ATM booth আছে?
+    - বিটিসিএল মাসিক পেনশন পরিশোধ করা যাচ্ছে না।
 - intent: ques_47
   examples: |
-    - একাউন্ট মেইন্টেইনেন্স চার্জ কতো?
-    - How much is the account maintenance charge?
+    - বাইরে থেকে আসা বিটিসিএল এর পেনশনারের আইডি খোলা যাচ্ছে না।
 - intent: ques_48
   examples: |
-    - জব অফার নিয়ে প্রশ্ন থাকলে
-    - If you have questions about job offers
+    - পেনশন পুনর্ভরন বিল পরিশোধ করা যাচ্ছে না।
 - intent: ques_49
   examples: |
-    - অন্য ব্যাংকের এটিএম বুথ থেকে তুললে চার্জ কেমন কাটবে ?
-    - How will the charge be deducted from another bank's ATM booth?
+    - নতুন পেনশন কেইস ২০১৫-১৬ অর্থবছরের হলে, এক্ষেত্রে পেনশন Strat From ২০১৫-১৬ অপশন দেওয়া নাই।
 - intent: ques_50
   examples: |
-    - ব্যাংকের  কাছে  কী এজেন্ট পয়েন্ট স্থাপন করা যাবে?
-    - এজেন্ট পয়েন্ট ও ব্যাংকের দূরত্ব কতটুকু?
-    - What is the distance between the agent point and the bank?
+    - সিএও- স্বরাষ্ট হতে বদলী হয়ে ডিএও/ নোয়াখালী আসে। বর্তমানে ৫% বর্ধিত পেনশন রিপোর্ট বের করতে ডাটা আসেনা । এবং পুন: ডাটা এন্ট্রি করা যাচ্ছে না।
 - intent: ques_51
   examples: |
-    - একাউন্টে মিনিমাম কত টাকা রাখতে হবে?
-    - What is the minimum amount to be kept in the account?
+    - কোন কর্মকর্তা/কর্মচারীদের আনুতোষিক পরিশোধের ক্ষেত্রে Pensioner Management _ Pensioner Information এ কর্মকর্তা /কর্মচারীর তথ্য এন্ট্রি করার পর Save করলে Mobile number. Already Exist Mএssage পরিলক্ষিত হয়, ফলে কর্মকর্তা/কর্মচারীর আনুতোষিক পরিশোধ করা যাচ্ছে না।
 - intent: ques_52
   examples: |
-    - সেভিংস একাউন্টে মুনাফা কত?
-    - আপনাদের এখানে সেভিংস একাউন্ট এ লাভ কেমন?
-    - What is the profit in savings account?
+    - উন্নয়ন খাতের কর্মকর্তা/কর্মচারীদের বেতন ভাতাদির বিল Contingent Staff অর্থনৈতিক কোড থেকে দেওয়া হবে না কি? Wages to Non government Employee কোন অর্থনৈতিক কোড থেকে দেওয়া হবে এ ব্যাপারে সুস্পষ্ট নির্দেশনা দেওয়া প্রয়োজন।
 - intent: ques_53
   examples: |
-    - ইন্টারনেট ব্যাংকিং/ মোবাইল এপ্স আছে?
-    - Do you have internet banking / mobile apps?
-- intent: ques_54
-  examples: |
-    - কি কি লোন পাওয়া যাবে?
-    - আমার লোন লাগবে, আপনারা কি কি লোন দিতে পারবেন?
-    - Which loans are available?
-- intent: ques_55
-  examples: |
-    - ঋণের পরিমান কত?
-    - আপনারা কত টাকা পর্যন্ত ঋণ দেন?
-    - How much do you pay for loan amount?
-- intent: ques_56
-  examples: |
-    - লোকেশন দেয়ার পরও লোন সংক্রান্ত কোনো জিজ্ঞাসা থাকলে!
-    - আমার লোন লাগবে, লোকেশন দিয়ে কি করবো?
-    - বুঝলাম... এখন কি করবো?
-    - If there is any question regarding loan even after giving location
-- intent: ques_57
-  examples: |
-    - আপনারা লোন দিবেন?/ আমার পেশা .... আমি কি লোন পাবো?
-    - Will you give a loan? / My job .... Will I get a loan?
-- intent: ques_58
-  examples: |
-    - গ্রাহক আবেদন করার পর আপনারা বলবেন সমস্যা আছে, এই লোন আপাতত বন্ধ, এই লোন এখন নিষেধ?
-    - গ্রাহক আগ্রহী হবে, তখন আপনাদের আর পাওয়া যাবেনা।
-    - After the customer applies you will say there is a problem, This loan is currently closed, this loan is now prohibited
-- intent: ques_59
-  examples: |
-    - সবজায়গায় তো লোন দিবেন, কেউ কি পাবে?
-    - ব্যাংক লোন গুলো শুধু বড়লোকদের জন্য, গরিব মানুষ একটা পায়না?
-    - You will give loans everywhere, will anyone get it?
-- intent: ques_60
-  examples: |
-    - বাংলাদেশ ব্যাংক অগ্রণী দুয়ার ব্যাংকিং কে আউটলেট খোলার অনুমোদন কবে নাগাদ দিতে পারে স্যার?
-    - অনেকদিন হলো আবেদন করেছি, অনুমোদন কবে পাবো?
-    - When can Bangladesh Bank give permission to Agrani Duar Banking to open an outlet, sir?
-- intent: ques_61
-  examples: |
-    - প্রবাসী লোন হবে কি?
-    - আমি দেশের বাইরে আছি, আমার জন্য লোন হবে?
-    - What will be the expatriate loan?
-- intent: ques_62
-  examples: |
-    - নেটওয়ার্ক সমস্যা, কি করবো?
-    - Network problem, what to do?
-- intent: ques_63
-  examples: |
-    - রেমিট্যান্স ক্যানসেল করতে হবে।
-    - একটা পিন নম্বর দিচ্ছি, ক্যানসেল করে দেন।
-    - Remittance must be canceled.
-    - Giving a pin number, please cancel.
-- intent: ques_64
-  examples: |
-    - দুয়ার কার্ড লাগবে।
-    - QR Card needed.
-    - QR Card লাগবে
-    - Temporary QR Card needed.
-    - Temporary DOER Card needed.
-- intent: ques_65
-  examples: |
-    - অফিসিয়াল মেইল আইডি ও পাসওয়ার্ড লাগবে।
-    - Official mail ID and password are required.
-    - Official mail ID and password লাগবে।
-- intent: ques_66
-  examples: |
-    - গতমাসের কমিশন স্টেটমেন্ট পাইনি।
-    - Need commission statements.
-    - commission statement  লাগবে।
-- intent: ques_67
-  examples: |
-    - সুপারভাইজার আইডি দিয়ে কাজ করতে পারছি না।
-    - SUpervisor ID দিয়ে কাজ করতে পারছি না।
-    - Can't work with supervisor ID.
-- intent: ques_68
-  examples: |
-    - ব্রাঞ্চের নম্বর লাগবে।
-    - Branch er Number লাগবে।
-    - Please give me branch number.
-    - Branch number needed.
-- intent: ques_69
-  examples: |
-    - বিদ্যুৎ বিল সাবমিট করতে পারছি না।
-    - Can't submit electricity bill.
-- intent: ques_70
-  examples: |
-    - বিদ্যুৎ বিলের চার্জ কমাতে চাই।
-    - চার্জ ছাড়া বিদ্যুৎ বিল নিতে চাই।
-    - I want to reduce the electricity bill charge.
-    - I want to take electricity bill without charge.
-- intent: ques_71
-  examples: |
-    - বাল্ক একাউন্ট খুলতে চাই।
-    - I want to open a bulk account.
-- intent: ques_72
-  examples: |
-    - ট্রান্সেকশন করার পর এসএমএস পাইনি।
-    - আমি ট্রান্সেকশন এসএমএস পাচ্ছিনা।
-    - Didn't receive SMS after transaction.
-    - I am not receiving transaction SMS.
-- intent: ques_73
-  examples: |
-    - অনলাইন চার্জ কমাতে চাই।
-    - Want to reduce online charges.
-    - Online charge কমাতে চাই।
-- intent: ques_74
-  examples: |
-    - ইমেইল আইডির পাসওয়ার্ড ভুলে গেছি।
-    - Forgot my email ID password.
-    - Need to change my password
-- intent: ques_75
-  examples: |
-    - অফিশিয়াল ফেইসবুক আইডি খুলতে চাই।
-    - Facebook ID লাগবে।
-    - I want to open a Facebook page.
-- intent: ques_76
-  examples: |
-    - RTGS টি সম্পন্ন হয়নি কিন্তু টাকা কেটে নিয়েছে।
-    - RTGS টি complete না হতেই টাকা কেটে নিয়েছে।
-    - RTGS was not completed but money was deducted.
-- intent: ques_77
-  examples: |
-    - সিএসপির স্থান/লোকেশন পরিবর্তন করতে চাই।
-    - সিএসপির Location পরিবর্তন করতে চাই।
-    - I want to change CSP Location
-- intent: ques_78
-  examples: |
-    - অফিস আইডি কার্ড লাগবে।
-    - We need Office ID card.
-    - Office ID card লাগবে।
-- intent: ques_79
-  examples: |
-    - ব্যানার, লিফলেট লাগবে।
-    - Banners, leaflets are needed.
-    - Banners, leaflet লাগবে।
-- intent: ques_80
-  examples: |
-    - ক্যালেন্ডার লাগবে।
-    - I need new year calendar.
-- intent: ques_81
-  examples: |
-    - কাস্টমার আইডি এসেছে কিন্তু একাউন্ট নাম্বার আসে নাই।
-    - I got customer ID, need Account Number
-- intent: ques_82
-  examples: |
-    - একাউন্টের নাম ভুল হয়ে গিয়েছে। ঠিক করতে চাই।
-    - Account name is incorrect. I want to fix it/ change it.
-- intent: ques_83
-  examples: |
-    - রোল পেপার ও ট্রানজেকশান রেজিস্ট্রার বই লাগবে।
-    - Roll Paper & Transaction Book লাগবে।
-    - Need Roll Paper & Transaction Book
-- intent: ques_84
-  examples: |
-    - একাউন্ট নম্বর দিচ্ছি, সচল আছে কিনা জানতে চাই।
-    - I am Giving my account number, I want to know if it is active.
-    - একাউন্ট নম্বর দিচ্ছি, active আছে কিনা জানতে চাই।
-- intent: ques_85
-  examples: |
-    - আমার ফোনে যে রেমিট্যান্স এসেছে তা কে পাঠিয়েছে আমি জানিনা,এখন আমি কি করবো?
-    - একটা SMS পেয়েছি যে, রেমিট্যান্স আসছে। এখন কি করবো ?
-    - I don't know who sent the remittance that came to my phone, what should I do now?
-- intent: ques_86
-  examples: |
-    - রেমিট্যান্স যদি অন্যের ওপর নির্ভরশীল না হয়ে নিজেরা নিতে পারতাম তবে অনেক ভালো হতো
-    - It would be great if we could take remittances ourselves without being dependent on others
-- intent: ques_87
-  examples: |
-    - আমার সিমে রেমিট্যান্স এসেছে, আমি কি টাকা টা তুলতে পারবো? বিদেশ থেকে কি টাকা আনা যায়?
-    - Remittance has come to my SIM, can I withdraw the money? Is it possible to bring money from abroad?
-- intent: ques_88
-  examples: |
-    - স্যার অগ্রণী দুয়ার সার্ভিসেস লিঃ এর নিকট পে অর্ডার জমা দেওয়ার কত দিন পরে বাকি কার্যক্রম শুরু হবে?/ নতুন এজেন্ট কবে নিয়োগ দেয়া হবে?
-    - After Pay order submission, how many days it takes for next activities in Agent Banking
-- intent: ques_89
-  examples: |
-    - এজেন্টশীপ সংক্রান্ত বিস্তারিত তথ্যের জন্য
-    - For detailed information regarding Agent Point
-- intent: ques_90
-  examples: |
-    - ট্রান্সেকশন লিমিট বাড়াতে চাই।
-    - I want to increase the transaction limit.
-    - transaction limit বাড়াতে চাই।
-- intent: ques_91
-  examples: |
-    - RTGS এর চার্জ কত?
-    - What is the charge for RTGS?
-- intent: ques_92
-  examples: |
-    - সব এজেন্ট আউটলেটে লোন সেবা কবে চালু হবে?
-    - লোন কার্যক্রম কবে থেকে চালু করলেন?/ মিথ্যে সম্প্রচার
-    - When will the loan service be launched in all agent outlets?
-- intent: ques_93
-  examples: |
-    - রেমিট্যান্স কিভাবে আনলে লাভ বেশি?
-    - একাউন্ট নাকি পিনে রেমিট্যান্স আসলে বেশি লাভ?
-- intent: ques_94
-  examples: |
-    - আমার এখানে কোনো অগ্রণী ব্যাংক বা এজেন্ট শাখা নেই, আপনারা চাইলে শাখা খুলতে পারেন।
-    - There is no Agnri bank's branch or agent outlet here, you can open a outlet if you want.
-- intent: ques_95
-  examples: |
-    - নির্দিষ্ট কোনো জাগায় এজেন্ট আউটলেট না থাকলে
-    - If there is no agent outlet in a particular place
-- intent: ques_96
-  examples: |
-    - ফোন দিয়ে কি বলবো?
-    - নম্বর দিয়ে কি করবো?
-    - What can I say over the phone?
-    - What to do with the number?
-- intent: ques_97
-  examples: |
-    - For Marketing
-    - আপনাদের কোনো ডিজাইন লাগলে জানাতে পারেন।
-    - মার্কেটিং এর জন্য কিছু করতে হলে যোগাযোগ করতে পারেন।
-- intent: ques_98
-  examples: |
-    - এজেন্টদের সাথে কখন কথা বলতে পারবো?
-    - When can I talk to agents?
-- intent: ques_99
-  examples: |
-    - বিদেশ থেকে টাকা পাঠিয়েছে, টাকা এসেছে কিনা দেখে জানাবেন।
-    - My relative sent money from abroad, let me know if the money has arrived.
-- intent: ques_100
-  examples: |
-    - বিদ্যুৎ বিল পেন্ডিং/ ফেইল্ড দেখাচ্ছে, কি করবো?
-    - Error message shows Electricity bill is pending, what should I do?
-- intent: ques_101
-  examples: |
-    - বিদ্যুৎ বিল যতবার ইনপুট দিয়েছি, ততবার টাকা কেটেছে কিন্তু পেন্ডিং/ ফেইল্ড দেখাচ্ছে, কি করবো?
-    - Every time I have input the electricity bill, the money has been deducted but it seems to be pending / failed, what should I do?
-- intent: ques_102
-  examples: |
-    - আমি একটা কার্ড পেয়েছি, এই নম্বর টা ছিল তাই ফোন দিলাম।
-    - আমার হাতে অগ্রণী দুয়ার এর একটা কার্ড আছে।
-    - I got a card, this was the number so I called.
-    - I have a card of Agrani DOER in my hand.
-- intent: ques_103
-  examples: |
-    - আমার পক্ষে কার্ড দিয়ে আসা সম্ভব না।
-    - অগ্রণী ব্যাংক এর শাখা অনেক দূরে।
-    - আপনারা নিয়ে যেতে পারলে ভালো হয়।
-    - It would be nice if you could take it.
-- intent: ques_104
-  examples: |
-    - Internship করতে চাই।
-    - ইন্টার্নশীপ এর সুযোগ আছে?
-    - Is there an opportunity for internship?
-- intent: ques_105
-  examples: |
-    - আমি আবেদন করেছি ( Job/ Internship), আপডেট জানাবেন।
-    - কবে নাগাদ আপনারা আমাকে ডাকবেন জানতে পারি?
-    - May i know when you will call me?
-    - I have applied (Job / Internship), please update.
-- intent: ques_106
-  examples: |
-    - স্কুল ব্যাংকিং একাউন্ট এ কত টাকা রাখতে পারবো?
-    - How much money can I keep in school banking account?
-- intent: ques_107
-  examples: |
-    - ফোন দিয়েছিলাম( এজেন্ট আউটলেট) কিন্তু ফোন ধরেনা/ বন্ধ।
-    - আপনার প্রদত্ত নম্বরে যোগাযোগ করতে পারছিনা।
-    - I called (agent outlet) but did not pick up the phone.
-    - I can't contact the number you provided.
-- intent: ques_108
-  examples: |
-    - আমি একাউন্ট খুলেছি, চেকবই দেয়ার কথা ছিল, কখন দিবেন?
-    - I opened the account, I was supposed to get the check book, when will you give it?
-- intent: ques_109
-  examples: |
-    - আমি ২% ইন্সেন্টিভ পাইনি।
-    - আমার একাউন্ট এ ২% এখনো যোগ হয়নি।
-    - I did not get 2% incentive.
-- intent: ques_110
-  examples: |
-    - ট্যাব লগইন করতে পারছিনা।
-    - Can't login tab.
-- intent: ques_111
-  examples: |
-    - আমার সিম এর এমবি শেষ।
-    - আমার এমবি লাগবে।
-    - My SIM's MB is over.
-    - I need MB.
-- intent: ques_112
-  examples: |
-    - রেমিট্যান্স রিকোয়েস্ট দিয়েছি, Approve করে দেন।
-    - I have sent remittance request, Approve.
-- intent: ques_113
-  examples: |
-    - গ্রাহক ট্রান্সেকশন এসএমএস পায়নি।
-    - The customer did not receive the transaction SMS.
-- intent: ques_114
-  examples: |
-    - আমি স্কুল একাউন্ট থেকে ABS করতে পারছিনা
-    - I can't open ABS from school account
-- intent: ques_115
-  examples: |
-    - ফিঙ্গারপ্রিন্ট নেয়ার সময় CBS সংযোগ ত্রুটি দেখাচ্ছে।
-    - CBS is showing connection error while taking fingerprint.
-- intent: ques_116
-  examples: |
-    - নতুন টেলার নিতে চাই।
-    - নতুন টেলার নিয়োগ নিতে চাই।
-    - I want to take a new teller.
-- intent: ques_117
-  examples: |
-    - ট্যাব লগইন করতে পারছিনা।
-    - I can't login into tab.
-- intent: ques_118
-  examples: |
-    - আপনাদের এজেন্টশীপ নিলে লাভ কেমন হবে?
-    - What will be the benefit of taking your agentship?
-- intent: ques_119
-  examples: |
-    - আপনাদের অফিস থেকে এজেন্টদের কোনো ফার্নিচার দেয়া হয়?
-    - Do you provide any furniture from your office to  Agents?
-- intent: ques_120
-  examples: |
-    - এজেন্ট এর ব্যালেন্স অনুসন্ধান কিভাবে করব?
-    - এজেন্ট এর Balance কিভাবে জানবো?
-    - I want to know the Agent Balance
-- intent: ques_121
-  examples: |
-    - একাউন্ট খোলার সময় সুপারভাইসর আইডি থেকে ভূল তথ্য সাবমিট করলে কি করনীয়?
-    - What to do if Supervisor submit incorrect information from supervisor id while opening account?
-- intent: ques_122
-  examples: |
-    - ডিপোজিট করেছি কিন্তু স্লিপ বের করতে পারছিনা।
-    - I have made a deposit but I can't get the slip out.
-- intent: ques_123
-  examples: |
-    - রেমিটেন্স টা কি?
-    - What is remittance?
-- intent: ques_124
-  examples: |
-    - আমার কেউ বিদেশে থাকেনা, তারপরও কেন রেমিটেন্স এসএমএস পাই?
-    - None of me live abroad, yet why get remittance sms?
-- intent: ques_125
-  examples: |
-    - আমার যদি কোনো ক্ষতি হয়?
-    - What if I am harmed?
-- intent: ques_126
-  examples: |
-    - ক্যাশ ডিপোজিট করতে পারছিনা।
-    - Can't deposit cash.
-- intent: ques_127
-  examples: |
-    - কত টাকা রাখলে স্কুল ব্যাংকিং একাউন্ট টি একটিভ থাকবে?
-    - আমি যদি কোনো টাকা না রাখি, একাউন্ট টি  কতদিন একটিভ থাকবে?
-    - How much money will keep the school banking account active?
-- intent: ques_128
-  examples: |
-    - আমার একাউন্ট থেকে টাকা কেটে নিয়েছে, কেন কাটলো?
-    - এসএমএস পেলাম টাকা কাটা হয়েছে, কারণ জানতে চাই।?
-    - I received an SMS saying the money has been deducted, want to know the reason.
+    - প্রকল্প কোডের বেতন ভাতাদির বাজেট বিস্তারিত কোডে থাকে কিন্তু বিল পাশ করতে হয় wages to non Government employees কোড হতে। এ ক্ষেত্রে করণীয় কি?

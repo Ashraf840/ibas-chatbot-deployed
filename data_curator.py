@@ -59,20 +59,22 @@ def create_data_files(nlu_data, rules_data, stories_data, domain_data):
 
 def process_multiline_example(str_data):
     str_list = [x.strip() for x in str_data.replace('*', '').split('\n')]
+    str_list = list(filter(None, str_list))
     return '\n- '.join(str_list)
 
 
 def process_multiline_answer(str_data):
     str_list = [x.strip() for x in str_data.replace('*', '').split('\n')]
+    str_list = list(filter(None, str_list))
     return '\n'.join(str_list)
 
 
 def main():
-    # data_df = pd.read_csv("chatbot-training-data - curated_data.tsv", sep="\t")
+    data_df = pd.read_csv("iBAS-chatbot-training-data.csv", skiprows=2)
     # data_df = pd.read_excel('MOF-IBAS++__Chatbot__RFP.xlsx', sheet_name='Y1-chatbot-training-data')
-    data_df = pd.read_excel('MOF-IBAS++__Chatbot__RFP.xlsx', sheet_name='Y1-doer-questions')
+    # data_df = pd.read_excel('ChatBot FAQ Data IBAS++.xlsx', sheet_name='Sheet1')
 
-    # data_df["Type"] = data_df["Type"].fillna("Miscellaneous")q
+    # data_df["Type"] = data_df["Type"].fillna("Miscellaneous")
     data_df.fillna("", inplace=True)
 
     print(data_df.columns)
@@ -91,8 +93,8 @@ def main():
     }
 
     for index, row in data_df.iterrows():
-        ques = row["Ques _Agrani Doer Banking"].strip("'").strip('"').strip()
-        ans = row["Ans"].strip("'").strip('"').strip()
+        ques = row["প্রশ্ন"].strip("'").strip('"').strip()
+        ans = row["উত্তর"].strip("'").strip('"').strip()
         ques = process_multiline_example(ques)
         ans = process_multiline_answer(ans)
 
@@ -103,7 +105,7 @@ def main():
         domain_data["responses"][f"utter_ans_{index}"] = [{"text": literal_unicode(f"{ans}\n")}]
         nlu_data["nlu"].append({
             "intent": f"ques_{index}",
-            "metadata": {"intent_type": row['Type']},
+            # "metadata": {"intent_type": row['Type']},
             "examples": literal_unicode(f"- {ques}\n")
         })
 
