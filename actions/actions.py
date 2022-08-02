@@ -7,78 +7,100 @@
 
 # This is a simple example for a custom action which utters "Hello World!"
 
-# from multiprocessing import current_process
-# from typing import Any, Text, Dict, List
+from multiprocessing import current_process
+from typing import Any, Text, Dict, List
 
-# from rasa_sdk import Action, Tracker, FormValidationAction
-# from rasa_sdk.events import SlotSet
-# from rasa_sdk.executor import CollectingDispatcher
-# from rasa_sdk.types import DomainDict
-
-# from .dao import DatabaseQuery
-
-
-# class ActionTellBalance(Action):
-#     def name(self) -> Text:
-#         return "action_tell_balance"
-
-#     def run(self, dispatcher: CollectingDispatcher,
-#             tracker: Tracker,
-#             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-
-#         current_account_no = next(tracker.get_latest_entity_values('account_no'), None)
-#         db_query = DatabaseQuery('./sqlitedb/chatbotdb')
-#         balance = db_query.get_account_balance(current_account_no)
-#         if balance:
-#             dispatcher.utter_message(text=f"আপনার একাউন্টে বর্তমানে {balance} টাকা আছে। ধন্যবাদ।")
-#             return [SlotSet("account_no", None)]
-#         else:
-#             dispatcher.utter_message(text=f"দুঃখিত! আমরা একাউন্টটি খুঁজে পাই নি। "
-#                                           f"দয়া করে আপনার একাউন্ট নম্বর {current_account_no} চেক করুন এবং আবার চেষ্টা করুন।  ধন্যবাদ।")
-#             return [SlotSet("account_no", None)]
+from rasa_sdk import Action, Tracker, FormValidationAction
+from rasa_sdk.events import SlotSet
+from rasa_sdk.executor import CollectingDispatcher
+from rasa_sdk.types import DomainDict
+from .ticketing.ticketing_api import create_issue
 
 
-# class ValidateBalanceQueryForm(FormValidationAction):
-#     def name(self) -> Text:
-#         return "validate_balance_query_form"
+class ActionCreateIssue(Action):
+    def name(self) -> Text:
+        return "action_create_issue"
 
-#     def validate_account_no(
-#         self,
-#         slot_value: Any,
-#         dispatcher: CollectingDispatcher,
-#         tracker: Tracker,
-#         domain: DomainDict,
-#     ) -> Dict[Text, Any]:
-#         """Validate `account_no` value."""
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        user_name_bn = tracker.get_slot('user_name_bn')
+        user_name_en = tracker.get_slot('user_name_en')
+        user_address = tracker.get_slot('user_address')
+        user_email = tracker.get_slot('user_email')
+        issue_desc = tracker.get_slot('issue_desc')
+        response = create_issue(
+            mobile_number="01927040075",
+            issuer_name_bn=user_name_bn,
+            issuer_name_en=user_name_en,
+            address=user_address,
+            email=user_email,
+            issue_category_oid="ISSUE-OID-0003",
+            description=issue_desc,
+            issuer_oid="ISSUER-OID-0001"
+        )
+        print(response)
+        if response['code'] == 200:
+            dispatcher.utter_message(text=f"আপনার সমসস্যাটি আমাদের অবগত করার জন্য ধন্যবাদ, শীঘ্রই আমাদের প্রতিনিধি আপনার সাথে যোগাযোগ করবেন")
+        else:
+            dispatcher.utter_message(text=f"Error: Ticketing API ISSUE")
+            print(user_name_bn)
+            print(user_name_en)
+            print(user_address)
+            print(user_email)
+            print(issue_desc)
+        return [SlotSet("user_name_bn", None),
+                SlotSet("user_name_en", None),
+                SlotSet("user_address", None),
+                SlotSet("user_email", None),
+                SlotSet("issue_desc", None)]
 
-#         if not slot_value.isdecimal():
-#             dispatcher.utter_message(text=f"অ্যাকাউন্ট নম্বরে শুধুমাত্র সংখ্যা থাকতে হবে.")
-#             return {"account_no": None}
-#         dispatcher.utter_message(text=f"ঠিক আছে! আপনার অ্যাকাউন্ট নম্বর হল {slot_value}.")
-#         return {"account_no": slot_value}
 
-# class ActionAskAccountNumber(Action):
-#     def name(self) -> Text:
-#         return "action_ask_account_number"
-#
-#     def run(self, dispatcher: CollectingDispatcher,
-#             tracker: Tracker,
-#             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-#
-#         dispatcher.utter_message(text="অনুগ্রহ করে আপনার অ্যাকাউন্ট নম্বরটি লিখুন।")
-#         return []
-#
-#
+class ValidateBalanceQueryForm(FormValidationAction):
+    def name(self) -> Text:
+        return "validate_issue_creation_form"
 
-# class ActionHelloWorld(Action):
+    def validate_user_name_bn(
+            self,
+            slot_value: Any,
+            dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: DomainDict,
+    ) -> Dict[Text, Any]:
+        return {"user_name_bn": slot_value}
 
-#     def name(self) -> Text:
-#         return "action_hello_world"
+    def validate_user_name_en(
+            self,
+            slot_value: Any,
+            dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: DomainDict,
+    ) -> Dict[Text, Any]:
+        return {"user_name_en": slot_value}
 
-#     def run(self, dispatcher: CollectingDispatcher,
-#             tracker: Tracker,
-#             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+    def validate_user_address(
+            self,
+            slot_value: Any,
+            dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: DomainDict,
+    ) -> Dict[Text, Any]:
+        return {"user_address": slot_value}
 
-#         dispatcher.utter_message(text="Hello World!")
+    def validate_user_email(
+            self,
+            slot_value: Any,
+            dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: DomainDict,
+    ) -> Dict[Text, Any]:
+        return {"user_email": slot_value}
 
-#         return []
+    def validate_issue_desc(
+            self,
+            slot_value: Any,
+            dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: DomainDict,
+    ) -> Dict[Text, Any]:
+        return {"issue_desc": slot_value}
