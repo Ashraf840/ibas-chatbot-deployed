@@ -6,7 +6,7 @@ def get_access_token():
         "user_id": "chat.bot",
         "password": "sa"
     }
-    response = requests.post("https://ticketing.celloscope.net/api/v1/user/signin", json=req_body)
+    response = requests.post("https://172.16.6.22:80/api/v1/user/signin", json=req_body) #ticketing.celloscope.net
     json_response = response.json()
     access_token = json_response['token']['access_token']
 
