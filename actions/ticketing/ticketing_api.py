@@ -6,7 +6,7 @@ def get_access_token():
         "user_id": "chat.bot",
         "password": "sa"
     }
-    response = requests.post("https://172.16.6.22:80/api/v1/user/signin", json=req_body) #ticketing.celloscope.net
+    response = requests.post("http://172.16.6.22:80/api/v1/user/signin", json=req_body) #ticketing.celloscope.net
     json_response = response.json()
     access_token = json_response['token']['access_token']
 
@@ -40,7 +40,7 @@ def create_issue(
     }
 
     response = requests.post(
-        "https://ticketing.celloscope.net/api/v1/save-issue", 
+        "http://172.16.6.22:80/api/v1/save-issue",
         json=req_body,
         headers= headers
     )
@@ -61,7 +61,7 @@ def get_issue_list():
     }
 
     response = requests.post(
-        "https://ticketing.celloscope.net/api/v1/issue-list", 
+        "http://172.16.6.22:80/api/v1/issue-list",
         json=req_body,
         headers= headers
     )
