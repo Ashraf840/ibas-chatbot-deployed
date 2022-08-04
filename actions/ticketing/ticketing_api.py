@@ -1,3 +1,5 @@
+import json
+
 import requests
 
 
@@ -117,15 +119,15 @@ def create_issue_v2(
 
 
 if __name__ == "__main__":
-    print(create_issue(
-        mobile_number="01927040075",
-        issuer_name_bn="হুমায়ুন কবির",
-        issuer_name_en= "Humayun Kabir",
-        address="Munshiganj",
-        email="kabir.humayun@doer.com.bd",
-        issue_category_oid="ISSUE-OID-0003",
-        description="For testing",
-        issuer_oid="ISSUER-OID-0001"
-    ))
+    # print(create_issue(
+    #     mobile_number="01927040075",
+    #     issuer_name_bn="হুমায়ুন কবির",
+    #     issuer_name_en= "Humayun Kabir",
+    #     address="Munshiganj",
+    #     email="kabir.humayun@doer.com.bd",
+    #     issue_category_oid="ISSUE-OID-0003",
+    #     description="For testing",
+    #     issuer_oid="ISSUER-OID-0001"
+    # ))
 
-    print(get_issue_list())
+    print(json.dumps(get_issue_list(), indent=4, ensure_ascii=False))

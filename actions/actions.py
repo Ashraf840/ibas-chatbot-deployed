@@ -14,7 +14,7 @@ from rasa_sdk import Action, Tracker, FormValidationAction
 from rasa_sdk.events import SlotSet
 from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.types import DomainDict
-from .ticketing.ticketing_api import create_issue
+from .ticketing.ticketing_api import create_issue_v2
 
 
 class ActionCreateIssue(Action):
@@ -29,7 +29,8 @@ class ActionCreateIssue(Action):
         user_address = tracker.get_slot('user_address')
         user_email = tracker.get_slot('user_email')
         issue_desc = tracker.get_slot('issue_desc')
-        response = create_issue(
+        sender_id = tracker.sender_id
+        response = create_issue_v2(
             mobile_number="01927040075",
             issuer_name_bn=user_name_bn,
             issuer_name_en=user_name_en,
@@ -37,7 +38,8 @@ class ActionCreateIssue(Action):
             email=user_email,
             issue_category_oid="ISSUE-OID-0003",
             description=issue_desc,
-            issuer_oid="ISSUER-OID-0001"
+            issuer_oid="ISSUER-OID-0001",
+            sender_id=sender_id
         )
         print(response)
         if response['code'] == 200:
