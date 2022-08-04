@@ -71,6 +71,51 @@ def get_issue_list():
     return json_response
 
 
+def create_issue_v2(
+    mobile_number, 
+    issuer_name_bn, 
+    issuer_name_en, 
+    address, 
+    email, 
+    issue_category_oid, 
+    description, 
+    issuer_oid,
+    sender_id
+):
+    req_body = {
+        "mobileNumber": mobile_number, 
+        "issuerNameBn": issuer_name_bn, 
+        "issuerNameEn": issuer_name_en, 
+        "address": address,
+        "email": email,
+        "issueCategoryOid": issue_category_oid,
+        "description": description,
+        "issuerOid": issuer_oid,
+        "senderId": sender_id
+    }
+
+    headers = {
+        "Content-Type": "application/json",
+        "Authorization": f"Bearer {get_access_token()}"
+    }
+
+    response = requests.post(
+        "http://172.16.6.22:80/api/v1/save-issue",
+        json=req_body,
+        headers= headers
+    )
+
+    json_response = response.json() 
+
+    return json_response
+
+
+
+
+
+
+
+
 if __name__ == "__main__":
     print(create_issue(
         mobile_number="01927040075",

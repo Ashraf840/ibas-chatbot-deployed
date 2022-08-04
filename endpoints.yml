@@ -18,13 +18,13 @@ action_endpoint:
 # https://rasa.com/docs/rasa/tracker-stores
 
 
-#tracker_store:
-#    type: SQL
-#    dialect: "postgresql"  # the dialect used to interact with the db
-#    url: "172.16.4.133:5432"  # (optional) host of the sql db, e.g. "localhost"
-#    db: "chat_data"  # path to your db
-#    username: chat_admin # username used for authentication
-#    password: chat1234
+tracker_store:
+   type: SQL
+   dialect: "postgresql"  # the dialect used to interact with the db
+   url: "172.16.6.3:5432"  # (optional) host of the sql db, e.g. "localhost"
+   db: "chat_data"  # path to your db
+   username: chat_admin # username used for authentication
+   password: chat1234
 
 
 #tracker_store:
