@@ -1,5 +1,7 @@
 version: '3.0'
 intents:
+- greet
+- user_info
 - ques_0
 - ques_1
 - ques_2
@@ -55,7 +57,78 @@ intents:
 - ques_52
 - ques_53
 
+entities:
+- user_email
+
+slots:
+  user_name_bn:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+        - active_loop: issue_creation_form
+          requested_slot: user_name_bn
+
+  user_name_en:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+        - active_loop: issue_creation_form
+          requested_slot: user_name_en
+
+  user_address:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        entity: user_address
+        conditions:
+        - active_loop: issue_creation_form
+          requested_slot: user_address
+
+  user_email:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: user_email
+
+  issue_desc:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+        - active_loop: issue_creation_form
+          requested_slot:  issue_desc
+
+forms:
+  issue_creation_form:
+    required_slots:
+      - user_name_bn
+      - user_name_en
+      - user_address
+      - user_email
+      - issue_desc
+
 responses:
+  utter_greet:
+  - text: জি বলুন
+  utter_fallback:
+  - text: দুঃখিত, আপনার সমস্যাটি এই মুহুর্তে সমাধান করা সম্ভব হচ্ছে না, আমাদের প্রতিনিধি খুব শীঘ্রই বিষয়টি নিয়ে আপ্নার সাথে যোগাযোগ করবেন
+  utter_ask_user_name_bn:
+  - text: অনুগ্রহ করে আপনার নামটি বাংলায় লিখুন।
+  utter_ask_user_name_en:
+  - text: অনুগ্রহ করে আপনার নামটি ইংরেজিতে লিখুন।
+  utter_ask_user_address:
+  - text: অনুগ্রহ করে আপনার ঠিকানাটি লিখুন।
+  utter_ask_user_email:
+  - text: অনুগ্রহ করে আপনার ইমেইলটি লিখুন।
+  utter_ask_issue_desc:
+  - text: অনুগ্রহ করে আপনার সমসস্যাটি লিখুন।
   utter_ans_0:
   - text: |
       প্রাপ্ত বিলের বিপরীতে বাজেট বরাদ্দ এবং বিতরণ (distribution) অর্থাৎ যথাযথভাবে বাজেট অথরাইজেশন করা না হলে বিল এন্ট্রির সময় বাজেট insufficient দেখাবে । আবার সংশ্লিষ্ট অর্থনৈতিক কোডে যে বরাদ্দ আছে সেই বরাদ্দের চেয়ে পরিশোধিত অর্থ বেশী হলে বাজেট insufficient দেখাবে।
@@ -222,7 +295,8 @@ responses:
   utter_ans_53:
   - text: |
       উন্নয়ন খাতের কর্মকর্তা/কর্মচারীগণ সাকুল্য বেতনে নিয়োজিত হয়ে থাকেন। তাদের বেতন wages to non Government employees (৩২১১১০৯) কোড হতে পরিশোধ করা হয়ে থাকে। তাই সংশ্লিষ্ট প্রকল্প অফিস ৩২১১১০৯ কোডে বাজেট বরাদ্দ ও বিতরণ করলে সংশ্লিষ্ট কোড হতে বিল পরিশোধ করা যাবে।
-    
+actions:
+- action_create_issue
 
 session_config:
   session_expiration_time: 60
