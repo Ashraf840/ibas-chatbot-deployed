@@ -1,259 +1,218 @@
 version: '3.0'
-stories:
-- story: issue_creation_story_1
-  steps:
-  - intent: nlu_fallback
-  - action: utter_fallback
-  - action: issue_creation_form
-  - active_loop: issue_creation_form
-  - slot_was_set:
-    - requested_slot: user_name_bn
-  - slot_was_set:
-    - user_name_bn: আব্দুল করিম
-  - slot_was_set:
-    - user_name_bn: মোস্তোফা মনসুর
-  - slot_was_set:
-    - requested_slot: user_name_en
-  - slot_was_set:
-    - user_name_en: Abdul Karim
-  - slot_was_set:
-    - user_name_en: Mostofa Monsur
-  - slot_was_set:
-    - requested_slot: user_address
-  - slot_was_set:
-    - user_address: Khilgaon Dhaka
-  - slot_was_set:
-    - user_address: Munshiganj
-  - slot_was_set:
-    - requested_slot: user_email
-  - slot_was_set:
-    - user_email: karim@gmai.com
-  - slot_was_set:
-    - user_email: mostofa@yahoo.com
-  - slot_was_set:
-    - requested_slot: issue_desc
-  - slot_was_set:
-    - issue_desc: উপজেলা পরিষদের টাকা কিভাবে পরিশোধ করা হবে?
-  - slot_was_set:
-    - issue_desc: Authority সিএও অফিসের endorse করার দরকার আছে কি?
-  - slot_was_set:
-    - requested_slot: null
-  - active_loop: null
-  - action: action_create_issue
-
-- story: story_0
+rules:
+- rule: rule_0
   steps:
   - intent: ques_0
   - action: utter_ans_0
-- story: story_1
+- rule: rule_1
   steps:
   - intent: ques_1
   - action: utter_ans_1
-- story: story_2
+- rule: rule_2
   steps:
   - intent: ques_2
   - action: utter_ans_2
-- story: story_3
+- rule: rule_3
   steps:
   - intent: ques_3
   - action: utter_ans_3
-- story: story_4
+- rule: rule_4
   steps:
   - intent: ques_4
   - action: utter_ans_4
-- story: story_5
+- rule: rule_5
   steps:
   - intent: ques_5
   - action: utter_ans_5
-- story: story_6
+- rule: rule_6
   steps:
   - intent: ques_6
   - action: utter_ans_6
-- story: story_7
+- rule: rule_7
   steps:
   - intent: ques_7
   - action: utter_ans_7
-- story: story_8
+- rule: rule_8
   steps:
   - intent: ques_8
   - action: utter_ans_8
-- story: story_9
+- rule: rule_9
   steps:
   - intent: ques_9
   - action: utter_ans_9
-- story: story_10
+- rule: rule_10
   steps:
   - intent: ques_10
   - action: utter_ans_10
-- story: story_11
+- rule: rule_11
   steps:
   - intent: ques_11
   - action: utter_ans_11
-- story: story_12
+- rule: rule_12
   steps:
   - intent: ques_12
   - action: utter_ans_12
-- story: story_13
+- rule: rule_13
   steps:
   - intent: ques_13
   - action: utter_ans_13
-- story: story_14
+- rule: rule_14
   steps:
   - intent: ques_14
   - action: utter_ans_14
-- story: story_15
+- rule: rule_15
   steps:
   - intent: ques_15
   - action: utter_ans_15
-- story: story_16
+- rule: rule_16
   steps:
   - intent: ques_16
   - action: utter_ans_16
-- story: story_17
+- rule: rule_17
   steps:
   - intent: ques_17
   - action: utter_ans_17
-- story: story_18
+- rule: rule_18
   steps:
   - intent: ques_18
   - action: utter_ans_18
-- story: story_19
+- rule: rule_19
   steps:
   - intent: ques_19
   - action: utter_ans_19
-- story: story_20
+- rule: rule_20
   steps:
   - intent: ques_20
   - action: utter_ans_20
-- story: story_21
+- rule: rule_21
   steps:
   - intent: ques_21
   - action: utter_ans_21
-- story: story_22
+- rule: rule_22
   steps:
   - intent: ques_22
   - action: utter_ans_22
-- story: story_23
+- rule: rule_23
   steps:
   - intent: ques_23
   - action: utter_ans_23
-- story: story_24
+- rule: rule_24
   steps:
   - intent: ques_24
   - action: utter_ans_24
-- story: story_25
+- rule: rule_25
   steps:
   - intent: ques_25
   - action: utter_ans_25
-- story: story_26
+- rule: rule_26
   steps:
   - intent: ques_26
   - action: utter_ans_26
-- story: story_27
+- rule: rule_27
   steps:
   - intent: ques_27
   - action: utter_ans_27
-- story: story_28
+- rule: rule_28
   steps:
   - intent: ques_28
   - action: utter_ans_28
-- story: story_29
+- rule: rule_29
   steps:
   - intent: ques_29
   - action: utter_ans_29
-- story: story_30
+- rule: rule_30
   steps:
   - intent: ques_30
   - action: utter_ans_30
-- story: story_31
+- rule: rule_31
   steps:
   - intent: ques_31
   - action: utter_ans_31
-- story: story_32
+- rule: rule_32
   steps:
   - intent: ques_32
   - action: utter_ans_32
-- story: story_33
+- rule: rule_33
   steps:
   - intent: ques_33
   - action: utter_ans_33
-- story: story_34
+- rule: rule_34
   steps:
   - intent: ques_34
   - action: utter_ans_34
-- story: story_35
+- rule: rule_35
   steps:
   - intent: ques_35
   - action: utter_ans_35
-- story: story_36
+- rule: rule_36
   steps:
   - intent: ques_36
   - action: utter_ans_36
-- story: story_37
+- rule: rule_37
   steps:
   - intent: ques_37
   - action: utter_ans_37
-- story: story_38
+- rule: rule_38
   steps:
   - intent: ques_38
   - action: utter_ans_38
-- story: story_39
+- rule: rule_39
   steps:
   - intent: ques_39
   - action: utter_ans_39
-- story: story_40
+- rule: rule_40
   steps:
   - intent: ques_40
   - action: utter_ans_40
-- story: story_41
+- rule: rule_41
   steps:
   - intent: ques_41
   - action: utter_ans_41
-- story: story_42
+- rule: rule_42
   steps:
   - intent: ques_42
   - action: utter_ans_42
-- story: story_43
+- rule: rule_43
   steps:
   - intent: ques_43
   - action: utter_ans_43
-- story: story_44
+- rule: rule_44
   steps:
   - intent: ques_44
   - action: utter_ans_44
-- story: story_45
+- rule: rule_45
   steps:
   - intent: ques_45
   - action: utter_ans_45
-- story: story_46
+- rule: rule_46
   steps:
   - intent: ques_46
   - action: utter_ans_46
-- story: story_47
+- rule: rule_47
   steps:
   - intent: ques_47
   - action: utter_ans_47
-- story: story_48
+- rule: rule_48
   steps:
   - intent: ques_48
   - action: utter_ans_48
-- story: story_49
+- rule: rule_49
   steps:
   - intent: ques_49
   - action: utter_ans_49
-- story: story_50
+- rule: rule_50
   steps:
   - intent: ques_50
   - action: utter_ans_50
-- story: story_51
+- rule: rule_51
   steps:
   - intent: ques_51
   - action: utter_ans_51
-- story: story_52
+- rule: rule_52
   steps:
   - intent: ques_52
   - action: utter_ans_52
-- story: story_53
+- rule: rule_53
   steps:
   - intent: ques_53
   - action: utter_ans_53

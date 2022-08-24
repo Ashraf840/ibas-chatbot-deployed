@@ -1,0 +1,42 @@
+version: '3.0'
+stories:
+- story: issue_creation_story_1
+  steps:
+  - intent: nlu_fallback
+  - action: utter_fallback
+  - action: issue_creation_form
+  - active_loop: issue_creation_form
+  - slot_was_set:
+    - requested_slot: user_name_bn
+  - slot_was_set:
+    - user_name_bn: আব্দুল করিম
+  - slot_was_set:
+    - user_name_bn: মোস্তোফা মনসুর
+  - slot_was_set:
+    - requested_slot: user_name_en
+  - slot_was_set:
+    - user_name_en: Abdul Karim
+  - slot_was_set:
+    - user_name_en: Mostofa Monsur
+  - slot_was_set:
+    - requested_slot: user_address
+  - slot_was_set:
+    - user_address: Khilgaon Dhaka
+  - slot_was_set:
+    - user_address: Munshiganj
+  - slot_was_set:
+    - requested_slot: user_email
+  - slot_was_set:
+    - user_email: karim@gmai.com
+  - slot_was_set:
+    - user_email: mostofa@yahoo.com
+  - slot_was_set:
+    - requested_slot: issue_desc
+  - slot_was_set:
+    - issue_desc: উপজেলা পরিষদের টাকা কিভাবে পরিশোধ করা হবে?
+  - slot_was_set:
+    - issue_desc: Authority সিএও অফিসের endorse করার দরকার আছে কি?
+  - slot_was_set:
+    - requested_slot: null
+  - active_loop: null
+  - action: action_create_issue

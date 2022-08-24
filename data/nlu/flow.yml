@@ -1,0 +1,23 @@
+version: '3.0'
+nlu:
+- intent: user_info
+  examples: |
+    - [dipto@email.com](user_email)
+    - [abc123@gmail.bd](user_email)
+    - [sd45@cellsosco.pe](user_email)
+    - [gh.dfg@abc.df.cd](user_email)
+    - [himel@gamil.com](user_email)
+    - [mostofa@yahoo.com](user_email)
+    - [jamal@hotmail.com](user_email)
+
+- intent: greet
+  examples: |
+    - Hi
+    - Hello
+    - I want to report an issue
+    - I have a question
+    - আমার এক্টা সমস্যা ছিল
+    - আমার এক্টা প্রশ্ন ছিল
+    - কেউ কি সাহায্য করতে পারেন?
+    - আমার একটা ইস্যু ছিলো
+    - সমস্যা হয়েছে
