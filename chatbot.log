@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/bin/rasa", line 5, in <module>
+    from rasa.__main__ import main
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/rasa/__main__.py", line 14, in <module>
+    from rasa.cli import (
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/rasa/cli/export.py", line 9, in <module>
+    import rasa.core.utils
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/rasa/core/utils.py", line 14, in <module>
+    from rasa.core.lock_store import LockStore, RedisLockStore, InMemoryLockStore
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/rasa/core/lock_store.py", line 14, in <module>
+    from rasa.utils.endpoints import EndpointConfig
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/rasa/utils/endpoints.py", line 7, in <module>
+    from sanic.request import Request
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/sanic/__init__.py", line 2, in <module>
+    from sanic.app import Sanic
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/sanic/app.py", line 102, in <module>
+    from sanic.server.protocols.websocket_protocol import WebSocketProtocol
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/sanic/server/protocols/websocket_protocol.py", line 3, in <module>
+    from websockets.connection import CLOSED, CLOSING, OPEN
+ImportError: cannot import name 'CLOSED' from 'websockets.connection' (/home/ubuntu/.local/lib/python3.8/site-packages/websockets/connection.py)
