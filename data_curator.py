@@ -70,9 +70,9 @@ def process_multiline_answer(str_data):
 
 
 def main():
-    # data_df = pd.read_csv("iBAS-chatbot-training-data.csv", skiprows=2)
+    data_df = pd.read_csv("iBAS-chatbot-training-data.csv", skiprows=2)
     # data_df = pd.read_excel('MOF-IBAS++__Chatbot__RFP.xlsx', sheet_name='Y1-chatbot-training-data')
-    data_df = pd.read_excel('./data/IBAS_data_en_bn_same_line.xlsx', sheet_name='Sheet1')
+    # data_df = pd.read_excel('ChatBot FAQ Data IBAS++.xlsx', sheet_name='Sheet1')
 
     # data_df["Type"] = data_df["Type"].fillna("Miscellaneous")
     data_df.fillna("", inplace=True)
@@ -93,8 +93,8 @@ def main():
     }
 
     for index, row in data_df.iterrows():
-        ques = row["Questions"].strip("'").strip('"').strip()
-        ans = row["Answer"].strip("'").strip('"').strip()
+        ques = row["প্রশ্ন"].strip("'").strip('"').strip()
+        ans = row["উত্তর"].strip("'").strip('"').strip()
         ques = process_multiline_example(ques)
         ans = process_multiline_answer(ans)
 
