@@ -1,0 +1,1824 @@
+version: '3.0'
+intents:
+- greet
+- nid_validation_confirmation
+- greet_en
+- greet_bn
+- greet_salam_en
+- greet_salam_bn
+- project_oid
+- category_oid
+- user_nid_value
+- goodbye
+- ques_0
+- ques_1
+- ques_2
+- ques_3
+- ques_4
+- ques_5
+- ques_6
+- ques_7
+- ques_8
+- ques_9
+- ques_10
+- ques_11
+- ques_12
+- ques_13
+- ques_14
+- ques_15
+- ques_16
+- ques_17
+- ques_18
+- ques_19
+- ques_20
+- ques_21
+- ques_22
+- ques_23
+- ques_24
+- ques_25
+- ques_26
+- ques_27
+- ques_28
+- ques_29
+- ques_30
+- ques_31
+- ques_32
+- ques_33
+- ques_34
+- ques_35
+- ques_36
+- ques_37
+- ques_38
+- ques_39
+- ques_40
+- ques_41
+- ques_42
+- ques_43
+- ques_44
+- ques_45
+- ques_46
+- ques_47
+- ques_48
+- ques_49
+- ques_50
+- ques_51
+- ques_52
+- ques_53
+- ques_54
+- ques_55
+- ques_56
+- ques_57
+- ques_58
+- ques_59
+- ques_60
+- ques_61
+- ques_62
+- ques_63
+- ques_64
+- ques_65
+- ques_66
+- ques_67
+- ques_68
+- ques_69
+- ques_70
+- ques_72
+- ques_73
+- ques_74
+- ques_75
+- ques_76
+- ques_77
+- ques_78
+- ques_79
+- ques_80
+- ques_81
+- ques_82
+- ques_83
+- ques_84
+- ques_85
+- ques_86
+- ques_87
+- ques_88
+- ques_89
+- ques_90
+- ques_91
+- ques_92
+- ques_93
+- ques_94
+- ques_95
+- ques_96
+- ques_97
+- ques_98
+- ques_99
+- ques_100
+- ques_101
+- ques_102
+- ques_103
+- ques_104
+- ques_105
+- ques_106
+- ques_107
+- ques_108
+- ques_109
+- ques_110
+- ques_111
+- ques_112
+- ques_113
+- ques_114
+- ques_115
+- ques_116
+- ques_117
+- ques_118
+- ques_119
+- ques_120
+- ques_121
+- ques_122
+- ques_123
+- ques_124
+- ques_125
+- ques_126
+- ques_127
+- ques_128
+- ques_129
+- ques_130
+- ques_131
+- ques_132
+- ques_133
+- ques_134
+- ques_135
+- ques_136
+- ques_137
+- ques_138
+- ques_139
+- ques_140
+- ques_141
+- ques_142
+- ques_143
+- ques_144
+- ques_145
+- ques_146
+- ques_147
+- ques_148
+- ques_149
+- ques_150
+- ques_151
+- ques_152
+- ques_153
+- ques_154
+- ques_155
+- ques_156
+- ques_157
+- ques_158
+- ques_159
+- ques_160
+- ques_161
+- ques_162
+- ques_163
+- ques_164
+- ques_165
+- ques_166
+- ques_167
+- ques_168
+- ques_169
+- ques_170
+- ques_171
+- ques_172
+- ques_173
+- ques_174
+- ques_175
+- ques_176
+- ques_177
+- ques_178
+- ques_179
+- ques_180
+- ques_181
+- ques_182
+- ques_183
+- ques_184
+- ques_185
+- ques_186
+- ques_187
+- ques_188
+- ques_189
+- ques_190
+- ques_191
+- ques_192
+- ques_193
+- ques_194
+- ques_195
+- ques_196
+- ques_197
+- ques_198
+- ques_199
+- ques_200
+- ques_201
+- ques_202
+- ques_203
+- ques_204
+- ques_205
+- ques_206
+- ques_207
+- ques_208
+- ques_209
+- ques_210
+- ques_211
+- ques_212
+- ques_213
+- ques_214
+- ques_215
+- ques_216
+- ques_217
+- ques_218
+- ques_219
+- ques_220
+- ques_221
+- ques_222
+- ques_223
+- ques_224
+- ques_225
+- ques_226
+- ques_227
+- ques_228
+- ques_229
+- ques_230
+- ques_231
+- ques_232
+- ques_233
+- ques_234
+- ques_235
+- ques_236
+- ques_237
+- ques_238
+- ques_239
+- ques_240
+- ques_241
+- ques_242
+- ques_243
+- ques_244
+- ques_245
+- ques_246
+- ques_247
+- ques_248
+- ques_249
+- ques_250
+- ques_251
+- ques_252
+- ques_253
+- ques_254
+- ques_255
+- ques_256
+- ques_257
+- ques_258
+- ques_259
+- ques_260
+- ques_261
+- ques_262
+- ques_263
+- ques_264
+- ques_265
+- ques_266
+- ques_267
+- ques_268
+- ques_269
+- ques_270
+- ques_271
+- ques_272
+- ques_273
+- ques_274
+- ques_275
+- ques_276
+- ques_277
+- ques_278
+- ques_279
+- ques_280
+- ques_281
+- ques_282
+- ques_283
+- ques_284
+- ques_285
+- ques_286
+- ques_287
+- ques_288
+- ques_289
+- ques_290
+- ques_291
+- ques_292
+- ques_293
+- ques_294
+- ques_295
+- ques_296
+- ques_297
+- ques_298
+- ques_299
+- ques_300
+- ques_301
+- ques_302
+- ques_303
+- ques_304
+- ques_305
+- ques_306
+- ques_307
+- ques_308
+- ques_309
+- ques_310
+- ques_311
+- ques_312
+- ques_313
+- ques_314
+- ques_315
+- ques_316
+- ques_317
+- ques_318
+- ques_319
+- ques_320
+- ques_321
+- ques_322
+- ques_323
+- ques_324
+- ques_325
+- ques_326
+- ques_327
+- ques_328
+- ques_329
+- ques_330
+- ques_331
+- ques_332
+- ques_333
+- ques_334
+- ques_335
+- ques_336
+- ques_337
+- ques_338
+- ques_339
+- ques_340
+- ques_341
+- ques_342
+- ques_343
+- ques_344
+- ques_345
+- ques_346
+- ques_347
+- ques_348
+- ques_349
+- ques_350
+entities:
+- user_nid
+slots:
+  user_nid:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: user_nid
+forms:
+  issue_creation_form:
+    required_slots:
+    - user_nid
+responses:
+  utter_validate:
+  - text: |
+      How can i help you?
+  utter_verified:
+  - text: |
+      Nid Verified successfully. Thanks!!
+  utter_greet_en:
+  - text: |
+      Hello! How can i help?
+  - text: |
+      Hi! How can i help?
+  utter_greet_bn:
+  - text: |
+      কিভাবে সাহায্য করতে পারি আপনাকে?
+  utter_greet_salam_en:
+  - text: |
+      Walaikum Assalam! How can i help?
+  utter_greet_salam_bn:
+  - text: |
+      ওয়ালাইকুম আসসালাম! জি বলুন
+  utter_greet:
+  - text: |
+      জি বলুন
+  utter_goodbye:
+  - text: |
+      Thank you
+  utter_feedback:
+  - text: |
+      আপনার সমসস্যাটি আমাদের অবগত করার জন্য ধন্যবাদ, শীঘ্রই আমাদের প্রতিনিধি আপনার সাথে যোগাযোগ করবেন
+  utter_fallback:
+  - text: |
+      দুঃখিত, আপনার সমস্যাটি এই মুহুর্তে সমাধান করা সম্ভব হচ্ছে না, আমাদের প্রতিনিধি খুব শীঘ্রই বিষয়টি নিয়ে আপ্নার সাথে যোগাযোগ করবেন
+  utter_ask_user_nid:
+  - text: |
+      Please enter your nid
+  utter_ask_issue_desc:
+  - text: |
+      অনুগ্রহ করে আপনার সমসস্যাটি লিখুন।
+  utter_ans_0:
+  - text: |
+      প্রাপ্ত বিলের  বিপরীতে বাজেট বরাদ্দ এবং বিতরণ (distribution) অর্থাৎ যথাযথভাবে বাজেট অথরাইজেশন করা না হলে বির এন্ট্রির সময় বাজেট insufficient দেখাবে। আবার সংশ্লিষ্ট অর্থনৈতিক কোডে যে বরাদ্দ আছে সেই বরাদ্দের চেয়ে পরিশেধিত অর্থ বেশী হলে বাজেট insufficient দেখাবে।
+  utter_ans_1:
+  - text: |
+      বাজে বরাদ্দ এবং অর্থছাড় করার পর বিল দাখিলকারী ডিডিও এর  বরাবরে
+      বরাদ্দকৃত বাজেট বিতরণ (distribution) করা হলে বিতরণকৃত বাজেটের
+      বিপরীতে বিল পাশ করা যাবে।
+  utter_ans_2:
+  - text: |
+      জুলাই/২০১৮ মাসে auto genetated token এর মাধ্যমে যে সকল অফিসের বিল
+      পরিশোধ করা হয়েছিল তার details accountin  সম্পন্ন করা হয়েছে। এতে
+      যদি কোন ভুলভ্রান্তি পরিলক্ষিত হয় তবে জার্নালের মাধ্যমে সংশোধন করতে
+      হবে। আগষ্ট/১৮ মাসে কোন auto genetated token এ বিল পরিশোধ করা হয়নি।তারপরও যদি কোন ভুর হয়ে থাকে তা জার্নালের মাধ্যমে সংশোধন করতে হবে।
+  utter_ans_3:
+  - text: |
+      সিএও অফিস বাজেট নিয়ন্ত্রণ অফিস হিসাবে Authority endrose করার প্রয়োজন আছে। তবে যথাযথ কর্তৃপক্ষ  কর্তৃক iBAS systen endrose এ বাজেট distribution করা হলে Authority endrose এর প্রয়োজন হবে না।
+  utter_ans_4:
+  - text: |
+      এককালীন ৪টি কিস্তিতে উত্তোলন করে উপজেলা পরিষদ তহবিলে স্থানান্তর এবং উক্ত স্থানান্তরিত তহবিল থেকে তাদের বেতন ভাতা পরিশোধ করতে হবে।
+  utter_ans_5:
+  - text: |
+      উপজেলা পরিষদের কার্যক্রম পরিচালনার জন্য সরকার ৪ কিস্তিতে অনুদান প্রদান করে। উক্ত অনুদান থেকে উপজেলা পরিষদ কর্মচারীদের বেতন ভাতা পরিশোধ করা হয়। উপজেলা পরিষদের বেতন সহয়তার অর্থনৈতিক কোড ৩৬৩১১০১ এবং ভাতাদি বাবদ সহায়তার অর্থনৈতিক কোড ৩৬১১১০২। সরকারি কর্মকর্তা/কর্মচারীদের বেতন ভাতা প্রদানের জন্য পৃথক কোডে বাজেট বরাদ্দ থাকে।সরকারি কর্মচারিগণের বেতনের অর্থনৈতিক কোড ৩১১১২০১ এবং ভাতাদি হলো ৩১১১৩০১ হতে ৩১১১৩৪২।
+  utter_ans_6:
+  - text: |
+      Wages and salaries- মজুরী ও বেতন- জিএফএস অনুযায়ী এটা একটা স্বীকৃত টার্ম। অর্থনৈতিক কোড এর চতুর্থ ধাপ পর্যন্ত GFS manual অনুযায়ী econonic classification এর term সমূহ ব্যবহার করা হয়েছে। পঞ্চম এবং ষষ্ট ধাপে দেশীয় বর্ণনা ব্যবহার করা হয়েছে। যেমন: বেতন, অফিসারদের বেতন, ভাতাদি।
+  utter_ans_7:
+  - text: |
+      Contingent staff- (আনুষাংগিক প্রতিষ্ঠান-৩২১১১০৪)
+      এ সকল কর্মচারীদের বেতন ও ভাতাদি প্রশাসনিক ব্যয় (পূর্বের আনুষাংগিক) হতে প্রদান করা হয়। একই পদে ১০ বছর চাকুরীর পর পদ শুন্য স্বাপেক্ষে যোগ্যতার ভিত্তিতে নিয়মিত চাকুরীতে নিয়োজিত হওয়ার সুযোগ আছে। এ সকল কর্মচারীর বিলও এস আর ৬৫ অনুযায়ী নিয়োজিত ডিডিও এর স্বাক্ষরে উত্তোলিত হবে।
+      আউট- সোর্সিং - (Out-sourcing- 3211131)
+      রাজস্বভুক্ত এবং প্রকল্পের আওতায় ১৬ নং গ্রেড হতে ২০ নং গ্রেডে কর্মচারীগণ পিপআর ২০০৮ অনুযায়ী কোন কোম্পানীর মাধ্যমে
+  utter_ans_8:
+  - text: |
+      প্রাইমারী স্কুলের দপ্তরীগণ আউট-সোর্সিভুক্ত (৩২১১১৩১) বা দৈনিক মজুরীর
+      (৩২১১১৩৪) ভিত্তিতে নিয়োজিত হতে পারে
+  utter_ans_9:
+  - text: |
+      ৫৯ বছর সম্পন্ন হওয়ার পর একজন সরকারি কর্মচারি পিআরএল এ গমন করেন। ছুটিতে থাকার কারণে বার্ষিক বর্ধিত বেতন কার্যকর হয় না ফলে পিআরএল এ থাকা অবস্থায় বর্ধিত বেতন যোগ হয় না। তবে আনুতোষিক দেওয়ার সময় পিআরএল কালীন বার্ষিক বর্ধিত বেতন যোগ করে পেনশন নির্ধারণ করার সুযোগ সিষ্টেমে দেওয়া আছে।
+  utter_ans_10:
+  - text: |
+      iBAS  সিস্টেমে সরকারি চাকুরিতে কর্মরত মুক্তিযোদ্ধাদের চিহ্নিত করার ব্যবস্থা নেই। তবে সরকারি সিদ্ধান্ত অনুযায়ী প্রশাসনিক মন্ত্রণালয় কর্তৃক প্রশাসনিক আদেশের মাধ্যমে চিহ্নিত করতে হবে।
+  utter_ans_11:
+  - text: |
+      ৩৯১১১১১ কোডটি সাধারণ থেকে বরাদ্দের, যা শুধুমাত্র বাজেট বরাদ্দের জন্য
+      ব্যবহৃত হয়। যথাযথ ব্যয়ের কোডে পুনঃ উপযোজন করে সংশ্লিষ্ট কোডে
+      ব্যয় করা যাবে।
+  utter_ans_12:
+  - text: |
+      iBAS এ অর্থনৈতিক কোডসমূহ এর সাথে ডিডিও লিংক করে কোড
+      পারমিশন দেওয়ার নিয়ম চালু ছিল। নতুন শ্রেণিবিন্যাস চালু হওয়ার পর
+      এ্যাকাউন্ট লজিক এর সাথে ডিডিও লিংক এর কোন সম্পর্ক নেই। তবে single step এ ডিডিও এর সাথে বর্তমান প্রতিষ্ঠানিক কোড সংযুক্ত করায় মাঝে মাঝে এ সমস্যা দেখা দেয়। আশা করা যায় ইহা শ্রীঘ্রই দূরীভুত হবে এবং সকল অর্থনৈতিক কোড পাওয়া যাবে।
+  utter_ans_13:
+  - text: |
+      সোনালী ব্যাংকের দাবীকৃত বিলটি বিশেষ কার্যক্রমের আওতায়। উক্ত বিশেষ কার্যক্রম ৪৮০২০১০০০০০০- ১২০০০২৬০৩ এর বিপরীতে বরাদ্দকৃত বাজেট অফিস আইডি নাম্বার ১৩১৩১১ এর বরাবরে বাজেট বিতরণ (distridution) করা হলে এবং উক্ত অফিসের ডিডিও বিল দাখিল করলে বিল প্রদান করা যাবে।
+  utter_ans_14:
+  - text: |
+      সিজিএ অফিসের বরাদ্দের বিপরীতের বিল সিএও থেকে পরিশোধ হবে।
+      এ ক্ষেত্রে স্বাভাবিকভাবে ইউএও চিতলমারী বাগেরহাট থেকে উক্ত বিল
+      পরিশেোধের সুযোগ নেই।
+  utter_ans_15:
+  - text: |
+      অর্থনৈতিক কোড উল্লেখপূর্বক মঞ্জুরীপত্র সংশোধন করার জন্য সংশ্লিষ্ট কর্তৃপক্ষকে বলতে হবে।
+  utter_ans_16:
+  - text: |
+      টোকেন এন্টির ক্ষেত্রে কোডের রেঞ্জ পাওয়া যায় না।
+  utter_ans_17:
+  - text: |
+      উন্নয়ন প্রকল্পের Wages to non government employees এর অর্থনৈতিক কোড ৩২১১১০৯ তে বাজেট বরাদ্দ এবং বিতরণ করা হলে স্বয়ংক্রিয়ভাবে কোডটি পাওয়া যাবে।
+  utter_ans_18:
+  - text: |
+      iBAS++ হতে প্রতিটি অফিসের বিপরীতে ডিডিও কোড সুনিদিষ্ট এবং
+      এ্যাকাউন্টিং লজিক অনুযায়ী বাজেট প্রাপ্তি স্বাপেক্ষে সকল অর্থনৈতিক কোডে
+      বিল এন্টি করার সময় স্বয়ংক্রিয়ভাবে কোড পাওয়া যাবে। এ ক্ষেত্রে পারমিশনের প্রয়োজন নেই।
+  utter_ans_19:
+  - text: |
+      প্রকল্পের কর্মকর্তা সাকুল্য বেতনে নিয়োজিত। কাজেই তাদের বেতন
+      ৩২১১১০৯ কোড থেকে হবে। সাকুল্য বেতনে নিয়োজিত কর্মকর্তা ও
+      কর্মচারীগণ Self drawing officer/ DD0 হিসাবে দায়িত্ব পালনের সুযোগ নেই।
+  utter_ans_20:
+  - text: |
+      নির্বাচন অফিসের জামানত ফেরত প্রদানের ক্ষেত্রে অর্থনৈতিক কোড
+      ৮১১৩৫০১ সংশ্লিষ্ট সাপোর্ট ইঞ্জিনিয়ারগণের মাধ্যমে কোড পারমিশন দিলেই
+      পাওয়া যাবে। উল্লেখ্য, জামানত ফেরতের ক্ষেত্রে পরিচালন কোডে টোকেন লাগাতে হবে এবং প্রকল্পের অফিস কোড হতে জামানত ফেরত দেওয়অ যাবে না।
+  utter_ans_21:
+  - text: |
+      জামানত ফেরতের অর্থনৈতিক কোড ৮১১৩৩০১। Bill type deposit against
+      supliers and work এ পাওয়া যাবে। জামানত ফেরত দেওয়ার সময় ৮১১৩৩০১
+      কোডটি ডেবিট করতে হবে উল্লেখ্য জামানত ফেরতের ক্ষেত্রে পরিচালন
+      কোডে টোকেন লাগাতে হবে এবং প্রকল্পের অফিস কোড হতে জামানত
+      ফেরত দেওয়া যাবে না।
+  utter_ans_22:
+  - text: |
+      সংশ্লিষ্ট উপজেলার বিপরীতে বাজেট বিতরণ (distribution) করা হলে বিল পরিশোধ করা যাবে।
+  utter_ans_23:
+  - text: |
+      পুলিশ সুপার বাজেট বরাদ্দ m এ ইউএও বরাবরে অথরাইজেশন করতে পারে
+      না বিধায় ইউএও হতে ওসির টিএ বিল পরিশোধ করা যায না। তাই ওসির টিএ বিল ডিএও হতে পরিশোধ করতে হবে।
+  utter_ans_24:
+  - text: |
+      বকেয়া বেতন বিলের পৃথক অর্থনৈতিক কোড থাকে না। তবে যে অর্থনৈতিক কোড হতে বেতন বিল পাশ করা হয় স্বাভাবিকভাবে সেই অর্থনৈতিক কোড থেকেই বকেয়া বেতন পাশ করা যাবে।
+  utter_ans_25:
+  - text: |
+      উপজেলা পরিষদের বাড়ী ভাড়া পরিশোধের ক্ষেত্রে প্রাপ্তি খাতে ডিপোজিট
+      না থাকলে বাড়ীভাড়া পরিশোধ করা যাবে না। অর্থনৈতিক কোড
+      ৮১১৩১১০
+  utter_ans_26:
+  - text: |
+      একই অর্থ বছরে অতিরিক্ত পরিশোধিত হলে যে কোড হতে অতিরিক্ত
+      পরিশোধ করা হয়েছে সেই কোডেই অতিরিক্ত পরিশোধিত অর্থ ক্রেডিট
+      করে জমা প্রদান করতে হবে। অতিরিক্ত পরিশোধিত অর্থ ভিন্ন বছরের হলে
+      তা অর্থ বিভাগের প্রাতিষ্ঠানিক কোড ১০৯০১০১১০১৪৩৫- অর্থনৈতিক কোড
+      ১৪৪১২০২ তে জমা প্রদান করতে হবে।
+  utter_ans_27:
+  - text: |
+      উল্লেখিত মন্ত্রণালয় বিলুপ্ত হয় নাই। তবে শিক্ষা মন্ত্রণালয়, স্বরাষ্ট্র মন্ত্রণালয়
+      এবং স্বাস্থ্য মন্ত্রণালয়কে ছয়টি ডিভিশনে বিভক্ত করা হয়েছে এবং বর্তমানে
+      iBAS system এ প্রত্যেকটি সংগেই link প্রদান করা হয়েছে এবং বিভক্তির আদেশ
+      মন্ত্রণালয় থেকেই রয়েছে।
+  utter_ans_28:
+  - text: |
+      (ক,খ,গ) Classification এ Accounting System প্রদত্ত Accounting Logic এর সংগে ডিডিও এর সম্পর্ক নেই। বাজেট Entity এর বিপরীতে বিল পাশ করলে ঐ বিলের সাথে সংশ্লিষ্ট সকল কর্তনের কোড পাওয়া যাবে।
+      (ঘ) পুরাতন অর্থনৈতিক কোড ভর্তুকি সম্পর্কিত এবং নতুন অর্থনৈতিক কোডটি অনুদান সম্পর্কিত উভয় ক্ষেত্রেই আয় কর ও ভ্যাট কর্তন যোগ্য নয়।
+      (ঙ) ভ্রমণ ব্যয় বিলে ভ্যাট এবং আয়কর কর্তনের প্রয়োজন নেই।
+  utter_ans_29:
+  - text: |
+      (ক,খ) জামানত ফেরত প্রদানকালে সংশ্লিষ্ট ঠিকাদারের নিকট প্রাপ্য ফাইন, পেনালটি, ব্যাট, আয়কর এবং অতিরিক্ত গৃহিত অর্থ কর্তনের কোড দেওয়া আছে।
+      (গ) জামানত বিলের বিপরীতে ডিপোজিট না থাকলে বিল পাশ করা যাবে না।
+  utter_ans_30:
+  - text: |
+      টেলিফোন বিল শুধুমাত্র Supplier কে ডিডিও এর নির্দেশনায় প্রদান করতে হয় না। কাজেই Supplier Option আছে।
+  utter_ans_31:
+  - text: |
+      কোন জেলা সদরেই উপজেলা উপজেলা স্বাস্থা্য কমপ্লেক্স অফিস নেই। তাই টাঙ্গাইল সদরে উপজেলা স্বাস্থ্য কমপ্লেক্স আইডি পাওয়া যায় না।
+  utter_ans_32:
+  - text: |
+      বিল থেকে কর্তন আদায়ের সময় প্রাপ্তি কোড ভুল হলে জার্নাল এর মাধ্যমে
+      সংশোধনের সুযোগ আছে। ট্রেজারী চালান ভুল কোডে জমা হলে চালান
+      সংশোধনের সুযোগ নেই। ভুল কোডে জমাকৃত টাকা শুদ্ধ করতে জিএফআর
+      ২০৩ যতপূর্বেই জমা হয়ে থাকুক না কেন তা ফেরত প্রদান করে এ্যাকাউন্ট
+      কোড ভলিয়্যূম ৪ এর ১০৭ অনুযায়ী হিসব শুদ্ধ করতে হবে।
+  utter_ans_33:
+  - text: |
+      Book Traansfer Entry এর অপশনে গিয়ে document type personal ledger
+      account  নির্বাচন করলেই Book Traansfer করা যাবে।
+  utter_ans_34:
+  - text: |
+      Election budget distribution এর ন্যায় budget distribution করা হলে এই
+      সমস্যার সমাধান হবে।
+  utter_ans_35:
+  - text: |
+      টোকেন এন্টির others থেকে Bill type এ শূন্য Value select করে নীট amount শুন্য দিয়ে টোকেন দিতে হবে। Bill এন্ট্রি others থেকে বিল এন্ট্রি করে বিল অনুমোদন করতে হবে এবং অনুমোদন করার সাথে সাথে Nill amount adjustment হবে। কিন্তু সিজিএ কার্যালয় এই অপশন চালু করার বিষয়ে দ্বিমত পোষন করায় তা কার্যকর করা হচ্ছে না।
+  utter_ans_36:
+  - text: |
+      P L Account code 8113509, Book Adjustment করতে হলে বর্ণিত কোডটিকে ডেবিট এবং ক্রেডিট করতে হবে।
+  utter_ans_37:
+  - text: |
+      Postage (service stamps) document type select করলে অর্থনৈতিক কোড
+      ৩২১১১১৯ পাওয়া যাবে।
+  utter_ans_38:
+  - text: |
+      বুক ট্যান্সফার অপশনে গিয়ে অর্থনৈতিক কোড ৩৮২১১০২ কে ডেবিট করে অর্থনৈতিক কোড ১১৩১১০১ কে ক্রেডিট করে বুক ট্যান্সফার এর কাজ সম্পন্ন করতে হবে।
+  utter_ans_39:
+  - text: |
+      GPF central Ledger এর আওতায় আনার প্রেক্ষিতে LPC তে বর্তমানে শুধু মাত্র জিপিএফ ব্যালেন্স এর তথ্যাদি থাকবে কিন্তু balance transfer এর কোন Accounts হবে না।
+  utter_ans_40:
+  - text: |
+      সংশ্লিষ্ট কোডটি সিএও পোষ্টাল এর জন্য প্রযোজ্য। কোন ডিএও/ইউএও এর জন্য প্রয়োজ্য নয়।
+  utter_ans_41:
+  - text: |
+      Bill type gratuity তে টোকেন এন্ট্রি দিলে পেনশন আনুতোষিকের অর্থনৈতিক কোড পাওয়া যাবে।
+  utter_ans_42:
+  - text: |
+      (ক) অর্থ জমা না থাকলে অর্থ পরিশোধ করা যাবে না।
+      (খ) বাইরে থেকে আসা বিটিসিএল এর পেনশনারের আইডি পুনরায় খোলার প্রয়োজন নেই।
+  utter_ans_43:
+  - text: |
+      বিল টাইপ হলো pension reimbursement. ১০৯০৩xxxxxxxx কোড এর মধ্যে পেনশন এর যে ডিডিও আছে ঐ ডিডিও তে টোকেন এন্ট্রি দিলে বিল পরিশোধ করা যাবে।
+  utter_ans_44:
+  - text: |
+      বর্তমানে pension information entry menu টি সংশোধন করায় এই সমস্যা আর হয় না।
+  utter_ans_45:
+  - text: |
+      পূর্বের তথ্য বাতিল করে নতুন করে পেনশন ডাটা ডিএও নোয়াখালীতে এন্ট্রি করলে সমস্যার সমাধান হবে।
+  utter_ans_46:
+  - text: |
+      টোকেন এন্ট্রি others হতে bill type gratuity select করে টোকেন দিতে হবে এবং
+      বিল এন্ট্রি করার সময় বিল এন্ট্রি others option এ গিয়ে বিল এন্ট্রি করতে হবে।
+      pension fixationকরতে হবে। তারপর Pensioner Management – Pensioner
+      Information এ সংশ্লিষ্ট কর্মকর্তা/কর্মচারীগণের pension fixation এর তথ্য এন্ট্রি
+      করার পর save করতে হবে। তা হলেই কর্মকর্তা/কর্মচারীগণের আনুতোষিক পরিশোধ করা যাবে।
+  utter_ans_47:
+  - text: |
+      উন্নয়ন খাতের কর্মকর্তা/কর্মচারীদের নিয়োগ দেওয়া হয়েছে সাকুল্য বেতনে এবং প্রকল্প চলাকালীন সময় পর্যন্ত তাদের চাকুরী নির্ধারিত ফলে তার Cost of the project হিসাবে গন্য।কাজেই প্রতিটি প্রকল্পেরই ডিপিপিতে এই নির্দেশনা আছে। কাজেই নতুন করে নির্দেশনা দেওয়ার প্রয়োজন নেই। সংশ্লিষ্ট কর্মকর্তা/কর্মচারীদের বেতনভাতাদির বিল wages to non government employees (3211109) অর্থনৈতিক কোড হতে পরিশোধিত হবে।
+  utter_ans_48:
+  - text: |
+      উন্নয়ন খাতের কর্মকর্তা/কর্মাচারীগণ সাকুল্য বেতন নিয়োজিত হয়ে থাকেন। তাদের বেতন wayges to non Government employees (৩২১১১০৯) কোড হতে পরিশোধ করা হয়ে থাকে। তাই সংশ্লিষ্ট প্রকল্প অফিস ৩২১১১০৯ কোডে বাজেট বরাদ্দ ও বিতরণ করলে সংশ্লিষ্ট কোড হতে বিল পরিশোধ করা যাবে।
+  utter_ans_49:
+  - text: |
+      প্রতিটি অর্থনৈতিক কোডের বিপরীতে প্রাতিষ্ঠানিক কোডের পরিচিতি দেয়া আছে।
+  utter_ans_50:
+  - text: |
+      গেজেটেড কর্মকর্তাগণের কর্তনকৃত জিপিএফ এর টাকা রিপোর্ট অপশনে ঠিক করে দেওয়া হয়েছে।ননগেজেটে কর্মচারীদের বেতন ই এফ টি না হওয়া পর্যন্ত আলোচ্য ব্যবস্থা গ্রহণ করা সম্ভব নয়।
+  utter_ans_51:
+  - text: |
+      ডিডিও খোলা থাকলে Progress Report থেকে খরচের হিসাব প্রদর্শিত হয়।
+  utter_ans_52:
+  - text: |
+      সংশ্লিষ্ট প্রতিষ্ঠানের ডিডিও খোলা হয়ে থাকলে রিপোর্ট বাজেট দেখা যাবে।
+  utter_ans_53:
+  - text: |
+      ননগেজেটে কর্মচারীদের বেতন ই এফ টি না হওয়া পর্যন্ত আলোচ্য ব্যবস্থা গ্রহন করা সম্ভব নয়।
+  utter_ans_54:
+  - text: |
+      জিপিএফ – Public fund management এবং দীর্ঘমেয়াদি ঋণ- Loans to
+      government employeesএই দুটি জেনারেল এ্যাকটিভিটিজ এর সাথে সংযুক্ত
+      থাকলে তা unmapped করে ব্যবস্থা নিতে হবে।
+  utter_ans_55:
+  - text: |
+      যে সকল ডিপার্টমেন্টে বাসা আছে সেই সকল ডিপার্টমেন্টের বিপরীতে বাসার বাড়ী ভাড়া কর্তনের কোড আছে। ২০১৫ সালের জাতীয় বেতন স্কেল অনুযায়ী সরকারি বাসায় বসবাসকারী কর্মকর্তা/কর্মচারীগণ বাড়ীভাড়া ভাতা গ্রহন করবেন না বা তিমনি নিদিষ্ট হারে বাড়ী ভাড়া কর্তন ও করবেন না। তবে সার্ভিস চার্কসমূহ প্রদান করবেন। তা ছাড়া যারা নির্ধারিত ভাড়ায় ডরমেটরী অথবা অন্য কোন বাসস্থানে বসবাস করেন তারা বেতন হতে নির্ধারিত হারে বাড়ী ভাড়া কর্তন করবেন।
+  utter_ans_56:
+  - text: |
+      কর্মকর্তা/কর্মচারীদের পদ যেখানে বেতন বিল সেই অফিস থেকে পরিশোধ করতে হবে।
+  utter_ans_57:
+  - text: |
+      সিএও, শিক্ষার বিপরীতে কর্মরত অডিটর এর বেতন সিএও শিক্ষা থেকে পরিশোধ করতে হবে। ইউএও বাঘার পাড়ার বিপরীতে বিল পরিশোধ করা সঠিক হয় নাই, যা জার্নালের মাধ্যমে সংশোধন করা প্রয়োজন।
+  utter_ans_58:
+  - text: |
+      স্থানীয় বিভাগের আওতায় ইহা একটি স্বায়ত্তশাসিত প্রতিষ্ঠান সরকারি অফিস নয়। জেলা পরিষদের অপশনে এই কোড পাওয়া যাবে।
+  utter_ans_59:
+  - text: |
+      ভ্রমণ ব্যয়: বৈদেশিক ভ্রমণ/অভ্যন্তরীণ ভ্রমণ, ব্যয়ের অন্তর্ভুক্ত। অভ্যন্তরীণ ও বৈদেশিক ভ্রমণ ব্যয়ের বাজেট যুক্ত করে ভ্রমণ স্থানান্তর করায় Hard/ Soft কপির মধ্যে গড়মিল পাওয়া যাচ্ছে।
+  utter_ans_60:
+  - text: |
+      ভুল ভ্রান্তিসমূহ জার্নাল করার কোন ব্যবস্থা গ্রহণ করা হয়েছে।
+  utter_ans_61:
+  - text: |
+      মাসিক হিসাবে ank Summary day wise entry করতে হবে। Accounting tranjaction menu এর মধ্যে ডেবিট স্ক্রল এবং ক্রেডিট স্ক্রল import আছে।
+  utter_ans_62:
+  - text: |
+      Debit scroll ও Credit Scroll import করা যাচ্ছে। হিসাব প্রাপ্তির কোডে কোন ভুল পরিলক্ষিত হলে হিসাবে জার্নাল এন্ট্রির মাধ্যমে কোড সংশোধন করা যাবে তবে Credit scroll বা চালানের কোন পরিবর্তন করা যাবে না।
+  utter_ans_63:
+  - text: |
+      পুরাতন কোড ও নতুন কোড system এ link করে দেওয়া হয়েছে। তই মাসিক হিসাব সম্পন্ন করতে কোন সমস্যা হবে না।
+  utter_ans_64:
+  - text: |
+      Honorarium other than Government employee bill type এ আছে । যথাযথভাবে posting কোড অনুযায়ী সব কিছুই পাওয়া যাবে।
+  utter_ans_65:
+  - text: |
+      সংশ্লিষ্ট অফিসকে তার হেড অফিসের মাধ্যমে অর্থ মন্ত্রণালয়ের সাথে যোগাযোগ করে এ কার্যালয়কে পত্র দিতে হবে।
+  utter_ans_66:
+  - text: |
+      পুরাতন কোডের Legal, Function, Operation ঠিক রেখে অর্থনৈতিক কোড ২০৩১ দিলে পরীক্ষার ফি এর টাকা ব্যাংকে জমা দেওয়া যাবে।
+  utter_ans_67:
+  - text: |
+      বকেয়া বেতন বিল বলতে বুঝায়, কোন কারণে কোন বছরের পূর্বে গৃহিত বেতন ভাতার পরিবর্তন হলে যে মাস হতে পরিবর্তন হয় সেই মাস হতে প্রাপ্য ও গৃহিত বেতন ভাতাদির পার্থক্য। কাজেই বকেয়া বেতন বিল হলে কর্তনের অপশন চালু করার কোন প্রয়োজন নেই্
+  utter_ans_68:
+  - text: |
+      আবাসিক টেলিফোন ও ইন্টারনেট নগদায়নের জন্য প্রাপ্যতা অনুযায়ী সংশ্লিষট অফিসারগণ টেলিফোন নগদায়নস ভাতা প্রাপ্য হবেন এবং তা বেতন বিলে দাবী করবেন।
+  utter_ans_69:
+  - text: |
+      প্রধানমন্ত্রীর অনুদানের ক্ষেত্রে সংশ্লিষ্ট সিএও অফিস হতে ইউএও/ডিএও এর বরাবরে অথরিটি ইস্যু করা হয় এবং উক্ত অথরিটিতে ইউএনও/ডিসিকে অর্থ উত্তোলনের ক্ষমতা প্রদান করা হয়ে থাকে।
+  utter_ans_70:
+  - text: |
+      একই প্রতিষ্ঠানের বিপরীতে ডিডিও iBAS খোলা ছিল iBAS থেকে ডাটা স্থানান্তরের সময় iBAS-2 তে একাধিক ডিডিও পাওয়া যাচ্ছে। এ বিষয়ে iBAS টিম অফিস ভিত্তিক ডিডিও একজন রেখে বাকিগুলো Ddective করার প্রয়োজনীয় ব্যবস্থা গ্রহণ করছে। এ বিষয়ে স্থানীয়ভাবে করার কিছু নেই।
+  utter_ans_72:
+  - text: |
+      ইউনিয়ন ভূমি অফিসের ডিডিও open করে দেওয়াতে বর্তমানে এই সমস্যা আর নেই।
+  utter_ans_73:
+  - text: |
+      অর্গানাইজেশন কোড ১৬১০২০৩১৩২৬৮৩ তে টোকেন লাগালেই ডিওি পাওয়া যাবে।
+  utter_ans_74:
+  - text: |
+      Classification এ Accounting System এর প্রদত্ত Accounting logic এ ডিডিও Link নেই। তবে প্রতিটি Logic এর সংগে বাজেট লিংক আছে।
+  utter_ans_75:
+  - text: |
+      সংশ্লিষ্ট সাপোর্ট ইঞ্জিনিয়ারদের সাথে যোগাযোগ করে code permission করে নিলে সমস্যাটি সমাধান হবে।
+  utter_ans_76:
+  - text: |
+      সংশ্লিষ্ট অর্থনৈতিক কোডে বাজেট বরাদ্দ এবং বিতরণ থাকা স্বাপেক্ষে ডিডিও এডিট করলে অর্থনৈতিক কোড পাওয়া যাবে।
+  utter_ans_77:
+  - text: |
+      (ক) সংশ্লিষ্ট ঠিকাদারের বিলটি পরেশোধের সময় যে ডিডিও এর মাধ্যমে বিল পরিশোধ করা হয়েছিল সেই ডিডিও এর পরিচালন কোডে টোকেন এন্ট্রি দিয়ে জামানত পরিশোধ করা যাবে।
+      (খ) সংশ্লিষ্ট কোডে কোন ডিডিও খোলা যাবে না। যে ডিডিও বরাবরে বাজেট বরাদ্দ এবং বিতরণ করা হয়েছে সেই ডিডিও এর পরিচালন কোডে টোকেন এন্ট্রি দিলে বিল পরিশোধ করা যাবে ।
+  utter_ans_78:
+  - text: |
+      এ ক্ষেত্রে সংশ্লিষ্ট হিসাবসরক্ষণ অফিসের সাথে যোগাযোগ করে সংশ্লিষ্ট কর্মকর্তাকে সঠিক ডিডিও এর সাথে লিংক করে দিলে ডিডিও বিল send করতে পারবে এবং ডিডিও এর সমস্যা হবে না।
+  utter_ans_79:
+  - text: |
+      পৌরসভায় একজন সরকারি কর্মকর্তা (সচিব) এবং জেলা পরিষদে একজন সরকারি কর্মকর্তা (প্রধান নির্বাহী কর্মকর্তা) হিসাবে নিযুক্ত থাকেন। তারাই ডিডিও এর দায়িত্ব পালন করবেন।
+  utter_ans_80:
+  - text: |
+      গেজেটেড অফিসারগণ এর NID Pay Fixation ডাটা বেজের সাথে সংযুক্ত কাজেই গেজেটেড অফিসার এর ডবল এন্ট্রি হওয়ার সুযোগ নেই। তবে যে সকল কর্মচারী বিভিন্ন প্রকল্পে গেজেটেড অফিসারের গ্রেডে সাকুল্য বেতনে নিয়োজিত আছেন এবং তাদেরকে গেজেটেড অফিসার ধরে নিয়ে বেতন ও ভাতাদি পরিশোধ হচ্ছে তাদের ক্ষেত্রে ডাবল এন্ট্রির সুযোগ রয়েছে।তবে iBAS-2 তে এ ধরণের কর্মচারীগণ যেহেতু self drwing officer নন তারা নিজের স্বাক্ষরে কোন বিল উত্তোলন করতে পারেন না। তাদের বেতন সংশ্লিষ্ট অফিসের নিয়োজিত ডিডিওগণ সাকুল্য বেতন ৩২১১১০৯ কোড হতে সেবা ও সরবরাহ ফরমে বিল উত্তোলন করে সংশ্লিষ্টগণের মধ্যে বিতরণ করবেন।
+  utter_ans_81:
+  - text: |
+      উপজেলা পরিষদে নিয়োজিত ড্রাইভারগণ উপজেলা পরিষদ থেকে বেতন গ্রহন করবেন। উপজেলা পরিষদ তাদের বিপরীতে অনুদান খাতে বরাদ্দ অর্থ এককালীন ৪টি কিস্তিতে উত্তোলন করে উপজেলা পরিষদ তহবিলে স্থানান্তর করবেন এবং উক্ত তহবিল থেকে ড্রাইভারগণের বেতন পরিশোধ করবেন।
+      সাকুল্য বেতনে কোন ড্রাইভার নিয়োজিত থাকলে তাদের বেতন wages to non-government employees ৩২১১১০৯ কোড হতে পরিশোধ করতে হবে। out sourceing এর মাধ্যমে নিয়োজিত হলে out sourceing ৩২১১১৩১ কোড থেকে ঠিকাদারের মাধ্যমে দাবী পরিশোধ করতে হবে।
+      দৈনিক মজুরীতে নিয়োজিত হলে শ্রমিক মজুরী ৩২১১১৩৪ কোড হতে ডিডিও এর মাধ্যমে বিল উপস্থাপন করে পরিশোধ করতে হবে।
+  utter_ans_82:
+  - text: |
+      (ক,খ) টোকেন এডিট অপশনে গিয়ে টোকেন এন্ট্রিতে টাকার অংক ভুল হলে তা এডিট করা যাবে। কর্মকর্তাদের টোকেট এন্ট্রি করতে হলে token edit for pay bill option থেকে এডিট করা যাবে। অন্য সকল টোকেন এডিট এর জন্য token edit option থেকে এডিট করা যাবে।
+      (গ) বিষয়টি প্রক্রিয়াধীন আছে।
+  utter_ans_83:
+  - text: |
+      iBAS এ month open option এ গিয়ে ২০১৭-১৮ এর জুন চুড়ান্ত open করে ডিপিএফ এর সুদ করা যাবে।
+  utter_ans_84:
+  - text: |
+      Pay Fiation এ শুধুমাত্র এএন্ডএও এর user এ এলপিসি প্রাপ্তি/ইস্যু অপশন দেয়া আছে
+  utter_ans_85:
+  - text: |
+      এলপিসি প্রেরণ করার পর প্রেরিত অফিসে গ্রহন না করা হলে এবং ইতোমধ্যে কোন বর্ধিত বেতন সংযুক্ত হলে সংশ্লিষ্ট অফিসে ঐ এলপিসি এর কোন কার্যক্রম গ্রনণ করা যায় না। এ সকল এলপিসি এর ক্ষেত্রে সংশ্লিষ্ট সাপোর্ট ইঞ্জিনিয়ারগণের সাথে যোগাযোগ করে সংশোধন করে নিতে হবে।
+  utter_ans_86:
+  - text: |
+      কর্মকর্তাদের ২০১৮-১৯ অর্থবছরে জিপিএফ এর প্রারম্ভিক জের ডিপিএফ Opening Balance এ এন্ট্রি করে seve করার পর GPF Accounts Slip এ রিপোর্ট run করালে ২০১৮-১৯ অর্থবছরে জিপিএফ এর প্রারম্ভিক জের এখন দেখা যায়।সিজিএফ কার্যালয় টিম গঠন করে জিপিএফ ব্যালেন্স ট্যান্সফারের বিষয়ে কাজ করছে।
+  utter_ans_87:
+  - text: |
+      সংশ্লিষ্ট অফিসারের সাথে সংশ্লিষ্ট ডিডিও সিলেক্ট সঠিক থাকলে ডিপিএফ পাওয়া যাবে।
+  utter_ans_88:
+  - text: |
+      কোন কর্মকর্তা একাধিক এনআইডি দিয়ে তথ্য এন্ট্রি করা থাকলে সংশ্লিষ্ট সাপোর্ট ইঞ্জিনিয়ারগণের সাথে যোগাযোগ করে দু’টি এনআইডি একটি এনআইডিতে marge করে দিলে সমস্যাটির সমাধান হবে।
+  utter_ans_89:
+  - text: |
+      iBAS++ system এ ভবিষ্যৎ তহবিলের সুদ বিহীন এন্ট্রি করতে হলে সুদের Amount এ zero এন্ট্রি দিতে হবে।
+  utter_ans_90:
+  - text: |
+      স্পেশাল এক্টিভিটির অর্থনৈতিক কোডে বাজেট পেতে হলে মূল পরিচালন কোডে টোকেন লাগালেই অর্থনৈতিক কোডে বাজেট পাওয়া যাবে। সাপোর্ট এক্টিভিটির ক্ষেত্রে নতুন ডিডিও open করে নিলেই সংশ্লিষ্ট অর্থনৈতিক কোডে বাজেট পাওয়া যাবে।
+  utter_ans_91:
+  - text: |
+      Duplicate NID এবং Multiple user Id থাকার কারণে অন-লািইনে পে বিল
+      দাখিলের ক্ষেত্রে Information not availableদেখায়। এ ক্ষেত্রে Duplicate NID এবং
+      Multiple user ID deactivate করা সমস্যার সমাধান হবে।
+  utter_ans_92:
+  - text: |
+      সংশ্লিষ্ট কর্মকর্তাগণ সঠিক ডিডিও সিলেক্ট না করে অনলাইনে বিল দাখিল করলে (-) মাইনাস ফিগার দেখায়।
+  utter_ans_93:
+  - text: |
+      Employee information single step এ তথ্য এন্ট্রি করলে সেভ করা যাবে।
+      Employee information other deduction অংশে বি এফ, জেআই এবং postage
+      stamp এন্ট্রি করতে হয় না, যদি এন্ট্রি করা হয় তা হলে save করতে গেলে
+      Error দেখাবে।
+  utter_ans_94:
+  - text: |
+      ইউনিয়ন ভূমি অফিস/ LSD এ deduction এর কোড দেওয়া আছে ডিডিও
+      open করে নিতে হবে।
+  utter_ans_95:
+  - text: |
+      ইতোপূর্বে মেডিকেল কলেজ হাসপাতলে কর্মরত নার্সদের অফিস কোড নার্সিং ইনস্টিটিউ কোড অটো অপরিবর্তন হয়ে যেত। system এতদাসংক্রান্ত সমস্যার সমাধান করার পর আর কোন সমস্যা হয় নাই।
+  utter_ans_96:
+  - text: |
+      সংশ্লিষ্ট মন্ত্রণালয়/দপ্তর/অধিদপ্তর যারা বাজেটের ডাটা এন্ট্রি করে তারা Project/Activity Field Office Creation এ গিয়ে ফিল্ড অফিস ডাটা তৈরী করবে এবং Project/Activity Field Office Approval এ গিয়ে তা অনুমোদন করবে।
+  utter_ans_97:
+  - text: |
+      Help desk filtering option দেয়া হয়েছে।
+      (ক) Help desk assigned engineer selection এর মাধ্যমে সমস্যা বর্তমানে খুজে পাওয়া যায়।
+  utter_ans_98:
+  - text: |
+      Help desk system এ call number/pay-point/division wise সার্চ করার অপশন
+      দেয়া হয়েছে।
+  utter_ans_99:
+  - text: |
+      রেডিও চেক এর একাউন্টিং লজিক তৈরী করা হয়েছে। এটা implement
+      করতে হলে ১৪ টি রেডিও স্টেশনে iBAS++ system চালু করতে হবে।
+      তাই এটা implement করতে সময় লাগবে।
+  utter_ans_100:
+  - text: |
+      The Bill of the Bill after the allocation and the money is made
+      Delivered Budget if allotted budget distribution (distribution)
+      In contrast the bill can be passed.
+  utter_ans_101:
+  - text: |
+      In July/25th, the office bills through Auto Genetated Token
+      Was paid to his details accountin completed. So
+      If any mistakes are observed then to correct through the journal
+      Will No Auto Genetated Token has not been paid in August/6 months. Yet if there is any vase, it will have to be corrected through the journal.
+  utter_ans_102:
+  - text: |
+      In July/25th, the office bills through Auto Genetated Token
+      Was paid to his details accountin completed. So
+      If any mistakes are observed then to correct through the journal
+      Will No Auto Genetated Token has not been paid in August/6 months. Yet if there is any vase, it will have to be corrected through the journal.
+  utter_ans_103:
+  - text: |
+      There is a need to endrose Authority as the CAO Office Budget Control Office. However, if the budget distribution is made by the appropriate authority in the IBAS system endrose, Authority endrose will not be required.
+  utter_ans_104:
+  - text: |
+      The transfer of the Upazila Parishad fund to the one -time installment and the transfer of their salary allowance will have to be paid from that transferred fund.
+  utter_ans_105:
+  - text: |
+      The government provided grants in 5 installments to conduct the activities of the Upazila Parishad. From this grant, the salary allowance of the Upazila Parishad employees is paid. Economic Code 1 of the Upazila Parishad and Economic Code for Assistance for Bhattis. Budget is allocated to the salary allowance of government officials/employees.
+  utter_ans_106:
+  - text: |
+      Wages and Salaries- Wages and Salary- This is a recognized term according to GFS. Until the fourth step of the economic code, the terms of Economic Classification have been used in accordance with the GFS manual. The fifth and sixth phases have been used in native descriptions. Such as: salary, officers' salaries, allowances.
+  utter_ans_107:
+  - text: |
+      Contingent Staff- (Accessory Institution-122)
+      All these employees are paid to the salaries and allowance administrative expenditure (previous accessories). After 5 years of service in the same position, there is an opportunity to engage in regular employment on the basis of qualification. The bills of these employees will also be lifted in the signature of the DDo appointed in accordance with the SR3.
+      Out-sourcing- (Out-Sourcing-3211131)
+      Employees from grade 1 to grade 1 under the revenue and project, through a company in accordance with the PipR -20.
+  utter_ans_108:
+  - text: |
+      Primary School offices are out-source (120) or daily wages
+      (120) may be employed on the basis of
+  utter_ans_109:
+  - text: |
+      After completing 5 years, a government employee went to the PRL. Annual extended salary is not effective due to being on vacation so the increase in the PRL does not add increased salary. However, during the provision of the PrL, the opportunity to determine the pension is given in the system by adding annual salary.
+  utter_ans_110:
+  - text: |
+      Ibas  The system does not have the system to identify the freedom fighters working in government service. However, according to the government's decision, the administrative ministry should be identified through administrative order.
+  utter_ans_111:
+  - text: |
+      The code is from the general allotment, which is for the budget allocation only
+      Are used. In the corresponding code by re -applying the correct expenditure code
+      Can be spent.
+  utter_ans_112:
+  - text: |
+      IBAS  Economic codes at the Code with DDOs with it
+      The rules for the permit were on. After the introduction of the new classification
+      Dio link has nothing to do with the account logic. However, the problem occurs occasionally due to the current institutional code with the DD at Single Step. It is expected that it will be removed soon and all economic codes will be available.
+  utter_ans_113:
+  - text: |
+      Sonali Bank's demanded bill is under special activities. The budget office ID number 1 allotted against the special activities of 1221-222 is done if the budget distribution is done and submitted the DD bill of the office.
+  utter_ans_114:
+  - text: |
+      The bill will be paid from the CAO opposite the allocation of the CGA office.
+      In this case the Bill of the UAO Chitlmari Bagerhat naturally
+      There is no chance of Sarishend.
+  utter_ans_115:
+  - text: |
+      The authorities concerned should tell the authority to correct the economic code mentioning the economic code.
+  utter_ans_116:
+  - text: |
+      In the case of Token Anti, the code of the code is not available.
+  utter_ans_117:
+  - text: |
+      The code will be automatically available if the budget is allocated and distributed in the economic code 121 of the development project Wages to non government employees.
+  utter_ans_118:
+  - text: |
+      Ibas  is the DDO code against each office to be well and
+      In all economic codes subject to receiving the budget according to accounting logic
+      The code will be available automatically when the bill is anti -entertaining. There is no need for permits in this case.
+  utter_ans_119:
+  - text: |
+      The project officer is employed in Sakul's salary. So their pay
+      Will be from 120 code. Warder
+      Employees do not have the opportunity to perform duties as Self Drawing Officer/ DD0.
+  utter_ans_120:
+  - text: |
+      Economic Code in case of returning the security office security
+      ০০০০০ If the code permits are given through the support engineers concerned
+      Can be found. It is important to note that in case of returning the security, the token should be applied to the management code and the security code cannot be returned from the project code of the project.
+  utter_ans_121:
+  - text: |
+      Economic code of returning security. Bill Type Deposit Against
+      Can be found in Supiers and Work. At the time of returning the security
+      The code is to be debit noted that management is the case in case of security return
+      Tokens to the code and secure from the project code of the project
+      Cannot be refunded.
+  utter_ans_122:
+  - text: |
+      If the budget distribution is done against the concerned upazila, the bill can be paid.
+  utter_ans_123:
+  - text: |
+      Super Budget Allocation Mys the UAO Authorization at M
+      Otherwise, OC TA bills cannot be paid from the UAO. So OC TA Bill has to pay to be DAO.
+  utter_ans_124:
+  - text: |
+      The outstanding pay bill does not have a separate economic code. However, the economic code from which the salary bill is passed naturally can be passed from that economic code.
+  utter_ans_125:
+  - text: |
+      Deposit in the receipt sector in case of paying rent for the Upazila Parishad
+      If not, the house cannot be paid. Economic code
+      1
+  utter_ans_126:
+  - text: |
+      If the same fiscal year is over -paid in the same fiscal year that the code is extra from
+      Credit of the excess paid money on the code that has been paid
+      You have to submit. If the extra paid -up money is different years
+      It is the Institutional Code of the Finance Department 1-Economic Code
+      Must submit to 1222.
+  utter_ans_127:
+  - text: |
+      The ministry mentioned has not been abolished. However, the Ministry of Education, the Ministry of Home Affairs
+      And the Ministry of Health has been divided into six divisions and is currently
+      Link has been provided with each of the Ibas System and ordered the division
+      From the ministry.
+  utter_ans_128:
+  - text: |
+      (A, b, c) Classification has no connection with the accounting system provided by Accounting System. Passing the bill against the budget entity will get all the cut code related to the bill.
+      (D) The old economic code is related to subsidy and the new economic code is not eligible for income tax and VAT deduction in both cases.
+      (E) travel expenditure bills do not require VAT and income tax deduction.
+  utter_ans_129:
+  - text: |
+      (A, b) The contractor has given the fine, penal, bat, income tax and additional money deduction code to the contractor.
+      (C) If there is no deposit against the security bill, the bill cannot be passed.
+  utter_ans_130:
+  - text: |
+      Telephone bills do not have to be paid only under the direction of Supplia K DD. So there is a supplier option.
+  utter_ans_131:
+  - text: |
+      There is no upazila health complex office in any district headquarters. So the Upazila Health Complex ID is not available at Tangail Sadar.
+  utter_ans_132:
+  - text: |
+      If the code is incorrect when receiving the bill from the bill is incorrect through the journal
+      There are opportunities to amend. Shipment if Treasury Shipment Submitted to the wrong code
+      There is no opportunity for amendment. GFR to purify the money deposited in the wrong code
+      No matter how long the deposit is deposited, the account is returned
+      The code should be purified in accordance with the Code Voliag 5.
+  utter_ans_133:
+  - text: |
+      Book Transfer Entry's option to go to Document Type Personal Ledger
+      Book Transfer can only be done by selecting the account.
+  utter_ans_134:
+  - text: |
+      If the Buddget distribution is done like Budget Distribution
+      The problem will be solved.
+  utter_ans_135:
+  - text: |
+      Select the zero value in the Bill Type from the token antirs and the net amount should be given token with zero. Bill entry will have to approve the bill by entry the bill and approve the nill amounted adjustment as soon as it approves. But the CGA office disagrees with the launch of this option is not being implemented.
+  utter_ans_136:
+  - text: |
+      P l Account Code 8113509, Book Adjustment, the code described must be debit and credit.
+  utter_ans_137:
+  - text: |
+      Postage (Service Stamps) Economic Code If Document Type Select
+      120 will be available.
+  utter_ans_138:
+  - text: |
+      By debit the economic code 1222 in the book tansfraction option, the economic code will have to be completed by credit and the work of the book tans.
+  utter_ans_139:
+  - text: |
+      In the context of bringing under the GPF Central Ledger, LPC will currently have GPF balance information but Balance Transfer will not have any accounts.
+  utter_ans_140:
+  - text: |
+      The corresponding code is applicable to the CAO postal. No DAO/UAO is desirable.
+  utter_ans_141:
+  - text: |
+      By giving a token entry to Bill Type Gratuity, the economic code of pension will be available.
+  utter_ans_142:
+  - text: |
+      (A) If the money is not deposited, the money cannot be paid.
+      (B) No need to re -open the BTCL pensioner ID from the outside.
+  utter_ans_143:
+  - text: |
+      The bill type is pension reimbursment. The Bill can be repaid by giving a token entry on the DDO of the pension within the 1xxxxxxxxxxxxxxxxxxxxxxxxxxxx.
+  utter_ans_144:
+  - text: |
+      Currently, the problem is no longer amending the pension information entry menu.
+  utter_ans_145:
+  - text: |
+      The problem will solve the problem by canceling the previous information and entry in Noakhali.
+  utter_ans_146:
+  - text: |
+      Token will give token by selecting Bill Type gratuity to be token entry Other and
+      When entry the bill, the bill entry will go to the Option Option and entry the bill.
+      will make the pension fixation. Then Pensioner Management - Pensioner
+      Information Entry of the Penion Fixation of the concerned officers/employees in information
+      You have to save. Only then can the officers/employees be paid.
+  utter_ans_147:
+  - text: |
+      Development sector officers/employees have been appointed at the salary and till the time of the project, as a result of their job as its cost of the project. So there is no need to give new instructions. The wages of the concerned officers/employees will be refined from the economic code to non governmentnment (3211109) from the economic code.
+  utter_ans_148:
+  - text: |
+      Development sector officers/workers are devoted to the salary. Their salary is paid from Wayges to non government employees (120) code. Therefore, if the budget allocates and distributes the budget to the concerned project office 121 code, the bill can be paid from the respective code.
+  utter_ans_149:
+  - text: |
+      The institutional code is introduced against each economic code.
+  utter_ans_150:
+  - text: |
+      Gazetted officers' cut GPF's money report has been fixed in the report option. It is not possible to take discussion measures until the salaries of employees in Naggez.
+  utter_ans_151:
+  - text: |
+      When the DD is open, the cost calculation from the Progress Report is displayed.
+  utter_ans_152:
+  - text: |
+      If the DD of the concerned company is opened, the report budget will be seen.
+  utter_ans_153:
+  - text: |
+      DDO Authorization Menu from Progress Report (Budget VS Actual Accounting) will click on Report Type to Detail Pay Point, Fiscal Year and DDO by clicking Run Report. But the authorization report is under process by adding office code to DD.
+  utter_ans_154:
+  - text: |
+      It is not possible to take discussion measures unless the salaries of employees are EFT in non -gazette.
+  utter_ans_155:
+  - text: |
+      GPF- Public Fund Management and long-term loans- loans to
+      Government Employees are connected to these two General Actwitis
+      If it is unmapped and action should be taken.
+  utter_ans_156:
+  - text: |
+      There are codes for renting houses against the departments that have homes in the departments. According to the National Pay Scale of 20, the officers/employees living in the government house will not receive the house allowance or do not cut the rent and rent of the house at a specified rate. However, the service will provide square. In addition, those who live in the dormitory or any other residence in the fixed rent will cut the rent at the fixed rate from the salary.
+  utter_ans_157:
+  - text: |
+      The office of officers/employees should be paid from the office where the salary bill.
+  utter_ans_158:
+  - text: |
+      The CAO, the auditor's salary against the education, must be paid from CAO education. Paying the bill against the UAO tiger is not right, which needs to be corrected through the journal.
+  utter_ans_159:
+  - text: |
+      Under the local department, it is not an autonomous institution government office. This code can be found in the Zilla Parishad option.
+  utter_ans_160:
+  - text: |
+      Travel Spend: Foreign Travel/Internal Travel, Includes Expenditure. With the budget of internal and foreign travel expenditure, the transfer of travel is available in the hard/ soft copy.
+  utter_ans_161:
+  - text: |
+      Any measures have been taken to journal wrong mistakes.
+  utter_ans_162:
+  - text: |
+      Ank Summary Day Wise Entry as monthly. Accounting Tranjaction Menu has debit scroll and credit scroll imports.
+  utter_ans_163:
+  - text: |
+      Debit Scroll and Credit Scroll are going to be imparted. If any mistake is observed in the code of the calculation, the code can be corrected through the journal entry, but the credit scroll or shipment cannot be changed.
+  utter_ans_164:
+  - text: |
+      The old code and the new code have been linked to the system. That will not be a problem to complete the monthly account.
+  utter_ans_165:
+  - text: |
+      Honorarium Other than Government Employee Bill Type. Everything can be found in accurately according to the posting code.
+  utter_ans_166:
+  - text: |
+      The concerned office will have to contact the finance ministry through its head office and give the letter to the office.
+  utter_ans_167:
+  - text: |
+      If the legal, function, operation of the old code, the economic code 20 can be deposited in the bank.
+  utter_ans_168:
+  - text: |
+      The outstanding salary bill means that for some reason the salary of salary appointed before a year is the difference between the month from which the month changes and the salary of the salary allowed. Therefore, there is no need to introduce the cutting option if there is an outstanding salary bill.
+  utter_ans_169:
+  - text: |
+      According to the availability of residential telephone and internet cash, the concerned officers will be entitled to telephone cash allowance and will demand it on the salary bill.
+  utter_ans_170:
+  - text: |
+      In the case of the Prime Minister's grant, the Authority is issued by the UAO/DAO from the concerned CAO office and the authority is given the power to withdraw the UNO/DC.
+  utter_ans_171:
+  - text: |
+      In contrast to the same organization, DDO IBAS  was open to IBAS  multiple DDOs were available at IBAS-2 during data transfer from IBAS . The IBAS team is taking the necessary steps to make the rest of the DDO, based on the IBAS team -based DD. There is nothing to do locally in this regard.
+  utter_ans_172:
+  - text: |
+      He who serves the DD of the concerned school will be the DD of the office assistant of the concerned primary school.
+  utter_ans_173:
+  - text: |
+      This problem is no longer available for opening the DD of the Union Land Office.
+  utter_ans_174:
+  - text: |
+      The DO will be available only by applying token in the Organization Code 12202.
+  utter_ans_175:
+  - text: |
+      Classification does not have the DDO link in the accounting system provided by the Accounting System. However, each logic has a budget link.
+  utter_ans_176:
+  - text: |
+      The problem will be solved by contacting the support engineers by communicating with the Code permission.
+  utter_ans_177:
+  - text: |
+      Editing the DD by editing the budget allocation and distribution in the relevant economic code will get economic code.
+  utter_ans_178:
+  - text: |
+      (A) Bill of the concerned contractor can be repaid with the token entry in the management code of the DD of the DD at which the bill was paid during the paresodh.
+      (B) No DD can be opened in the corresponding code. The bill can be paid by giving a token entry to the DDO's management code in which the budget has been allocated and distributed.
+  utter_ans_179:
+  - text: |
+      In this case, by contacting the concerned accounting office, the officer concerned will be able to send the DD bill and the DD will not be a problem.
+  utter_ans_180:
+  - text: |
+      He is appointed as a government official (secretary) in the municipality and a government officer (chief executive officer) in the Zilla Parishad. They will be the duty of the DD.
+  utter_ans_181:
+  - text: |
+      Gazetted officers have no chance of being a double entry of the Gazetted Officer because it is connected to the NID Pay Fixation Data Base. However, employees who are employed in the grade of the Gazetted Officer in various projects and paying salaries and allowances are being paid by the Gazetted officer. Can't do Their salary will be distributed to the concerned people by raising the bill in the service and supply forms from the Code 125 code.
+  utter_ans_182:
+  - text: |
+      The drivers employed in the Upazila Parishad will receive the salary from the Upazila Parishad. The Upazila Parishad will withdraw the money allotted to the grant sector against them and transfer to the Upazila Parishad fund and pay the drivers' salaries from that fund.
+      If a driver is deployed in the salary salary, they will have to pay their salary wages to non-government employees 120 code. Out Sourceing Out Sourceing 121 Code will have to pay the claim through the contractor.
+      If the daily wages are deployed, the labor wage will have to be repaid by presenting the bill via DD from 120 code.
+  utter_ans_183:
+  - text: |
+      (A, b) Going to the Token Edit option, if the amount of money in the token entry is wrong, it can be edited. Officials can be edited from the Token Edit for Pay Bill Option to make the token entry. For all other token edits, the token edit option can be edited.
+      (C) The matter is under process.
+  utter_ans_184:
+  - text: |
+      Ibas  In Month Open Option, DPF can be done by opening the final on June 3-5.
+  utter_ans_185:
+  - text: |
+      Pay FIATION ONLY A&AO's user has LPC Receipt/Issue options
+  utter_ans_186:
+  - text: |
+      If the LPC is not accepted after sending the LPC and already any increased salary is attached, no LPC's activities can be done in the respective office. In the case of these LPCs, the support engineers should contact and corrected.
+  utter_ans_187:
+  - text: |
+      After entering the GPF Accounts Slip report after the GPF's starting DPF opening Balance in the fiscal year 0-6, GPF accounts Slip Run is now seen in the GPF office.
+  utter_ans_188:
+  - text: |
+      If the DDO selection with the concerned officer is correct, the DPF will be available.
+  utter_ans_189:
+  - text: |
+      If an officer has entered the information with multiple NIDs, contact the concerned support engineers and marge two NIDs to an NID.
+  utter_ans_190:
+  - text: |
+      In order to make the interestless entry of future funds in the IBAS ++ System, Zero entry should be provided at the Amount of interest.
+  utter_ans_191:
+  - text: |
+      In order to get a budget in the economic code of the Special Activities, the budget will be available in the economic code by applying token to the main management code. In the case of support activity, the new DD is opened, the budget will be available in the relevant economic code.
+  utter_ans_192:
+  - text: |
+      Duplicate NID and Multiple User ID on-Liene because of having
+      Information does not look available in the case of submission. Duplicate nid in this case and
+      Multiple user id deactivate will solve the problem.
+  utter_ans_193:
+  - text: |
+      If the concerned officials submit the bill online without selecting the correct DDO, then the (-) minus figure shows the minus figure.
+  utter_ans_194:
+  - text: |
+      Employee Information Single Step can be saved by entering the information.
+      Employee Information Other Deduction Part BF, JI and Postage
+      Stamp entry is not to be done, if the entry is done if it is done to save
+      Will show Error.
+  utter_ans_195:
+  - text: |
+      DDO is given to the Deduction Code at Union Land Office/ LSD
+      Open.
+  utter_ans_196:
+  - text: |
+      Earlier in the medical college hospital, the office code of nursing nursing institutes would have been unchanged. There is no problem after the system solved such problems.
+  utter_ans_197:
+  - text: |
+      The concerned ministry/department/department who entrust the budget data will go to Project/Activity Field Officer Creation and create a field office data and approve of Project/Activity Field Officer Approval.
+  utter_ans_198:
+  - text: |
+      Help Desk Filtering Option.
+      (A) Help Desk Assigned Engineer Selection The problem is currently found.
+  utter_ans_199:
+  - text: |
+      Help Desk System Options to search Call Number/Pay-Point/Division Wise
+      Has been given.
+  utter_ans_200:
+  - text: |
+      Radio Check accounting logic has been created. Implement it
+      To do, IBAS ++ System has to be launched at 5 radio stations.
+      So it will take time to implement.
+  utter_ans_201:
+  - text: |
+      নতুন ডিডিও খোলার জন্য-
+      Treasury Rule SR  ৬৫ অনুযোগে DDO নিয়োগের জন্য মন্ত্রণালয় থেকে প্রদত্ত GO থাকতে হবে।
+      পূর্ববর্তী ডিডিও কর্তৃক নতুন ডিডিও এর Specimen signature সত্যায়িত করে পাঠাতে হবে
+      DDO Information Form fill up করতে হবে
+      সংশ্লিষ্ট মন্ত্রণালয়ের CAFO  কর্তৃক DDO তথ্য এন্ট্রি করতে হবে ।
+  utter_ans_202:
+  - text: |
+      হ্যা. কর্মচারীদের বেতন বিল দাখিল ও ফরওয়ার্ড করার দায়িত্ব  ডিডিওর ।
+  utter_ans_203:
+  - text: |
+      ব্যক্তিগত তথ্য, চাকুরী সংক্রান্ত তথ্য ও ব্যাংক হিসাব সংক্রান্ত তথ্যাদি এন্ট্রি, সংরক্ষণ ও অনুমোদনের পর EFT এর মাধ্যমে বিল প্রদান করা যাবে.  তবে ফরম অনুযায়ীই সকল তথ্য একেবারে এন্ট্রি করা ভালো ।
+  utter_ans_204:
+  - text: |
+      ক) Master Data-->Employee Type Change Request->NID with current type Select Employee Type to change(Correct),  Select Reason:Type Change এর কারণ উল্লেখ করতে হবে[অডিটর কর্তিক এন্ট্রি দিতে হয়] .
+      খ) Master Data--> Employee Type Change Approve এ [A&AO কর্তৃক এপ্প্রভ করতে হয়]
+  utter_ans_205:
+  - text: |
+      নির্মোক্ত কারণে NID Bypass করতে হয়-
+      Partial Salary for new appointment.
+      Partial salary for Fractional bill (Bill pending before UserID registration)
+      Employee from Defence to Civil Contractual Service
+      NID Bypass এর ধাপ সমূহ:
+      Master Data--> Employee Management-->NID Bypass Entry [অডিটর কর্তিক এন্ট্রি দিতে হয়]
+      Master Data--> NID Bypass Check (New) [A&AO কর্তৃক এপ্প্রভ করতে হয়]
+      Master Data-->NID Bypass Approve (New) DCA/CAO/FC/SFC কর্তৃক এপ্প্রভ করতে হয়]
+  utter_ans_206:
+  - text: |
+      Master Data--> Employee Management--> Religion Information Edit
+  utter_ans_207:
+  - text: |
+      এ ক্ষেত্রে প্রথমে বেতন নির্ধারণে NID  সংশোধন করতে হবে. যে NID নম্বর দিয়ে পে-ফিক্সেশন করা হয়েছে সেটাই কার্যকর থাকবে.
+  utter_ans_208:
+  - text: |
+      Staff কে Master Data--> Employee Management-->Employee Joining  মেনুর মাধ্যমে সঠিক অফিস এর নির্ধারিত ডিডিও কর্তৃক join করতে হবে
+  utter_ans_209:
+  - text: |
+      এমপ্লয়ী স্টেটাস থেকে এমপ্লয়ী এর অফিস এবং কোন ডিডিও এর অধীনে এন্ট্রি করা আছে তা দেখে নিতে হবে. মনে রাখতে হবে, যে User ID থেকে স্টাফ ইনফরমেশন এন্ট্রি করা হয়েছে user ID ব্যবহার করে স্টাফ কে রিলিজ করে সঠিক অফিস এর নির্ধারিত ডিডিও কর্তৃক জয়েনও করাতে  হবে/তথ্য এন্ট্রি করতে হবে
+  utter_ans_210:
+  - text: |
+      উভয় ক্ষেত্রে সংশ্লিষ্ট কর্মচারীর পেন্ডিং বিলের তথ্য Reports-->Token Reports-->Token Search by NID রিপোর্ট থেকে  অবগত হয়ে টোকেন/বিল এর মাধ্যমে নিস্পন্ন করতে হবে অথবা বাতিল/ফেরত দিতে হবে. তারপর Release an Employee স্ক্রিন এর মাধ্যমে কর্মচারীকে রিলিজ করতে হবে
+  utter_ans_211:
+  - text: |
+      হেল্পডেস্কের সহায়তায় DDO (Drawing and Disbursing Officer) Role প্রাপ্তির জন্য Treasury Rule SR  ৬৫ অনুযোগে DDO নিয়োগের জন্য মন্ত্রণালয় থেকে প্রদত্ত GO থাকতে হবে।এবং FIll-up  কর্তৃক DDO Information Form  দাখিল করতে হবে
+  utter_ans_212:
+  - text: |
+      কোনো কর্মকর্তার NID নম্বর পরিবর্তন করার জন্য নিচের ধাপগুলো অনুসরণ করতে হবে
+      Master Data- Employee Management- Change Employee NID নির্বাচন করতে হবে
+      Pay Point: এই ঘরে Pay Point সয়ংক্রিয়ভাবে প্রদর্শিত হবে
+      Ministry:  এই Ministry নির্বাচন করতে হবে
+      DDO: এই  ঘরে  DDO নির্বাচন করতে হবে
+      Office Code: সয়ংক্রিয়ভাবে প্রদর্শিত হবে
+      GO বাটনে ক্লিক করলে নিচে Employee  অংশে Existing NID, Name, Designation , New NID , Save বাটন প্রদর্শিত হবে
+      New NID: এই  ঘরে সঠিি NID টাইপ করে বাটনে ক্লিক করতে হবে
+  utter_ans_213:
+  - text: |
+      CAFO/DCA এর মাধ্যমে Merge Employee NID মেনু ব্যবহার করে একাধিক NID Marge করতে হবে
+      Multiple NIDs must be Marge using Merge Employee NID menu via CAFO/DCA
+  utter_ans_214:
+  - text: |
+      Employee Status থেকে   Employee - NID  Employee Name, Employee Type, Pay Point, Designation, Date of Birth, Mobile no, Office, Own DDO, GPF Number, Bank/ branch Office এবং কোন DDO এর অধীনে entry  করা আছে তা অবগত হওয়া যায়
+  utter_ans_215:
+  - text: |
+      Staff এর Budget Execution-->Master Data-->Employee Information Entry এ এন্ট্রিকৃত NID, Pay Fixation NID এর সাথে সঙ্গতিপূর্ণ না হলে এরূপ মেসেজ প্রদর্শিত হয়
+  utter_ans_216:
+  - text: |
+      Pay Fixation এর ৬(ক) চাকুরিতে প্রথম যোগদানের তারিখ ফাঁকা অথবা সঠিক না হলে এরূপ মেসেজ প্রদর্শিত হয়
+  utter_ans_217:
+  - text: |
+      Master Data->Employee Management->Employee Basic Information ->Select Employee Type->NID->Go->NID Info Re-Fetch বাটনে ক্লিক করলে বাংলা নাম  NID এর স্বপক্ষে প্রদর্শিত হবে, ইংরেজি নাম টাইপ করতে হবে
+  utter_ans_218:
+  - text: |
+      Respective Accounts office  থেকে Pay Fixation এর তথ্য  Correction িরবে হবে (Pay Fixation >Verified data Fixation” correction মেনু ব্যবহার করে ) ।
+  utter_ans_219:
+  - text: |
+      iBAS++ স্বামী/স্ত্রী এর NID বাধ্যতামূলক.  NID  না থাকলে খালি রাখতে হবে.  যত দ্রুত সম্ভহব নিবন্ধন পূর্বক তথ্যাদি এডিট করে এন্ট্রি করতে হবে
+  utter_ans_220:
+  - text: |
+      স্বামী/স্ত্রী যেকোনো একজন সন্তানের তথ্য লিখবেন, তবে শিক্ষা ভাতা পাবেন একজনের বেতনের সাথে. সন্তানের শিক্ষা ভাতা প্রাপ্যতার ক্ষেত্রে মা কে প্রাধান্য দেওয়া হবে
+  utter_ans_221:
+  - text: |
+      Respective Accounts office  থেকে Pay Fixation এর তথ্য  Correction করতে হবে
+  utter_ans_222:
+  - text: |
+      আংশিক (Partial) বিল হলে হিসাবরক্ষন অফিসের মাধ্যমে ম্যানুয়ালি (হার্ড কপিতে) বিল দাখিল করতে হবে
+  utter_ans_223:
+  - text: |
+      আগে কর্মচারীর তথ্য এন্ট্রি করতে হবে, অতঃপর গ্রুপ তৈরি করতে হবে
+  utter_ans_224:
+  - text: |
+      Office code এর বিপরীতে economic code permission  না থাকলে, Helpdesk  এর সহায়তা নিতে হবে
+  utter_ans_225:
+  - text: |
+      একজন কর্মকর্তা একই Salary Month এ একাধিক বেতন বিল দাখিল করতে পারবেন না। এক্ষেত্রে উক্ত কর্মকর্তার ওই Salary Month এর Token পূর্বেই লেগেছে কিনা তা যাচাই করতে হবে. সংশ্লিষ্ট মাসের বেতনের টোকেন নম্বর সহ বেতনের তথ্য খোঁজার জন্য রিপোর্ট থেকে অবগত হতে হবে, ইতিমধ্যেই ওই মাসের বেতন বিল দাখিল করেছেন কিনা।
+      যোগদানকৃত মাসে আংশিক বিল হলে হিসাবরক্ষণ অফিসের মাধ্যমে ম্যানুয়ালি বিল দাখিল করতে হবে।
+  utter_ans_226:
+  - text: |
+      হিসাবরক্ষন অফিস Employee Status থেকে Employee - NID এর সাপেক্ষে Employee Name, Employee Type, Pay Point, Designation, Date  of Birth, Mobile no, Office, Own DDO, GPF Number, Bank/branch Office এবং কোন DDO  এর অধীনে এন্ট্রি করা আছে তা অবগত হতে হবে, এবং সঠিক ডিডিওর দিয়েই বেতন বিল Forward করতে হবে
+  utter_ans_227:
+  - text: |
+      Master Data-->Service Stage Management-->PRL Entry অপশনে সঠিকভাবে বিস্তারিত এন্ট্রি দিয়ে সংরক্ষণ করুন. হিসাবরক্ষণ অফিস/ডিডিও কর্তৃক PRL এর তথ্য অনুমোদন করার পর পুর্ন মাসের বিল এবং আংশিক বিল হলে হিসাবরক্ষন অফিসের মাধ্যমে ম্যানুয়ালি (হার্ড কপিতে) বিল দাখিল করতে হবে
+  utter_ans_228:
+  - text: |
+      Service Stage Management: iBAS++ হতে সরকারি চাকুরিজীবীদের সেবা গ্রহণ সুবিধা এবং হিসাব রক্ষণ অফিসে যাওয়া-আসার ঝামেলা এড়ানোর লক্ষ্যে নিজের চাকুরী ও বেতন সংক্রান্ত সকল সেবা ঘরে বসেই যাতে নিশ্চিত করতে পারেন সে জন্য Service Stage শিরোনামে নিম্মবর্ণিত নতুন অপশনগুলি iBAS++ সিস্টেমে সংযোজন করা হয়েছে.
+      Service Stage Management ক্লিক করার পর এর অধীনে পর্যায়ক্রমে :
+      Attachment: (একটি দপ্তরে স্থায়ী পদ ধারী কর্মকর্তা তার মূল পদের বিপরীতে একি মন্ত্রণালয়/বিভাগের মধ্যে অন্য কোন দপ্তরে সংযুক্ত থেকে সাময়িক কাজ করা)
+      PRL:  অবসর উত্তর ছুটি সুবিধা
+      Deputation:
+      Deputation (Budgetary Central Govt): (সরকারি রাজস্ব বাজেট ভুক্ত এক মন্ত্রণালয়/বিভাগেরএর কর্মকর্তা সরকারি রাজস্ব  বাজেট ভুক্ত অন্য কোন মন্ত্রণালয়/বিভাগে সংযুক্ত থেকে সাময়িক কাজ করা)
+      Deputation (Outside the budgetary central government): (আধাসরকারি/স্বায়ত্তশাসিত সংস্থা/উন্নয়ন প্রকল্প/ বেসরকারি সংস্থা বা বিদেশী সরকার বা সংস্থাই সাময়িকভাবে কাজ করা)
+      Lien: সরকারি রাজস্ব বাজেট ভুক্ত এক মন্ত্রণালয়/বিভাগেরএর কর্মকর্তা চাকুরীর মূল পদের স্বত্ব অক্ষুন্ন রেখে সরকারের অনুমতি সাপেক্ষে সরাসরি রাজস্ব বহির্ভুত কোনো প্রকল্প/কর্মসূচি/সংস্থা বা প্রতিষ্ঠানের সাময়িকভাবে কাজ করা
+      Suspension: চাকুরী থেকে সাময়িক বরখাস্ত
+      Leave: ছুটি
+  utter_ans_229:
+  - text: |
+      চাকুরীর স্টেজ সমূহের [“Attachment” , “PRL Entry ”, “Deputation)”, “Lien”, “Suspension” ,‘‘Leave”] আৰম্ভ সকল ক্ষেত্রে যে কোনো ক্যালেন্ডার মাসের ১ তারিক হয়না এবং শেষ ক্যালেন্ডার মাসের সর্বশেষ তারিখে হয়না. সার্ভিসে স্টেজ পরিবর্তনের সাথে সাথে অধিকাংশ ক্ষেত্রে ভাতাদির হাড়ের পরিবর্তন ঘটে | যে সকল ক্ষেত্রে আরম্ভ এবং সমাপ্তি যথাক্রমে মাসের প্রথম ও শেষ তারিখ না হওয়ায় মধ্যবর্তী যে কোনো তারিখে হয় সে সকল ক্ষেত্র আংশিক বিল প্রাপ্য হয়
+  utter_ans_230:
+  - text: |
+      ক) Map Office with Region -সকল কর্মকর্তা/কর্মচারী অফিসার অবস্থান যদি এলাকার বাহিরে হয় সে ক্ষেত্রে এই অপসন ব্যবহার করতে হয়।
+      খ) Map Employee with Region- সংশ্লিষ্ট অফিসটির অবস্থান সিটি এলাকায় কিন্তু কর্মকতা/কর্মচারীদের একটি অংশের কর্মস্থল সিটি এলাকার বাহিরে হলে সে ক্ষেত্রে এই অপসন ব্যবহার করতে হয়
+      সতর্কতা : যে সকল সিটি এলাকার বর্ণিত সমস্যা বিরাজমান শুধুমাত্র ওই সকল এলাকার হিসাবরক্ষণ অফিসার জন্য এ ২টি অপসন যোগ করা হয়েছে । সকল হিসাবরক্ষণ অফিসার জন্য এই অপশনগুলো প্রযোজ্য নয়।
+  utter_ans_231:
+  - text: |
+      নাম অ্যাড করা যাবে না, খালি রাখতে হবে. যত দ্রুত সম্ভব জন্ম নিবন্ধন পূর্বক তথ্যাদি এডিট করে জন্ম নিবন্ধন এন্ট্রি দিতে হবে ।
+  utter_ans_232:
+  - text: |
+      যাবে । জিপিএফ ৯ব এবং ৯সি ফরম পূরণ করে যে হিসাব রক্ষণ অফিসে হিসাব খুলেছেন সে অফিসার এর মাধ্যমে নমিনী পরিবর্তন করতে পারবেন ।
+  utter_ans_233:
+  - text: |
+      Reports মেনু হতে  Pay Fixation Detail Report নির্বাচন করতে হবে ।
+      জাতীয় পরিচয় পত্র(NID) নম্বর: এই ঘরে NID  টাইপ করে তথ্য দেখুন বাটনে ক্লিক করতে হবে । এরপর রিপোর্ট থেকে কর্মকর্তার মূল বেতন দেখে নিতে হবে ।
+      Master Data-->Employee Management-->Employee Salary Information নির্বাচন করতে হবে ।
+      Employee Type: GOB Officer নির্বাচন করতে হবে ।
+      NID টাইপ করে GO  বাটনে ক্লিক করতে হবে ।
+      Emoluments and Allowances : এই অংশে Economic- 3111101- Basic pay (Officer) এর Amount এর  Detail Report এ প্রদর্শিত বেতনে পার্থক্য আছে কিনা দেখুন ।
+      মূল বেতন পার্থক্য পরিলক্ষিত হলে (ইনক্রিমেন্ট না লাগলে) প্রথমে বেতন নির্ধারণী হাল নাগাদ করতে হবে ।
+      তারপর Employee Information Entry (Single Step) হতে  Economic- 3111101- Basic pay (Officer) Amount সঠিক করে সেভ বাটনে ক্লিক করতে হবে ।
+  utter_ans_234:
+  - text: |
+      Accounting Transaction-GPF মেনু হতে GPF Subscription Configuration নির্বাচন করতে হবে।
+      Pay Point: স্বয়ংক্রিয়ভাবে প্রদর্শিত হবে।
+      National ID:  NID টাইপ করে GO  বাটনে ক্লিক করতে হবে ।
+      Employee Name, Current Office, GPF A/C No, Current Basic Pay, Subscription   Amount,  Commencement Date স্বয়ংক্রিয়ভাবে প্রদর্শিত হবে ।
+      Subscription Amount : এই  ঘরে GPF এর চাঁদার পরিমাণ পরিবর্তন করে সেভ বাটনে ক্লিক করতে হবে ।
+  utter_ans_235:
+  - text: |
+      Accounting Transaction-GPF মেনু হতে GPF Subscription Configuration নির্বাচন করতে হবে।
+      Pay Point: স্বয়ংক্রিয়ভাবে প্রদর্শিত হবে।
+      National ID:  NID টাইপ করে GO  বাটনে ক্লিক করতে হবে ।
+      Employee Name, Current Office, GPF A/C No, Current Basic Pay, Subscription   Amount,  Commencement Date স্বয়ংক্রিয়ভাবে প্রদর্শিত হবে ।
+      Active বক্সের টিক চিহ্ন তুলে দিয়ে সেভ বাটনে ক্লিক করতে হবে ।
+      Subscription Amount : এই  ঘরে GPF এর চাঁদার পরিমাণ পরিবর্তন করে সেভ বাটনে ক্লিক করতে হবে ।
+  utter_ans_236:
+  - text: |
+      GPF-->GPF Master Data-->GPF Subscription Configuration মেনু নির্বাচন করতে হবে।
+      Pay Point: স্বয়ংক্রিয়ভাবে প্রদর্শিত হবে।
+      National ID:  NID টাইপ করে GO  বাটনে ক্লিক করতে হবে ।
+      Employee Name, Current Office, GPF A/C No, Current Basic Pay, Subscription   Amount,  Commencement Date স্বয়ংক্রিয়ভাবে প্রদর্শিত হবে ।
+      Exclude Interest বক্সের টিক চিহ্ন  দিয়ে সেভ বাটনে ক্লিক করতে হবে ।
+  utter_ans_237:
+  - text: |
+      হিসাবরক্ষণ অফিসের মাধ্যমে  Master Data -> Employee Management ->Employee Basic Information ->Select Employee Type->NID->Go->NID Info Re-Fetch অপশনে ক্লিক করলে বাংলা নাম স্বয়ংক্রিয়ভাবে NID এর সাপেক্ষে প্রদর্শিত হবে,  ইংরেজি নাম টাইপ/এডিট করতে হবে ।
+  utter_ans_238:
+  - text: |
+      কর্মকর্তার বেতন বিল এ BF, GI এবং Stamp duty স্বয়ংক্রিয়ভাবে  যুক্ত হয়, এইজন্য নতুন করে Employee Salary Information -এ BF, GI এবং Stamp duty করতে হবে না ।
+  utter_ans_239:
+  - text: |
+      Master data→ Employee Management মেনু হতে BF/ GI Exception নির্বাচন করতে হবে।
+      Pay Point: স্বয়ংক্রিয়ভাবে প্রদর্শিত হবে।
+      National ID:  NID টাইপ করে GO  বাটনে ক্লিক করতে হবে ।
+      Employee Name, Designation, Office স্বয়ংক্রিয়ভাবে প্রদর্শিত হবে ।
+      Employee On Extension বক্সে টিক চিহ্ন  দিয়ে Extension Period From and To নির্বাচন করে Save বাটনে ক্লিক করতে হবে ।
+  utter_ans_240:
+  - text: |
+      Accounting Transaction-এর Cheque মেনু হতে Change Cheque Book Pay Point নির্বাচন করতে হবে।
+      Cheque Book No: এই ঘরে  চেকের বই নম্বর নির্বাচন করতে হবে।
+      Cheque Series, Cheque No, Existing Pay Point স্বয়ংক্রিয়ভাবে প্রদর্শিত হবে ।
+      New Pay Point: এই ঘরে হিসাবরক্ষণ  অফিস নির্বাচন করে Save বাটনে ক্লিক করতে হবে ।
+  utter_ans_241:
+  - text: |
+      বাংলাদেশ ব্যাংকে Bank Advice প্রেরণের এর পূর্ব পর্যন্ত চেক নম্বর সঠিক করা যাবে । এক্ষেত্রে মনে রাখতে হবে যে, CGA অফিস থেকে প্রতিদিন দুপুর ১২টা এবং ২.৩০টাই  বাংলাদেশ ব্যাংকে Bank Advice Electronically প্রেরণ করে থাকে । Bank Advice প্রেরণের পূর্ব পর্যন্ত নিম্মবর্ণিত পদ্ধতি তে সংশোধন করা যাবে:
+      Accounting Transaction-Cheque মেনু হতে Edit Cheque Number নির্বাচন করতে হবে।
+      Fiscal Year: এই ঘরে Fiscal Year নির্বাচন করতে হবে।
+      Token No:  এই ঘরে Token No  টাইপ করে GO  বাটনে ক্লিক করতে হবে ।
+      Month, Token Date, DDO, Payee Name, Current Cheque Number, Cheque Issue Date স্বয়ংক্রিয়ভাবে প্রদর্শিত হবে ।
+      New Cheque Number: এই ঘরে চেকের সিরিজ নম্বর নির্বাচন করে চেকের নম্বর টাইপ করতে হবে ।
+      Save বাটনে ক্লিক করতে হবে ।
+  utter_ans_242:
+  - text: |
+      চেকের তারিখ Current Date এর পূর্বের তারিখে পরিবর্তন করা যাবে না
+      Accounting Transaction-Cheque মেনু হতে Cheque Issue Date Edit  নির্বাচন করতে হবে।
+      Fiscal Year: এই ঘরে Fiscal Year নির্বাচন করতে হবে।
+      Token No:  এই ঘরে Token No  টাইপ করে GO  বাটনে ক্লিক করতে হবে ।
+      Month, Token Date, DDO, Payee Name, Current Cheque Number, Cheque Issue Date স্বয়ংক্রিয়ভাবে প্রদর্শিত হবে ।
+      Cheque Issue Date: এই ঘরে চেকের তারিখ পরিবর্তন করে Save বাটনে ক্লিক করতে হবে ।
+  utter_ans_243:
+  - text: |
+      ঐ  টোকেনে নতুন কোনো চেক এন্ট্রি করা যাবে না । কারণ চেক ক্যানসেল করা হলে একই সঙ্গে বিল Delete এবং Token Return হয়ে যায় ।
+  utter_ans_244:
+  - text: |
+      আপনাকে CGA অফিস এর  IT  শাখায় যোগাযোগ করতে হবে । কারণ CGA অফিস থেকে প্রতিদিন দুপুর ১২টা এবং ২.৩০টাই  বাংলাদেশ ব্যাংকে Bank Advice Electronically প্রেরণ করা  হয় ।
+  utter_ans_245:
+  - text: |
+      EFT-EFT SMS new মেনু থেকে দেখতে হবে যে EFT SMS পাঠানো হয়েছে কিনা ।
+      Master Data-->Employee Contact Information থেকে কর্মকর্তার মোবাইল নম্বর সঠিক আছে কিনা দেখতে হবে । কোন কোন ক্ষেত্রে দেখা যায় Mobile No :00 অথবা ০১৭১-২৩৪৫৬৯৮ ভুল মোবাইল নম্বর এন্ট্রি করা থাকে । ভুল থাকলে তা সংশোধন করতে হবে পরবর্তী মাস থেকে নিয়মিতভাবে SMS পাবেন ।
+  utter_ans_246:
+  - text: |
+      ২০১৮-১৯ অর্থবছরের GPF Opening Balance Edit and Approve করে তথ্য পরবর্তী বছরে Forward করতে হবে  ।
+  utter_ans_247:
+  - text: |
+      Master Data-DDO Management মেনু থেকে  DDO Information Entry (Single Step) নির্বাচন করতে হবে।
+      Office Type: এই ঘরে Office Type নির্বাচন করতে হবে।
+      Sub Office: এই ঘরে Sub Office নির্বাচন করতে হবে।
+      GO বাটনে ক্লিক করলে নিচের টেবিল এ Bank account Name, Payee Name, Post Title, No of Staff, EFT Ceiling, Status এবং Edit  বাটন স্বয়ংক্রিয়ভাবে প্রদর্শিত হবে ।
+      Edit বাটনে ক্লিক করতে হবে।
+      Post, EFT Ceiling, No of Staff, Mobile, Bank Account Name, Bank Account Number, Bank Account Type, Bank, Bank Branch, Routing No  ঘরগুলোতে তথ্য স্বয়ংক্রিয়ভাবে প্রদর্শিত হবে ।
+      প্রয়োজনীয় তথ্য  পরিবর্তন করে Save  বাটনে ক্লিক করলে DDO তথ্য পরিবর্তন হয়ে যাবে ।
+  utter_ans_248:
+  - text: |
+      Unapproved Bill Cancellation থেকে বিল Cancel করতে হবে ।
+  utter_ans_249:
+  - text: |
+      Bill মেনু হতে Approve Staff Bill  নির্বাচন করতে হবে । Fiscal Year, Month of Accounting, DDO নির্বাচন করে GO বাটনে ক্লিক করতে হবে । নিচে ওই মাসের সবগুলু টোকেন প্রদর্শিত হবে ।
+  utter_ans_250:
+  - text: |
+      এক্ষেত্রে হিসাবরক্ষণ অফিসের মাধ্যমে নির্ধারিত সময়ে Accounting Month open করে নিতে হবে ।
+      Master Data-Month-Open  হতে মাস open করতে হবে ।
+  utter_ans_251:
+  - text: |
+      Bill মেনু হতে Approved Bill Cancellation এর মাধ্যমে বিল ফেরত দিতে হবে ।
+  utter_ans_252:
+  - text: |
+      মাস্টার রোলে কর্মরত কর্মচারীদের বেতন দেওয়া হয় না, তাদেরকে মজুরি বা পারিশ্রমিক দেওয়া হয়, যা কন্টিনজেন্সী বিলের মাধ্যমে হবে ।
+  utter_ans_253:
+  - text: |
+      বেতন বিল হতে একইসঙ্গে রিনের আসল এবং সুদ উভয়ই কর্তন করা যাই না । আসলের কর্তন শেষ হলেই শুধু সুদের কিস্তি শুরু হবে  । এ ক্ষেত্রে Loans and Advance Sanction মেনুর Loan Information এ সংশ্লিষ্ট কর্মকর্তার Installment Start Year এবং Installment Start Month সঠিকভাবে এন্ট্রি না করায় এ সমস্যা হয়েছে ।  সঠিক তথ্য এন্ট্রি দিলে এই সমস্যার সমাধান হবে ।
+  utter_ans_254:
+  - text: |
+      ১৯৭৬ সালে কোনো বেতন স্কেল দেওয়া হয় নাই । ১৯৭৩/১৯৭৭/১৯৮৫/১৯৯১/১৯৯৭/২০০৫/২০০৯  এবং ২০১৫ সালে স্কেল প্রদান করা হয়েছে । ১৯৭৩ সালে গ্রেড-৭ থেকে ১০ মাত্র ৪টি গ্রেড বাস্তবায়ন হয়েছে ঐ ৪টি গ্রেড ব্যতীত অন্য কোনো গ্রেড সিস্টেমে রাখার সুযোগ নাই ।
+  utter_ans_255:
+  - text: |
+      এন্ট্রি দেওয়া যাবে, অনলাইন দ্বায়িত্ব ভাতার ইকোনমিক কোড কোড এ বাজেট বরাদ্দ ছাড়া বিলে ভাতা পাওয়া যাবেনা ।
+  utter_ans_256:
+  - text: |
+      একজন কর্মকর্তা iBAS++ এ self-registration করার তারিখ হতে অনলাইনে বেতন বিল দাখিলের মাধ্যমে বেতন গ্রহণ করতে পারবে।  তবে রেজিস্ট্রেশন পূর্ববর্তী সময়ের বেতন ম্যানুয়ালি Pay Fixation  বা  NID bypass করার মাধ্যমে বেতন ও ভাতাদি নিতে পারবে ।
+      PRL এর ক্ষেত্রে Service Stage Management অপশনে এর আদেশ অন্তর্ভ্যুক্ত পুর্বক বা Entry পুর্বক PRL এ বেতন নিতে পারবে
+  utter_ans_257:
+  - text: |
+      Employee Management এর Basic Information অপশন এর নিচে সংশ্লিষ্ট কর্মকর্তার NID information Re-Fetch বাটনে ক্লিক করলে NID এর বাংলা নাম সংশোধন করা যাবে।
+  utter_ans_258:
+  - text: |
+      ব্যাংক এর তথ্য সংশোধনের ক্ষেত্রে Bank Employee Management অপশনে যেয়ে Bank Information Sub অপশনে যেয়ে সংশোধন করা যাবে । মোবাইল নম্বর পরিবর্তন করার জন্য Employee Contact Information অপশনে যেয়ে সংশোধন করা যাবে
+  utter_ans_259:
+  - text: |
+      Employee এর Designation  ভুল থাকলে অথবা পরিবর্তন করার প্রয়োজন হলে নিম্মবর্ণিত স্টেপসমূহ অনুসন করতে হবে-
+      Master Data → Employee Management→Employee Service information→ Present OPST→drop down তালিকা থেকে পদবি  select করতে হবে
+  utter_ans_260:
+  - text: |
+      শিক্ষা ভাতা প্রাপ্যতার জন্য সন্তানের বয়স ৫ বছরের অধিক এবং ২৩ বৎসরের কম হলে সর্ব্বোচ ২টি সন্তান্টির শিক্ষা ভাতা প্রাপ্য । Employee Basic Information→Family particulars of spouse→ particulars of children এরপর Employee salary information→৩১১১৩০৬  selection কোড selection করতে হবে → add or remove করা যাবে ।
+  utter_ans_261:
+  - text: |
+      একই মন্ত্রণালয় ও একই বিভাগের অধীনে কর্মরত কোনো কর্মকর্তা-কর্মচারী এক দপ্তর হতে অন্য দপ্তরে সাময়িক সময়ের জন্য কাজ দায়িত্ত্ব পালন করাকে  Attachment বলে । Attachment  আদেশ হওয়ার পর তখন তাকে Service Stage Menu তে Attachment সংক্রান্ত তথ্য Entry  করতে হবে ।
+  utter_ans_262:
+  - text: |
+      একজন কর্মকর্তার Bill Submission এর সময় No data found হলে সংশ্লিষ্ট একাউন্ট অফিসের সাথে যোগাযোগ করা উচিত ।
+  utter_ans_263:
+  - text: |
+      GPF Vol. No/Page Entry এর জন্য নিম্মবর্ণিত স্টেপ অনুসরণ করতে হবে-
+      Accounting Transaction→ GPF→ GPF Information→Volume No and Page No এন্ট্রি করা যাবে
+      GPF Interest Excluded এর ক্ষেত্রে  GPF Subscription Configuration→ Subscription Configuration→ NID→ Go → GPF  তথ্য স্ক্রিনে Exclude Interest অপশনে টিক দিয়ে Save করলে Interest Service বন্ধ হয়ে যাবে
+      ৫২ বছর পর GPF কর্তন করতে না চাইলে GPF Subscription Configuration→ Subscription Configuration→ NID→Go→GPF  তথ্য স্ক্রিনে Active অপশনে টিক চিহ্ন উঠিয়ে দিতে হবে তাহলে কর্তন GPF বন্ধ হয়ে যাবে
+  utter_ans_264:
+  - text: |
+      পেনশন গমনের পর একজন কর্মকর্তার বকেয়া বেতন প্রদান করার পদ্ধতি নিম্মরূপ:
+      Master Data→ Employee Management→ Employee Joining এ আলোচ্য কর্মকর্তাকে সংশ্লিষ্ট অফিসের সাথে লিংক স্থাপন করতে হবে। এরপর কর্মকর্তাকে  ম্যানুয়াল টোকেন পদ্ধতিতে বেতন ভাতা প্রদান করা যাবে ।
+  utter_ans_265:
+  - text: |
+      পে-ফিক্সেশন মডিউলে এপ্রথম নিয়োগ, অফিস, মোবাইল নম্বর, পদবি পরিবর্তন করার জন্য আলোচ্য কর্মকর্তা/কর্মচারীকে সংশ্লিষ্ট একাউন্ট অফিসে যোগাযোগ করতে হবে এবং একাউন্ট অফিসার Verified Data correction  অপশনে নিম্মবর্ণিত পদ্ধতিতে তথ্য সংশোধন করবেন ।
+      Entry Approval→Verified Data Correction menu তে যেয়ে তথ্য পরিবর্তন করতে পারবেন ।
+  utter_ans_266:
+  - text: |
+      Accounting Transection→ Loans and Advances→ Loan and Advance sanction অপশনে যেয়ে প্রয়োজনীয় তথ্য correction করা যাবে ।
+  utter_ans_267:
+  - text: |
+      কোনো কর্মকর্তার এক চাকুরী হতে অন্য চাকুরীতে যোগদান করলে তার পূর্বের চাকুরীর সমুদয় অর্থ সুদসহ চুড়ান্ত পরিশোধ করতে হবে । পরবর্তীতে অন্য চাকুরিতে নতুন করে GPF হিসাব চালু করতে হবে (যদি চাকুরীর ধারাবাহিকতা না থাকে । যদি চাকুরীর ধারাবাহিকতা  থাকে তাহলে Fund Transfer অথবা Ledger Transfer করতে হবে ।
+  utter_ans_268:
+  - text: |
+      Interest Free Car Loan, Bill payment, Process এর ক্ষেত্রে করণীয়:
+      Accounting Transaction→Loan and Advance→ Loan and Advance Sanction এ এন্ট্রি করে সেভ করার পর Token →Token Entry (others) তে যেয়ে সকল তথ্য সিলেক্ট করতে হবে ।
+      Loan and Advance bill Entry→ Bill types →Accounting transaction→ Loan to Govt. Employee (72151XX)→Payee type (কর্মচারী DDO/কর্মকর্তা NID দিবে)→ Save Accounting Transaction→Loan and Advance→ Loan and Advance Bill Entry→ Bill Details এ Token No দিলে → Loan Selection এর ধরণ সিলেকশনের পর করতে হবে ।
+  utter_ans_269:
+  - text: |
+      House Building Loan, Bill entry Advance, Entry, Edit add এর  ক্ষেত্রে করণীয়:
+      Accounting Transaction→Loan and Advance→ Loan and Advance Sanction এ এন্ট্রি করে সেভ করার পর Token →Token Entry (others) তে যেয়ে সকল তথ্য সিলেক্ট করতে হবে ।
+      Loan and Advance bill Entry→ Bill types →Accounting transaction→ Loan to Govt. Employee (72151XX)→Payee type (কর্মচারী DDO/কর্মকর্তা NID দিবে)→ Save Accounting Transaction→Loan and Advance→ Loan and Advance Bill Entry→ Bill Details এ Token No দিলে → Loan Selection এর ধরণ সিলেকশনের পর করতে হবে ।
+  utter_ans_270:
+  - text: |
+      Authorization এর বাজেট এর টোকেন এন্ট্রির পদ্ধতি:
+      Accounting Transaction→ Token→ Token Entry (others)→Ministry selection/ DDO selection→ Month selection(চলতি মাস) → DDO Bill No→ Bill Type→ Payee Type→ DDO /supplier/ Concern Officer→ NID (Concern Officer হলে শুধু NID সিলেক্ট করতে হবে । যদি ডিডিও হয় তাহলে ডিডিও সিলেক্ট করতে হবে । যদি Supplier  হয় তখন supplier এর NID/TIN no/Mobile no/VAT registration নম্বর সিলেক্ট করতে হবে) এর পর Net Amount দিয়ে Save করতে হবে।
+      Authorization এর বাজেট এর Bill এন্ট্রির পদ্ধতি:
+      Accounting Transaction→Bill→Bill Entry (others)→Ministry selection→ DDO (টোকেন দেওয়ার সময় যে ডিডিও দেওয়া হয়েছে )→office code→ Fiscal Year → Accounting Month(চলতি মাস) → Token No → Go তারপর Bill Transaction এ Details প্রদর্শিত হবে→ এই স্ক্রিনে Economic Code→Organization→ Operation/ General/ Activity→ Mode of Financing→ Debit ও Credit এ Amount Entry→Save করতে হবে ।
+  utter_ans_271:
+  - text: |
+      একজন কর্মকর্তা/কর্মচারী Online Pay Bill দাখিল করার জন্য iBAS++ সিস্টেমে কর্মকর্তা/কর্মচারীর  তথ্যাদি এন্ট্রির সময় NID  প্রয়োজন হয় ।
+  utter_ans_272:
+  - text: |
+      গ্যাস এর বিলের কোডসমূহ:
+      ১. ৮১৭২৪০১-  তিতাস গ্যাস বিল
+      ২. ৮১৭২৪০২- বাখরাবাদ গ্যাস বিল
+      ৩. ৮১৭২৪০৩- জালালাবাদ গ্যাস বিল
+      ৪. ৮১৭২৪০৪- কণফুলী গ্যাস বিল
+      ৫. ৮১৭২৪০৫-  পশ্চিম  অঞ্চল গ্যাস বিল
+      Employee Salary Information→Next→ Deduction→ Gas code selection→Fund এর Drop Down মেনুতে→ (20000000) Public Account of the Republic →Amount→add→save গ্যাস এর বিলের ক্ষেত্রে কোড না পেলে বর্ণিত ৫টি কোড  হতেনির্ধারিত  কোড সিলেক্ট করে Entry করা যাবে ।
+  utter_ans_273:
+  - text: |
+      DDO মডিউলের DDO  হিসেবে  Online Pay Bill Menu তে DDO একজন কর্মচারীর  release এবং joining দিতে পারবে । সে ক্ষেত্রে নিম্ম বর্ণিত স্টেপসমূহ অনুসরণ করতে হবে -
+      Budget Execution→Online Pay Bill→Release an Employee
+      Budget Execution→Online Pay Bill→ Employee joining
+  utter_ans_274:
+  - text: |
+      মৃত ব্যক্তির জন্য যে ডিডিও নিয়োগ করা হয় সে ক্ষেত্রে সংস্লিষ্ট ডিডিও এর ব্যাঙ্ক একাউন্ট থেকে মৃত ব্যক্তির প্রাপ্য বেতন ও বাতাস যাবতীয় পাওনা (পেনশন ও গ্রাচুইটি ব্যাতিত) পরিশোধ করা যাবে ।
+  utter_ans_275:
+  - text: |
+      DDO এর মোবাইল নম্বর পরিবর্তন করার প্রয়োজন আছে কারণ অনলাইন পে-বিল Submit  এর পরে ডিডিও এর মোবাইল এ OTP মেসেজ যাবে ।
+      যেহেতু OTP ছাড়া কর্মকর্তার বেতন বিল অনলাইন Submission  করা যাই না সে ক্ষেত্রে ডিডিও বদলি হলে তার  স্থলে অন্য একজন কর্মকর্তার যদিও এর পালন করলে তার মোবাইল নম্বর টি প্রতিস্থাপিত হবে ।
+      করণীয়: iBAS++  এর সাপোর্ট টীম এর সাথে যোগাযোগ করে ডিডিও এর মোবাইল নম্বর পরিবর্তন করতে হবে।
+  utter_ans_276:
+  - text: |
+      To open a new DDO-
+      As per Treasury Rule SR 65 appointment of DDO should have GO issued by the Ministry.
+      Specimen signature of the new DDO should be attested by the previous DDO and sent
+      DDO Information Form must be filled up
+      DDO data entry should be done by CAFO of concerned ministry
+  utter_ans_277:
+  - text: |
+      Yes. DDO is responsible for filing and forwarding the salary bills of the employees.
+  utter_ans_278:
+  - text: |
+      Bills can be paid through EFT after entry, storage and approval of personal information, employment information and bank account information. But it is better to enter all the information according to the form.
+  utter_ans_279:
+  - text: |
+      A) Master Data-->Employee Type Change Request->NID with current type Select Employee Type to change(Correct), Select Reason: The reason for Type Change should be mentioned [auditor should give correct entry].
+      B) Master Data--> Employee Type Change Approve [to be approved by A&AO]
+  utter_ans_280:
+  - text: |
+      NID Bypass has to be done for following reasons-
+      Partial Salary for new appointment.
+      Partial salary for Fractional bill (Bill pending before UserID registration)
+      Employee from Defense to Civil Contractual Service.
+      Steps of NID Bypass:
+      Master Data--> Employee Management-->NID Bypass Entry
+      Master Data--> NID Bypass Check (New) [To be approved by A&AO]
+      Master Data-->NID Bypass Approve (New) to be approved by DCA/CAO/FC/SFC]
+  utter_ans_281:
+  - text: |
+      Master Data--> Employee Management--> Religion Information Edit
+  utter_ans_282:
+  - text: |
+      In this case, the salary determination must be revised first. The NID number with which the pay-fixation is done will be effective.
+  utter_ans_283:
+  - text: |
+      Staff should be joined by the designated DDO of the correct office through Master Data-->Employee Management-->Employee Joining menu.
+  utter_ans_284:
+  - text: |
+      From the employee status, check the employee's office and under which DDO the entry is made. It should be remembered that the staff information is entered from the user ID and the staff should be released and joined by the designated DDO of the correct office using the user ID.
+  utter_ans_285:
+  - text: |
+      In both cases, the pending bill information of the concerned employee should be cleared or canceled/returned through Token/Bill after knowing from Reports-->Token Reports-->Token Search by NID report. Then release the employee through the Release an Employee screen
+  utter_ans_286:
+  - text: |
+      In order to get DDO (Drawing and Disbursing Officer) Role with the help desk, there should be a GO issued by the Ministry for appointment of DDO as per Treasury Rule SR 65. And DDO Information Form should be submitted by FIll-up.
+  utter_ans_287:
+  - text: |
+      To change the NID number of an officer follow the steps below-
+      Select Master Data-Employee Management-Change Employee NID
+      Pay Point: Pay Point will be displayed automatically in this cell
+      Ministry: This Ministry should be selected
+      DDO: Select DDO in this cell
+      Office Code: will be displayed automatically
+      Clicking the GO button will show Existing NID, Name, Designation, New NID, Save button under the Employee section.
+      New NID: Type the correct NID in this box and click the button
+  utter_ans_288:
+  - text: |
+      Multiple NIDs must be Marge using Merge Employee NID menu via CAFO/DCA
+  utter_ans_289:
+  - text: |
+      From Employee Status, Employee - NID Employee Name, Employee Type, Pay Point, Designation, Date of Birth, Mobile no, Office, Own DDO, GPF Number, Bank/branch Office and under which DDO the entry is made can be known.
+  utter_ans_290:
+  - text: |
+      If the NID entered in Staff's Budget Execution-->Master Data-->Employee Information Entry does not match with the Pay Fixation NID, such a message is displayed.
+  utter_ans_291:
+  - text: |
+      6(a) of Pay Fixation If the first joining date is blank or incorrect then such message is displayed
+  utter_ans_292:
+  - text: |
+      Click on Master Data->Employee Management->Employee Basic Information->Select Employee Type->NID->Go->NID Info Re-Fetch button, Bengali name will be displayed in favor of NID, English name has to be typed
+  utter_ans_293:
+  - text: |
+      Pay Fixation information will be corrected from the Respective Accounts office (using Pay Fixation >Verified data Fixation” correction menu).
+  utter_ans_294:
+  - text: |
+      iBAS++ Spouse's NID is mandatory. If there is no NID, leave it blank. As soon as possible, after registration, edit the information and make the entry
+  utter_ans_295:
+  - text: |
+      Spouse will enter details of either child, but will get an education allowance along with one's salary. Mother will be given priority in availing child education allowance.
+  utter_ans_296:
+  - text: |
+      Pay Fixation information should be corrected from Respective Accounts office
+  utter_ans_297:
+  - text: |
+      In case of partial bill, the bill has to be submitted manually (in hard copy) through the accounting office
+  utter_ans_298:
+  - text: |
+      First enter the employee information, then create the group
+  utter_ans_299:
+  - text: |
+      If there is no economic code permission against office code, helpdesk should be taken
+  utter_ans_300:
+  - text: |
+      An officer cannot submit multiple salary bills in the same Salary Month. In this case, check whether the Token of that Salary Month has already been applied to the officer. To find the salary information along with the salary token number of the respective month, it should be known from the report whether the salary bill of that month has already been submitted.
+      In case of a partial bill in the joining month, the bill must be submitted manually through the accounting office.
+  utter_ans_301:
+  - text: |
+      Accounting office knows Employee Name, Employee Type, Pay Point, Designation, Date of Birth, Mobile no, Office, Own DDO, GPF Number, Bank/Branch Office and under which DDO entry is made with respect to Employee - NID Must be, and pay bill forwarded with proper DDO
+  utter_ans_302:
+  - text: |
+      Save with correct detailed entry in Master Data-->Service Stage Management-->PRL Entry option. After approval of PRL information by the Accounts Office/DDO, bills for full month and partial bills should be submitted manually (in hard copy) through the Accounts Office.
+  utter_ans_303:
+  - text: |
+      Service Stage Management: In order to facilitate the service of government employees from iBAS++ and to avoid the hassle of going to and from the accounting office, the following new options under the title of Service Stage have been added to the iBAS++ system.
+      After clicking Service Stage Management, under Stages:
+      Attachment: (Official holding a permanent post in a department working temporarily against his original post attached to any other department within a Ministry/Department)
+      PRL: Retirement Northern Leave Benefit
+      Deputation:
+      Deputation (Budgetary Central Govt)
+      Deputation (Outside the budgetary central government)
+      Lien: To work temporarily in any project/programme/organization or organization outside of direct revenue subject to the permission of the government while keeping the original position of the officer of a ministry/department under the government revenue budget intact.
+      Suspension: Suspension from employment
+      Leave: Leave
+  utter_ans_304:
+  - text: |
+      Stages of employment [“Attachment”, “PRL Entry”, “Deputation”, “Lien”, “Suspension”, “Leave”] in all cases do not start on the 1st date of any calendar month and end on the last date of the calendar month. With the change of stage in the service, in most cases the allowance changes Partial Bills are payable in cases where the commencement and termination dates are not on the first and last dates of the month, but on any date in between.
+  utter_ans_305:
+  - text: |
+      a) Map Office with Region - This option should be used if all the officers/employees are located outside the region.
+      b) Map Employee with Region - If the location of the concerned office is in the city area but the workplace of a part of the staff/employees is outside the city area, then this option has to be used.
+      Caution: These 2 options have been added only for the Accounts Officers of those City Areas where the mentioned problem exists. These options are not applicable to all accounting officers.
+  utter_ans_306:
+  - text: |
+      Name cannot be added, must be left blank. As soon as possible after birth registration, edit the information and give the birth registration entry.
+  utter_ans_307:
+  - text: |
+      Yes. The nominee can be changed through the officer who has opened the account in the account keeping office by filling up GPF 9B and 9C forms.
+  utter_ans_308:
+  - text: |
+      Select Pay Fixation Detail Report from the Reports menu.
+      National Identity Card (NID) Number: Type NID in this box and click on the view information button. Then check the basic salary of the officer from the report.
+      Master Data-->Employee Management-->Employee Salary Information must be selected.
+      Employee Type: GOB Officer must be selected.
+      Type NID and click on the GO button.
+      Emoluments and Allowances : See if there is any difference in the salary shown in the Detail Report of the Amount of Economic- 3111101- Basic pay (Officer) in this part.
+      If a difference in basic salary is observed (if increment is not applied) then salary determination should be updated first.
+      Then Economic- 3111101- Basic pay (Officer) Amount from Employee Information Entry (Single Step) and click on save button.
+  utter_ans_309:
+  - text: |
+      GPF Subscription Configuration must be selected from the Accounting Transaction-GPF menu.
+      Pay Point: will be displayed automatically.
+      National ID: Type NID and click on GO button.
+      Employee Name, Current Office, GPF A/C No, Current Basic Pay, Subscription Amount, Commencement Date will be displayed automatically.
+      Subscription Amount: Change the GPF subscription amount in this room and click on save button.
+  utter_ans_310:
+  - text: |
+      GPF Subscription Configuration must be selected from the Accounting Transaction-GPF menu.
+      Pay Point: will be displayed automatically.
+      National ID: Type NID and click on the GO button.
+      Employee Name, Current Office, GPF A/C No, Current Basic Pay, Subscription Amount, Commencement Date will be displayed automatically.
+      Check the Active box and click on the Save button.
+  utter_ans_311:
+  - text: |
+      GPF Subscription Configuration must be selected from the Accounting Transaction-GPF menu.
+      Pay Point: will be displayed automatically.
+      National ID: Type NID and click on the GO button.
+      Employee Name, Current Office, GPF A/C No, Current Basic Pay, Subscription Amount, Commencement Date will be displayed automatically.
+      Check the Exclude Interest box and click the Save button.
+  utter_ans_312:
+  - text: |
+      By clicking on Master Data -> Employee Management ->Employee Basic Information ->Select Employee Type->NID->Go->NID Info Re-Fetch option through Accounting Office, Bangla Name will automatically be displayed with respect to NID,  English Name need to be type/edit .
+  utter_ans_313:
+  - text: |
+      BF, GI and Stamp duty are automatically added to the salary bill of the officer, so there is no need to add BF, GI and Stamp duty in the new Employee Salary Information.
+  utter_ans_314:
+  - text: |
+      Select BF/GI Exception from Master data→Employee Management menu.
+      Pay Point: will be displayed automatically.
+      National ID: Type NID and click on GO button.
+      Employee Name, Designation, Office will be displayed automatically.
+      Select Extension Period From and To by ticking the Employee On Extension box and click Save button.
+  utter_ans_315:
+  - text: |
+      Change Checkbook Pay Point must be selected from the Check menu of Accounting Transaction.
+      Check Book No: Select the check book number in this cell.
+      Check Series, Check No, Existing Pay Point will be displayed automatically.
+      New Pay Point: Select the accounting office in this room and click the Save button.
+  utter_ans_316:
+  - text: |
+      Check number can be corrected before sending Bank Advice to Bangladesh Bank. In this case, it should be remembered that the CGA office sends Bank Advice electronically to Bangladesh Bank every day between 12:00 noon and 2:30 p.m. Bank Advice can be amended in the following manner before dispatch:
+      Select Edit Check Number from the Accounting Transaction-Cheque menu.
+      Fiscal Year: Fiscal Year must be selected in this cell.
+      Token No: Type Token No in this box and click on the GO button.
+      Month, Token Date, DDO, Payee Name, Current Check Number, Check Issue Date will be displayed automatically.
+      New Check Number: Select the series number of the check and type the check number in this cell.
+      Click on Save button.
+  utter_ans_317:
+  - text: |
+      Check date cannot be changed to date earlier than Current Date
+      From the Accounting Transaction-Cheque menu, select Check Issue Date Edit.
+      Fiscal Year: Fiscal Year must be selected in this cell.
+      Token No: Type Token No in this box and click on the GO button.
+      Month, Token Date, DDO, Payee Name, Current Check Number, Check Issue Date will be displayed automatically.
+      Check Issue Date: Change the check date in this room and click Save button.
+  utter_ans_318:
+  - text: |
+      No new check entries can be made in that token. Because if the check is canceled, the bill will be deleted and the token will be returned at the same time.
+  utter_ans_319:
+  - text: |
+      You have to contact the IT branch of the CGA office. Because Bank Advice is electronically sent to Bangladesh Bank every day at 12 noon and 2.30 pm from the CGA office.
+  utter_ans_320:
+  - text: |
+      EFT-EFT SMS new menu to see if EFT SMS has been sent.
+      From Master Data-->Employee Contact Information, check whether the official's mobile number is correct. In some cases it is seen that Mobile No :00 or 0171-2345698 wrong mobile number is entered. If there is a mistake, it should be corrected. You will receive regular SMS from next month.
+  utter_ans_321:
+  - text: |
+      Edit and approve GPF Opening Balance of 2018-19 financial year and forward the information to next year.
+  utter_ans_322:
+  - text: |
+      Select DDO Information Entry (Single Step) from Master Data-DDO Management menu.
+      Office Type: Office Type should be selected in this cell.
+      Sub Office: Select Sub Office in this cell.
+      If you click on the GO button, Bank account Name, Payee Name, Post Title, No of Staff, EFT Ceiling, Status and Edit button will automatically appear in the table below.
+      Click on the Edit button.
+      Information will be automatically displayed in Post, EFT Ceiling, No of Staff, Mobile, Bank Account Name, Bank Account Number, Bank Account Type, Bank, Bank Branch, Routing No cells.
+      If you change the required information and click on the Save button, the DDO information will be changed.
+  utter_ans_323:
+  - text: |
+      Bill must be canceled from Unapproved Bill Cancellation.
+  utter_ans_324:
+  - text: |
+      Select Approve Staff Bill from the Bill menu. Select Fiscal Year, Month of Accounting, DDO and click on the GO button. All the tokens for that month will be displayed below.
+  utter_ans_325:
+  - text: |
+      In this case, the Accounting Month should be opened at the appointed time through the accounting office.
+      Month must be open from Master Data-Month-Open.
+  utter_ans_326:
+  - text: |
+      The bill must be returned through Approved Bill Cancellation from the Bill menu.
+  utter_ans_327:
+  - text: |
+      Employees working on Master Roll are not paid, they are paid wages or remuneration, which will be through Contingency Bills.
+  utter_ans_328:
+  - text: |
+      Both principal and interest are not deducted from the salary bill at the same time. Only the interest installment will start after the actual deduction is over. In this case, the problem has arisen because the concerned officer has not correctly entered the Installment Start Year and Installment Start Month in the Loan Information of the Loans and Advance Sanction menu. Correct data entry will solve this problem.
+  utter_ans_329:
+  - text: |
+      No pay scale was given in 1976. Scale provided in 1973/1977/1985/1991/1997/2005/2009 and 2015. In 1973 only 4 grades were implemented from grade 7 to 10, there is no opportunity to keep any other grade system except those 4 grades.
+  utter_ans_330:
+  - text: |
+      Entries can be made, No allowance will be available in the bill without budget allocation on Online Duty Allowance Economic Code.
+  utter_ans_331:
+  - text: |
+      An officer can receive salary by submitting a pay bill online from the date of self-registration in iBAS++. However, registration can take salary and allowances for the previous period manually by doing Pay Fixation or NID bypass.
+      In case of PRL, in the Service Stage Management option, the order can be paid in pre-entry or pre-entry PRL.
+  utter_ans_332:
+  - text: |
+      The Bengali name of the NID can be corrected by clicking on the NID information Re-Fetch button of the concerned officer under the Basic Information option of Employee Management.
+  utter_ans_333:
+  - text: |
+      In case of correction of bank information, correction can be done by going to the Bank Employee Management option and going to the Bank Information Sub option. To change the mobile number can be modified by going to the Employee Contact Information option .
+  utter_ans_334:
+  - text: |
+      If the Employee's Designation is wrong or needs to be changed, the following steps should be followed-
+      Master Data→Employee Management→Employee Service information→Present OPST→Select last name from drop down list
+  utter_ans_335:
+  - text: |
+      Education Allowance Eligibility If the child is more than 5 years and less than 23 years then maximum 2 children are eligible for Education Allowance. Employee Basic Information → Family particulars of spouse → particulars of children then Employee salary information → 3111306 selection code should be selected → add or remove can be done.
+  utter_ans_336:
+  - text: |
+      An officer-employee working under the same ministry and the same department from one office to another office for a temporary period is called attachment. After the attachment is ordered, he has to enter the information related to the attachment in the Service Stage Menu.
+  utter_ans_337:
+  - text: |
+      An officer should contact the concerned account office if no data is found during Bill Submission.
+  utter_ans_338:
+  - text: |
+      GPF Vol. For No/Page Entry the following steps are to be followed-
+      Accounting Transaction→GPF→GPF Information→Volume No and Page No can be entered.
+      In case of GPF Interest Excluded, GPF Subscription Configuration→ Subscription Configuration→ NID→ Go → Save by ticking the Exclude Interest option on the GPF information screen will stop the Interest Service.
+      If you don't want to deduct GPF after 52 years, check Active option in GPF Subscription Configuration → Subscription Configuration → NID → Go → GPF information screen, then deduction GPF will be stopped.
+  utter_ans_339:
+  - text: |
+      The procedure for payment of salary arrears of an officer after retirement is as follows:
+      In Master Data→Employee Management→Employee Joining, the concerned officer has to establish a link with the concerned office. After that the salary allowance can be paid to the official by manual token system.
+  utter_ans_340:
+  - text: |
+      In order to change the first appointment, office, mobile number, designation in the Pay-Fixation module, the concerned officer/employee should contact the respective account office and the account officer will correct the information in the following manner in the Verified Data correction option.
+      You can change the information by going to Entry Approval→Verified Data Correction menu.
+  utter_ans_341:
+  - text: |
+      The required information can be corrected by going to Accounting Transaction → Loans and Advances → Loan and Advance sanction option.
+  utter_ans_342:
+  - text: |
+      If an officer joins another job from one job, he has to pay all the money of his previous job with interest. Later, a new GPF account should be opened in another job (if there is no continuity of service. If there is continuity of service then Fund Transfer or Ledger Transfer should be done.
+  utter_ans_343:
+  - text: |
+      Interest Free Car Loan, Bill payment, Process:
+      After entering Accounting Transaction→Loan and Advance→Loan and Advance Sanction and saving, go to Token→Token Entry (others) and select all information.
+      Loan and Advance bill Entry→ Bill types →Accounting transaction→ Loan to Govt. Employee (72151XX)→Payee type (Employee will give DDO/Employee NID)→Save Accounting Transaction→Loan and Advance→Loan and Advance Bill Entry→If Token No is given in Bill Details→Loan Selection type should be done after selection.
+  utter_ans_344:
+  - text: |
+      What to do in case of House Building Loan, Bill entry Advance, Entry, Edit add:
+      After entering Accounting Transaction→Loan and Advance→Loan and Advance Sanction and saving, go to Token→Token Entry (others) and select all information.
+      Loan and Advance bill Entry→ Bill types →Accounting transaction→ Loan to Govt. Employee (72151XX)→Payee type (Employee will give DDO/Employee NID)→Save Accounting Transaction→Loan and Advance→Loan and Advance Bill Entry→If Token No is given in Bill Details→Loan Selection type should be done after selection.
+  utter_ans_345:
+  - text: |
+      Method of Token Entry of Authorization Budget:
+      Accounting Transaction → Token → Token Entry (others) → Ministry selection/ DDO selection → Month selection (current month) → DDO Bill No → Bill Type → Payee Type → DDO /supplier/ Concern Officer → NID (If Concern Officer only select NID Yes. If it is DDO then select DDO. If it is Supplier then select supplier's NID/TIN no/Mobile no/VAT registration number) then save with Net Amount.
+      Method of Bill Entry of Authorization Budget:
+      Accounting Transaction→Bill→Bill Entry (others)→Ministry selection→DDO (the DDO given at the time of token issue)→office code→Fiscal Year→Accounting Month(current month)→Token No→Go Then Details will be displayed in Bill Transaction→ On this screen Economic Code→Organization→Operation/General/Activity→Mode of Financing→Debit and Credit Amount Entry→Save.
+  utter_ans_346:
+  - text: |
+      NID is required at the time of entry of details of officer/employee in iBAS++ system for filing Online Pay Bill of an officer/employee.
+  utter_ans_347:
+  - text: |
+      Gas Bill Codes:
+      1. 8172401- Titus Gas Bill
+      2. 8172402- Bakhrabad Gas Bill
+      3. 8172403- Jalalabad Gas Bill
+      4. 8172404- Karnaphuli Gas Bill
+      5. 8172405- Western Region Gas Bill
+      Employee Salary Information → Next → Deduction → Gas code selection → In the drop down menu of Fund → (20000000) Public Account of the Republic → Amount → add → save If you do not get the code for the gas bill, you can select the code from the 5 codes mentioned and make an entry.
+  utter_ans_348:
+  - text: |
+      As DDO of DDO module, DDO can give release and joining of an employee in Online Pay Bill Menu. In that case the following steps are to be followed –
+      Budget Execution→Online Pay Bill→Release an Employee
+      Budget Execution→Online Pay Bill→Employee joining
+  utter_ans_349:
+  - text: |
+      In case the DDO is appointed for the deceased, the salary and allowances due to the deceased (excluding pension and gratuity) can be paid from the bank account of the concerned DDO.
+  utter_ans_350:
+  - text: |
+      There is a need to change the mobile number of DDO because OTP messages will be sent to DDO's mobile after online pay-bill submission.
+      Since the salary bill of the officer cannot be submitted online without OTP, in case of transfer of DDO, another officer will replace him, but if he complies, his mobile number will be replaced.
+      To Do: Change the mobile number of DDO by contacting iBAS++ support team.
+  utter_nid:
+  - text: |
+      Your nid is validated
+  utter_redirect:
+  - text: |
+      "Redirecting to the website..."
+    buttons:
+    - title: Click here to visit the website
+      url: https://www.example.com
+      webexte: true
+actions:
+- action_show_project_category
+- action_get_project_oid
+- action_get_category_oid
+- action_show_category_list
+- action_create_issue
+- action_set_category_oid
+- action_redirect_website
+- action_check_nid
+- action_validate_nid
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

@@ -1,0 +1,4 @@
+venv/
+actions/__pycache__/**
+actions/ticketing/__pycache__/**
+models/*
