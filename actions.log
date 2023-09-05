@@ -1,0 +1,2432 @@
+action_show_category_list
+category oid sdfoisudfoiusodifu
+Category Oid 2: sdfoisudfoiusodifu
+action set category oid was called
+ user events 2
+issue sdfoisudfoiusodifu
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'e8b77d4b-d8e4-4ff6-a201-d322b9ea0680', 'registered_user_session_uuid': 'c212f800-da3b-40e3-8e0d-c7c2d3716302', 'chatbot_socket_created_at': '2023-07-14T17:03:58.191791Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': 'ed6f7954-1a95-4f75-9971-6463b7e549fe', 'issuerOid': 'f690f56c-c048-4490-99c1-f24bbfa30ad1'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: e8b77d4b-d8e4-4ff6-a201-d322b9ea0680
+Action create issue was called
+action_show_category_list
+category oid fgoidfpoidpfoigd
+Category Oid 2: fgoidfpoidpfoigd
+action set category oid was called
+ user events 3
+issue fgoidfpoidpfoigd
+happenig <3
+category oid issue creation: c948d3e4-6f1c-4452-af43-7630319035d1
+The value of the slot is: categoryc948d3e4-6f1c-4452-af43-7630319035d1
+The value of the trimmed slot is: c948d3e4-6f1c-4452-af43-7630319035d1
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '67e08963-0f0a-4213-830b-f9be9da3e3ca', 'registered_user_session_uuid': 'aa8f2184-3393-4830-9b40-e88083b6eb80', 'chatbot_socket_created_at': '2023-07-14T17:06:17.714167Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': 'ae983a9f-3990-421c-a2a8-7d2504b76aa8', 'issuerOid': '05a35605-74f0-46ef-97fa-112aa8eaaa18'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 67e08963-0f0a-4213-830b-f9be9da3e3ca
+Action create issue was called
+action_show_category_list
+category oid dsfoisudfoiusdf
+Category Oid 2: dsfoisudfoiusdf
+action set category oid was called
+ user events 2
+issue dsfoisudfoiusdf
+happenig <4
+category oid issue creation: c948d3e4-6f1c-4452-af43-7630319035d1
+The value of the slot is: categoryc948d3e4-6f1c-4452-af43-7630319035d1
+The value of the trimmed slot is: c948d3e4-6f1c-4452-af43-7630319035d1
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '07ea9166-2549-42d7-9dc1-3226394c4e45', 'registered_user_session_uuid': '3e46ce89-6b74-436d-bb40-553a52eaf023', 'chatbot_socket_created_at': '2023-07-15T05:57:18.847984Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '795397d8-910c-4068-a44e-c8711c982779', 'issuerOid': 'a83eaba1-1afe-4f5b-8bed-4c0cbe2fe7f3'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 07ea9166-2549-42d7-9dc1-3226394c4e45
+Action create issue was called
+action_show_category_list
+category oid sadoiuasodiasuoiu
+Category Oid 2: sadoiuasodiasuoiu
+action set category oid was called
+ user events 2
+issue sadoiuasodiasuoiu
+happenig <4
+category oid issue creation: f994e1c3-74fc-4103-a717-2ee56fd16959
+The value of the slot is: categoryf994e1c3-74fc-4103-a717-2ee56fd16959
+The value of the trimmed slot is: f994e1c3-74fc-4103-a717-2ee56fd16959
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'a188c16b-6684-45e9-8ab7-03295c017bdb', 'registered_user_session_uuid': '51c5e08d-998e-4dd7-9e7f-0b3462692ee5', 'chatbot_socket_created_at': '2023-07-15T05:57:57.015965Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '468e9889-4445-4875-8f72-ef0a59834cd8', 'issuerOid': '5a0a1988-ac06-4587-bd38-594519048f62'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: a188c16b-6684-45e9-8ab7-03295c017bdb
+Action create issue was called
+action_show_category_list
+category oid dofifusodfiusodifu
+Category Oid 2: dofifusodfiusodifu
+action set category oid was called
+ user events 2
+issue dofifusodfiusodifu
+happenig <4
+category oid issue creation: a57aae16-51fc-4338-8405-19dd5424cceb
+The value of the slot is: categorya57aae16-51fc-4338-8405-19dd5424cceb
+The value of the trimmed slot is: a57aae16-51fc-4338-8405-19dd5424cceb
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '7e876b07-ca52-4e57-9fa6-95ef32f74aa4', 'registered_user_session_uuid': 'a1dfad45-a65c-4492-9cd5-2e5070fb8d1b', 'chatbot_socket_created_at': '2023-07-15T05:58:20.356571Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': 'a508adf2-68fe-481b-b5f0-426dcd62a6b4', 'issuerOid': '87e5acf1-e39b-4713-9fe9-5fbb22e6b3ab'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 7e876b07-ca52-4e57-9fa6-95ef32f74aa4
+Action create issue was called
+action_show_category_list
+category oid asoiduaosiduoaisdu
+Category Oid 2: asoiduaosiduoaisdu
+action set category oid was called
+ user events 2
+issue asoiduaosiduoaisdu
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'dc12badc-aa4e-4817-92d7-8cc2825b51a0', 'registered_user_session_uuid': '97a81b7b-dfec-4df7-936c-8ace3eef9f4a', 'chatbot_socket_created_at': '2023-07-15T05:58:38.422575Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '486e6202-72be-422c-89f5-389e97693dd2', 'issuerOid': '3890f7a1-7a86-4803-b20c-9de66b9fb57f'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: dc12badc-aa4e-4817-92d7-8cc2825b51a0
+Action create issue was called
+action_show_category_list
+category oid sdfoiusduiysdfysdf
+Category Oid 2: sdfoiusduiysdfysdf
+action set category oid was called
+ user events 2
+issue sdfoiusduiysdfysdf
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'c79741f0-0069-47eb-bf8f-c2efe0d5f40f', 'registered_user_session_uuid': '9d5cd5f8-c531-43dc-9c13-453a9a1c3eb4', 'chatbot_socket_created_at': '2023-07-15T05:59:19.799840Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '19f8f394-c643-40ba-b574-ca509e18cad6', 'issuerOid': '17c74768-1021-4bbc-a194-a18fe7c432ae'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: c79741f0-0069-47eb-bf8f-c2efe0d5f40f
+Action create issue was called
+action_show_category_list
+category oid sdofiusodfiuoiusfd
+Category Oid 2: sdofiusodfiuoiusfd
+action set category oid was called
+ user events 2
+issue sdofiusodfiuoiusfd
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'c2df5b44-d6be-49ce-ac98-1b19e84f8d88', 'registered_user_session_uuid': '2d93b896-ef66-411f-887a-ecd902f9c1e1', 'chatbot_socket_created_at': '2023-07-15T05:59:55.008020Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '993a0eac-9f0a-4e66-b351-c1c73637cced', 'issuerOid': 'ee42ac53-d65e-4b61-a4bc-9e194742e2ff'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: c2df5b44-d6be-49ce-ac98-1b19e84f8d88
+Action create issue was called
+action_show_category_list
+category oid sdofiusodifuoisudf
+Category Oid 2: sdofiusodifuoisudf
+action set category oid was called
+ user events 2
+issue sdofiusodifuoisudf
+happenig <4
+category oid issue creation: f994e1c3-74fc-4103-a717-2ee56fd16959
+The value of the slot is: categoryf994e1c3-74fc-4103-a717-2ee56fd16959
+The value of the trimmed slot is: f994e1c3-74fc-4103-a717-2ee56fd16959
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'aa031a1f-9c03-4daf-a240-3b179f628989', 'registered_user_session_uuid': 'ef0f2cbe-868a-4f28-8f15-21db397938bd', 'chatbot_socket_created_at': '2023-07-15T06:00:26.863265Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '0462833f-145a-4237-a9da-a8bcdb76aa69', 'issuerOid': '817e5e9c-abf7-4628-997a-aeee05096222'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: aa031a1f-9c03-4daf-a240-3b179f628989
+Action create issue was called
+action_show_category_list
+category oid asodiuasodiuoasidu
+Category Oid 2: asodiuasodiuoasidu
+action set category oid was called
+ user events 2
+issue asodiuasodiuoasidu
+happenig <4
+category oid issue creation: c948d3e4-6f1c-4452-af43-7630319035d1
+The value of the slot is: categoryc948d3e4-6f1c-4452-af43-7630319035d1
+The value of the trimmed slot is: c948d3e4-6f1c-4452-af43-7630319035d1
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '34c5e96a-4e2f-45ca-8fe3-004af00f1548', 'registered_user_session_uuid': 'aead87b0-12d8-4ff0-a6a5-1a3ea99a1584', 'chatbot_socket_created_at': '2023-07-15T06:00:59.744674Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '354eed4e-0b08-4291-a851-fce395c70499', 'issuerOid': '76730997-7366-4069-8566-7b086cd2bb64'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 34c5e96a-4e2f-45ca-8fe3-004af00f1548
+Action create issue was called
+action_show_category_list
+category oid sdfoiusdofiusoifdu
+Category Oid 2: sdfoiusdofiusoifdu
+action set category oid was called
+ user events 2
+issue sdfoiusdofiusoifdu
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '552119ab-d64f-4810-8070-311e8097131e', 'registered_user_session_uuid': '42eced14-3b5e-4e08-84a9-fded9c4271c5', 'chatbot_socket_created_at': '2023-07-15T06:01:34.591780Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '6e3a02c4-54cf-44d2-be7c-3e179c177eb4', 'issuerOid': '9473c78f-9c7a-4c41-8457-50b9e50dcc1b'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 552119ab-d64f-4810-8070-311e8097131e
+Action create issue was called
+action_show_category_list
+category oid asdopiaspdoaisdpoiasd
+Category Oid 2: asdopiaspdoaisdpoiasd
+action set category oid was called
+ user events 2
+issue asdopiaspdoaisdpoiasd
+happenig <4
+category oid issue creation: c948d3e4-6f1c-4452-af43-7630319035d1
+The value of the slot is: categoryc948d3e4-6f1c-4452-af43-7630319035d1
+The value of the trimmed slot is: c948d3e4-6f1c-4452-af43-7630319035d1
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'ecf811a6-98e1-411b-a9a8-88d53131d9b0', 'registered_user_session_uuid': '42eced14-3b5e-4e08-84a9-fded9c4271c5', 'chatbot_socket_created_at': '2023-07-15T06:13:10.523726Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': 'e40abf9e-ed6f-4095-8674-ef9e7362f757', 'issuerOid': '64d17e25-88fe-40ec-9cbe-0c4f09a41a3a'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: ecf811a6-98e1-411b-a9a8-88d53131d9b0
+Action create issue was called
+action_show_category_list
+category oid soidfuoisdfuoisudf
+Category Oid 2: soidfuoisdfuoisudf
+action set category oid was called
+ user events 2
+issue soidfuoisdfuoisudf
+happenig <4
+category oid issue creation: f994e1c3-74fc-4103-a717-2ee56fd16959
+The value of the slot is: categoryf994e1c3-74fc-4103-a717-2ee56fd16959
+The value of the trimmed slot is: f994e1c3-74fc-4103-a717-2ee56fd16959
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'a050dc2a-5299-47e5-b6e6-fc515020c432', 'registered_user_session_uuid': '42eced14-3b5e-4e08-84a9-fded9c4271c5', 'chatbot_socket_created_at': '2023-07-15T08:02:58.117200Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': 'dbf736dc-e3ed-47ac-9076-9ff4b385cca0', 'issuerOid': '481dad3f-8183-41e6-b5c5-98629e9b463f'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: a050dc2a-5299-47e5-b6e6-fc515020c432
+Action create issue was called
+action_show_category_list
+category oid sdfyusodifuosiudf
+Category Oid 2: sdfyusodifuosiudf
+action set category oid was called
+ user events 2
+issue sdfyusodifuosiudf
+happenig <4
+category oid issue creation: f994e1c3-74fc-4103-a717-2ee56fd16959
+The value of the slot is: categoryf994e1c3-74fc-4103-a717-2ee56fd16959
+The value of the trimmed slot is: f994e1c3-74fc-4103-a717-2ee56fd16959
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '1acfa872-b946-430c-be1a-dc7e412e30d9', 'registered_user_session_uuid': '42eced14-3b5e-4e08-84a9-fded9c4271c5', 'chatbot_socket_created_at': '2023-07-15T08:13:34.395352Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': 'c9c84336-0119-41e6-94dc-f7e75ef4e91f', 'issuerOid': '34460c7b-e18c-4b81-b4f7-b9ae7edf7f79'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 1acfa872-b946-430c-be1a-dc7e412e30d9
+Action create issue was called
+action_show_category_list
+category oid spdosidfposidfpoi
+Category Oid 2: spdosidfposidfpoi
+action set category oid was called
+ user events 2
+issue spdosidfposidfpoi
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '812c26fd-5944-45e7-b94b-eb095ccebdd7', 'registered_user_session_uuid': 'd0cc6175-ef4a-41fa-a459-71a609273d67', 'chatbot_socket_created_at': '2023-07-15T08:15:37.022292Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': 'cd634ad5-6e05-4ab5-80d6-75205459cf3f', 'issuerOid': '2b018b78-1323-4927-9a3f-d41f81ee4f54'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 812c26fd-5944-45e7-b94b-eb095ccebdd7
+Action create issue was called
+action_show_category_list
+category oid sdfoisudfoiusdf
+Category Oid 2: sdfoisudfoiusdf
+action set category oid was called
+ user events 2
+issue sdfoisudfoiusdf
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'c1b7dabd-0ce6-4ef4-8640-9e6a43fda93f', 'registered_user_session_uuid': '655faad3-2009-4591-a7fd-0c51839bab35', 'chatbot_socket_created_at': '2023-07-15T08:16:25.500714Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '9edf977c-140f-45fd-99d6-516300cfad25', 'issuerOid': 'b3ee2931-cd88-401c-af57-e77957656673'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: c1b7dabd-0ce6-4ef4-8640-9e6a43fda93f
+Action create issue was called
+action_show_category_list
+category oid sdoiusdfoisudfoiusfd
+Category Oid 2: sdoiusdfoisudfoiusfd
+action set category oid was called
+ user events 2
+issue sdoiusdfoisudfoiusfd
+happenig <4
+category oid issue creation: c948d3e4-6f1c-4452-af43-7630319035d1
+The value of the slot is: categoryc948d3e4-6f1c-4452-af43-7630319035d1
+The value of the trimmed slot is: c948d3e4-6f1c-4452-af43-7630319035d1
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '29f642c1-cf2f-4c5c-b03a-1f1a52fe0b03', 'registered_user_session_uuid': '3aa84dee-5e6b-4d7b-8d6e-95e2ac0e909d', 'chatbot_socket_created_at': '2023-07-15T09:06:11.138104Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': 'f2f0cf3b-447e-4496-888b-3c18a13186e9', 'issuerOid': '4c460d33-cb31-4e32-92ef-53ca8a3f6af2'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 29f642c1-cf2f-4c5c-b03a-1f1a52fe0b03
+Action create issue was called
+action_show_category_list
+category oid dsfoiusdfoiusfd
+Category Oid 2: dsfoiusdfoiusfd
+action set category oid was called
+ user events 2
+issue dsfoiusdfoiusfd
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '543e330f-c5b1-4a13-8ef7-e44553df5970', 'registered_user_session_uuid': 'c0bc8d0b-aba2-46f7-bf3b-212e41870375', 'chatbot_socket_created_at': '2023-07-15T09:10:10.462369Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': 'ed758ba9-2536-471d-a6e8-12156d85ab89', 'issuerOid': '9a66ebbd-df03-45e4-9b64-c57e04fe7eb4'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 543e330f-c5b1-4a13-8ef7-e44553df5970
+Action create issue was called
+action_show_category_list
+category oid sdfusydfiusdyf
+Category Oid 2: sdfusydfiusdyf
+action set category oid was called
+ user events 2
+issue sdfusydfiusdyf
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'ef0ea96f-de50-4b9d-8eba-35693334547d', 'registered_user_session_uuid': '76e956d5-6d12-4a04-a8e4-e3ffce751302', 'chatbot_socket_created_at': '2023-07-15T09:10:47.837679Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '7652c8c6-0e28-4606-9d43-96f7cbdb50ed', 'issuerOid': 'd2f3cfb0-16c5-405c-89a4-5235ab751a19'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: ef0ea96f-de50-4b9d-8eba-35693334547d
+Action create issue was called
+action_show_category_list
+category oid asoiduaoiduoaidsu
+Category Oid 2: asoiduaoiduoaidsu
+action set category oid was called
+ user events 2
+issue asoiduaoiduoaidsu
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '112ea31c-66f4-4102-8f34-77bbe70bb852', 'registered_user_session_uuid': '2b032040-93e3-421c-86f3-ead82bef020d', 'chatbot_socket_created_at': '2023-07-16T04:02:03.758958Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '21c9edc7-e447-4a27-b1a9-5bdbd908a502', 'issuerOid': '5f22ddec-c5a5-45e3-b0db-f3673468255d'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 112ea31c-66f4-4102-8f34-77bbe70bb852
+Action create issue was called
+action_show_category_list
+category oid dsiuydsiufyiudsyf
+Category Oid 2: dsiuydsiufyiudsyf
+action set category oid was called
+ user events 2
+issue dsiuydsiufyiudsyf
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'ee36478f-f23b-400a-a4fc-f964778fd077', 'registered_user_session_uuid': '42824fb2-c36a-4afe-be22-34274a8d655c', 'chatbot_socket_created_at': '2023-07-16T04:08:04.732658Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '3bff181e-7099-4102-90c4-7e2ec2970240', 'issuerOid': '3d5cc4af-31f1-4f4e-9599-e62c1a896280'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: ee36478f-f23b-400a-a4fc-f964778fd077
+Action create issue was called
+action_show_category_list
+category oid sduoifosdiufoidsufoisudfoiudf
+Category Oid 2: sduoifosdiufoidsufoisudfoiudf
+action set category oid was called
+ user events 2
+issue sduoifosdiufoidsufoisudfoiudf
+happenig <4
+category oid issue creation: c948d3e4-6f1c-4452-af43-7630319035d1
+The value of the slot is: categoryc948d3e4-6f1c-4452-af43-7630319035d1
+The value of the trimmed slot is: c948d3e4-6f1c-4452-af43-7630319035d1
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '29dcfd17-9432-45cb-bbe3-2c5418147243', 'registered_user_session_uuid': 'fcfe3c0d-074f-43c3-82ef-cb399b5a9d93', 'chatbot_socket_created_at': '2023-07-16T04:09:29.285344Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': 'b68d289f-3385-4f83-aeef-2ee925af26d0', 'issuerOid': '53a06e93-20ac-4cb5-a791-0394031870cf'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 29dcfd17-9432-45cb-bbe3-2c5418147243
+Action create issue was called
+action_show_category_list
+category oid saiduyaisduyaisudyiasuy
+Category Oid 2: saiduyaisduyaisudyiasuy
+action set category oid was called
+ user events 2
+issue saiduyaisduyaisudyiasuy
+happenig <4
+category oid issue creation: f994e1c3-74fc-4103-a717-2ee56fd16959
+The value of the slot is: categoryf994e1c3-74fc-4103-a717-2ee56fd16959
+The value of the trimmed slot is: f994e1c3-74fc-4103-a717-2ee56fd16959
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'df746a17-e0d4-4f15-9560-615220009db9', 'registered_user_session_uuid': '4c0204aa-3a1c-472f-b7f5-021b6a5d8187', 'chatbot_socket_created_at': '2023-07-16T04:10:02.261711Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '0df35ab8-e816-47dd-9cd9-065f9a00779a', 'issuerOid': '6d290397-1470-40cd-adf4-de3a3f02c1d6'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: df746a17-e0d4-4f15-9560-615220009db9
+Action create issue was called
+action_show_category_list
+category oid isdufyidsuyfidsufy
+Category Oid 2: isdufyidsuyfidsufy
+action set category oid was called
+ user events 2
+issue isdufyidsuyfidsufy
+happenig <4
+category oid issue creation: f994e1c3-74fc-4103-a717-2ee56fd16959
+The value of the slot is: categoryf994e1c3-74fc-4103-a717-2ee56fd16959
+The value of the trimmed slot is: f994e1c3-74fc-4103-a717-2ee56fd16959
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'a7a49eeb-c36d-4ccc-aa8e-131289bfad5b', 'registered_user_session_uuid': 'ebd35bb8-ba8d-4382-970f-add003b42830', 'chatbot_socket_created_at': '2023-07-16T04:10:31.765015Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '0df66647-b4fc-473b-9b4a-f4979cd81cf5', 'issuerOid': '7446dac6-d009-4981-a4c7-6cd403c35527'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: a7a49eeb-c36d-4ccc-aa8e-131289bfad5b
+Action create issue was called
+action_show_category_list
+category oid iasudysiaudyiusayidusa
+Category Oid 2: iasudysiaudyiusayidusa
+action set category oid was called
+ user events 2
+issue iasudysiaudyiusayidusa
+happenig <4
+category oid issue creation: a57aae16-51fc-4338-8405-19dd5424cceb
+The value of the slot is: categorya57aae16-51fc-4338-8405-19dd5424cceb
+The value of the trimmed slot is: a57aae16-51fc-4338-8405-19dd5424cceb
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '74d277c2-4a43-4c49-b2b5-8f814045248f', 'registered_user_session_uuid': '326ce47e-54f5-46f3-b2a9-6db787f86777', 'chatbot_socket_created_at': '2023-07-16T04:10:58.169549Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '0b95d066-c285-4660-a964-773fa8dcfa39', 'issuerOid': '43941ba9-0e75-4424-9d39-459d42cad76e'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 74d277c2-4a43-4c49-b2b5-8f814045248f
+Action create issue was called
+action_show_category_list
+category oid asduytayustduyatduysad
+Category Oid 2: asduytayustduyatduysad
+action set category oid was called
+ user events 2
+issue asduytayustduyatduysad
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '085cb226-550e-45aa-86b2-e47a8400e6f7', 'registered_user_session_uuid': 'cbef58f4-4a0d-44cb-a06a-def1c6d0cd76', 'chatbot_socket_created_at': '2023-07-16T04:11:23.587696Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '7df4c267-c875-487a-80b6-b7250afecabc', 'issuerOid': '26b08f5d-2cb0-48be-94f2-3edff10733e4'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 085cb226-550e-45aa-86b2-e47a8400e6f7
+Action create issue was called
+action_show_category_list
+category oid disufyisdufyiusyfd
+Category Oid 2: disufyisdufyiusyfd
+action set category oid was called
+ user events 2
+issue disufyisdufyiusyfd
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'a881ec9a-8eac-4907-b274-8501dcb151bb', 'registered_user_session_uuid': '5ded5b66-90cc-451a-81d1-46494339b481', 'chatbot_socket_created_at': '2023-07-16T04:11:51.611834Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': 'ae8f68dc-57f2-4168-a370-40ae57f89733', 'issuerOid': '435f9b70-56c2-4adc-b26f-b5f099d61ed4'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: a881ec9a-8eac-4907-b274-8501dcb151bb
+Action create issue was called
+action_show_category_list
+category oid asdasdsalkjdsiusodifu
+Category Oid 2: asdasdsalkjdsiusodifu
+action set category oid was called
+ user events 2
+issue asdasdsalkjdsiusodifu
+happenig <4
+category oid issue creation: c948d3e4-6f1c-4452-af43-7630319035d1
+The value of the slot is: categoryc948d3e4-6f1c-4452-af43-7630319035d1
+The value of the trimmed slot is: c948d3e4-6f1c-4452-af43-7630319035d1
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '162a4a7d-8b70-4d82-98c3-219f0018bec9', 'registered_user_session_uuid': '8846780b-ea71-4bfa-8937-3f76334ffc5e', 'chatbot_socket_created_at': '2023-07-16T04:12:17.453573Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '54bcf8b5-53af-4c1b-9d3b-1b84e4246c04', 'issuerOid': '39a45232-d944-457c-812b-5b3a09fb1837'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 162a4a7d-8b70-4d82-98c3-219f0018bec9
+Action create issue was called
+action_show_category_list
+category oid asiduyasiudyaisudy
+Category Oid 2: asiduyasiudyaisudy
+action set category oid was called
+ user events 2
+issue asiduyasiudyaisudy
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '963ae980-09a5-40ae-8ef7-004549afc466', 'registered_user_session_uuid': 'ea5b1c9a-f16d-4e55-9dec-d6f4669821e6', 'chatbot_socket_created_at': '2023-07-16T04:12:47.469125Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': 'a45ef437-847b-4242-9151-1f162d935549', 'issuerOid': 'b61ca17e-acd2-460a-b9d0-1667ee3afba5'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 963ae980-09a5-40ae-8ef7-004549afc466
+Action create issue was called
+action_show_category_list
+category oid dsfiuysidufyisudfy
+Category Oid 2: dsfiuysidufyisudfy
+action set category oid was called
+ user events 2
+issue dsfiuysidufyisudfy
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '56efebd9-1380-4e36-ad9e-78bc9e8f5317', 'registered_user_session_uuid': 'b84bf048-567b-4059-add9-87c05423d053', 'chatbot_socket_created_at': '2023-07-16T04:13:18.409180Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '2988bb7f-069d-44cb-85f1-baef6e280956', 'issuerOid': '21d42758-1fe2-404b-9655-908904382432'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 56efebd9-1380-4e36-ad9e-78bc9e8f5317
+Action create issue was called
+action_show_category_list
+category oid dsfuydsifyidsufyiduyf
+Category Oid 2: dsfuydsifyidsufyiduyf
+action set category oid was called
+ user events 2
+issue dsfuydsifyidsufyiduyf
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'caf144f9-825b-44f2-a1ca-bb879207f169', 'registered_user_session_uuid': 'f89ef7ec-c143-434e-94a7-70697f91c7ac', 'chatbot_socket_created_at': '2023-07-16T04:28:57.067399Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': 'a1dad8b5-61e8-4189-9952-8224e74736b6', 'issuerOid': '52065362-0b97-4c41-97ab-77883f2fbe53'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: caf144f9-825b-44f2-a1ca-bb879207f169
+Action create issue was called
+action_show_category_list
+category oid অনলাইনে বেতন বিল সাবমিট করার সময় একজন কর্মকর্তা তার স্যালারি মান্থ খুঁজে পাচ্ছেন না এক্ষেত্রে করণীয় কি
+Category Oid 2: অনলাইনে বেতন বিল সাবমিট করার সময় একজন কর্মকর্তা তার স্যালারি মান্থ খুঁজে পাচ্ছেন না এক্ষেত্রে করণীয় কি
+action set category oid was called
+action_show_category_list
+category oid অনলাইনে বেতন বিল সাবমিট করার সময় একজন কর্মকর্তা তার স্যালারি মান্থ খুঁজে পাচ্ছেন না এক্ষেত্রে করণীয় কি
+Category Oid 2: অনলাইনে বেতন বিল সাবমিট করার সময় একজন কর্মকর্তা তার স্যালারি মান্থ খুঁজে পাচ্ছেন না এক্ষেত্রে করণীয় কি
+action set category oid was called
+action_show_category_list
+category oid অনলাইনে বেতন বিল সাবমিট করার পর একজন কর্মকর্তা জানতে পারলেন বেতন বিলটি তার ভিডিওর আইডিতে ফরওয়ার্ড করার জন্য খুজে পাওয়া যাচ্ছে না এক্ষেত্রে করণীয় কি
+Category Oid 2: অনলাইনে বেতন বিল সাবমিট করার পর একজন কর্মকর্তা জানতে পারলেন বেতন বিলটি তার ভিডিওর আইডিতে ফরওয়ার্ড করার জন্য খুজে পাওয়া যাচ্ছে না এক্ষেত্রে করণীয় কি
+action set category oid was called
+action_show_category_list
+category oid একজন কর্মকর্তার বেতন বিল এর যেকোনো তথ্য পরিবর্তন করার পর সেভ বাটনে ক্লিক করলে এরর মেসেজ বেশি এবং ম্যাচ উইথ বেসিক সেশন এমাউন্ট প্রদর্শিত হয় এক্ষেত্রে করণীয় কি
+Category Oid 2: একজন কর্মকর্তার বেতন বিল এর যেকোনো তথ্য পরিবর্তন করার পর সেভ বাটনে ক্লিক করলে এরর মেসেজ বেশি এবং ম্যাচ উইথ বেসিক সেশন এমাউন্ট প্রদর্শিত হয় এক্ষেত্রে করণীয় কি
+action set category oid was called
+action_show_category_list
+category oid বেসিক অ্যামাউন্ট
+Category Oid 2: বেসিক অ্যামাউন্ট
+action set category oid was called
+action_show_category_list
+category oid ijhkjhkjhjk
+Category Oid 2: ijhkjhkjhjk
+action set category oid was called
+action_show_category_list
+category oid একজন কর্মকর্তা জানালেন যে বেতন বিলের ইএফটি এর এসএমএস পাননি এক্ষেত্রে কি করবেন
+Category Oid 2: একজন কর্মকর্তা জানালেন যে বেতন বিলের ইএফটি এর এসএমএস পাননি এক্ষেত্রে কি করবেন
+action set category oid was called
+action_show_category_list
+category oid একজন কর্মকর্তা জানালেন যে বেতন বিলের এসএমএস পাননি এক্ষেত্রে কি করবেন
+Category Oid 2: একজন কর্মকর্তা জানালেন যে বেতন বিলের এসএমএস পাননি এক্ষেত্রে কি করবেন
+action set category oid was called
+action_show_category_list
+category oid sdfoiusdfoiusidf[sdfoisfd
+Category Oid 2: sdfoiusdfoiusidf[sdfoisfd
+action set category oid was called
+ user events 2
+issue sdfoiusdfoiusidf[sdfoisfd
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'ae647ad3-011b-4a9a-ba06-2075442f26ca', 'registered_user_session_uuid': 'cdf0fb49-3c39-41ba-8e72-6c82db03ec18', 'chatbot_socket_created_at': '2023-07-18T10:12:39.661765Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': 'e6549739-a5f0-4ab5-bf8b-e3397841262f', 'issuerOid': 'edd8cb71-8fc2-401b-87f2-ae42f5d83b98'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: ae647ad3-011b-4a9a-ba06-2075442f26ca
+Action create issue was called
+action_show_category_list
+category oid eriouewroiuewr][pewrpoie
+Category Oid 2: eriouewroiuewr][pewrpoie
+action set category oid was called
+ user events 2
+issue eriouewroiuewr][pewrpoie
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '238f7359-c9df-4890-be10-8932655d7b8f', 'registered_user_session_uuid': 'cdf0fb49-3c39-41ba-8e72-6c82db03ec18', 'chatbot_socket_created_at': '2023-07-18T10:19:37.261450Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '2892c5b8-2174-4855-922a-438dcc439fca', 'issuerOid': 'ca89c741-2713-48af-92f9-39670ef81a1a'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 238f7359-c9df-4890-be10-8932655d7b8f
+Action create issue was called
+action_show_category_list
+category oid sdofiuoisdf][sfdoiusdf
+Category Oid 2: sdofiuoisdf][sfdoiusdf
+action set category oid was called
+ user events 2
+issue sdofiuoisdf][sfdoiusdf
+happenig <4
+category oid issue creation: f994e1c3-74fc-4103-a717-2ee56fd16959
+The value of the slot is: categoryf994e1c3-74fc-4103-a717-2ee56fd16959
+The value of the trimmed slot is: f994e1c3-74fc-4103-a717-2ee56fd16959
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '62f9d3cd-c3b3-42a1-8b07-470116e4e630', 'registered_user_session_uuid': 'cdf0fb49-3c39-41ba-8e72-6c82db03ec18', 'chatbot_socket_created_at': '2023-07-18T10:19:52.317450Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '319fa187-bec2-4473-982c-d2b88d937409', 'issuerOid': '0206c1b7-08a1-4877-80a5-c84c951ff753'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 62f9d3cd-c3b3-42a1-8b07-470116e4e630
+Action create issue was called
+action_show_category_list
+category oid dsfpoisdf][spdfoiusfd
+Category Oid 2: dsfpoisdf][spdfoiusfd
+action set category oid was called
+ user events 2
+issue dsfpoisdf][spdfoiusfd
+happenig <4
+category oid issue creation: a57aae16-51fc-4338-8405-19dd5424cceb
+The value of the slot is: categorya57aae16-51fc-4338-8405-19dd5424cceb
+The value of the trimmed slot is: a57aae16-51fc-4338-8405-19dd5424cceb
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'cb375612-9c2d-4a2c-9f09-07ff60d4b296', 'registered_user_session_uuid': 'cdf0fb49-3c39-41ba-8e72-6c82db03ec18', 'chatbot_socket_created_at': '2023-07-18T10:20:22.829589Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': 'baaf131d-6c70-4aa7-92f4-70fd6d943c48', 'issuerOid': '152fc09f-5cab-4f98-9926-a1a09b5ac694'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: cb375612-9c2d-4a2c-9f09-07ff60d4b296
+Action create issue was called
+action_show_category_list
+category oid sdfoiusdf][psdfuooysdf
+Category Oid 2: sdfoiusdf][psdfuooysdf
+action set category oid was called
+ user events 2
+issue sdfoiusdf][psdfuooysdf
+happenig <4
+category oid issue creation: a57aae16-51fc-4338-8405-19dd5424cceb
+The value of the slot is: categorya57aae16-51fc-4338-8405-19dd5424cceb
+The value of the trimmed slot is: a57aae16-51fc-4338-8405-19dd5424cceb
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'd4cf8c47-116d-4972-b1de-6ba1cbfe38f3', 'registered_user_session_uuid': 'cdf0fb49-3c39-41ba-8e72-6c82db03ec18', 'chatbot_socket_created_at': '2023-07-18T10:20:41.644752Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': 'd32884ea-7be5-4f80-9db8-96a2814ca34f', 'issuerOid': '4b3fef34-e893-473f-a03a-0c66a71daeb7'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: d4cf8c47-116d-4972-b1de-6ba1cbfe38f3
+Action create issue was called
+action_show_category_list
+category oid sdioufosidf][spdfoisudfoi
+Category Oid 2: sdioufosidf][spdfoisudfoi
+action set category oid was called
+ user events 2
+issue sdioufosidf][spdfoisudfoi
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '312baf52-0a23-425d-bd26-49001f675c6d', 'registered_user_session_uuid': 'cdf0fb49-3c39-41ba-8e72-6c82db03ec18', 'chatbot_socket_created_at': '2023-07-18T10:21:02.216481Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '0900e483-74e4-4b81-8b4e-08de1e1b69b9', 'issuerOid': 'e79657d0-1ced-4b1e-83b1-cb9d7beb8bfc'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 312baf52-0a23-425d-bd26-49001f675c6d
+Action create issue was called
+action_show_category_list
+category oid asdoiuasodiuas][psad
+Category Oid 2: asdoiuasodiuas][psad
+action set category oid was called
+ user events 2
+issue asdoiuasodiuas][psad
+happenig <4
+category oid issue creation: c948d3e4-6f1c-4452-af43-7630319035d1
+The value of the slot is: categoryc948d3e4-6f1c-4452-af43-7630319035d1
+The value of the trimmed slot is: c948d3e4-6f1c-4452-af43-7630319035d1
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '75f8f914-f178-4698-8cdf-f2f04c581d3a', 'registered_user_session_uuid': 'cdf0fb49-3c39-41ba-8e72-6c82db03ec18', 'chatbot_socket_created_at': '2023-07-18T10:21:29.304377Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': 'b56297fa-228d-433a-8f8d-55aae797a8a5', 'issuerOid': '759b92dd-e309-4489-92b1-dcc694fa674e'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 75f8f914-f178-4698-8cdf-f2f04c581d3a
+Action create issue was called
+action_show_category_list
+category oid sdofiusdf][spdfopiusdf
+Category Oid 2: sdofiusdf][spdfopiusdf
+action set category oid was called
+ user events 2
+issue sdofiusdf][spdfopiusdf
+happenig <4
+category oid issue creation: f994e1c3-74fc-4103-a717-2ee56fd16959
+The value of the slot is: categoryf994e1c3-74fc-4103-a717-2ee56fd16959
+The value of the trimmed slot is: f994e1c3-74fc-4103-a717-2ee56fd16959
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '634d888e-c146-4417-bf4e-01f0bba7b87b', 'registered_user_session_uuid': 'cdf0fb49-3c39-41ba-8e72-6c82db03ec18', 'chatbot_socket_created_at': '2023-07-18T10:21:58.025132Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': 'a6ebf204-cff4-4dd3-85f0-c1b791e66399', 'issuerOid': 'cc0dd6d8-2677-4f50-b96c-da2e2dabdbf6'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 634d888e-c146-4417-bf4e-01f0bba7b87b
+Action create issue was called
+action_show_category_list
+category oid sdiudsf][psdfopiusdf
+Category Oid 2: sdiudsf][psdfopiusdf
+action set category oid was called
+ user events 2
+issue sdiudsf][psdfopiusdf
+happenig <4
+category oid issue creation: a57aae16-51fc-4338-8405-19dd5424cceb
+The value of the slot is: categorya57aae16-51fc-4338-8405-19dd5424cceb
+The value of the trimmed slot is: a57aae16-51fc-4338-8405-19dd5424cceb
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '4f510093-7902-450c-88da-41aa2b68a376', 'registered_user_session_uuid': 'cdf0fb49-3c39-41ba-8e72-6c82db03ec18', 'chatbot_socket_created_at': '2023-07-18T10:22:15.307580Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '1840c45e-92c0-4834-be26-c72f899b49a6', 'issuerOid': '4cacc02f-025d-4608-9966-cdb02651231d'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 4f510093-7902-450c-88da-41aa2b68a376
+Action create issue was called
+action_show_category_list
+category oid dsofiusdf][psdfuoyhsdf
+Category Oid 2: dsofiusdf][psdfuoyhsdf
+action set category oid was called
+ user events 2
+issue dsofiusdf][psdfuoyhsdf
+happenig <4
+category oid issue creation: a57aae16-51fc-4338-8405-19dd5424cceb
+The value of the slot is: categorya57aae16-51fc-4338-8405-19dd5424cceb
+The value of the trimmed slot is: a57aae16-51fc-4338-8405-19dd5424cceb
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'f6638ea4-094a-4add-89c5-e0c139146e81', 'registered_user_session_uuid': 'cdf0fb49-3c39-41ba-8e72-6c82db03ec18', 'chatbot_socket_created_at': '2023-07-18T10:22:31.801065Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '2d194fcf-044a-4bbe-a729-ea7a515ab354', 'issuerOid': '660da94f-22bf-47d2-8d2d-1ace81b9fa58'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: f6638ea4-094a-4add-89c5-e0c139146e81
+Action create issue was called
+action_show_category_list
+category oid dsfopiusdpfoisdf
+Category Oid 2: dsfopiusdpfoisdf
+action set category oid was called
+ user events 2
+issue dsfopiusdpfoisdf
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'f6d86c14-fb33-4938-967f-95ceaa38209c', 'registered_user_session_uuid': 'cdf0fb49-3c39-41ba-8e72-6c82db03ec18', 'chatbot_socket_created_at': '2023-07-18T10:22:47.591802Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '38151825-9540-45d6-920b-258246480113', 'issuerOid': '5a307eaa-fbcb-4c6c-9461-07590eeaf38b'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: f6d86c14-fb33-4938-967f-95ceaa38209c
+Action create issue was called
+action_show_category_list
+category oid dsofiusodifusf
+Category Oid 2: dsofiusodifusf
+action set category oid was called
+ user events 2
+issue dsofiusodifusf
+happenig <4
+category oid issue creation: f994e1c3-74fc-4103-a717-2ee56fd16959
+The value of the slot is: categoryf994e1c3-74fc-4103-a717-2ee56fd16959
+The value of the trimmed slot is: f994e1c3-74fc-4103-a717-2ee56fd16959
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '3d34e322-6c9f-479c-9559-3e4f6ba70d9d', 'registered_user_session_uuid': 'cdf0fb49-3c39-41ba-8e72-6c82db03ec18', 'chatbot_socket_created_at': '2023-07-18T10:23:02.368597Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': 'c613d07f-1062-4672-8ded-2fe6cd6154b5', 'issuerOid': '42dea47b-5cc8-45ad-8526-5d557ff1b652'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 3d34e322-6c9f-479c-9559-3e4f6ba70d9d
+Action create issue was called
+action_show_category_list
+category oid sdofiusdfoiu
+Category Oid 2: sdofiusdfoiu
+action set category oid was called
+ user events 2
+issue sdofiusdfoiu
+happenig <4
+category oid issue creation: a57aae16-51fc-4338-8405-19dd5424cceb
+The value of the slot is: categorya57aae16-51fc-4338-8405-19dd5424cceb
+The value of the trimmed slot is: a57aae16-51fc-4338-8405-19dd5424cceb
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '19edf6fe-18a0-41e0-a3f7-ba5822611684', 'registered_user_session_uuid': 'cdf0fb49-3c39-41ba-8e72-6c82db03ec18', 'chatbot_socket_created_at': '2023-07-18T10:23:20.845203Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': 'd32fdd2f-5dcc-4c5c-9ad1-08635debd4d2', 'issuerOid': '44138d9f-8f1b-4153-9503-b64c7a569a72'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 19edf6fe-18a0-41e0-a3f7-ba5822611684
+Action create issue was called
+action_show_category_list
+category oid dsfoisudfoiusdf][psdfpiosdf
+Category Oid 2: dsfoisudfoiusdf][psdfpiosdf
+action set category oid was called
+ user events 2
+issue dsfoisudfoiusdf][psdfpiosdf
+happenig <4
+category oid issue creation: a57aae16-51fc-4338-8405-19dd5424cceb
+The value of the slot is: categorya57aae16-51fc-4338-8405-19dd5424cceb
+The value of the trimmed slot is: a57aae16-51fc-4338-8405-19dd5424cceb
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '04e164fd-bc77-471f-b02c-377f9aa0681f', 'registered_user_session_uuid': 'cdf0fb49-3c39-41ba-8e72-6c82db03ec18', 'chatbot_socket_created_at': '2023-07-18T10:23:50.603447Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': 'f46f2704-810b-42cc-bd36-15702780d788', 'issuerOid': '597326ca-3b32-480a-a1fe-360144922e57'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 04e164fd-bc77-471f-b02c-377f9aa0681f
+Action create issue was called
+action_show_category_list
+category oid dsofiusdofiusdf][spdfpoisdf
+Category Oid 2: dsofiusdofiusdf][spdfpoisdf
+action set category oid was called
+ user events 2
+issue dsofiusdofiusdf][spdfpoisdf
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'bc3c2775-44e2-4663-a839-85f69377d8ea', 'registered_user_session_uuid': 'cdf0fb49-3c39-41ba-8e72-6c82db03ec18', 'chatbot_socket_created_at': '2023-07-18T10:24:07.081447Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '7ca440b8-b98d-4e26-bd2d-0a30bc602414', 'issuerOid': '37f64aaf-27bf-4e01-a4aa-a7742e27537a'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: bc3c2775-44e2-4663-a839-85f69377d8ea
+Action create issue was called
+action_show_category_list
+category oid dsoifusdf]=[spdfiousdf
+Category Oid 2: dsoifusdf]=[spdfiousdf
+action set category oid was called
+ user events 2
+issue dsoifusdf]=[spdfiousdf
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '72210ce8-a6ac-42ed-a628-a5c74b143dc4', 'registered_user_session_uuid': 'cdf0fb49-3c39-41ba-8e72-6c82db03ec18', 'chatbot_socket_created_at': '2023-07-18T10:24:28.582241Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '5a9dda16-6daf-47e1-a919-219de5a0de7e', 'issuerOid': '2dcb4a3d-3ae0-408d-888f-ca1bb38b22e7'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 72210ce8-a6ac-42ed-a628-a5c74b143dc4
+Action create issue was called
+action_show_category_list
+category oid sdofiusodifu][sdpfioudsf
+Category Oid 2: sdofiusodifu][sdpfioudsf
+action set category oid was called
+ user events 2
+issue sdofiusodifu][sdpfioudsf
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '3c9bc0a0-08ef-416c-944e-2a840cff5513', 'registered_user_session_uuid': 'e1158878-5be7-488d-b7ff-e061e08eb2dc', 'chatbot_socket_created_at': '2023-07-18T11:15:43.077035Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '76aa44ee-8ade-487f-b64a-6e7c4648541e', 'issuerOid': '4ea0a653-76aa-4c4b-a971-8398e90ff750'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 3c9bc0a0-08ef-416c-944e-2a840cff5513
+Action create issue was called
+action_show_category_list
+category oid sdfiusdfoiusoiudf
+Category Oid 2: sdfiusdfoiusoiudf
+action set category oid was called
+ user events 2
+issue sdfiusdfoiusoiudf
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'f02df976-4f1d-446c-ac6e-2888d81afb97', 'registered_user_session_uuid': 'e1158878-5be7-488d-b7ff-e061e08eb2dc', 'chatbot_socket_created_at': '2023-07-18T11:37:07.752700Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '3f23d95b-4ca6-4c29-b941-74ab8466a229', 'issuerOid': '947c1a12-9e1a-4dde-8a58-57b21b36b85b'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: f02df976-4f1d-446c-ac6e-2888d81afb97
+Action create issue was called
+action_show_category_list
+category oid dsfposdf][sdpfoiusdf
+Category Oid 2: dsfposdf][sdpfoiusdf
+action set category oid was called
+ user events 2
+issue dsfposdf][sdpfoiusdf
+happenig <4
+category oid issue creation: c948d3e4-6f1c-4452-af43-7630319035d1
+The value of the slot is: categoryc948d3e4-6f1c-4452-af43-7630319035d1
+The value of the trimmed slot is: c948d3e4-6f1c-4452-af43-7630319035d1
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '1b6ba8ba-28c5-4a57-a8d6-080f8ea67843', 'registered_user_session_uuid': 'e1158878-5be7-488d-b7ff-e061e08eb2dc', 'chatbot_socket_created_at': '2023-07-18T11:39:48.189656Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '2bd1cc7a-41c3-4219-a881-0bc242f93136', 'issuerOid': 'dd8b4f88-0bf7-4ba3-8305-ae00d2a3975d'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 1b6ba8ba-28c5-4a57-a8d6-080f8ea67843
+Action create issue was called
+action_show_category_list
+category oid dspfoisdpfoisdf][sdpf][sdf
+Category Oid 2: dspfoisdpfoisdf][sdpf][sdf
+action set category oid was called
+ user events 2
+issue dspfoisdpfoisdf][sdpf][sdf
+happenig <4
+category oid issue creation: f994e1c3-74fc-4103-a717-2ee56fd16959
+The value of the slot is: categoryf994e1c3-74fc-4103-a717-2ee56fd16959
+The value of the trimmed slot is: f994e1c3-74fc-4103-a717-2ee56fd16959
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'afa18002-2003-42dd-a70c-40bfe1ff949a', 'registered_user_session_uuid': 'e1158878-5be7-488d-b7ff-e061e08eb2dc', 'chatbot_socket_created_at': '2023-07-18T11:42:30.685341Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '05bc520f-bdfb-40b9-a9e1-278e53ab7f9e', 'issuerOid': '65f06541-9a4c-4d35-b7a1-c784bb07740c'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: afa18002-2003-42dd-a70c-40bfe1ff949a
+Action create issue was called
+action_show_category_list
+category oid sdfiousdpfoisdf][psdfiusdf
+Category Oid 2: sdfiousdpfoisdf][psdfiusdf
+action set category oid was called
+ user events 2
+issue sdfiousdpfoisdf][psdfiusdf
+happenig <4
+category oid issue creation: f994e1c3-74fc-4103-a717-2ee56fd16959
+The value of the slot is: categoryf994e1c3-74fc-4103-a717-2ee56fd16959
+The value of the trimmed slot is: f994e1c3-74fc-4103-a717-2ee56fd16959
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '596db824-5783-4804-9608-2123e6385555', 'registered_user_session_uuid': 'e1158878-5be7-488d-b7ff-e061e08eb2dc', 'chatbot_socket_created_at': '2023-07-18T11:43:50.520727Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '965d3423-fd6e-45ff-b1fd-a7ab01fd8541', 'issuerOid': '81822e5a-cc14-493f-bfd6-7a64ecbcbe15'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 596db824-5783-4804-9608-2123e6385555
+Action create issue was called
+action_show_category_list
+category oid dsofiuosidfuosudf][dspf
+Category Oid 2: dsofiuosidfuosudf][dspf
+action set category oid was called
+ user events 2
+issue dsofiuosidfuosudf][dspf
+happenig <4
+category oid issue creation: a57aae16-51fc-4338-8405-19dd5424cceb
+The value of the slot is: categorya57aae16-51fc-4338-8405-19dd5424cceb
+The value of the trimmed slot is: a57aae16-51fc-4338-8405-19dd5424cceb
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '891696a1-55ae-452e-812b-5160a639b863', 'registered_user_session_uuid': 'e1158878-5be7-488d-b7ff-e061e08eb2dc', 'chatbot_socket_created_at': '2023-07-18T11:44:25.168629Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': 'f54e31f7-f374-4369-90ab-52c6de92aeef', 'issuerOid': '38056662-6e12-48b8-b887-32e545d33f83'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 891696a1-55ae-452e-812b-5160a639b863
+Action create issue was called
+action_show_category_list
+category oid dsfoiusdofiusdf][dsp-f
+Category Oid 2: dsfoiusdofiusdf][dsp-f
+action set category oid was called
+ user events 2
+issue dsfoiusdofiusdf][dsp-f
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '08da89f1-2b61-476a-b82e-7b218db418b7', 'registered_user_session_uuid': 'e1158878-5be7-488d-b7ff-e061e08eb2dc', 'chatbot_socket_created_at': '2023-07-18T11:44:53.755452Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': 'b117f2b1-d896-49cf-9fd1-0703cc48bd8c', 'issuerOid': '7b1c19be-e581-4f33-b51a-8f4c24577b8a'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 08da89f1-2b61-476a-b82e-7b218db418b7
+Action create issue was called
+action_show_category_list
+category oid dsfiusodifsd][fpdspfoisdf
+Category Oid 2: dsfiusodifsd][fpdspfoisdf
+action set category oid was called
+ user events 2
+issue dsfiusodifsd][fpdspfoisdf
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '2927c898-4665-4e59-9f15-dc95510e75f4', 'registered_user_session_uuid': 'e1158878-5be7-488d-b7ff-e061e08eb2dc', 'chatbot_socket_created_at': '2023-07-18T11:45:20.428929Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '5f362638-6853-4914-b1b0-1c2dbd76748d', 'issuerOid': '69af88b5-364d-4712-ab8e-45eea6711284'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 2927c898-4665-4e59-9f15-dc95510e75f4
+Action create issue was called
+action_show_category_list
+category oid dsfoioudfs][pdsfoisdf
+Category Oid 2: dsfoioudfs][pdsfoisdf
+action set category oid was called
+ user events 2
+issue dsfoioudfs][pdsfoisdf
+happenig <4
+category oid issue creation: a57aae16-51fc-4338-8405-19dd5424cceb
+The value of the slot is: categorya57aae16-51fc-4338-8405-19dd5424cceb
+The value of the trimmed slot is: a57aae16-51fc-4338-8405-19dd5424cceb
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '8163fc7d-fe44-421d-8bab-85958fccdc73', 'registered_user_session_uuid': 'e1158878-5be7-488d-b7ff-e061e08eb2dc', 'chatbot_socket_created_at': '2023-07-18T11:45:41.645237Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '045f6542-255e-494c-8610-e450d6af4138', 'issuerOid': '7af54bac-b7f4-44e1-a781-1bd0f0466972'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 8163fc7d-fe44-421d-8bab-85958fccdc73
+Action create issue was called
+action_show_category_list
+category oid dsfiousdf][sdpfpoisdf
+Category Oid 2: dsfiousdf][sdpfpoisdf
+action set category oid was called
+ user events 2
+issue dsfiousdf][sdpfpoisdf
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'b556d400-e957-48c0-a60c-d482621ef683', 'registered_user_session_uuid': 'e1158878-5be7-488d-b7ff-e061e08eb2dc', 'chatbot_socket_created_at': '2023-07-18T11:46:02.717439Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '68f93dd4-42f0-443d-a424-db2e3e077810', 'issuerOid': '656f4b77-2633-4a7e-bfbc-6ab386db5e5f'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: b556d400-e957-48c0-a60c-d482621ef683
+Action create issue was called
+action_show_category_list
+category oid dfposidf[psdf][psdf
+Category Oid 2: dfposidf[psdf][psdf
+action set category oid was called
+ user events 2
+issue dfposidf[psdf][psdf
+happenig <4
+category oid issue creation: c948d3e4-6f1c-4452-af43-7630319035d1
+The value of the slot is: categoryc948d3e4-6f1c-4452-af43-7630319035d1
+The value of the trimmed slot is: c948d3e4-6f1c-4452-af43-7630319035d1
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'c8beb4d4-8e39-48f7-989c-64405635cb3a', 'registered_user_session_uuid': 'e1158878-5be7-488d-b7ff-e061e08eb2dc', 'chatbot_socket_created_at': '2023-07-18T11:46:19.466425Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '02a10365-2cf9-477d-82a2-c9cacaef37c7', 'issuerOid': 'b906ad0f-879b-4b97-bdfb-7039ed72e6b5'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: c8beb4d4-8e39-48f7-989c-64405635cb3a
+Action create issue was called
+action_show_category_list
+category oid sdfoipsdofs]d[fpsd[foidsf
+Category Oid 2: sdfoipsdofs]d[fpsd[foidsf
+action set category oid was called
+ user events 2
+issue sdfoipsdofs]d[fpsd[foidsf
+happenig <4
+category oid issue creation: f994e1c3-74fc-4103-a717-2ee56fd16959
+The value of the slot is: categoryf994e1c3-74fc-4103-a717-2ee56fd16959
+The value of the trimmed slot is: f994e1c3-74fc-4103-a717-2ee56fd16959
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'b80f51e9-c517-408c-9a26-0a6bfbc44490', 'registered_user_session_uuid': 'e1158878-5be7-488d-b7ff-e061e08eb2dc', 'chatbot_socket_created_at': '2023-07-18T11:46:41.933493Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '14865a9c-e775-43dc-8387-d7a800108ad5', 'issuerOid': '2fa9c52a-7d78-497e-918c-62ae50fd4251'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: b80f51e9-c517-408c-9a26-0a6bfbc44490
+Action create issue was called
+action_show_category_list
+category oid dfs[psodf][sdpf[posdf
+Category Oid 2: dfs[psodf][sdpf[posdf
+action set category oid was called
+ user events 2
+issue dfs[psodf][sdpf[posdf
+happenig <4
+category oid issue creation: a57aae16-51fc-4338-8405-19dd5424cceb
+The value of the slot is: categorya57aae16-51fc-4338-8405-19dd5424cceb
+The value of the trimmed slot is: a57aae16-51fc-4338-8405-19dd5424cceb
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '104180b4-26c0-4700-af5f-037b8379eb1b', 'registered_user_session_uuid': 'e1158878-5be7-488d-b7ff-e061e08eb2dc', 'chatbot_socket_created_at': '2023-07-18T11:46:58.168828Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': 'b752e71e-bf58-4efa-b77e-0202e1a8faf5', 'issuerOid': '7e7f2483-d7c1-410a-9d86-afa24432bf9a'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 104180b4-26c0-4700-af5f-037b8379eb1b
+Action create issue was called
+action_show_category_list
+category oid dfsiosudf][spdf[posdf
+Category Oid 2: dfsiosudf][spdf[posdf
+action set category oid was called
+ user events 2
+issue dfsiosudf][spdf[posdf
+happenig <4
+category oid issue creation: a57aae16-51fc-4338-8405-19dd5424cceb
+The value of the slot is: categorya57aae16-51fc-4338-8405-19dd5424cceb
+The value of the trimmed slot is: a57aae16-51fc-4338-8405-19dd5424cceb
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'aaeb2b85-78ac-4823-8a9f-3e25d52c569c', 'registered_user_session_uuid': 'e1158878-5be7-488d-b7ff-e061e08eb2dc', 'chatbot_socket_created_at': '2023-07-18T11:47:19.402315Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '5727a797-7d72-4e3d-b677-c15c126de8f0', 'issuerOid': 'bfcb3c36-716d-4d3b-b4f4-40666e697095'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: aaeb2b85-78ac-4823-8a9f-3e25d52c569c
+Action create issue was called
+action_show_category_list
+category oid dsfopiusdfpoispoidf
+Category Oid 2: dsfopiusdfpoispoidf
+action set category oid was called
+ user events 2
+issue dsfopiusdfpoispoidf
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'fb977384-912e-48e5-9a07-5ea821531ef4', 'registered_user_session_uuid': '07720e6d-7d39-4043-964e-521b80364bdb', 'chatbot_socket_created_at': '2023-07-18T11:48:52.436477Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '05c15b52-4b38-4750-ab76-05bd86ad9e0c', 'issuerOid': '7a5550a7-c90a-4125-8e96-0dea1409124c'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: fb977384-912e-48e5-9a07-5ea821531ef4
+Action create issue was called
+action_show_category_list
+category oid sdpofisdpfoisdf][spdf
+Category Oid 2: sdpofisdpfoisdf][spdf
+action set category oid was called
+ user events 2
+issue sdpofisdpfoisdf][spdf
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'cc3e42fc-f6ec-4501-8930-aeaa301cd79c', 'registered_user_session_uuid': '07720e6d-7d39-4043-964e-521b80364bdb', 'chatbot_socket_created_at': '2023-07-18T11:49:19.871739Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '7bf107dd-4601-44e7-bf3e-c53cc0391753', 'issuerOid': '937f6f96-77a3-4455-8ec2-5e2745482c6b'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: cc3e42fc-f6ec-4501-8930-aeaa301cd79c
+Action create issue was called
+action_show_category_list
+category oid sdpfoisdoisdf][sdf[oisdf
+Category Oid 2: sdpfoisdoisdf][sdf[oisdf
+action set category oid was called
+ user events 2
+issue sdpfoisdoisdf][sdf[oisdf
+happenig <4
+category oid issue creation: c948d3e4-6f1c-4452-af43-7630319035d1
+The value of the slot is: categoryc948d3e4-6f1c-4452-af43-7630319035d1
+The value of the trimmed slot is: c948d3e4-6f1c-4452-af43-7630319035d1
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '90027c33-40f3-4ffe-8d87-27b3a0077d3e', 'registered_user_session_uuid': '07720e6d-7d39-4043-964e-521b80364bdb', 'chatbot_socket_created_at': '2023-07-18T11:49:40.812819Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '6be21d41-a7fa-43a1-b08d-9838cd889382', 'issuerOid': 'a7495033-68c4-41f7-8608-eb39fb3fda64'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 90027c33-40f3-4ffe-8d87-27b3a0077d3e
+Action create issue was called
+action_show_category_list
+category oid dsfiopsdofipsodif
+Category Oid 2: dsfiopsdofipsodif
+action set category oid was called
+ user events 2
+issue dsfiopsdofipsodif
+happenig <4
+category oid issue creation: f994e1c3-74fc-4103-a717-2ee56fd16959
+The value of the slot is: categoryf994e1c3-74fc-4103-a717-2ee56fd16959
+The value of the trimmed slot is: f994e1c3-74fc-4103-a717-2ee56fd16959
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '3f7105e6-5923-4b21-a796-c23bb762b05c', 'registered_user_session_uuid': '07720e6d-7d39-4043-964e-521b80364bdb', 'chatbot_socket_created_at': '2023-07-18T11:49:59.231827Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '44abc769-45fd-4113-970c-4edb20a6ef3c', 'issuerOid': '711ab4fd-cdc5-435f-a0c2-eb0175e3cc8d'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 3f7105e6-5923-4b21-a796-c23bb762b05c
+Action create issue was called
+action_show_category_list
+category oid dsfoiusdf[po][fspsd[]fpdsf
+Category Oid 2: dsfoiusdf[po][fspsd[]fpdsf
+action set category oid was called
+ user events 2
+issue dsfoiusdf[po][fspsd[]fpdsf
+happenig <4
+category oid issue creation: a57aae16-51fc-4338-8405-19dd5424cceb
+The value of the slot is: categorya57aae16-51fc-4338-8405-19dd5424cceb
+The value of the trimmed slot is: a57aae16-51fc-4338-8405-19dd5424cceb
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '1392097e-7391-4397-8ebc-6b34c4ad5afd', 'registered_user_session_uuid': '07720e6d-7d39-4043-964e-521b80364bdb', 'chatbot_socket_created_at': '2023-07-18T11:50:16.105129Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': 'f639d342-899d-4152-b0c6-ce909a0769dc', 'issuerOid': '63a8d58c-0115-483d-bb0f-8723192ce13f'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 1392097e-7391-4397-8ebc-6b34c4ad5afd
+Action create issue was called
+action_show_category_list
+category oid sdfiousdf[psdf[oisdf[posdf
+Category Oid 2: sdfiousdf[psdf[oisdf[posdf
+action set category oid was called
+ user events 2
+issue sdfiousdf[psdf[oisdf[posdf
+happenig <4
+category oid issue creation: a57aae16-51fc-4338-8405-19dd5424cceb
+The value of the slot is: categorya57aae16-51fc-4338-8405-19dd5424cceb
+The value of the trimmed slot is: a57aae16-51fc-4338-8405-19dd5424cceb
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '6de30ecf-e8c4-4b83-b21a-4ae50375afb0', 'registered_user_session_uuid': '07720e6d-7d39-4043-964e-521b80364bdb', 'chatbot_socket_created_at': '2023-07-18T11:50:36.104625Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '4f77f5a8-40ec-41fb-8a4a-941b6f697ea6', 'issuerOid': 'a9b17cdc-78ae-40b4-aa2c-9b02888fb681'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 6de30ecf-e8c4-4b83-b21a-4ae50375afb0
+Action create issue was called
+action_show_category_list
+category oid sdfoisudfoiusdf[]p]sd
+Category Oid 2: sdfoisudfoiusdf[]p]sd
+action set category oid was called
+ user events 2
+issue sdfoisudfoiusdf[]p]sd
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'e44ce3fd-a49e-4740-b3c4-66a64bc7af90', 'registered_user_session_uuid': '07720e6d-7d39-4043-964e-521b80364bdb', 'chatbot_socket_created_at': '2023-07-18T11:50:55.844677Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': 'f8cd5b16-4135-4563-bb9a-564886412582', 'issuerOid': '6ff11c94-e1e8-4b5c-a204-10f91c2a2d7a'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: e44ce3fd-a49e-4740-b3c4-66a64bc7af90
+Action create issue was called
+action_show_category_list
+category oid dspfoisdf][spdfpoisdfosdf
+Category Oid 2: dspfoisdf][spdfpoisdfosdf
+action set category oid was called
+ user events 2
+issue dspfoisdf][spdfpoisdfosdf
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'f73838df-86a6-4d6a-9766-8333909074ad', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T11:53:44.213882Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '55e8af12-2bd4-43c2-b088-4ea27c929ab6', 'issuerOid': '13650f8c-2e5c-4f73-bc77-c3174f6a425a'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: f73838df-86a6-4d6a-9766-8333909074ad
+Action create issue was called
+action_show_category_list
+category oid sdfpoisdpfoispdfoi
+Category Oid 2: sdfpoisdpfoispdfoi
+action set category oid was called
+ user events 2
+issue sdfpoisdpfoispdfoi
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '63351b74-e246-4ff3-a687-ae7ff3c38f2a', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T11:54:18.916184Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '86f08ed0-f027-42e7-bbb5-9bb8447601be', 'issuerOid': '7376db3a-25bd-40d8-8595-7263d9ebfae3'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 63351b74-e246-4ff3-a687-ae7ff3c38f2a
+Action create issue was called
+action_show_category_list
+category oid sdpfoisdfpoisdf][spdfpoisdf
+Category Oid 2: sdpfoisdfpoisdf][spdfpoisdf
+action set category oid was called
+ user events 2
+issue sdpfoisdfpoisdf][spdfpoisdf
+happenig <4
+category oid issue creation: f994e1c3-74fc-4103-a717-2ee56fd16959
+The value of the slot is: categoryf994e1c3-74fc-4103-a717-2ee56fd16959
+The value of the trimmed slot is: f994e1c3-74fc-4103-a717-2ee56fd16959
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'dd93b599-1150-4380-aa3a-60306249fe78', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T11:55:33.606619Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '94276fde-4677-4a3b-94c9-0cce3ce9f430', 'issuerOid': '2e4d5c33-0054-408e-bd9a-eea2223b271f'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: dd93b599-1150-4380-aa3a-60306249fe78
+Action create issue was called
+action_show_category_list
+category oid dpfoisdpfois]d[fpds[fopsdf
+Category Oid 2: dpfoisdpfois]d[fpds[fopsdf
+action set category oid was called
+ user events 2
+issue dpfoisdpfois]d[fpds[fopsdf
+happenig <4
+category oid issue creation: a57aae16-51fc-4338-8405-19dd5424cceb
+The value of the slot is: categorya57aae16-51fc-4338-8405-19dd5424cceb
+The value of the trimmed slot is: a57aae16-51fc-4338-8405-19dd5424cceb
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'd70598a8-7aa6-4663-b193-badb711ff232', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T11:56:05.510006Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': 'b35ef531-d2ca-4d08-948f-f74c1eedd54f', 'issuerOid': '6abf2f2b-fbf2-4ef2-9e43-18fcf52fe468'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: d70598a8-7aa6-4663-b193-badb711ff232
+Action create issue was called
+action_show_category_list
+category oid sdofiudsofiusdf[]pdsf][
+Category Oid 2: sdofiudsofiusdf[]pdsf][
+action set category oid was called
+ user events 2
+issue sdofiudsofiusdf[]pdsf][
+happenig <4
+category oid issue creation: a57aae16-51fc-4338-8405-19dd5424cceb
+The value of the slot is: categorya57aae16-51fc-4338-8405-19dd5424cceb
+The value of the trimmed slot is: a57aae16-51fc-4338-8405-19dd5424cceb
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'afdf5a29-7f7e-485c-8384-48721fc32c45', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T11:56:47.851738Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': 'dcd19329-53cd-4ecd-98db-bf7eb001f489', 'issuerOid': '8fa059d9-7185-41d2-9115-90d0e9cac698'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: afdf5a29-7f7e-485c-8384-48721fc32c45
+Action create issue was called
+action_show_category_list
+category oid dfs[psdof[sdpifps[doif
+Category Oid 2: dfs[psdof[sdpifps[doif
+action set category oid was called
+ user events 2
+issue dfs[psdof[sdpifps[doif
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'd5cae4fc-3bb6-4ea5-919a-6a9e180571fa', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T11:58:23.879608Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '7b8be67c-f6dc-42ed-9644-f40b1b6285e9', 'issuerOid': '70287e1b-223a-4869-b41d-7e58f5c117f2'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: d5cae4fc-3bb6-4ea5-919a-6a9e180571fa
+Action create issue was called
+action_show_category_list
+category oid sdfpoidsf][sdopfpoisdf
+Category Oid 2: sdfpoidsf][sdopfpoisdf
+action set category oid was called
+ user events 2
+issue sdfpoidsf][sdopfpoisdf
+happenig <4
+category oid issue creation: a57aae16-51fc-4338-8405-19dd5424cceb
+The value of the slot is: categorya57aae16-51fc-4338-8405-19dd5424cceb
+The value of the trimmed slot is: a57aae16-51fc-4338-8405-19dd5424cceb
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '6f8ac4bb-0840-4766-9089-122f3a3cccf9', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T11:58:48.300469Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '82acbf75-feb1-4c75-a1f4-2300bbeb29ab', 'issuerOid': 'a5d0a1dc-8a2e-4028-9966-4559187cdc1b'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 6f8ac4bb-0840-4766-9089-122f3a3cccf9
+Action create issue was called
+action_show_category_list
+category oid dsfiousdf][psdfpiusdf
+Category Oid 2: dsfiousdf][psdfpiusdf
+action set category oid was called
+ user events 2
+issue dsfiousdf][psdfpiusdf
+happenig <4
+category oid issue creation: f994e1c3-74fc-4103-a717-2ee56fd16959
+The value of the slot is: categoryf994e1c3-74fc-4103-a717-2ee56fd16959
+The value of the trimmed slot is: f994e1c3-74fc-4103-a717-2ee56fd16959
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '3f9870a9-83cc-499f-9ff0-27c4be1d11eb', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T11:59:57.990274Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': 'ed6eb5b2-18ed-43f7-a551-c2aafd4eaba9', 'issuerOid': '29cd9a00-a870-4bc9-a0b6-b5c72d9699a2'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 3f9870a9-83cc-499f-9ff0-27c4be1d11eb
+Action create issue was called
+action_show_category_list
+category oid sdfopiusdf][sdpfouisdf
+Category Oid 2: sdfopiusdf][sdpfouisdf
+action set category oid was called
+ user events 2
+issue sdfopiusdf][sdpfouisdf
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '980e6d25-57c1-484e-8dd4-810ebd052d8a', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T12:00:21.797207Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': 'b410afc1-8b15-4306-816b-8a3f6ea455ac', 'issuerOid': '5d475b0f-2a40-4d49-953c-fc27192c4262'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 980e6d25-57c1-484e-8dd4-810ebd052d8a
+Action create issue was called
+action_show_category_list
+category oid sdfoiusdfoisdf][psdf[posdf
+Category Oid 2: sdfoiusdfoisdf][psdf[posdf
+action set category oid was called
+ user events 2
+issue sdfoiusdfoisdf][psdf[posdf
+happenig <4
+category oid issue creation: c948d3e4-6f1c-4452-af43-7630319035d1
+The value of the slot is: categoryc948d3e4-6f1c-4452-af43-7630319035d1
+The value of the trimmed slot is: c948d3e4-6f1c-4452-af43-7630319035d1
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'f5fa897f-422d-4a8c-ada3-61e17af5d766', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T12:01:15.914204Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '204787dc-156d-4385-981b-9ba77a1eed02', 'issuerOid': 'c6cfe341-ae9f-4c7c-bdad-5e6710ed8f40'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: f5fa897f-422d-4a8c-ada3-61e17af5d766
+Action create issue was called
+action_show_category_list
+category oid dsfpoisdf][sdpfpiusdf
+Category Oid 2: dsfpoisdf][sdpfpiusdf
+action set category oid was called
+ user events 2
+issue dsfpoisdf][sdpfpiusdf
+happenig <4
+category oid issue creation: a57aae16-51fc-4338-8405-19dd5424cceb
+The value of the slot is: categorya57aae16-51fc-4338-8405-19dd5424cceb
+The value of the trimmed slot is: a57aae16-51fc-4338-8405-19dd5424cceb
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '6324a053-9e4c-44bb-b5fb-ace0cfe9a5fb', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T12:01:42.794480Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '6bb98b67-23c6-400a-a780-b3c8098b6dbf', 'issuerOid': '8050ca9f-1e1f-4d67-b25b-840c314b4323'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 6324a053-9e4c-44bb-b5fb-ace0cfe9a5fb
+Action create issue was called
+action_show_category_list
+category oid rgfpoisdfpoisdfpisdf[sdf]sdf]dsfiuh
+Category Oid 2: rgfpoisdfpoisdfpisdf[sdf]sdf]dsfiuh
+action set category oid was called
+ user events 2
+issue rgfpoisdfpoisdfpisdf[sdf]sdf]dsfiuh
+happenig <4
+category oid issue creation: c948d3e4-6f1c-4452-af43-7630319035d1
+The value of the slot is: categoryc948d3e4-6f1c-4452-af43-7630319035d1
+The value of the trimmed slot is: c948d3e4-6f1c-4452-af43-7630319035d1
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '20f0dfc1-e050-4626-a4ec-5e162f75607d', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T12:02:11.740530Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '4e4a5366-dc1c-49cc-8418-beb07da7a78d', 'issuerOid': '5d841a62-b8c5-49fc-8cf1-1bfc17b30f63'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 20f0dfc1-e050-4626-a4ec-5e162f75607d
+Action create issue was called
+action_show_category_list
+category oid dpfoisdfpoispdofi
+Category Oid 2: dpfoisdfpoispdofi
+action set category oid was called
+ user events 2
+issue dpfoisdfpoispdofi
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'f8bbdb73-9ec1-4c69-a42b-9c965babc7cf', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T12:03:20.172455Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '94ee29ca-af05-491e-89a1-d69bf047601a', 'issuerOid': '327fece9-407c-4b6a-af90-a9607eeaf955'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: f8bbdb73-9ec1-4c69-a42b-9c965babc7cf
+Action create issue was called
+action_show_category_list
+category oid sdfoiusdfoiusdf][spdf[oisdf
+Category Oid 2: sdfoiusdfoiusdf][spdf[oisdf
+action set category oid was called
+ user events 2
+issue sdfoiusdfoiusdf][spdf[oisdf
+happenig <4
+category oid issue creation: f994e1c3-74fc-4103-a717-2ee56fd16959
+The value of the slot is: categoryf994e1c3-74fc-4103-a717-2ee56fd16959
+The value of the trimmed slot is: f994e1c3-74fc-4103-a717-2ee56fd16959
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '242c27d9-e495-4008-b74e-ee734c72ca79', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T12:03:54.768444Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '82d39b92-4c94-4d43-ba17-eecc34feb65c', 'issuerOid': '3ba607f8-a072-4df4-9e9a-b70209539563'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 242c27d9-e495-4008-b74e-ee734c72ca79
+Action create issue was called
+action_show_category_list
+category oid dsfoisduf[psdfo][spdf
+Category Oid 2: dsfoisduf[psdfo][spdf
+action set category oid was called
+ user events 2
+issue dsfoisduf[psdfo][spdf
+happenig <4
+category oid issue creation: f994e1c3-74fc-4103-a717-2ee56fd16959
+The value of the slot is: categoryf994e1c3-74fc-4103-a717-2ee56fd16959
+The value of the trimmed slot is: f994e1c3-74fc-4103-a717-2ee56fd16959
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'a21e57f3-adc7-4f6c-a4a9-a74a7f3c7301', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T12:04:46.476076Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '5e90a25a-94ae-48e6-afa7-ad1df417e5dc', 'issuerOid': '661a1394-2712-45af-ab62-e97b91cecfcd'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: a21e57f3-adc7-4f6c-a4a9-a74a7f3c7301
+Action create issue was called
+action_show_category_list
+category oid dpofisdpofisdf
+Category Oid 2: dpofisdpofisdf
+action set category oid was called
+ user events 2
+issue dpofisdpofisdf
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'f80e2b64-95cb-46d0-9d9c-6c460edbb76e', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T12:21:55.597169Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '6d0d80d2-dc5a-48f7-8e69-e6fbe5ea8d35', 'issuerOid': 'd12c13cc-6207-4394-9955-63285f86385a'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: f80e2b64-95cb-46d0-9d9c-6c460edbb76e
+Action create issue was called
+action_show_category_list
+category oid sdfoiusdfoiusdofiusdf][sdf
+Category Oid 2: sdfoiusdfoiusdofiusdf][sdf
+action set category oid was called
+ user events 2
+issue sdfoiusdfoiusdofiusdf][sdf
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'c36b2f96-6074-448e-b8f8-299ef8761152', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T12:24:46.946637Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '9fd65fb9-eaad-4818-a8ab-81cb9bd4174f', 'issuerOid': 'b6de28b4-6c21-46cf-a8a7-44316c5245a8'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: c36b2f96-6074-448e-b8f8-299ef8761152
+Action create issue was called
+action_show_category_list
+category oid sdfouisdfoiusdf][sdpf
+Category Oid 2: sdfouisdfoiusdf][sdpf
+action set category oid was called
+ user events 2
+issue sdfouisdfoiusdf][sdpf
+happenig <4
+category oid issue creation: a57aae16-51fc-4338-8405-19dd5424cceb
+The value of the slot is: categorya57aae16-51fc-4338-8405-19dd5424cceb
+The value of the trimmed slot is: a57aae16-51fc-4338-8405-19dd5424cceb
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'f6033280-612a-484a-84f0-e384661d61b1', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T12:25:16.391186Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '09370ce7-64f7-4142-b94d-391a4a0066fc', 'issuerOid': '245296d1-eb8d-48a9-960d-d7e0e768004b'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: f6033280-612a-484a-84f0-e384661d61b1
+Action create issue was called
+action_show_category_list
+category oid osdifuosdifuosiudf
+Category Oid 2: osdifuosdifuosiudf
+action set category oid was called
+ user events 2
+issue osdifuosdifuosiudf
+happenig <4
+category oid issue creation: a57aae16-51fc-4338-8405-19dd5424cceb
+The value of the slot is: categorya57aae16-51fc-4338-8405-19dd5424cceb
+The value of the trimmed slot is: a57aae16-51fc-4338-8405-19dd5424cceb
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '580e6dc0-7758-4ecb-9bb7-97d857fb0148', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T12:25:39.353262Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '3f62079f-7eae-40f4-8ec2-344135c76678', 'issuerOid': '5d906758-67b1-4739-af36-1f5b038d7091'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 580e6dc0-7758-4ecb-9bb7-97d857fb0148
+Action create issue was called
+action_show_category_list
+category oid odasiuaoisudoaiusd
+Category Oid 2: odasiuaoisudoaiusd
+action set category oid was called
+ user events 2
+issue odasiuaoisudoaiusd
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '7bfa9244-909a-4177-84ab-84afc576a059', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T12:25:56.145044Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '29dc047e-d12b-49ab-baca-d44013e77a0e', 'issuerOid': 'dc812954-388c-458e-afbb-385a6f2553c6'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 7bfa9244-909a-4177-84ab-84afc576a059
+Action create issue was called
+action_show_category_list
+category oid dsoifusodifuoiusdf[]psfd
+Category Oid 2: dsoifusodifuoiusdf[]psfd
+action set category oid was called
+ user events 2
+issue dsoifusodifuoiusdf[]psfd
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '6780561d-3267-4b46-aff7-b834d7878e9b', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T12:26:20.160119Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': 'a0181d5e-5cef-496f-9858-b3d295f7f540', 'issuerOid': '874449b2-bf5b-4b87-8d78-51312be9b9b9'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 6780561d-3267-4b46-aff7-b834d7878e9b
+Action create issue was called
+action_show_category_list
+category oid sdfiusodifuosdifuosiudf
+Category Oid 2: sdfiusodifuosdifuosiudf
+action set category oid was called
+ user events 2
+issue sdfiusodifuosdifuosiudf
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '13fb2f46-2297-46c6-a995-e1646bc605a4', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T12:26:38.606351Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': 'c3986386-c9af-43c7-bcdb-28e9d247d5b5', 'issuerOid': '7249dc6d-1275-4c7d-8b57-8f19ec3b30a8'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 13fb2f46-2297-46c6-a995-e1646bc605a4
+Action create issue was called
+action_show_category_list
+category oid sdfoiusdofiusdf[pog[pdfg
+Category Oid 2: sdfoiusdofiusdf[pog[pdfg
+action set category oid was called
+ user events 2
+issue sdfoiusdofiusdf[pog[pdfg
+happenig <4
+category oid issue creation: a57aae16-51fc-4338-8405-19dd5424cceb
+The value of the slot is: categorya57aae16-51fc-4338-8405-19dd5424cceb
+The value of the trimmed slot is: a57aae16-51fc-4338-8405-19dd5424cceb
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'b965945a-968f-45b4-a3ed-d3c8144205d4', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T12:26:56.087303Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': 'e2b623bf-458b-4952-8b5a-ae71b86f2fd4', 'issuerOid': '983596eb-9e18-4634-8376-b476ca2d52cd'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: b965945a-968f-45b4-a3ed-d3c8144205d4
+Action create issue was called
+action_show_category_list
+category oid dspfoisdf[psd][psdfisdf
+Category Oid 2: dspfoisdf[psd][psdfisdf
+action set category oid was called
+ user events 2
+issue dspfoisdf[psd][psdfisdf
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '1a478a91-8a39-4a69-ac1d-0e680a272488', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T12:27:15.714314Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': 'a35e329f-7d3f-491e-8045-2be5d9a154ac', 'issuerOid': 'cadcbc4f-4682-48b0-ad5a-dcde36c7d334'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 1a478a91-8a39-4a69-ac1d-0e680a272488
+Action create issue was called
+action_show_category_list
+category oid asdoiuaosdiuo
+Category Oid 2: asdoiuaosdiuo
+action set category oid was called
+ user events 2
+issue asdoiuaosdiuo
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '01276a0a-f7ae-42f3-901e-15dc61c88cce', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T12:27:31.855978Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '9cb19b86-24eb-403c-992a-76155c886681', 'issuerOid': '24de809d-5139-44df-98b4-624f77ce1020'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 01276a0a-f7ae-42f3-901e-15dc61c88cce
+Action create issue was called
+action_show_category_list
+category oid csdfg][spdf][spdf][psdf
+Category Oid 2: csdfg][spdf][spdf][psdf
+action set category oid was called
+ user events 2
+issue csdfg][spdf][spdf][psdf
+happenig <4
+category oid issue creation: a57aae16-51fc-4338-8405-19dd5424cceb
+The value of the slot is: categorya57aae16-51fc-4338-8405-19dd5424cceb
+The value of the trimmed slot is: a57aae16-51fc-4338-8405-19dd5424cceb
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'b1dfbb18-600b-4526-933b-90f24b2a36f7', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T12:28:10.728391Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': 'fa2455c1-e902-4d18-a785-ad89febcd7b5', 'issuerOid': '7d929488-3960-4f3d-bba6-e780468a778b'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: b1dfbb18-600b-4526-933b-90f24b2a36f7
+Action create issue was called
+action_show_category_list
+category oid sdoifusodifusdf[spdf[posdf
+Category Oid 2: sdoifusodifusdf[spdf[posdf
+action set category oid was called
+ user events 2
+issue sdoifusodifusdf[spdf[posdf
+happenig <4
+category oid issue creation: f994e1c3-74fc-4103-a717-2ee56fd16959
+The value of the slot is: categoryf994e1c3-74fc-4103-a717-2ee56fd16959
+The value of the trimmed slot is: f994e1c3-74fc-4103-a717-2ee56fd16959
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '66fee2b5-ba4a-49cb-b1f8-2d1970fe054e', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T12:28:31.327970Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': 'a5032ae1-f1a3-44a8-bdee-8d4a805383f8', 'issuerOid': '023f416d-9804-4dce-b5e3-46e6c1d21e57'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 66fee2b5-ba4a-49cb-b1f8-2d1970fe054e
+Action create issue was called
+action_show_category_list
+category oid sdfiposidf][sdpfsopidf
+Category Oid 2: sdfiposidf][sdpfsopidf
+action set category oid was called
+ user events 2
+issue sdfiposidf][sdpfsopidf
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '61f63cf2-976f-4ee9-94c1-2685c078fdc8', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T12:28:49.166836Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '76e8d4f5-7301-4dca-92c3-d293521c03ef', 'issuerOid': '9347d178-4dcd-43a9-b92d-1583fd3fbdc0'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 61f63cf2-976f-4ee9-94c1-2685c078fdc8
+Action create issue was called
+action_show_category_list
+category oid sdfoiusfpoisepoisf
+Category Oid 2: sdfoiusfpoisepoisf
+action set category oid was called
+ user events 2
+issue sdfoiusfpoisepoisf
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '400003d4-717d-4049-8f64-1320e427481a', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T12:29:10.824641Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '8b6c166e-5a3a-4032-b553-49598f5b66c6', 'issuerOid': '9d7f36bd-8c18-440e-b9df-fa8a12901f4a'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 400003d4-717d-4049-8f64-1320e427481a
+Action create issue was called
+action_show_category_list
+category oid sdofiusdofiusdofiusdf
+Category Oid 2: sdofiusdofiusdofiusdf
+action set category oid was called
+ user events 2
+issue sdofiusdofiusdofiusdf
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '0158e32d-c4a1-441a-9600-713339bd5ea3', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T12:29:30.192353Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '29bbb94f-9ed2-417c-ba1d-a038f4405384', 'issuerOid': '3771321a-1708-47df-bc37-268ea946e4df'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 0158e32d-c4a1-441a-9600-713339bd5ea3
+Action create issue was called
+action_show_category_list
+category oid dpfogi[dpfgopiusdf
+Category Oid 2: dpfogi[dpfgopiusdf
+action set category oid was called
+ user events 2
+issue dpfogi[dpfgopiusdf
+happenig <4
+category oid issue creation: f994e1c3-74fc-4103-a717-2ee56fd16959
+The value of the slot is: categoryf994e1c3-74fc-4103-a717-2ee56fd16959
+The value of the trimmed slot is: f994e1c3-74fc-4103-a717-2ee56fd16959
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '6e521ed9-6161-4664-96ed-de776dc8bc64', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T12:29:48.295546Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '8a169827-2aa0-4289-a6aa-87e82631529d', 'issuerOid': '2e817791-2b2a-4887-8d1b-a5de23225a93'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 6e521ed9-6161-4664-96ed-de776dc8bc64
+Action create issue was called
+action_show_category_list
+category oid sdiopfusd[pfos[dfioisdf
+Category Oid 2: sdiopfusd[pfos[dfioisdf
+action set category oid was called
+ user events 2
+issue sdiopfusd[pfos[dfioisdf
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '8bdead88-1f19-4a46-ad32-1c4282bd65b5', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T12:30:08.330785Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '55875660-485c-4418-817a-f8e0f6645b1a', 'issuerOid': '0919fe16-5cc2-4efd-a6c5-00792eb10037'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 8bdead88-1f19-4a46-ad32-1c4282bd65b5
+Action create issue was called
+action_show_category_list
+category oid dsfoiusodfiusoiduf
+Category Oid 2: dsfoiusodfiusoiduf
+action set category oid was called
+ user events 2
+issue dsfoiusodfiusoiduf
+happenig <4
+category oid issue creation: c948d3e4-6f1c-4452-af43-7630319035d1
+The value of the slot is: categoryc948d3e4-6f1c-4452-af43-7630319035d1
+The value of the trimmed slot is: c948d3e4-6f1c-4452-af43-7630319035d1
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '2e9cdfd4-b576-4c28-8e27-f51c5f2cd5a0', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T12:30:28.571021Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '36bf17e2-be7f-45ed-aa73-3aaf91122296', 'issuerOid': '782c1896-7a44-499b-818a-f6f00b8b6ade'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 2e9cdfd4-b576-4c28-8e27-f51c5f2cd5a0
+Action create issue was called
+action_show_category_list
+category oid asoiduoaisuda[sdpasd
+Category Oid 2: asoiduoaisuda[sdpasd
+action set category oid was called
+ user events 2
+issue asoiduoaisuda[sdpasd
+happenig <4
+category oid issue creation: a57aae16-51fc-4338-8405-19dd5424cceb
+The value of the slot is: categorya57aae16-51fc-4338-8405-19dd5424cceb
+The value of the trimmed slot is: a57aae16-51fc-4338-8405-19dd5424cceb
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'f8ee2e7c-2eb9-430b-b22a-6bf83428b7d4', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T12:30:49.333483Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '27d030f6-0c1a-4719-b7f2-925f4aa9161d', 'issuerOid': '05c2d240-2963-47c1-bba9-7b4a1e9c759c'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: f8ee2e7c-2eb9-430b-b22a-6bf83428b7d4
+Action create issue was called
+action_show_category_list
+category oid sdoifupsodf]sd[pfospdf
+Category Oid 2: sdoifupsodf]sd[pfospdf
+action set category oid was called
+ user events 2
+issue sdoifupsodf]sd[pfospdf
+happenig <4
+category oid issue creation: c948d3e4-6f1c-4452-af43-7630319035d1
+The value of the slot is: categoryc948d3e4-6f1c-4452-af43-7630319035d1
+The value of the trimmed slot is: c948d3e4-6f1c-4452-af43-7630319035d1
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '8dd400f9-5afb-4ebe-b658-c0d017de703f', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T12:31:07.050999Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': 'e6022e47-16c5-48d1-b8ce-d9450d84546a', 'issuerOid': 'd7d258cb-ad42-43b2-a7f7-637a409ce5ed'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 8dd400f9-5afb-4ebe-b658-c0d017de703f
+Action create issue was called
+action_show_category_list
+category oid odsifuspdofipsoidf
+Category Oid 2: odsifuspdofipsoidf
+action set category oid was called
+ user events 2
+issue odsifuspdofipsoidf
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'f4182b6c-ed4e-4d72-977f-fb7a798499d7', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T12:31:23.557434Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': 'cbd7e0ed-d476-4281-ae9e-03e80a83682a', 'issuerOid': 'c61f48ec-77b9-4be7-b0e4-3393ce00b9fa'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: f4182b6c-ed4e-4d72-977f-fb7a798499d7
+Action create issue was called
+action_show_category_list
+category oid dfgpoifdpgoisdpofisdf
+Category Oid 2: dfgpoifdpgoisdpofisdf
+action set category oid was called
+ user events 2
+issue dfgpoifdpgoisdpofisdf
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '05efd18f-4635-4573-a97b-a9adc8e1bcaa', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T12:31:39.860703Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': 'cd8a49b7-5359-45e4-8d43-6e58a43e3dc2', 'issuerOid': '4a034f44-55f4-4d10-ae50-1c2b9a226225'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 05efd18f-4635-4573-a97b-a9adc8e1bcaa
+Action create issue was called
+action_show_category_list
+category oid sdaoiuasodiuasd
+Category Oid 2: sdaoiuasodiuasd
+action set category oid was called
+ user events 2
+issue sdaoiuasodiuasd
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'd84a8948-0b6f-4565-90ee-fe08b163392b', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T12:32:01.733266Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '2f348a30-9a3d-49b1-80de-3c9e5515896b', 'issuerOid': 'f58c1051-5419-4caf-9b39-9653fbc20c97'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: d84a8948-0b6f-4565-90ee-fe08b163392b
+Action create issue was called
+action_show_category_list
+category oid sdoifspdofisd[]fp]sd[ofsdif
+Category Oid 2: sdoifspdofisd[]fp]sd[ofsdif
+action set category oid was called
+ user events 2
+issue sdoifspdofisd[]fp]sd[ofsdif
+happenig <4
+category oid issue creation: f994e1c3-74fc-4103-a717-2ee56fd16959
+The value of the slot is: categoryf994e1c3-74fc-4103-a717-2ee56fd16959
+The value of the trimmed slot is: f994e1c3-74fc-4103-a717-2ee56fd16959
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'e7910e15-0aaf-4ab0-b019-ac064ff5df8e', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T12:32:27.824716Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '94093124-8ee1-4cb6-a424-ea6e6f02516d', 'issuerOid': '60e5f6f4-9a21-4dac-8286-5d48e9e33fc1'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: e7910e15-0aaf-4ab0-b019-ac064ff5df8e
+Action create issue was called
+action_show_category_list
+category oid sdopifsdf[]spdfs[odif
+Category Oid 2: sdopifsdf[]spdfs[odif
+action set category oid was called
+ user events 2
+issue sdopifsdf[]spdfs[odif
+happenig <4
+category oid issue creation: f994e1c3-74fc-4103-a717-2ee56fd16959
+The value of the slot is: categoryf994e1c3-74fc-4103-a717-2ee56fd16959
+The value of the trimmed slot is: f994e1c3-74fc-4103-a717-2ee56fd16959
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'dd96e593-3517-4f4a-ab38-09e856256aa8', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T12:32:46.772488Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '6e9a2940-ec59-49cd-b71e-b94875821f06', 'issuerOid': '2232b302-a46a-4101-b0a8-627e2aca599e'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: dd96e593-3517-4f4a-ab38-09e856256aa8
+Action create issue was called
+action_show_category_list
+category oid sdoifusodifusdfuypaosioaisud
+Category Oid 2: sdoifusodifusdfuypaosioaisud
+action set category oid was called
+ user events 2
+issue sdoifusodifusdfuypaosioaisud
+happenig <4
+category oid issue creation: c948d3e4-6f1c-4452-af43-7630319035d1
+The value of the slot is: categoryc948d3e4-6f1c-4452-af43-7630319035d1
+The value of the trimmed slot is: c948d3e4-6f1c-4452-af43-7630319035d1
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '128a927e-b500-45c2-91e1-01aa220fd9e0', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T12:33:06.947196Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '7f3a4b54-b96f-4cdc-b15d-fccd9c774fed', 'issuerOid': '0a968d22-e26e-40b6-a44b-22efa3d61804'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 128a927e-b500-45c2-91e1-01aa220fd9e0
+Action create issue was called
+action_show_category_list
+category oid fsdoiufsdpofsd][fpsdfoi
+Category Oid 2: fsdoiufsdpofsd][fpsdfoi
+action set category oid was called
+ user events 2
+issue fsdoiufsdpofsd][fpsdfoi
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '8a90dd0d-6f92-4d1d-8bb9-4acd513efbec', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T12:33:26.952718Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '86a9cd14-f119-4876-bf8c-7de6579d9e2e', 'issuerOid': '92e8c139-edd2-4c4a-a37e-dac46c27126f'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 8a90dd0d-6f92-4d1d-8bb9-4acd513efbec
+Action create issue was called
+action_show_category_list
+category oid osdaiuaopsiudpaosd]sa[pd
+Category Oid 2: osdaiuaopsiudpaosd]sa[pd
+action set category oid was called
+ user events 2
+issue osdaiuaopsiudpaosd]sa[pd
+happenig <4
+category oid issue creation: f994e1c3-74fc-4103-a717-2ee56fd16959
+The value of the slot is: categoryf994e1c3-74fc-4103-a717-2ee56fd16959
+The value of the trimmed slot is: f994e1c3-74fc-4103-a717-2ee56fd16959
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '6651eb9a-9e8b-403d-970b-aa53790044ea', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T12:33:49.056812Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '87390a5b-0414-428d-9cfa-a65ac6b12414', 'issuerOid': '0a1cf30a-2b21-48cb-a452-1b2039740f94'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 6651eb9a-9e8b-403d-970b-aa53790044ea
+Action create issue was called
+action_show_category_list
+category oid sdpfoisdpfoisdfpo
+Category Oid 2: sdpfoisdpfoisdfpo
+action set category oid was called
+ user events 2
+issue sdpfoisdpfoisdfpo
+happenig <4
+category oid issue creation: a57aae16-51fc-4338-8405-19dd5424cceb
+The value of the slot is: categorya57aae16-51fc-4338-8405-19dd5424cceb
+The value of the trimmed slot is: a57aae16-51fc-4338-8405-19dd5424cceb
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'e616fbb9-6800-48b1-89b3-f4d89ec6e402', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T12:34:08.705765Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '2c8a4edb-cbce-4d49-8c8b-19dc69ece52d', 'issuerOid': '77fb98cb-ba7c-418a-b83c-8fd54044f22b'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: e616fbb9-6800-48b1-89b3-f4d89ec6e402
+Action create issue was called
+action_show_category_list
+category oid sdfoiusdfopais[pap]s[do
+Category Oid 2: sdfoiusdfopais[pap]s[do
+action set category oid was called
+ user events 2
+issue sdfoiusdfopais[pap]s[do
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'a8906eef-7386-4af5-a7fe-b7980e4b5bc8', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T12:34:26.134974Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '2307665c-6f42-4d60-8a80-d189c733dbbb', 'issuerOid': 'efa935af-d54c-4ded-9cdf-e706c359a95f'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: a8906eef-7386-4af5-a7fe-b7980e4b5bc8
+Action create issue was called
+action_show_category_list
+category oid sdoifusdf[psd]f[psdfpsdof
+Category Oid 2: sdoifusdf[psd]f[psdfpsdof
+action set category oid was called
+ user events 2
+issue sdoifusdf[psd]f[psdfpsdof
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '66690106-3bd6-4230-a66d-9d2f31f4e612', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T12:34:48.392788Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '8752583a-8309-497d-b241-45da8a29a832', 'issuerOid': 'fedbe6a5-1b4b-4aa6-b9f3-a9a8b185eeb4'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 66690106-3bd6-4230-a66d-9d2f31f4e612
+Action create issue was called
+action_show_category_list
+category oid sdoifusdofisd][fpdsifsd
+Category Oid 2: sdoifusdofisd][fpdsifsd
+action set category oid was called
+ user events 2
+issue sdoifusdofisd][fpdsifsd
+happenig <4
+category oid issue creation: a57aae16-51fc-4338-8405-19dd5424cceb
+The value of the slot is: categorya57aae16-51fc-4338-8405-19dd5424cceb
+The value of the trimmed slot is: a57aae16-51fc-4338-8405-19dd5424cceb
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'ac03ce9d-39cb-4430-ba92-dd9e8d8868fd', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T12:35:05.645879Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '493a0bce-74ab-47f5-b408-647f2b6f7da4', 'issuerOid': 'c803cae1-cd86-4495-b162-9827707d40dd'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: ac03ce9d-39cb-4430-ba92-dd9e8d8868fd
+Action create issue was called
+action_show_category_list
+category oid sdfposidf[][sdpf[]psdf
+Category Oid 2: sdfposidf[][sdpf[]psdf
+action set category oid was called
+ user events 2
+issue sdfposidf[][sdpf[]psdf
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'a2367b61-7931-46a4-8654-33f16315aa88', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T12:35:23.965048Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '5ee154b6-48eb-4a27-ace6-0c276acec681', 'issuerOid': '41c5cf2c-64d7-44d9-8171-533cdf3cf831'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: a2367b61-7931-46a4-8654-33f16315aa88
+Action create issue was called
+action_show_category_list
+category oid sdfuisdpfosd][fpsdofisdf
+Category Oid 2: sdfuisdpfosd][fpsdofisdf
+action set category oid was called
+ user events 2
+issue sdfuisdpfosd][fpsdofisdf
+happenig <4
+category oid issue creation: a57aae16-51fc-4338-8405-19dd5424cceb
+The value of the slot is: categorya57aae16-51fc-4338-8405-19dd5424cceb
+The value of the trimmed slot is: a57aae16-51fc-4338-8405-19dd5424cceb
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'c24ab95f-6311-46dc-9d91-e57a9a74a3fb', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T12:35:43.508351Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': 'b3914062-12d5-4a40-bc86-24fcbbef7ce1', 'issuerOid': '14489a46-ebb3-46e9-aa74-d7bd1d24fb53'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: c24ab95f-6311-46dc-9d91-e57a9a74a3fb
+Action create issue was called
+action_show_category_list
+category oid sdfiosdf[psodfpoiasd[paosd
+Category Oid 2: sdfiosdf[psodfpoiasd[paosd
+action set category oid was called
+ user events 2
+issue sdfiosdf[psodfpoiasd[paosd
+happenig <4
+category oid issue creation: c948d3e4-6f1c-4452-af43-7630319035d1
+The value of the slot is: categoryc948d3e4-6f1c-4452-af43-7630319035d1
+The value of the trimmed slot is: c948d3e4-6f1c-4452-af43-7630319035d1
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '38a1da36-2fc5-458d-86be-02e95a36625b', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T12:36:01.012783Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': 'c290cd8b-5c9a-4b77-8d7b-ac152d23cd13', 'issuerOid': '27f102c8-9e27-475a-ad79-8ea13ee05c2d'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 38a1da36-2fc5-458d-86be-02e95a36625b
+Action create issue was called
+action_show_category_list
+category oid aspdoiasd[poipofd[posdf
+Category Oid 2: aspdoiasd[poipofd[posdf
+action set category oid was called
+ user events 2
+issue aspdoiasd[poipofd[posdf
+happenig <4
+category oid issue creation: c948d3e4-6f1c-4452-af43-7630319035d1
+The value of the slot is: categoryc948d3e4-6f1c-4452-af43-7630319035d1
+The value of the trimmed slot is: c948d3e4-6f1c-4452-af43-7630319035d1
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'e7f101c5-0a84-4ae3-a9a7-477f6a3baa34', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T12:36:19.714450Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '622a2507-b32d-4aa9-8c95-31a3eec68e46', 'issuerOid': '8daa5194-9a2d-419a-8ecc-8a7fac06bc70'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: e7f101c5-0a84-4ae3-a9a7-477f6a3baa34
+Action create issue was called
+action_show_category_list
+category oid sdpfoisdfpois][dfp[sdpof[sdf
+Category Oid 2: sdpfoisdfpois][dfp[sdpof[sdf
+action set category oid was called
+ user events 2
+issue sdpfoisdfpois][dfp[sdpof[sdf
+happenig <4
+category oid issue creation: c948d3e4-6f1c-4452-af43-7630319035d1
+The value of the slot is: categoryc948d3e4-6f1c-4452-af43-7630319035d1
+The value of the trimmed slot is: c948d3e4-6f1c-4452-af43-7630319035d1
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '2cc53e00-69ba-459d-bf2b-018172d0308c', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T12:36:37.852108Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '3a9b69d4-4368-4e58-b139-8e8f38657214', 'issuerOid': '47f8dfd1-f161-43d4-af75-af2ebdf4ba86'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 2cc53e00-69ba-459d-bf2b-018172d0308c
+Action create issue was called
+action_show_category_list
+category oid sdpfoisd[fposdpfiosdf
+Category Oid 2: sdpfoisd[fposdpfiosdf
+action set category oid was called
+ user events 2
+issue sdpfoisd[fposdpfiosdf
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'cb47417c-fadb-46c9-9e08-6550ef978aad', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T12:36:56.925404Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '959f0f2e-dca4-49e8-8a83-d384fd684edc', 'issuerOid': '543668d1-6c42-473b-9eba-b40a1199cf9f'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: cb47417c-fadb-46c9-9e08-6550ef978aad
+Action create issue was called
+action_show_category_list
+category oid poise[pos[pfoiposdif
+Category Oid 2: poise[pos[pfoiposdif
+action set category oid was called
+ user events 2
+issue poise[pos[pfoiposdif
+happenig <4
+category oid issue creation: a57aae16-51fc-4338-8405-19dd5424cceb
+The value of the slot is: categorya57aae16-51fc-4338-8405-19dd5424cceb
+The value of the trimmed slot is: a57aae16-51fc-4338-8405-19dd5424cceb
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '16d4204a-80ee-4d2a-a481-5f1e93781a5d', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T12:37:14.412911Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': 'e22de373-7e3b-4bef-afb3-0b01081c4df7', 'issuerOid': 'f4fabac6-243c-45ac-9b7f-803c5e4fb6be'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 16d4204a-80ee-4d2a-a481-5f1e93781a5d
+Action create issue was called
+action_show_category_list
+category oid dspfoisdf][sdfoisdfopisdf
+Category Oid 2: dspfoisdf][sdfoisdfopisdf
+action set category oid was called
+ user events 2
+issue dspfoisdf][sdfoisdfopisdf
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '443a8efa-9e0d-492b-a0ba-1b12cc64e9e0', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T12:37:31.923787Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': 'aa2bd68f-7dd0-47db-9c25-6653aa4462df', 'issuerOid': '5576a42c-b422-419a-9718-90991c6953bc'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 443a8efa-9e0d-492b-a0ba-1b12cc64e9e0
+Action create issue was called
+action_show_category_list
+category oid dfoisd[fposdfisdfjsdf
+Category Oid 2: dfoisd[fposdfisdfjsdf
+action set category oid was called
+ user events 2
+issue dfoisd[fposdfisdfjsdf
+happenig <4
+category oid issue creation: a57aae16-51fc-4338-8405-19dd5424cceb
+The value of the slot is: categorya57aae16-51fc-4338-8405-19dd5424cceb
+The value of the trimmed slot is: a57aae16-51fc-4338-8405-19dd5424cceb
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'e7242430-74aa-4ccd-bf13-583d836d179a', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T12:37:51.933910Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': 'e43e1e45-e577-4c2b-92bf-e26b51c31397', 'issuerOid': '180115b4-42fd-4202-a69d-85c858f02c6e'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: e7242430-74aa-4ccd-bf13-583d836d179a
+Action create issue was called
+action_show_category_list
+category oid dsopfisdfpo]sd[fpsdifusdf
+Category Oid 2: dsopfisdfpo]sd[fpsdifusdf
+action set category oid was called
+ user events 2
+issue dsopfisdfpo]sd[fpsdifusdf
+happenig <4
+category oid issue creation: c948d3e4-6f1c-4452-af43-7630319035d1
+The value of the slot is: categoryc948d3e4-6f1c-4452-af43-7630319035d1
+The value of the trimmed slot is: c948d3e4-6f1c-4452-af43-7630319035d1
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '2632c2fa-e0d3-4238-8a81-2cd18f0f8db6', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T12:38:11.049712Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '4b8a8392-10c5-46f0-b2f7-3da4c4ecc71a', 'issuerOid': '92ac9a27-c437-4b52-b683-9d80d6a5b9b2'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 2632c2fa-e0d3-4238-8a81-2cd18f0f8db6
+Action create issue was called
+action_show_category_list
+category oid ds[fposd[fpospdofiusdf
+Category Oid 2: ds[fposd[fpospdofiusdf
+action set category oid was called
+ user events 2
+issue ds[fposd[fpospdofiusdf
+happenig <4
+category oid issue creation: c948d3e4-6f1c-4452-af43-7630319035d1
+The value of the slot is: categoryc948d3e4-6f1c-4452-af43-7630319035d1
+The value of the trimmed slot is: c948d3e4-6f1c-4452-af43-7630319035d1
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '797cece9-4f87-4980-ab7c-82902b83c3ea', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T12:38:28.875880Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '0bf1bf71-2592-4c55-8324-49e5bfc07067', 'issuerOid': '7a66400e-ff48-4e59-b651-de3f22697b01'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 797cece9-4f87-4980-ab7c-82902b83c3ea
+Action create issue was called
+action_show_category_list
+category oid sdpofisdpofisdf
+Category Oid 2: sdpofisdpofisdf
+action set category oid was called
+ user events 2
+issue sdpofisdpofisdf
+happenig <4
+category oid issue creation: f994e1c3-74fc-4103-a717-2ee56fd16959
+The value of the slot is: categoryf994e1c3-74fc-4103-a717-2ee56fd16959
+The value of the trimmed slot is: f994e1c3-74fc-4103-a717-2ee56fd16959
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'eebf6749-7457-40cf-919c-f101e3fab4a4', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T12:38:45.958766Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': 'fc479ceb-7913-4c52-873a-ef2dd17cae42', 'issuerOid': '266228fb-2d9e-4157-af2e-d6029da24348'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: eebf6749-7457-40cf-919c-f101e3fab4a4
+Action create issue was called
+action_show_category_list
+category oid dsfopisudfpoispdoif
+Category Oid 2: dsfopisudfpoispdoif
+action set category oid was called
+ user events 2
+issue dsfopisudfpoispdoif
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'a9fb408f-1067-40ba-acf8-e45f457e27a9', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T12:39:01.334026Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '00d23218-5d31-4255-b5a9-8ef504e7a618', 'issuerOid': 'e25dd660-9e6d-46b4-aa63-dc36ccf9e5bb'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: a9fb408f-1067-40ba-acf8-e45f457e27a9
+Action create issue was called
+action_show_category_list
+category oid dsfposdfip[soidfposidf
+Category Oid 2: dsfposdfip[soidfposidf
+action set category oid was called
+ user events 2
+issue dsfposdfip[soidfposidf
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'c413abbd-7a2c-4cc3-a4e3-4b861920e156', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T12:39:17.520188Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '3ea0f554-01ef-40e6-ab41-d10ed5097478', 'issuerOid': '0bba3770-1379-4a47-8b44-557a42c8b9d4'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: c413abbd-7a2c-4cc3-a4e3-4b861920e156
+Action create issue was called
+action_show_category_list
+category oid sdopfispdofisdfi
+Category Oid 2: sdopfispdofisdfi
+action set category oid was called
+ user events 2
+issue sdopfispdofisdfi
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '100bf2c5-23a6-4642-9793-2c1fd521a7de', 'registered_user_session_uuid': '4f3990ed-54a2-434a-8329-c1bf8c5795a2', 'chatbot_socket_created_at': '2023-07-18T12:39:37.499576Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '4d6c8807-07b8-4d19-8913-59d6841fa1e1', 'issuerOid': 'ed1ffd0e-85f4-4f9f-99b0-9388524d724e'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 100bf2c5-23a6-4642-9793-2c1fd521a7de
+Action create issue was called
+action_show_category_list
+category oid dsfpoisdpfoispdoif
+Category Oid 2: dsfpoisdpfoispdoif
+action set category oid was called
+ user events 2
+issue dsfpoisdpfoispdoif
+happenig <4
+category oid issue creation: c948d3e4-6f1c-4452-af43-7630319035d1
+The value of the slot is: categoryc948d3e4-6f1c-4452-af43-7630319035d1
+The value of the trimmed slot is: c948d3e4-6f1c-4452-af43-7630319035d1
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '2e1b7e26-72da-4c16-bb2c-db8a6290efea', 'registered_user_session_uuid': 'f7eebbc0-8914-4bae-97e9-67308e334cf9', 'chatbot_socket_created_at': '2023-07-18T13:19:28.615801Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '19325930-aa9c-4e63-aa43-7b51652e5d1f', 'issuerOid': 'd0c7c2b1-e97b-4ce4-8562-04bcc98cf03f'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 2e1b7e26-72da-4c16-bb2c-db8a6290efea
+Action create issue was called
+action_show_category_list
+category oid fgdfhhgjgfdfgh
+Category Oid 2: fgdfhhgjgfdfgh
+action set category oid was called
+ user events 2
+issue fgdfhhgjgfdfgh
+happenig <4
+category oid issue creation: c948d3e4-6f1c-4452-af43-7630319035d1
+The value of the slot is: categoryc948d3e4-6f1c-4452-af43-7630319035d1
+The value of the trimmed slot is: c948d3e4-6f1c-4452-af43-7630319035d1
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '7c2a11fb-4917-4f31-8d30-de2e30c53134', 'registered_user_session_uuid': 'e4e23ee7-7261-478c-bfe9-e81d5856c7fa', 'chatbot_socket_created_at': '2023-07-18T13:24:17.495783Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '445df76e-a39d-4596-acf0-3b27185bcbb1', 'issuerOid': '3c75086b-2d51-428e-9980-236780ec4cd6'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 7c2a11fb-4917-4f31-8d30-de2e30c53134
+Action create issue was called
+action_show_category_list
+category oid gfjgjhkjkhfgjfdghhk
+Category Oid 2: gfjgjhkjkhfgjfdghhk
+action set category oid was called
+ user events 2
+issue gfjgjhkjkhfgjfdghhk
+happenig <4
+category oid issue creation: f994e1c3-74fc-4103-a717-2ee56fd16959
+The value of the slot is: categoryf994e1c3-74fc-4103-a717-2ee56fd16959
+The value of the trimmed slot is: f994e1c3-74fc-4103-a717-2ee56fd16959
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '2799c913-40c8-47eb-8058-61adac61ce43', 'registered_user_session_uuid': 'e4e23ee7-7261-478c-bfe9-e81d5856c7fa', 'chatbot_socket_created_at': '2023-07-18T13:25:45.892056Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': 'ff363071-6796-4bf2-a85a-8e2f2048bf50', 'issuerOid': 'cf021536-6047-4993-8881-2a7ee989b823'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 2799c913-40c8-47eb-8058-61adac61ce43
+Action create issue was called
+action_show_category_list
+category oid gfhgfhfjrthdggjn
+Category Oid 2: gfhgfhfjrthdggjn
+action set category oid was called
+ user events 2
+issue gfhgfhfjrthdggjn
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '92006a22-c4b1-4c36-a1e7-21f93b96fa39', 'registered_user_session_uuid': 'e4e23ee7-7261-478c-bfe9-e81d5856c7fa', 'chatbot_socket_created_at': '2023-07-18T13:26:48.800969Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': 'e0000fbb-1c8c-4490-be7f-007562deea86', 'issuerOid': 'ea7209b9-f77d-4997-9e08-46a6408a5aa3'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 92006a22-c4b1-4c36-a1e7-21f93b96fa39
+Action create issue was called
+action_show_category_list
+category oid rtyndndfsgnnfnfn
+Category Oid 2: rtyndndfsgnnfnfn
+action set category oid was called
+ user events 2
+issue rtyndndfsgnnfnfn
+happenig <4
+category oid issue creation: a57aae16-51fc-4338-8405-19dd5424cceb
+The value of the slot is: categorya57aae16-51fc-4338-8405-19dd5424cceb
+The value of the trimmed slot is: a57aae16-51fc-4338-8405-19dd5424cceb
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'b84e1421-947e-463b-b5d9-ff99216c01ef', 'registered_user_session_uuid': 'e4e23ee7-7261-478c-bfe9-e81d5856c7fa', 'chatbot_socket_created_at': '2023-07-18T13:27:59.879064Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '6c52b940-c069-4707-9f90-ff3bb3d13338', 'issuerOid': '3ce9e6ba-38ec-4c19-86ec-849f18df5ab7'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: b84e1421-947e-463b-b5d9-ff99216c01ef
+Action create issue was called
+action_show_category_list
+category oid dgjfgjfjkvjkkjfdvjlkfjvlj
+Category Oid 2: dgjfgjfjkvjkkjfdvjlkfjvlj
+action set category oid was called
+ user events 4
+issue dgjfgjfjkvjkkjfdvjlkfjvlj
+happenig <4
+category oid issue creation: a57aae16-51fc-4338-8405-19dd5424cceb
+The value of the slot is: categorya57aae16-51fc-4338-8405-19dd5424cceb
+The value of the trimmed slot is: a57aae16-51fc-4338-8405-19dd5424cceb
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'b84e1421-947e-463b-b5d9-ff99216c01ef', 'registered_user_session_uuid': 'e4e23ee7-7261-478c-bfe9-e81d5856c7fa', 'chatbot_socket_created_at': '2023-07-18T13:27:59.879064Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': 'f9326774-fb9f-4673-80b8-09f8fb5c15c7', 'issuerOid': '7c353259-bb59-4413-9341-738c343b91c9'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: b84e1421-947e-463b-b5d9-ff99216c01ef
+Action create issue was called
+action_show_category_list
+category oid fvgjvjcvjjjfjdvjadjlkvjfv
+Category Oid 2: fvgjvjcvjjjfjdvjadjlkvjfv
+action set category oid was called
+ user events 6
+issue fvgjvjcvjjjfjdvjadjlkvjfv
+happenig <4
+category oid issue creation: a57aae16-51fc-4338-8405-19dd5424cceb
+The value of the slot is: categorya57aae16-51fc-4338-8405-19dd5424cceb
+The value of the trimmed slot is: a57aae16-51fc-4338-8405-19dd5424cceb
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'b84e1421-947e-463b-b5d9-ff99216c01ef', 'registered_user_session_uuid': 'e4e23ee7-7261-478c-bfe9-e81d5856c7fa', 'chatbot_socket_created_at': '2023-07-18T13:27:59.879064Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '4ab44962-a44b-412d-8631-b6d3eba366c5', 'issuerOid': 'a6ebe85b-b4f0-41a8-b48b-01ce5a534210'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: b84e1421-947e-463b-b5d9-ff99216c01ef
+Action create issue was called
+action_show_category_list
+category oid gfgfjgjgfjs
+Category Oid 2: gfgfjgjgfjs
+action set category oid was called
+ user events 2
+issue gfgfjgjgfjs
+happenig <4
+category oid issue creation: c948d3e4-6f1c-4452-af43-7630319035d1
+The value of the slot is: categoryc948d3e4-6f1c-4452-af43-7630319035d1
+The value of the trimmed slot is: c948d3e4-6f1c-4452-af43-7630319035d1
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '5e9bf443-9db9-497e-9836-7de38112853e', 'registered_user_session_uuid': 'e4e23ee7-7261-478c-bfe9-e81d5856c7fa', 'chatbot_socket_created_at': '2023-07-18T13:31:23.019021Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '958cffc2-78f4-4a43-b666-68afd2fc5b0b', 'issuerOid': 'db3493cb-cafa-4bcb-a69b-359384eb6b7d'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 5e9bf443-9db9-497e-9836-7de38112853e
+Action create issue was called
+action_show_category_list
+category oid adfhhfajhfajakjkkk
+Category Oid 2: adfhhfajhfajakjkkk
+action set category oid was called
+ user events 4
+issue adfhhfajhfajakjkkk
+happenig <4
+category oid issue creation: c948d3e4-6f1c-4452-af43-7630319035d1
+The value of the slot is: categoryc948d3e4-6f1c-4452-af43-7630319035d1
+The value of the trimmed slot is: c948d3e4-6f1c-4452-af43-7630319035d1
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '5e9bf443-9db9-497e-9836-7de38112853e', 'registered_user_session_uuid': 'e4e23ee7-7261-478c-bfe9-e81d5856c7fa', 'chatbot_socket_created_at': '2023-07-18T13:31:23.019021Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '196255fd-071f-4bdf-bba8-887dd6cecf87', 'issuerOid': '284e3a7c-9aee-44b8-a134-6a76f92d567a'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 5e9bf443-9db9-497e-9836-7de38112853e
+Action create issue was called
+action_show_category_list
+category oid fdahafjhfajjafjtgjrtmjatm
+Category Oid 2: fdahafjhfajjafjtgjrtmjatm
+action set category oid was called
+ user events 2
+issue fdahafjhfajjafjtgjrtmjatm
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'a8adc0d7-5e2d-418d-8780-4eedb3dcf1ed', 'registered_user_session_uuid': 'e4e23ee7-7261-478c-bfe9-e81d5856c7fa', 'chatbot_socket_created_at': '2023-07-18T13:38:33.231358Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': 'be24f4ef-a5dd-4bcb-b31c-e83d2cf5f6e5', 'issuerOid': 'ff182e42-2553-42ef-b067-9851bf9977a6'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: a8adc0d7-5e2d-418d-8780-4eedb3dcf1ed
+Action create issue was called
+action_show_category_list
+category oid asdfrgrehejtkrmsgfsfd
+Category Oid 2: asdfrgrehejtkrmsgfsfd
+action set category oid was called
+ user events 2
+issue asdfrgrehejtkrmsgfsfd
+happenig <4
+category oid issue creation: a57aae16-51fc-4338-8405-19dd5424cceb
+The value of the slot is: categorya57aae16-51fc-4338-8405-19dd5424cceb
+The value of the trimmed slot is: a57aae16-51fc-4338-8405-19dd5424cceb
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '569c0526-78d9-401b-8f02-1678e645ede2', 'registered_user_session_uuid': 'e4e23ee7-7261-478c-bfe9-e81d5856c7fa', 'chatbot_socket_created_at': '2023-07-18T13:39:03.798947Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '420e7ae4-dda4-41d1-accf-af48898a666f', 'issuerOid': '0fb147c4-d4f7-4537-ba05-26746b2bfd1a'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 569c0526-78d9-401b-8f02-1678e645ede2
+Action create issue was called
+action_show_category_list
+category oid zcxbzcnczzdfmd fn
+Category Oid 2: zcxbzcnczzdfmd fn
+action set category oid was called
+ user events 2
+issue zcxbzcnczzdfmd fn
+happenig <4
+category oid issue creation: f994e1c3-74fc-4103-a717-2ee56fd16959
+The value of the slot is: categoryf994e1c3-74fc-4103-a717-2ee56fd16959
+The value of the trimmed slot is: f994e1c3-74fc-4103-a717-2ee56fd16959
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'f4abb002-2cde-42af-ae11-9c2ac9bffbd0', 'registered_user_session_uuid': 'e4e23ee7-7261-478c-bfe9-e81d5856c7fa', 'chatbot_socket_created_at': '2023-07-18T13:39:35.914346Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '77ed77fa-b9c8-4349-8573-391f8bc55381', 'issuerOid': '45ca6c11-65d4-427a-9d4e-048641c2e4de'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: f4abb002-2cde-42af-ae11-9c2ac9bffbd0
+Action create issue was called
+action_show_category_list
+category oid zdfzndmagm
+Category Oid 2: zdfzndmagm
+action set category oid was called
+ user events 2
+issue zdfzndmagm
+happenig <4
+category oid issue creation: a57aae16-51fc-4338-8405-19dd5424cceb
+The value of the slot is: categorya57aae16-51fc-4338-8405-19dd5424cceb
+The value of the trimmed slot is: a57aae16-51fc-4338-8405-19dd5424cceb
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '86f99200-9342-4845-b58f-32f835c59225', 'registered_user_session_uuid': 'e4e23ee7-7261-478c-bfe9-e81d5856c7fa', 'chatbot_socket_created_at': '2023-07-18T13:39:57.411367Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': 'a11241ba-172f-45c5-ab7f-7a79949eae61', 'issuerOid': '168a9f7b-736e-4b67-bcb1-1389aa642349'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 86f99200-9342-4845-b58f-32f835c59225
+Action create issue was called
+action_show_category_list
+category oid fadjjfdffjfdhadf
+Category Oid 2: fadjjfdffjfdhadf
+action set category oid was called
+ user events 2
+issue fadjjfdffjfdhadf
+happenig <4
+category oid issue creation: f994e1c3-74fc-4103-a717-2ee56fd16959
+The value of the slot is: categoryf994e1c3-74fc-4103-a717-2ee56fd16959
+The value of the trimmed slot is: f994e1c3-74fc-4103-a717-2ee56fd16959
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'e0c2dff0-14fd-493a-9159-bf4a086ca265', 'registered_user_session_uuid': 'e4e23ee7-7261-478c-bfe9-e81d5856c7fa', 'chatbot_socket_created_at': '2023-07-18T13:40:58.994720Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': 'b6d59ab0-6dfa-4988-b328-3827f19ce9b8', 'issuerOid': '8ba4e6f3-d50f-4a62-ab52-e2d9ea1f2305'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: e0c2dff0-14fd-493a-9159-bf4a086ca265
+Action create issue was called
+action_show_category_list
+category oid fdatagrgrgadgfgfgfgdfg
+Category Oid 2: fdatagrgrgadgfgfgfgdfg
+action set category oid was called
+ user events 2
+issue fdatagrgrgadgfgfgfgdfg
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '52f2c823-04ba-47c5-a4df-661e66d514aa', 'registered_user_session_uuid': 'e4e23ee7-7261-478c-bfe9-e81d5856c7fa', 'chatbot_socket_created_at': '2023-07-18T13:41:33.539860Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': 'f3c704d1-62ed-4863-84a2-2f6dadfd3c8d', 'issuerOid': '23515336-8bb9-45ea-aae6-173f7e580615'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 52f2c823-04ba-47c5-a4df-661e66d514aa
+Action create issue was called
+action_show_category_list
+category oid rtgafdghhf
+Category Oid 2: rtgafdghhf
+action set category oid was called
+ user events 2
+issue rtgafdghhf
+happenig <4
+category oid issue creation: c948d3e4-6f1c-4452-af43-7630319035d1
+The value of the slot is: categoryc948d3e4-6f1c-4452-af43-7630319035d1
+The value of the trimmed slot is: c948d3e4-6f1c-4452-af43-7630319035d1
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'ba654797-c218-4572-8b83-4408132681c0', 'registered_user_session_uuid': 'e4e23ee7-7261-478c-bfe9-e81d5856c7fa', 'chatbot_socket_created_at': '2023-07-18T13:42:01.271197Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': 'f45e1035-e563-425d-974f-f8f7cd6256fa', 'issuerOid': '1a959f0a-b798-43f1-980e-9072d65f939e'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: ba654797-c218-4572-8b83-4408132681c0
+Action create issue was called
+action_show_category_list
+category oid xfdgfhmgmh
+Category Oid 2: xfdgfhmgmh
+action set category oid was called
+ user events 2
+issue xfdgfhmgmh
+happenig <4
+category oid issue creation: a57aae16-51fc-4338-8405-19dd5424cceb
+The value of the slot is: categorya57aae16-51fc-4338-8405-19dd5424cceb
+The value of the trimmed slot is: a57aae16-51fc-4338-8405-19dd5424cceb
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '7d97e1d5-1188-4c99-809b-f21c20421bcb', 'registered_user_session_uuid': 'e4e23ee7-7261-478c-bfe9-e81d5856c7fa', 'chatbot_socket_created_at': '2023-07-18T13:42:21.702604Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': 'f900d208-96cf-4b38-b796-0dbc0b7c4953', 'issuerOid': 'b9b8feed-ee17-4258-b397-e3ee0fc44407'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 7d97e1d5-1188-4c99-809b-f21c20421bcb
+Action create issue was called
+action_show_category_list
+category oid fdhhhtrn
+Category Oid 2: fdhhhtrn
+action set category oid was called
+ user events 2
+issue fdhhhtrn
+happenig <4
+category oid issue creation: c948d3e4-6f1c-4452-af43-7630319035d1
+The value of the slot is: categoryc948d3e4-6f1c-4452-af43-7630319035d1
+The value of the trimmed slot is: c948d3e4-6f1c-4452-af43-7630319035d1
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': '8e8696e1-df8c-46a0-98fb-b7f4210fc340', 'registered_user_session_uuid': 'e4e23ee7-7261-478c-bfe9-e81d5856c7fa', 'chatbot_socket_created_at': '2023-07-18T13:42:41.943768Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '1b79c0d9-8bd9-4f87-ba74-6ca6b696b99a', 'issuerOid': '4ee7c76c-2609-41db-a899-6a85b3ae8374'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: 8e8696e1-df8c-46a0-98fb-b7f4210fc340
+Action create issue was called
+action_show_category_list
+category oid ckhkjvhdvhdvkdjv
+Category Oid 2: ckhkjvhdvhdvkdjv
+action set category oid was called
+ user events 2
+issue ckhkjvhdvhdvkdjv
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'cf490fb3-0d79-4b9e-acc3-4a256f21fe6b', 'registered_user_session_uuid': 'e4e23ee7-7261-478c-bfe9-e81d5856c7fa', 'chatbot_socket_created_at': '2023-07-18T13:44:05.152922Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': 'a9cdd0ea-1abd-48ca-a39e-c07dcdf7a167', 'issuerOid': '88d91f35-1761-4bc1-9add-cdb4fe4146e7'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: cf490fb3-0d79-4b9e-acc3-4a256f21fe6b
+Action create issue was called
+action_show_category_list
+category oid dhjdslfjfoifffirfjjcl
+Category Oid 2: dhjdslfjfoifffirfjjcl
+action set category oid was called
+ user events 2
+issue dhjdslfjfoifffirfjjcl
+happenig <4
+category oid issue creation: e2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the slot is: categorye2171988-a263-4075-8a97-62e5f9c1c55a
+The value of the trimmed slot is: e2171988-a263-4075-8a97-62e5f9c1c55a
+data {'id': 50, 'email': 'user1@gmail.com', 'phone': '2374928347982347', 'first_name': 'user1_f', 'last_name': 'user1_l', 'user_email': 'user1@gmail.com', 'user_address': '', 'user_name_bn': None, 'user_NID_no': '1', 'user_organization': 'org1', 'location': 'loc1', 'district': 'dist1', 'division': 'div1', 'chatbot_socket_id': 'c571b7f7-4280-4a9e-b304-8062f8aa8802', 'registered_user_session_uuid': 'e4e23ee7-7261-478c-bfe9-e81d5856c7fa', 'chatbot_socket_created_at': '2023-07-18T13:44:30.035498Z'}
+response {'status': True, 'code': 200, 'message': 'issue  has been added', 'data': '4610db05-b2a1-4dec-af96-27a004e0b8f6', 'issuerOid': '3adffca2-3573-43f4-8fe5-b57f272de273'}
+Inside if after the response 200
+response 2 <Response [200]>
+sender_ID: c571b7f7-4280-4a9e-b304-8062f8aa8802
+Action create issue was called
