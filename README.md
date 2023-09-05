@@ -1,7 +1,14 @@
 # rasa_chatbot
 
 ## Installation
-`pip install requirements.txt`
+- Initiate a python virtual environment.
+	- python -m venv venv
+- Activate the virtual environment.
+	- source venv/bin/activate
+- Install the required python libraries.
+	- `pip install requirements.txt`
+- Create a new model using the CMD below.
+	- rasa train
 
 ## Dataset:
  File: Chatbot_Agrani DOER.xlsx
