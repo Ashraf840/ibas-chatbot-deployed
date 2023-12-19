@@ -1,0 +1,656 @@
+Questions,Answers
+"নতুন ডিডিও খোলার জন্য কি করবেন?
+ Notun ddo kholar jonno ki korben?
+","নতুন ডিডিও খোলার জন্য-
+Treasury Rule SR  ৬৫ অনুযোগে DDO নিয়োগের জন্য মন্ত্রণালয় থেকে প্রদত্ত GO থাকতে হবে।
+পূর্ববর্তী ডিডিও কর্তৃক নতুন ডিডিও এর Specimen signature সত্যায়িত করে পাঠাতে হবে 
+DDO Information Form fill up করতে হবে
+সংশ্লিষ্ট মন্ত্রণালয়ের CAFO  কর্তৃক DDO তথ্য এন্ট্রি করতে হবে ।
+"
+"কর্মচারীদের বেতন বিল কি ডিডিওকেই দাখিল ও করতে হবে?
+Kormocharider beton bill ki ddo kei dakhil o korte hbe?",হ্যা. কর্মচারীদের বেতন বিল দাখিল ও ফরওয়ার্ড করার দায়িত্ব  ডিডিওর ।
+"একজন কর্মচারীর কতগুলো তথ্য এন্ট্রি হলে এফটি এর মাধ্যমে কি বিল দেওয়া যাবে? 
+ekjon kormocharir kotogulu tothy entry hole EFT er madhoyme ki bill deoaa jabe?","ব্যক্তিগত তথ্য, চাকুরী সংক্রান্ত তথ্য ও ব্যাংক হিসাব সংক্রান্ত তথ্যাদি এন্ট্রি, সংরক্ষণ ও অনুমোদনের পর EFT এর মাধ্যমে বিল প্রদান করা যাবে.  তবে ফরম অনুযায়ীই সকল তথ্য একেবারে এন্ট্রি করা ভালো ।"
+"একজন কর্মচারীর এমপ্লয়ী টাইপ(অফিসার টু স্টাফ, স্টাফ টু অফিয়াসের) করার ক্ষেত্রে করণীয় কি? 
+ekjon kormocharir employee type(officer To staff, staff to offiicer) korar  khettre korNio ki?","ক) Master Data-->Employee Type Change Request->NID with current type Select Employee Type to change(Correct),  Select Reason:Type Change এর কারণ উল্লেখ করতে হবে[অডিটর কর্তিক এন্ট্রি দিতে হয়] .
+খ) Master Data--> Employee Type Change Approve এ [A&AO কর্তৃক এপ্প্রভ করতে হয়]"
+"কি কি কারণে NID বাইপাস করতে হয়? NID বাইপাস এর ধাপ সমূহ কি?
+ki ki karone NID Bypass korte hoi? Nid bypass er dhap smuh ki?
+","নির্মোক্ত কারণে NID Bypass করতে হয়-
+Partial Salary for new appointment.
+Partial salary for Fractional bill (Bill pending before UserID registration)
+Employee from Defence to Civil Contractual Service
+NID Bypass এর ধাপ সমূহ: 
+Master Data--> Employee Management-->NID Bypass Entry [অডিটর কর্তিক এন্ট্রি দিতে হয়] 
+Master Data--> NID Bypass Check (New) [A&AO কর্তৃক এপ্প্রভ করতে হয়]
+Master Data-->NID Bypass Approve (New) DCA/CAO/FC/SFC কর্তৃক এপ্প্রভ করতে হয়]"
+"রিলিজিওন ইনফরমেশন এডিট করার ক্ষেত্রে করণীয় কি? 
+Religion information edit korar khettre koronio ki?",Master Data--> Employee Management--> Religion Information Edit
+"NID সংশোধনের পর স্মার্ট কার্ড এর নম্বর দিলে সে ক্ষেত্রে করণীয় কি? 
+ NID songshodhoner por smart card er number dile se khettre kornio ki ?",এ ক্ষেত্রে প্রথমে বেতন নির্ধারণে NID  সংশোধন করতে হবে. যে NID নম্বর দিয়ে পে-ফিক্সেশন করা হয়েছে সেটাই কার্যকর থাকবে.
+"iBAS++ এ স্টাফ এর তথ্য এন্ট্রি করার সময় এরর ম্যাসেজ প্রদর্শিত হয় ""Employee not active in any post"" এক্ষেত্রে করণীয় কি?
+ iBAS++ e staff er totthy entry korar somoy error message prodorshito hy ""Employee not active in any post"" eikhettre koronio ki?",Staff কে Master Data--> Employee Management-->Employee Joining  মেনুর মাধ্যমে সঠিক অফিস এর নির্ধারিত ডিডিও কর্তৃক join করতে হবে
+"ডিডিও বাজেট এক্সেকিউশন-->মাস্টার ডাটা তে কোনো কর্মচারী NID এর সাপেক্ষে স্টাফ ইনফরমেশন এন্ট্রি,Employee - Basic Information,  Service Information, Salary Information,  GPF Information প্রদর্শনের সময়  এরর ম্যাসেজ প্রদর্শিত হয় “You are not authorized to view this employee” - এক্ষেত্রে করণীয় কি?
+ddio Budget Execution-->Master Data te kono kormochair NID er shapekkhe staff Staff Information Entry, Employee - Basic Information, Service Information, Salary Information, GPF Information  prodorshoner somoy error  message prodorshito hoi “You are not authorized to view this employee” eikhettre koronio ki ?","এমপ্লয়ী স্টেটাস থেকে এমপ্লয়ী এর অফিস এবং কোন ডিডিও এর অধীনে এন্ট্রি করা আছে তা দেখে নিতে হবে. মনে রাখতে হবে, যে User ID থেকে স্টাফ ইনফরমেশন এন্ট্রি করা হয়েছে user ID ব্যবহার করে স্টাফ কে রিলিজ করে সঠিক অফিস এর নির্ধারিত ডিডিও কর্তৃক জয়েনও করাতে  হবে/তথ্য এন্ট্রি করতে হবে"
+"Release an Employee স্ক্রিন যে কোনো কর্মচারিকে রিলিজ করার সময় - স্টাফ এর ক্ষেত্রে এরর মেসেজ প্রদর্শিত হয় ""Employee has staff pay bill in batch pending. Please clear those pending bills and try again ""  এবং অফিসার এর ক্ষেত্রে ""employee has bill for officers pending. Please clear those pending bills and try again"" এই ক্ষেত্রে করণীয় কি?
+Release an employee screen e kono kormocharike release korar somoy - staff er khetre error message prodorshito hoi ""employee has staff pay bill in batch pending. Please clear those pending bills and try again"" ebong officer er khettre error message prodorshito hoi ""employee has bill for officers pending. Please clear those pending bills and try again""  ei khettre koronio ki ?
+",উভয় ক্ষেত্রে সংশ্লিষ্ট কর্মচারীর পেন্ডিং বিলের তথ্য Reports-->Token Reports-->Token Search by NID রিপোর্ট থেকে  অবগত হয়ে টোকেন/বিল এর মাধ্যমে নিস্পন্ন করতে হবে অথবা বাতিল/ফেরত দিতে হবে. তারপর Release an Employee স্ক্রিন এর মাধ্যমে কর্মচারীকে রিলিজ করতে হবে
+"কোনো SDO(Self Drawing Officer)  হিসাবে বেতন বিল দাখিলের পর দেখা গেলো তিনিই সংশ্লিষ্ট অফিস এর ডিডিও. এই ক্ষেত্রে করণীয় কি ?
+kono SDO hisabe beton bill dhakhiler por dekha gelo tinie songslisto office er DDio. ei khetre koronio ki ?
+","হেল্পডেস্কের সহায়তায় DDO (Drawing and Disbursing Officer) Role প্রাপ্তির জন্য Treasury Rule SR  ৬৫ অনুযোগে DDO নিয়োগের জন্য মন্ত্রণালয় থেকে প্রদত্ত GO থাকতে হবে।এবং FIll-up  কর্তৃক DDO Information Form  দাখিল করতে হবে
+"
+"iBAS++  একজন কর্মকর্তার NID (Pay Fixation এর সাথে মিল রেখে) সংশোধনের প্রক্রিয়া কি ?
+ekjon kormokortar NID (Pay Fixation er sathe mil rekhe) songshodhoner prakriya ki ?
+","কোনো কর্মকর্তার NID নম্বর পরিবর্তন করার জন্য নিচের ধাপগুলো অনুসরণ করতে হবে
+*Master Data- Employee Management- Change Employee NID নির্বাচন করতে হবে
+*Pay Point: এই ঘরে Pay Point সয়ংক্রিয়ভাবে প্রদর্শিত হবে
+*Ministry:  এই Ministry নির্বাচন করতে হবে
+*DDO: এই  ঘরে  DDO নির্বাচন করতে হবে
+*Office Code: সয়ংক্রিয়ভাবে প্রদর্শিত হবে
+*GO বাটনে ক্লিক করলে নিচে Employee  অংশে Existing NID, Name, Designation , New NID , Save বাটন প্রদর্শিত হবে
+*New NID: এই  ঘরে সঠিি NID টাইপ করে বাটনে ক্লিক করতে হবে"
+"iBAS++  একজন কর্মকর্তার একাধিক NID থাকলে করণীয় কি?
+ibas++ e ekjon kormokorta ekadhik NID thakle koronio ki?
+","CAFO/DCA এর মাধ্যমে Merge Employee NID মেনু ব্যবহার করে একাধিক NID Marge করতে হবে
+Multiple NIDs must be Marge using Merge Employee NID menu via CAFO/DCA
+"
+"Employee Status স্ক্রীন  কেন্ ব্যবহার করা হয়?
+Employee Status screen ken bebohar kora hoi?
+","Employee Status থেকে   Employee - NID  Employee Name, Employee Type, Pay Point, Designation, Date of Birth, Mobile no, Office, Own DDO, GPF Number, Bank/ branch Office এবং কোন DDO এর অধীনে entry  করা আছে তা অবগত হওয়া যায়
+"
+"ডিডিও কর্তৃক Budget Execution --> Master Data  তে কোনো কর্মচারির NID এর সপক্ষে স্টাফ ইনফরমেশন এন্ট্রি তে তথ্য এন্ট্রি করার সময় error মেসেজ প্রদর্শিত হয় Invalid NID with DOB  এই ক্ষেত্রে করণীয় কি  ?
+ddo kortik Budget Execution --> Master Data te kono kormocharir NID er Sapkhe Staff Information Entry te totya entry korar somoy error message prodorshito hoi  “Invalid NID with DOB” ei khetre koronio ki ?
+","Staff এর Budget Execution-->Master Data-->Employee Information Entry এ এন্ট্রিকৃত NID, Pay Fixation NID এর সাথে সঙ্গতিপূর্ণ না হলে এরূপ মেসেজ প্রদর্শিত হয়
+"
+"একজন Employee (Personal, Family & Bank)এর তথ্য এন্ট্রির পর সেভ বাটনে ক্লিক করার সময় এরর মেসেজ প্রদর্শিত হয় ‘Invalid date’. এই ক্ষেত্রে করণীয় কি?
+ekjon Employee (Personal, Family & Bank) er totty entrir por save buttone click korar somoy error message prodorshito hoi. ei khetre koronio ki?
+","Pay Fixation এর ৬(ক) চাকুরিতে প্রথম যোগদানের তারিখ ফাঁকা অথবা সঠিক না হলে এরূপ মেসেজ প্রদর্শিত হয়
+"
+"iBAS++ এ একজন এমপ্লয়ী এর তথ্য Approve করার পর তার নিজের পিত/মাতার নাম সংসদন এর জন্য করণীয় কি?
+ibas++ e ekjon employee er totty approve korar por tar nijer pita/matar naam songshodon er jonno koronio ki?
+","Master Data->Employee Management->Employee Basic Information ->Select Employee Type->NID->Go->NID Info Re-Fetch বাটনে ক্লিক করলে বাংলা নাম  NID এর স্বপক্ষে প্রদর্শিত হবে, ইংরেজি নাম টাইপ করতে হবে
+"
+"iBAS++  এ তথ্য এন্ট্রি করার সময় ‘First joining date/office not found in Pay Fixation’ মেসেজ প্রদর্শিত হলে করণীয় কি?
+iBAS++ e totty entry korar somoy first joining date not found message prodorshito hole koronio ki ?
+","Respective Accounts office  থেকে Pay Fixation এর তথ্য  Correction িরবে হবে (Pay Fixation >Verified data Fixation” correction মেনু ব্যবহার করে ) ।
+"
+"iBAS++ এ তথ্য এন্ট্রি করার সময় কোনো কর্মচারীর স্বামী/স্ত্রী এর NID না থাকলে করণীয় কি?
+iBAS++ e totya entry korar somoy kono kormocharir shami/stri er NID na thakle koronio ki?
+","iBAS++ স্বামী/স্ত্রী এর NID বাধ্যতামূলক.  NID  না থাকলে খালি রাখতে হবে.  যত দ্রুত সম্ভহব নিবন্ধন পূর্বক তথ্যাদি এডিট করে এন্ট্রি করতে হবে
+"
+"3111306- এডুকেশন এলাউন্স এর ক্ষেত্রে সন্তানের বয়স (৫-২৩) হলে, কিন্তু মা বাবা দুইজনেই সরকারি কর্মচারী হলে সন্তানের শিক্ষা ভাতা প্রাপ্যতার ক্ষেত্রে করণীয় কি?
+ 3111306-education allowance er khetre sontaner boys (5-23) hole, kintu ma baba duijonei sorkari kormochari hole sontaner shikkha vata prappotar khetre koronio ki?
+","স্বামী/স্ত্রী যেকোনো একজন সন্তানের তথ্য লিখবেন, তবে শিক্ষা ভাতা পাবেন একজনের বেতনের সাথে. সন্তানের শিক্ষা ভাতা প্রাপ্যতার ক্ষেত্রে মা কে প্রাধান্য দেওয়া হবে
+"
+"মাস্টার ডাটা তে কোনো কর্মচারির NID এর সাপেক্ষে Employee Information Entry/Staff Information Entry (New) Error মেসেজ প্রদর্শিত হয়. ‘Your pay point is not matched with the pay fixation of this employee. Please check the fixation or contact with Account office to his fixation.’ তে তথ্য এন্ট্রি করার সময় এরর মেসেজ প্রদর্শিত হয়. এই ক্ষেত্রে করণীয় কি?
+Master data te kono kormocharir NID er shapekkhe Employee information entry te totya entry korar somoy error message  ‘Your pay point is not matched with the pay fixation of this employee. Please check the fixation or contact with Account office to his fixation.’  prodorshito hoi. ei khetre koronio ki?
+",Respective Accounts office  থেকে Pay Fixation এর তথ্য  Correction করতে হবে
+"মাসের মাঝামাঝি সময় যে কেউ চাকুরীতে যোগদান করলে ibas++ থেকে বেতন প্রাপ্তির প্রক্রিয়া কি?
+masher majhamaji somoy e keu cakurite jogdan korle ibas++ theke beton praptir prakriya ki?
+",আংশিক (Partial) বিল হলে হিসাবরক্ষন অফিসের মাধ্যমে ম্যানুয়ালি (হার্ড কপিতে) বিল দাখিল করতে হবে
+"কর্মচারীর তথ্য আগে এন্ট্রি করতে হবে নাকি গ্রুপ আগে তৈরী করতে হবে?
+kormocharir totya aage entry korte hbe naki group aage toiri korte hbe?
+","আগে কর্মচারীর তথ্য এন্ট্রি করতে হবে, অতঃপর গ্রুপ তৈরি করতে হবে"
+"এমপ্লয়ী স্যালারী ইনফরমেশন এ বেতন ভাতা এবং কর্তনে অর্থনৈতিক কোডের বিপরীতে টাকার তথ্য দেওয়া আছে - এই ক্ষেত্রে করণীয় কি?
+Employee salary information e beton vata ebong kortone orthonoitik koder biporite takar totya deoaa ache kintu beton bill e ta prodorshon kore na.ei khetre koronio ki?
+","Office code এর বিপরীতে economic code permission  না থাকলে, Helpdesk  এর সহায়তা নিতে হবে "
+"অনলাইন এ বেতন বিল সাবমিট করার সময় একজন কর্মকর্তা তার Salary month খুঁজে পাচ্ছেন না , এই ক্ষেত্রে করণীয় কি?
+online e beton bill submit korar somoy ekjon kormokorta tar salary month khuje pacchen na , ei khetre koronio ki?
+","একজন কর্মকর্তা একই Salary Month এ একাধিক বেতন বিল দাখিল করতে পারবেন না। এক্ষেত্রে উক্ত কর্মকর্তার ওই Salary Month এর Token পূর্বেই লেগেছে কিনা তা যাচাই করতে হবে. সংশ্লিষ্ট মাসের বেতনের টোকেন নম্বর সহ বেতনের তথ্য খোঁজার জন্য রিপোর্ট থেকে অবগত হতে হবে, ইতিমধ্যেই ওই মাসের বেতন বিল দাখিল করেছেন কিনা।
+ যোগদানকৃত মাসে আংশিক বিল হলে হিসাবরক্ষণ অফিসের মাধ্যমে ম্যানুয়ালি বিল দাখিল করতে হবে।"
+"অনলাইন এ বেতন বিল সাবমিট করার পর একজন কর্মকর্তা জানতে পারলেন বেতন বিলটি তার ডিডিও এর ID তে ফরওয়ার্ড করার জন্য খুঁজে পাওয়া যাচ্ছে না, এই ক্ষেত্রে করণীয় কি?
+online e beton bill submit korar por ekjon kormokorta jante parlen beton bilti tar ddo er id te forward korar jonno khuje paoaa jache ne, ei khetre koronio ki?
+","হিসাবরক্ষন অফিস Employee Status থেকে Employee - NID এর সাপেক্ষে Employee Name, Employee Type, Pay Point, Designation, Date  of Birth, Mobile no, Office, Own DDO, GPF Number, Bank/branch Office এবং কোন DDO  এর অধীনে এন্ট্রি করা আছে তা অবগত হতে হবে, এবং সঠিক ডিডিওর দিয়েই বেতন বিল Forward করতে হবে"
+"PRL বিল কিভাবে এন্ট্রি দিতে হয়?
+PRL bil kivabe entry dite hoi?
+",Master Data-->Service Stage Management-->PRL Entry অপশনে সঠিকভাবে বিস্তারিত এন্ট্রি দিয়ে সংরক্ষণ করুন. হিসাবরক্ষণ অফিস/ডিডিও কর্তৃক PRL এর তথ্য অনুমোদন করার পর পুর্ন মাসের বিল এবং আংশিক বিল হলে হিসাবরক্ষন অফিসের মাধ্যমে ম্যানুয়ালি (হার্ড কপিতে) বিল দাখিল করতে হবে
+"Master Data → Service Stage Management কি?
+Master Data → Service Stage Management ki?
+","Service Stage Management: iBAS++ হতে সরকারি চাকুরিজীবীদের সেবা গ্রহণ সুবিধা এবং হিসাব রক্ষণ অফিসে যাওয়া-আসার ঝামেলা এড়ানোর লক্ষ্যে নিজের চাকুরী ও বেতন সংক্রান্ত সকল সেবা ঘরে বসেই যাতে নিশ্চিত করতে পারেন সে জন্য Service Stage শিরোনামে নিম্মবর্ণিত নতুন অপশনগুলি iBAS++ সিস্টেমে সংযোজন করা হয়েছে. 
+Service Stage Management ক্লিক করার পর এর অধীনে পর্যায়ক্রমে :
+* Attachment: (একটি দপ্তরে স্থায়ী পদ ধারী কর্মকর্তা তার মূল পদের বিপরীতে একি মন্ত্রণালয়/বিভাগের মধ্যে অন্য কোন দপ্তরে সংযুক্ত থেকে সাময়িক কাজ করা)
+* PRL:  অবসর উত্তর ছুটি সুবিধা 
+* Deputation: 
+* Deputation (Budgetary Central Govt): (সরকারি রাজস্ব বাজেট ভুক্ত এক মন্ত্রণালয়/বিভাগেরএর কর্মকর্তা সরকারি রাজস্ব  বাজেট ভুক্ত অন্য কোন মন্ত্রণালয়/বিভাগে সংযুক্ত থেকে সাময়িক কাজ করা)
+* Deputation (Outside the budgetary central government): (আধাসরকারি/স্বায়ত্তশাসিত সংস্থা/উন্নয়ন প্রকল্প/ বেসরকারি সংস্থা বা বিদেশী সরকার বা সংস্থাই সাময়িকভাবে কাজ করা)
+* Lien: সরকারি রাজস্ব বাজেট ভুক্ত এক মন্ত্রণালয়/বিভাগেরএর কর্মকর্তা চাকুরীর মূল পদের স্বত্ব অক্ষুন্ন রেখে সরকারের অনুমতি সাপেক্ষে সরাসরি রাজস্ব বহির্ভুত কোনো প্রকল্প/কর্মসূচি/সংস্থা বা প্রতিষ্ঠানের সাময়িকভাবে কাজ করা
+* Suspension: চাকুরী থেকে সাময়িক বরখাস্ত
+* Leave: ছুটি
+"
+"Partial Bill কি?
+Partial Bill ki?
+","চাকুরীর স্টেজ সমূহের [“Attachment” , “PRL Entry ”, “Deputation)”, “Lien”, “Suspension” ,‘‘Leave”] আৰম্ভ সকল ক্ষেত্রে যে কোনো ক্যালেন্ডার মাসের ১ তারিক হয়না এবং শেষ ক্যালেন্ডার মাসের সর্বশেষ তারিখে হয়না. সার্ভিসে স্টেজ পরিবর্তনের সাথে সাথে অধিকাংশ ক্ষেত্রে ভাতাদির হাড়ের পরিবর্তন ঘটে | যে সকল ক্ষেত্রে আরম্ভ এবং সমাপ্তি যথাক্রমে মাসের প্রথম ও শেষ তারিখ না হওয়ায় মধ্যবর্তী যে কোনো তারিখে হয় সে সকল ক্ষেত্র আংশিক বিল প্রাপ্য হয় "
+"Map Office with Region এবং  Map Employee with Region কখন ব্যবহার করতে হয়?
+Map Office with Region ebong Map Employee with Region kokhon bybohar korte hoi ?
+","ক) Map Office with Region -সকল কর্মকর্তা/কর্মচারী অফিসার অবস্থান যদি এলাকার বাহিরে হয় সে ক্ষেত্রে এই অপসন ব্যবহার করতে হয়।
+খ) Map Employee with Region- সংশ্লিষ্ট অফিসটির অবস্থান সিটি এলাকায় কিন্তু কর্মকতা/কর্মচারীদের একটি অংশের কর্মস্থল সিটি এলাকার বাহিরে হলে সে ক্ষেত্রে এই অপসন ব্যবহার করতে হয়
+সতর্কতা : যে সকল সিটি এলাকার বর্ণিত সমস্যা বিরাজমান শুধুমাত্র ওই সকল এলাকার হিসাবরক্ষণ অফিসার জন্য এ ২টি অপসন যোগ করা হয়েছে । সকল হিসাবরক্ষণ অফিসার জন্য এই অপশনগুলো প্রযোজ্য নয়।"
+"সন্তানের জন্ম নিবন্ধন না থাকলে তার নাম অ্যাড করা যাবে কিনা?
+Sontaner jonmo nibondhon na thakle tar naam add kora jabe kina?
+","নাম অ্যাড করা যাবে না, খালি রাখতে হবে. যত দ্রুত সম্ভব জন্ম নিবন্ধন পূর্বক তথ্যাদি এডিট করে জন্ম নিবন্ধন এন্ট্রি দিতে হবে ।"
+"ভবিষ্যৎ তহবিলে নমিনির নাম পরিবর্তন করা যাবে কিনা?
+vobishyot tohobile nominir naam poriborton kora jabe kina?
+",যাবে । জিপিএফ ৯ব এবং ৯সি ফরম পূরণ করে যে হিসাব রক্ষণ অফিসে হিসাব খুলেছেন সে অফিসার এর মাধ্যমে নমিনী পরিবর্তন করতে পারবেন ।
+"একজন কর্মকর্তার বেতন বিলের যে কোনো তথ্য পৰিবৰ্তন করার পর সেভ বাটন এ ক্লিক করলে এরর মেসেজ ‘Basic amount does not match with pay fixation amount’ ’প্রদর্শিত হয়, এই ক্ষেত্রে করণীয় কি?
+ekjon kormokortar beton biller je kono totya proiborton korar por save button e click korle error message ‘Basic amount does not match with pay fixation amount’ prodorshito hoi, ei khetre koronio ki?
+","* Reports মেনু হতে  Pay Fixation Detail Report নির্বাচন করতে হবে ।
+* জাতীয় পরিচয় পত্র(NID) নম্বর: এই ঘরে NID  টাইপ করে তথ্য দেখুন বাটনে ক্লিক করতে হবে । এরপর রিপোর্ট থেকে কর্মকর্তার মূল বেতন দেখে নিতে হবে ।
+
+*  Master Data-->Employee Management-->Employee Salary Information নির্বাচন করতে হবে ।
+*   Employee Type: GOB Officer নির্বাচন করতে হবে ।
+*   NID টাইপ করে GO  বাটনে ক্লিক করতে হবে । 
+*   Emoluments and Allowances : এই অংশে Economic- 3111101- Basic pay (Officer) এর Amount এর  Detail Report এ প্রদর্শিত বেতনে পার্থক্য আছে কিনা দেখুন । 
+*  মূল বেতন পার্থক্য পরিলক্ষিত হলে (ইনক্রিমেন্ট না লাগলে) প্রথমে বেতন নির্ধারণী হাল নাগাদ করতে হবে । 
+*  তারপর Employee Information Entry (Single Step) হতে  Economic- 3111101- Basic pay (Officer) Amount সঠিক করে সেভ বাটনে ক্লিক করতে হবে । 
+"
+"যদি কোনো কর্মকর্তা জুলাই মাসে তার বেতন বিল GPF এর চাঁদা হ্রাস/বৃদ্ধি করতে চান সেক্ষেত্রে করণীয় কি?
+jodi kono kormokorta july mashe tar beton bill GPF er chandaa hrash/briddhi korte chan sekhetre kornio ki?
+"," * Accounting Transaction-GPF মেনু হতে GPF Subscription Configuration নির্বাচন করতে হবে।
+ * Pay Point: স্বয়ংক্রিয়ভাবে প্রদর্শিত হবে।
+ * National ID:  NID টাইপ করে GO  বাটনে ক্লিক করতে হবে । 
+ * Employee Name, Current Office, GPF A/C No, Current Basic Pay, Subscription   Amount,  Commencement Date স্বয়ংক্রিয়ভাবে প্রদর্শিত হবে ।
+ * Subscription Amount : এই  ঘরে GPF এর চাঁদার পরিমাণ পরিবর্তন করে সেভ বাটনে ক্লিক করতে হবে ।"
+"যদি কোনো কর্মকর্তা তার বেতন বিল GPF এর চাঁদা কর্তন করতে না চান সেক্ষেত্রে করণীয় কি?
+jodi kono kormokorta tar beton bill GPF er chandaa korton korte na chan sekhetre kornio ki?
+"," * Accounting Transaction-GPF মেনু হতে GPF Subscription Configuration নির্বাচন করতে হবে।
+ * Pay Point: স্বয়ংক্রিয়ভাবে প্রদর্শিত হবে।
+ * National ID:  NID টাইপ করে GO  বাটনে ক্লিক করতে হবে । 
+ * Employee Name, Current Office, GPF A/C No, Current Basic Pay, Subscription   Amount,  Commencement Date স্বয়ংক্রিয়ভাবে প্রদর্শিত হবে ।
+ * Active বক্সের টিক চিহ্ন তুলে দিয়ে সেভ বাটনে ক্লিক করতে হবে ।
+ * Subscription Amount : এই  ঘরে GPF এর চাঁদার পরিমাণ পরিবর্তন করে সেভ বাটনে ক্লিক করতে হবে । "
+"কেউ যদি GPF এর ইন্টারেস্ট দিতে না চান তাহলে কি করবেন?
+keu jodi GPF er interest dite na chan tahole ki korben?
+","* GPF-->GPF Master Data-->GPF Subscription Configuration মেনু নির্বাচন করতে হবে।
+* Pay Point: স্বয়ংক্রিয়ভাবে প্রদর্শিত হবে।
+* National ID:  NID টাইপ করে GO  বাটনে ক্লিক করতে হবে । 
+* Employee Name, Current Office, GPF A/C No, Current Basic Pay, Subscription   Amount,  Commencement Date স্বয়ংক্রিয়ভাবে প্রদর্শিত হবে ।
+* Exclude Interest বক্সের টিক চিহ্ন  দিয়ে সেভ বাটনে ক্লিক করতে হবে ।
+"
+"অনলাইন এ বেতন বিল দাখিলকারী একজন কর্মকর্তা বেতন বিলের রিপোর্ট এ দেখলেন বাংলায় নাম সঠিকভাৱে প্রদর্শিত হচ্ছে না, এই ক্ষেত্রে করণীয় কি?
+online e beton bill dakhilkari ekjon kormokorta beton biller report e dekhlen banglai naam sothikvhabe prodorshito hocche na, ei khetre koronio ki?
+"," হিসাবরক্ষণ অফিসের মাধ্যমে  Master Data -> Employee Management ->Employee Basic Information ->Select Employee Type->NID->Go->NID Info Re-Fetch অপশনে ক্লিক করলে বাংলা নাম স্বয়ংক্রিয়ভাবে NID এর সাপেক্ষে প্রদর্শিত হবে,  ইংরেজি নাম টাইপ/এডিট করতে হবে ।"
+"Master    Data-->Employee    Management-->Employee   Salary   Information  একজন কর্মকর্তার বেতন বিল কনফিগারেশন এর সময় ডেডুকেশন অংশে BF, GI এবং stamp duty entry অ্যাড করতে হবে কিনা?
+Master    Data-->Employee    Management-->Employee   Salary   Information - e ekjon kormokortar beton bill configuration er somoy deduction ongshe BF,GI ebong stamp duty entry add korte hbe kina?
+","কর্মকর্তার বেতন বিল এ BF, GI এবং Stamp duty স্বয়ংক্রিয়ভাবে  যুক্ত হয়, এইজন্য নতুন করে Employee Salary Information -এ BF, GI এবং Stamp duty করতে হবে না ।"
+"যদি কোনো কর্মকর্তা (পেনশনে নিযুক্ত CGDF অংশের) BF/GI বেতন বিল হতে কর্তন করতে না চান তাহলে কি করবেন?
+jodi kono kormokorta (pensione nijukto C G D F ongsher) beton bill hote korton korte na chan tahole ki korben?
+"," * Master data→ Employee Management মেনু হতে BF/ GI Exception নির্বাচন করতে হবে।
+ * Pay Point: স্বয়ংক্রিয়ভাবে প্রদর্শিত হবে।
+ * National ID:  NID টাইপ করে GO  বাটনে ক্লিক করতে হবে । 
+ * Employee Name, Designation, Office স্বয়ংক্রিয়ভাবে প্রদর্শিত হবে । 
+ * Employee On Extension বক্সে টিক চিহ্ন  দিয়ে Extension Period From and To নির্বাচন করে Save বাটনে ক্লিক করতে হবে । "
+"হিসাবরক্ষণ অফিসার চেক ইনফরমেশন অন্য হিসাবরক্ষণ অফিস বহুলক্রমে দিয়ে ফেলেছে, এই ক্ষেত্রে করণীয় কি?
+hisabrokkhon officer cheque information onya hisabrokhon office vhulkrome diey feleche, ei khetre koronio ki?
+","* Accounting Transaction-এর Cheque মেনু হতে Change Cheque Book Pay Point নির্বাচন করতে হবে।
+* Cheque Book No: এই ঘরে  চেকের বই নম্বর নির্বাচন করতে হবে।
+* Cheque Series, Cheque No, Existing Pay Point স্বয়ংক্রিয়ভাবে প্রদর্শিত হবে । 
+* New Pay Point: এই ঘরে হিসাবরক্ষণ  অফিস নির্বাচন করে Save বাটনে ক্লিক করতে হবে । "
+"এক টোকেনের চেক ভুল করে অন্য টোকেনে এন্ট্রি করে ফেলেছেন, এইক্ষেত্রে কিভাবে সঠিক টোকেন যে সঠিক চেক এন্ট্রি করবেন?
+ek tokener cheque vul kore onya tokene entry kore felechen, eikhetre kivabe sothik token e sothik cheque entry korben?
+","বাংলাদেশ ব্যাংকে Bank Advice প্রেরণের এর পূর্ব পর্যন্ত চেক নম্বর সঠিক করা যাবে । এক্ষেত্রে মনে রাখতে হবে যে, CGA অফিস থেকে প্রতিদিন দুপুর ১২টা এবং ২.৩০টাই  বাংলাদেশ ব্যাংকে Bank Advice Electronically প্রেরণ করে থাকে । Bank Advice প্রেরণের পূর্ব পর্যন্ত নিম্মবর্ণিত পদ্ধতি তে সংশোধন করা যাবে:
+* Accounting Transaction-Cheque মেনু হতে Edit Cheque Number নির্বাচন করতে হবে।
+* Fiscal Year: এই ঘরে Fiscal Year নির্বাচন করতে হবে।
+* Token No:  এই ঘরে Token No  টাইপ করে GO  বাটনে ক্লিক করতে হবে ।
+* Month, Token Date, DDO, Payee Name, Current Cheque Number, Cheque Issue Date স্বয়ংক্রিয়ভাবে প্রদর্শিত হবে ।
+* New Cheque Number: এই ঘরে চেকের সিরিজ নম্বর নির্বাচন করে চেকের নম্বর টাইপ করতে হবে ।
+* Save বাটনে ক্লিক করতে হবে ।
+"
+"চেকের ইসু তারিখ পরিবর্তন করতে হলে কি করবো?
+chequer issue tarikh poriborton korte hole ki korbo?
+","চেকের তারিখ Current Date এর পূর্বের তারিখে পরিবর্তন করা যাবে না
+* Accounting Transaction-Cheque মেনু হতে Cheque Issue Date Edit  নির্বাচন করতে হবে।
+* Fiscal Year: এই ঘরে Fiscal Year নির্বাচন করতে হবে।
+* Token No:  এই ঘরে Token No  টাইপ করে GO  বাটনে ক্লিক করতে হবে ।
+* Month, Token Date, DDO, Payee Name, Current Cheque Number, Cheque Issue Date স্বয়ংক্রিয়ভাবে প্রদর্শিত হবে ।
+* Cheque Issue Date: এই ঘরে চেকের তারিখ পরিবর্তন করে Save বাটনে ক্লিক করতে হবে ।
+"
+"একটি চেক ক্যানসেল করা হলে, সেক্ষেত্রে ঐ টোকেনে আর একটি চেক এন্ট্রি করা যাবে কিনা?
+ekti cheque cancel kora hole, sekhetre aoi tokene ar ekti cheque entry kora jabe kina?
+", ঐ  টোকেনে নতুন কোনো চেক এন্ট্রি করা যাবে না । কারণ চেক ক্যানসেল করা হলে একই সঙ্গে বিল Delete এবং Token Return হয়ে যায় ।
+"চেক এর এডভাইস পাওয়া যায় না বলে বাংলাদেশ ব্যাংক থেকে চেক ফেরত এসেছে, এক্ষেত্রে করণীয় কি?
+cheque er advice paoa jai na bole bangladesh bank theke cheque ferot esheche, ekhetre koronio ki?
+",আপনাকে CGA অফিস এর  IT  শাখায় যোগাযোগ করতে হবে । কারণ CGA অফিস থেকে প্রতিদিন দুপুর ১২টা এবং ২.৩০টাই  বাংলাদেশ ব্যাংকে Bank Advice Electronically প্রেরণ করা  হয় ।
+"একজন কর্মকর্তা জানালেন যে, বেতন বিলের EFT এর SMS পান নি, এক্ষেত্রে কি করবেন?
+ekjon kormokorta janalen je, beton biller EFT er sms pan ni, eikhetre ki korben?
+","* EFT-EFT SMS new মেনু থেকে দেখতে হবে যে EFT SMS পাঠানো হয়েছে কিনা ।
+* Master Data-->Employee Contact Information থেকে কর্মকর্তার মোবাইল নম্বর সঠিক আছে কিনা দেখতে হবে । কোন কোন ক্ষেত্রে দেখা যায় Mobile No :00 অথবা ০১৭১-২৩৪৫৬৯৮ ভুল মোবাইল নম্বর এন্ট্রি করা থাকে । ভুল থাকলে তা সংশোধন করতে হবে পরবর্তী মাস থেকে নিয়মিতভাবে SMS পাবেন ।
+"
+"GPF ফাইনাল পেমেন্ট বিল এন্ট্রি দেওয়ার সময় জেনারেট বাটন এ ক্লিক করে দেখা গেল ক্লোসিং ব্যালান্স শূন্য প্রদর্শিত হচ্ছে, এক্ষেত্রে কি করবেন?
+GPF final payment bill entry deoar somoy generate button e click kore dekha gelo closing balance shunno prodorshito hocche, ekhetre ki korben?
+"," ২০১৮-১৯ অর্থবছরের GPF Opening Balance Edit and Approve করে তথ্য পরবর্তী বছরে Forward করতে হবে  ।
+"
+"কিভাবে ডিডিও এর তথ্য এডিট করবেন?
+kivabe ddio er totya edit korben?
+","* Master Data-DDO Management মেনু থেকে  DDO Information Entry (Single Step) নির্বাচন করতে হবে।
+* Office Type: এই ঘরে Office Type নির্বাচন করতে হবে।
+* Sub Office: এই ঘরে Sub Office নির্বাচন করতে হবে।
+* GO বাটনে ক্লিক করলে নিচের টেবিল এ Bank account Name, Payee Name, Post Title, No of Staff, EFT Ceiling, Status এবং Edit  বাটন স্বয়ংক্রিয়ভাবে প্রদর্শিত হবে । 
+* Edit বাটনে ক্লিক করতে হবে।
+* Post, EFT Ceiling, No of Staff, Mobile, Bank Account Name, Bank Account Number, Bank Account Type, Bank, Bank Branch, Routing No  ঘরগুলোতে তথ্য স্বয়ংক্রিয়ভাবে প্রদর্শিত হবে । 
+প্রয়োজনীয় তথ্য  পরিবর্তন করে Save  বাটনে ক্লিক করলে DDO তথ্য পরিবর্তন হয়ে যাবে ।
+"
+"অনলাইন এ বেতন বিল দাখিলকারী একজন কর্মকর্তা জানালেন যে উনার বিলের টাকার অংক ভুল আছে বিধায় বিল রিটার্ন করতে হবে. সেক্ষেত্রে কিবহবে বিল রিটার্ন করবেন?
+online e beton bill dakhilkari ekjon kormokorta janalen je unar biller takar onko vul ache bidhai bill return korte hbe. sekhetre kivhabe bill return korben?
+",Unapproved Bill Cancellation থেকে বিল Cancel করতে হবে ।
+"অনলাইন এ দাখিলকৃত কর্মচারীর টোকেন কিভাবে খুঁজে পাবেন?
+online e dakhilkrito kormocharir token kivabe khuje paben?
+","Bill মেনু হতে Approve Staff Bill  নির্বাচন করতে হবে । Fiscal Year, Month of Accounting, DDO নির্বাচন করে GO বাটনে ক্লিক করতে হবে । নিচে ওই মাসের সবগুলু টোকেন প্রদর্শিত হবে ।"
+"DDO অনলাইনে দাখিলকৃত বেতন বিল পাঠাতে গিয়ে একাউন্টিং Month পাচ্ছেন না, এক্ষেত্রে কি করবেন?
+DDO online dakhilkrito beton bill pathate giey accounting month pacchen na, ekhetre ki korben?
+","এক্ষেত্রে হিসাবরক্ষণ অফিসের মাধ্যমে নির্ধারিত সময়ে Accounting Month open করে নিতে হবে ।
+* Master Data-Month-Open  হতে মাস open করতে হবে ।"
+"বিল এপ্প্রভ হইয়াছে তারপর ও বিল ফেরত দেওয়ার প্রয়োজন হলে কি করবেন?
+bill approve hoeiyche tarpor o bill ferot deoar proiojon hole ki korben?
+",Bill মেনু হতে Approved Bill Cancellation এর মাধ্যমে বিল ফেরত দিতে হবে ।
+"মাস্টার রোলে কর্মরত কর্মচারীদের বেতন কিভাবে হয়?
+master role kormoroto kormocharider beton kivabe hoi?
+"," মাস্টার রোলে কর্মরত কর্মচারীদের বেতন দেওয়া হয় না, তাদেরকে মজুরি বা পারিশ্রমিক দেওয়া হয়, যা কন্টিনজেন্সী বিলের মাধ্যমে হবে ।"
+"বেতন বিল দাখিল করার সময় একজন কর্মকর্তা দেখলেন যে উনার গৃহ নির্মান রিনের আসল এবং সুদ উভয কর্তন হয়েছে কিন্তু শুদু সুদের কিস্তি কর্তন হবে . এক্ষেত্রে কি করবেন?
+beton bill dakhil korar somoy ekjon kormokorta dekhlen je unar griho nirman riner asol ebong sud uvho korton hoieyche kintu shudu suder kisti korton hbe . ekhetre ki korben?
+",বেতন বিল হতে একইসঙ্গে রিনের আসল এবং সুদ উভয়ই কর্তন করা যাই না । আসলের কর্তন শেষ হলেই শুধু সুদের কিস্তি শুরু হবে  । এ ক্ষেত্রে Loans and Advance Sanction মেনুর Loan Information এ সংশ্লিষ্ট কর্মকর্তার Installment Start Year এবং Installment Start Month সঠিকভাবে এন্ট্রি না করায় এ সমস্যা হয়েছে ।  সঠিক তথ্য এন্ট্রি দিলে এই সমস্যার সমাধান হবে । 
+"১৯৭৬ সালের বেতন স্কেল অনলাইনে এন্ট্রি করা যাই না কেন?
+1976 saler beton scale online e entry kora jai na keno?
+",১৯৭৬ সালে কোনো বেতন স্কেল দেওয়া হয় নাই । ১৯৭৩/১৯৭৭/১৯৮৫/১৯৯১/১৯৯৭/২০০৫/২০০৯  এবং ২০১৫ সালে স্কেল প্রদান করা হয়েছে । ১৯৭৩ সালে গ্রেড-৭ থেকে ১০ মাত্র ৪টি গ্রেড বাস্তবায়ন হয়েছে ঐ ৪টি গ্রেড ব্যতীত অন্য কোনো গ্রেড সিস্টেমে রাখার সুযোগ নাই ।
+"চলতি দায়িত্বর ক্ষেত্রে দায়িত্ব ভাতার বরাদ্দ না থাকলে দাইত্ত ভাতা এন্ট্রি দেওয়া যাবে কিনা?
+cholti daeittor khetre daeitto vatar boraddo na thakle daietto vata entry deoa jabe kina?
+","এন্ট্রি দেওয়া যাবে, অনলাইন দ্বায়িত্ব ভাতার ইকোনমিক কোড কোড এ বাজেট বরাদ্দ ছাড়া বিলে ভাতা পাওয়া যাবেনা ।"
+"একজন কর্মকর্তার প্রথম মাসের বেতন এবং PRL বেতন প্রদানের জন্য করণীয় কি?
+ekjon kormokortar prothom masher beton ebong PRL beton prodaner jonno koronio ki?
+","* একজন কর্মকর্তা iBAS++ এ self-registration করার তারিখ হতে অনলাইনে বেতন বিল দাখিলের মাধ্যমে বেতন গ্রহণ করতে পারবে।  তবে রেজিস্ট্রেশন পূর্ববর্তী সময়ের বেতন ম্যানুয়ালি Pay Fixation  বা  NID bypass করার মাধ্যমে বেতন ও ভাতাদি নিতে পারবে ।
+* PRL এর ক্ষেত্রে Service Stage Management অপশনে এর আদেশ অন্তর্ভ্যুক্ত পুর্বক বা Entry পুর্বক PRL এ বেতন নিতে পারবে
+"
+"NID তে নাম ঠিক থাকা সত্তেও মাস্টার ডাটা তে নাম ভুল থাকলে নাম কারেকশন করার পদ্ধতি কি?
+NID te naam thik thak sotteo master data te naam vul thakle naam correction korar poddhoti ki?
+",Employee Management এর Basic Information অপশন এর নিচে সংশ্লিষ্ট কর্মকর্তার NID information Re-Fetch বাটনে ক্লিক করলে NID এর বাংলা নাম সংশোধন করা যাবে।
+"কর্মকর্তার Bank/Mobile information correction কারেকশন করার প্রয়োজন হলে কে কোন পদ্ধতিতে করবে?
+kormokorta bank/mobile  information correction korar proyojon hole ke kon poddhotite korbe?
+",ব্যাংক এর তথ্য সংশোধনের ক্ষেত্রে Bank Employee Management অপশনে যেয়ে Bank Information Sub অপশনে যেয়ে সংশোধন করা যাবে । মোবাইল নম্বর পরিবর্তন করার জন্য Employee Contact Information অপশনে যেয়ে সংশোধন করা যাবে
+"এমপ্লয়ী এর Designation ভুল থাকলে অথবা পরিবর্তন করার প্রয়োজন হলে তার পদ্ধতি কি?
+Employee er designation vul thakle othoba poriborton korar proiojon hole tar poddhti ki?
+","Employee এর Designation  ভুল থাকলে অথবা পরিবর্তন করার প্রয়োজন হলে নিম্মবর্ণিত স্টেপসমূহ অনুসন করতে হবে-
+Master Data → Employee Management→Employee Service information→ Present OPST→drop down তালিকা থেকে পদবি  select করতে হবে
+"
+"এমপ্লয়ী এর এডুকেশন এলাউন্স অ্যাড/রিমুভ করার প্রয়োজন হলে করণীয় কি?
+Employee er education allowance add/remove korar proyojon hole koronio ki?
+",শিক্ষা ভাতা প্রাপ্যতার জন্য সন্তানের বয়স ৫ বছরের অধিক এবং ২৩ বৎসরের কম হলে সর্ব্বোচ ২টি সন্তান্টির শিক্ষা ভাতা প্রাপ্য । Employee Basic Information→Family particulars of spouse→ particulars of children এরপর Employee salary information→৩১১১৩০৬  selection কোড selection করতে হবে → add or remove করা যাবে ।
+"সার্ভিস স্টেজ ম্যানেজমেন্ট মেনুতে এটাচমেন্ট এন্ট্রি অন্য কখন প্রয়োজন হয়?
+service stage management menute attachment entry onya kokhon proyojon hoi?
+",একই মন্ত্রণালয় ও একই বিভাগের অধীনে কর্মরত কোনো কর্মকর্তা-কর্মচারী এক দপ্তর হতে অন্য দপ্তরে সাময়িক সময়ের জন্য কাজ দায়িত্ত্ব পালন করাকে  Attachment বলে । Attachment  আদেশ হওয়ার পর তখন তাকে Service Stage Menu তে Attachment সংক্রান্ত তথ্য Entry  করতে হবে ।
+"একজন কর্মকর্তার বিল সাবমিশন এর সময় No data found  হলে কি করা উচিত?
+ekjon kormokortar bill submission er somoy no data found hole ki kora uchit?
+",একজন কর্মকর্তার Bill Submission এর সময় No data found হলে সংশ্লিষ্ট একাউন্ট অফিসের সাথে যোগাযোগ করা উচিত ।
+"GPF Vol. No/Page Entry/Interest Exclude করতে কি করা প্রয়োজন অথবা ৫২ বছর পর GPF কর্তন করতে না চাইলে কি করনীয়?
+GPF Vol. No/Page Entry/Interest Exclude  korte ki kora proyojon othoba 52 bochor por GPF  korton korte na caile ki koronio?
+","GPF Vol. No/Page Entry এর জন্য নিম্মবর্ণিত স্টেপ অনুসরণ করতে হবে-
+* Accounting Transaction→ GPF→ GPF Information→Volume No and Page No এন্ট্রি করা যাবে
+* GPF Interest Excluded এর ক্ষেত্রে  GPF Subscription Configuration→ Subscription Configuration→ NID→ Go → GPF  তথ্য স্ক্রিনে Exclude Interest অপশনে টিক দিয়ে Save করলে Interest Service বন্ধ হয়ে যাবে
+* ৫২ বছর পর GPF কর্তন করতে না চাইলে GPF Subscription Configuration→ Subscription Configuration→ NID→Go→GPF  তথ্য স্ক্রিনে Active অপশনে টিক চিহ্ন উঠিয়ে দিতে হবে তাহলে কর্তন GPF বন্ধ হয়ে যাবে
+"
+"পেনশন গমনের পর একজন কর্মকর্তার বকেয়া বেতন প্রদান করার পদ্ধতি কি?
+pension gomoner por ekjon kormokortar bokeya beton prodan korar poddhoti ki?
+","পেনশন গমনের পর একজন কর্মকর্তার বকেয়া বেতন প্রদান করার পদ্ধতি নিম্মরূপ: 
+* Master Data→ Employee Management→ Employee Joining এ আলোচ্য কর্মকর্তাকে সংশ্লিষ্ট অফিসের সাথে লিংক স্থাপন করতে হবে। এরপর কর্মকর্তাকে  ম্যানুয়াল টোকেন পদ্ধতিতে বেতন ভাতা প্রদান করা যাবে । "
+"পে-ফিক্সেশন মডিউলে প্রথম নিয়োগ, অফিস, মোবাইল নম্বর, পদবি পরিবর্তন করার জন্য কার কি করণীয়?
+Pay-fixation module prothom niog, office, mobile number , podobi poriborton korar jonno kar ki koronio?
+","পে-ফিক্সেশন মডিউলে এপ্রথম নিয়োগ, অফিস, মোবাইল নম্বর, পদবি পরিবর্তন করার জন্য আলোচ্য কর্মকর্তা/কর্মচারীকে সংশ্লিষ্ট একাউন্ট অফিসে যোগাযোগ করতে হবে এবং একাউন্ট অফিসার Verified Data correction  অপশনে নিম্মবর্ণিত পদ্ধতিতে তথ্য সংশোধন করবেন ।
+* Entry Approval→Verified Data Correction menu তে যেয়ে তথ্য পরিবর্তন করতে পারবেন ।
+"
+"Loans and Advance Entry/correction করার পদ্ধতি?
+loan and advance entry/correction korar poddhoti?
+","Accounting Transection→ Loans and Advances→ Loan and Advance sanction অপশনে যেয়ে প্রয়োজনীয় তথ্য correction করা যাবে ।
+"
+"কোনো কর্মকর্তা এক চাকুরী হতে অন্য চাকুরিতে যোগদানের পর তার GPF  জমাসহ অন্যান্য বকেয়া কিভাবে প্রদান করতে হবে?
+kono kormokorta ek cakuri hote onya cakurite jogdaner por tar GPF jomasho onanya bokeya kivabe prodan korte hbe?
+",কোনো কর্মকর্তার এক চাকুরী হতে অন্য চাকুরীতে যোগদান করলে তার পূর্বের চাকুরীর সমুদয় অর্থ সুদসহ চুড়ান্ত পরিশোধ করতে হবে । পরবর্তীতে অন্য চাকুরিতে নতুন করে GPF হিসাব চালু করতে হবে (যদি চাকুরীর ধারাবাহিকতা না থাকে । যদি চাকুরীর ধারাবাহিকতা  থাকে তাহলে Fund Transfer অথবা Ledger Transfer করতে হবে ।
+"Interest Free Car Loan, Bill payment, process?
+Interest Free Car Loan, Bill payment, process?
+","Interest Free Car Loan, Bill payment, Process এর ক্ষেত্রে করণীয়:
+* Accounting Transaction→Loan and Advance→ Loan and Advance Sanction এ এন্ট্রি করে সেভ করার পর Token →Token Entry (others) তে যেয়ে সকল তথ্য সিলেক্ট করতে হবে ।
+* Loan and Advance bill Entry→ Bill types →Accounting transaction→ Loan to Govt. Employee (72151XX)→Payee type (কর্মচারী DDO/কর্মকর্তা NID দিবে)→ Save Accounting Transaction→Loan and Advance→ Loan and Advance Bill Entry→ Bill Details এ Token No দিলে → Loan Selection এর ধরণ সিলেকশনের পর করতে হবে ।
+"
+"House Building Loan, Bill entry Advance, Entry, Edit etc.
+House Building Loan, Bill entry Advance, Entry, Edit etc.
+","House Building Loan, Bill entry Advance, Entry, Edit add এর  ক্ষেত্রে করণীয়:
+* Accounting Transaction→Loan and Advance→ Loan and Advance Sanction এ এন্ট্রি করে সেভ করার পর Token →Token Entry (others) তে যেয়ে সকল তথ্য সিলেক্ট করতে হবে ।
+* Loan and Advance bill Entry→ Bill types →Accounting transaction→ Loan to Govt. Employee (72151XX)→Payee type (কর্মচারী DDO/কর্মকর্তা NID দিবে)→ Save Accounting Transaction→Loan and Advance→ Loan and Advance Bill Entry→ Bill Details এ Token No দিলে → Loan Selection এর ধরণ সিলেকশনের পর করতে হবে ।
+"
+"Authorization এর বাজেট এর টোকেন/Bill  কিভাবে এন্ট্রি করা হয়?
+authorization er budget er token kivabe entry kora hoi?
+","Authorization এর বাজেট এর টোকেন এন্ট্রির পদ্ধতি:
+* Accounting Transaction→ Token→ Token Entry (others)→Ministry selection/ DDO selection→ Month selection(চলতি মাস) → DDO Bill No→ Bill Type→ Payee Type→ DDO /supplier/ Concern Officer→ NID (Concern Officer হলে শুধু NID সিলেক্ট করতে হবে । যদি ডিডিও হয় তাহলে ডিডিও সিলেক্ট করতে হবে । যদি Supplier  হয় তখন supplier এর NID/TIN no/Mobile no/VAT registration নম্বর সিলেক্ট করতে হবে) এর পর Net Amount দিয়ে Save করতে হবে।
+Authorization এর বাজেট এর Bill এন্ট্রির পদ্ধতি:
+* Accounting Transaction→Bill→Bill Entry (others)→Ministry selection→ DDO (টোকেন দেওয়ার সময় যে ডিডিও দেওয়া হয়েছে )→office code→ Fiscal Year → Accounting Month(চলতি মাস) → Token No → Go তারপর Bill Transaction এ Details প্রদর্শিত হবে→ এই স্ক্রিনে Economic Code→Organization→ Operation/ General/ Activity→ Mode of Financing→ Debit ও Credit এ Amount Entry→Save করতে হবে ।
+"
+"এমপ্লয়ী এর NID কখন, কেন প্রয়োজন হয়?
+employee er information kokhon, keno proyojon hoi?
+",একজন কর্মকর্তা/কর্মচারী Online Pay Bill দাখিল করার জন্য iBAS++ সিস্টেমে কর্মকর্তা/কর্মচারীর  তথ্যাদি এন্ট্রির সময় NID  প্রয়োজন হয় ।
+"গ্যাসের বিলের ক্ষেত্রে কোড না পেলে কোন কোড Entry করবে?
+gaser biller khetre code na pele kon code entry korbe?
+","গ্যাস এর বিলের কোডসমূহ:
+১. ৮১৭২৪০১-  তিতাস গ্যাস বিল
+২. ৮১৭২৪০২- বাখরাবাদ গ্যাস বিল
+৩. ৮১৭২৪০৩- জালালাবাদ গ্যাস বিল
+৪. ৮১৭২৪০৪- কণফুলী গ্যাস বিল
+৫. ৮১৭২৪০৫-  পশ্চিম  অঞ্চল গ্যাস বিল
+ Employee Salary Information→Next→ Deduction→ Gas code selection→Fund এর Drop Down মেনুতে→ (20000000) Public Account of the Republic →Amount→add→save গ্যাস এর বিলের ক্ষেত্রে কোড না পেলে বর্ণিত ৫টি কোড  হতেনির্ধারিত  কোড সিলেক্ট করে Entry করা যাবে । 
+"
+"ডিডিও হিসেবে ইউসার জয়েনিং অথবা রিলিজ করার পদ্ধতি কি এবং ডিডিও ইউসার রেজিস্ট্রেশন কিভাবে করবে?
+DDIO hisebe User joining othoba release korar poddhoti ki? ebong DDIO user registration kivabe korbe?
+","DDO মডিউলের DDO  হিসেবে  Online Pay Bill Menu তে DDO একজন কর্মচারীর  release এবং joining দিতে পারবে । সে ক্ষেত্রে নিম্ম বর্ণিত স্টেপসমূহ অনুসরণ করতে হবে - 
+* Budget Execution→Online Pay Bill→Release an Employee
+* Budget Execution→Online Pay Bill→ Employee joining
+"
+"কর্মকর্তার মৃত্যুতে নতুন ডিডিও নিয়োগ করা হয় সেক্ষেত্রে মৃত কর্মকর্তার পেমেন্ট পদ্ধতি কি?
+kormokortar mritute notun DDIO niog kora hoi sekhetre mrito kormokortar payment poddhoti ki?
+",মৃত ব্যক্তির জন্য যে ডিডিও নিয়োগ করা হয় সে ক্ষেত্রে সংস্লিষ্ট ডিডিও এর ব্যাঙ্ক একাউন্ট থেকে মৃত ব্যক্তির প্রাপ্য বেতন ও বাতাস যাবতীয় পাওনা (পেনশন ও গ্রাচুইটি ব্যাতিত) পরিশোধ করা যাবে ।
+"ডিডিও এর মোবাইল নম্বর পরিবর্তন করার প্রয়োজন আছে কি? থাকলে কেন এবং কি করণীয়?
+DDIO er mobile number poriborton korar proyojon ache ki? thakle keno ebong ki koronio? 
+","* DDO এর মোবাইল নম্বর পরিবর্তন করার প্রয়োজন আছে কারণ অনলাইন পে-বিল Submit  এর পরে ডিডিও এর মোবাইল এ OTP মেসেজ যাবে ।
+* যেহেতু OTP ছাড়া কর্মকর্তার বেতন বিল অনলাইন Submission  করা যাই না সে ক্ষেত্রে ডিডিও বদলি হলে তার  স্থলে অন্য একজন কর্মকর্তার যদিও এর পালন করলে তার মোবাইল নম্বর টি প্রতিস্থাপিত হবে ।
+* করণীয়: iBAS++  এর সাপোর্ট টীম এর সাথে যোগাযোগ করে ডিডিও এর মোবাইল নম্বর পরিবর্তন করতে হবে।
+"
+"What to do to open a new DDO? 
+","To open a new DDO-
+* As per Treasury Rule SR 65 appointment of DDO should have GO issued by the Ministry.
+* Specimen signature of the new DDO should be attested by the previous DDO and sent
+* DDO Information Form must be filled up
+* DDO data entry should be done by CAFO of concerned ministry
+"
+"Do employees' salary bills have to be submitted to DDO? 
+",Yes. DDO is responsible for filing and forwarding the salary bills of the employees.
+"How many data entries of an employee can be billed through EFT? 
+","Bills can be paid through EFT after entry, storage and approval of personal information, employment information and bank account information. But it is better to enter all the information according to the form."
+"What to do in case of employee type of an employee (officer to staff, staff to office)? 
+","A) Master Data-->Employee Type Change Request->NID with current type Select Employee Type to change(Correct), Select Reason: The reason for Type Change should be mentioned [auditor should give correct entry].
+
+B) Master Data--> Employee Type Change Approve [to be approved by A&AO]
+"
+" What are the reasons for bypassing NID? What are the steps of NID bypass? 
+","NID Bypass has to be done for following reasons-
+* Partial Salary for new appointment.
+* Partial salary for Fractional bill (Bill pending before UserID registration)
+* Employee from Defense to Civil Contractual Service.
+
+Steps of NID Bypass:
+* Master Data--> Employee Management-->NID Bypass Entry
+* Master Data--> NID Bypass Check (New) [To be approved by A&AO]
+* Master Data-->NID Bypass Approve (New) to be approved by DCA/CAO/FC/SFC]
+"
+"What to do in editing religion information? 
+",Master Data--> Employee Management--> Religion Information Edit
+"What to do in that case if the number of the smart card is given after the correction?
+","In this case, the salary determination must be revised first. The NID number with which the pay-fixation is done will be effective."
+" While entering staff information in ibas++ error message is displayed ""Employee note active in other post"" What to do in this case?
+",Staff should be joined by the designated DDO of the correct office through Master Data-->Employee Management-->Employee Joining menu.
+" DDO Budget Execution-->Staff Information Entry, Employee - Basic Information, Service Information, Salary Information, GPF Information with respect to any employee NID in master data error message is displayed “You are not authorized to view this employee” - What to do in this case What?
+","From the employee status, check the employee's office and under which DDO the entry is made. It should be remembered that the staff information is entered from the user ID and the staff should be released and joined by the designated DDO of the correct office using the user ID."
+"In Release an Employee Screen While releasing any employee - error message is displayed in the case of staff ""Employee has staff pay bill in batch pending. Please clear those pending bills and try again "" and in the case of officers ""employee has bill for officers pending. Please clear those pending bills and try again""  What to do in this case?
+","In both cases, the pending bill information of the concerned employee should be cleared or canceled/returned through Token/Bill after knowing from Reports-->Token Reports-->Token Search by NID report. Then release the employee through the Release an Employee screen"
+"After submitting the salary bill as a SDO(Self Drawing Officer), it was found that he is the DDO of the concerned office. What to do in this case?
+","In order to get DDO (Drawing and Disbursing Officer) Role with the help desk, there should be a GO issued by the Ministry for appointment of DDO as per Treasury Rule SR 65. And DDO Information Form should be submitted by FIll-up."
+"What is the process of correction of an officer's NID (same as Pay Fixation) ?
+","To change the NID number of an officer follow the steps below-
+* Select Master Data-Employee Management-Change Employee NID
+* Pay Point: Pay Point will be displayed automatically in this cell
+* Ministry: This Ministry should be selected
+* DDO: Select DDO in this cell
+* Office Code: will be displayed automatically
+* Clicking the GO button will show Existing NID, Name, Designation, New NID, Save button under the Employee section.
+* New NID: Type the correct NID in this box and click the button
+"
+"What to do if an officer has more than one NID ?
+","Multiple NIDs must be Marge using Merge Employee NID menu via CAFO/DCA
+"
+"Why is the Employee Status screen used?
+","From Employee Status, Employee - NID Employee Name, Employee Type, Pay Point, Designation, Date of Birth, Mobile no, Office, Own DDO, GPF Number, Bank/branch Office and under which DDO the entry is made can be known. 
+"
+"BUDGET EXECUTION BY DDO -->ERROR  MESSAGE DISPLAYED “Invalid NID with DOB” WHILE ENTERING INFORMATION IN STAFF INFORMATION ENTRY FOR AN EMPLOYEE IN MASTER DATA. WHAT TO DO IN THAT CASE ?
+","If the NID entered in Staff's Budget Execution-->Master Data-->Employee Information Entry does not match with the Pay Fixation NID, such a message is displayed.
+"
+"An error message ‘Invalid date’  is displayed while clicking on the save button after the entry of an employee's information (Personal, Family & Bank). What to do in this case?
+","6(a) of Pay Fixation If the first joining date is blank or incorrect then such message is displayed
+"
+"In ibas++after verifying the employee's information What to do for  the correction of  his/her own parent's name?
+","Click on Master Data->Employee Management->Employee Basic Information->Select Employee Type->NID->Go->NID Info Re-Fetch button, Bengali name will be displayed in favor of NID, English name has to be typed"
+"What to do if the ‘First joining date/office not found in Pay Fixation’ message is displayed while entering information in ibas++?
+","Pay Fixation information will be corrected from the Respective Accounts office (using Pay Fixation >Verified data Fixation” correction menu).
+"
+"What to do if an employee's spouse doesn't have NID while entering information in ibas++?
+","iBAS++ Spouse's NID is mandatory. If there is no NID, leave it blank. As soon as possible, after registration, edit the information and make the entry"
+"3111306- In the case of Education Allowance, if the child is aged (5-23), but both parents are government employees, what should be done regarding the availability of the child's education allowance?
+","Spouse will enter details of either child, but will get an education allowance along with one's salary. Mother will be given priority in availing child education allowance.
+"
+"An error message  ‘Your pay point is not matched with the pay fixation of this employee. Please check the fixation or contact with Account office to his fixation.’  is displayed while entering the information in the employee information entry with respect to an employee's requirement in the master data. What to do in this case?
+","Pay Fixation information should be corrected from Respective Accounts office
+"
+"What is the process of receiving salary from ibas++ if someone joins the job in the middle of the month?
+","In case of partial bill, the bill has to be submitted manually (in hard copy) through the accounting office
+"
+"Employee information should be entered first or group should be created first?
+","First enter the employee information, then create the group
+"
+"In Employee Salary Information, salary allowances and deductions are given against the economic code. What to do in this case?
+","If there is no economic code permission against office code, helpdesk should be taken
+"
+"An officer cannot find his salary month while submitting salary bill online, what to do in this case?
+","An officer cannot submit multiple salary bills in the same Salary Month. In this case, check whether the Token of that Salary Month has already been applied to the officer. To find the salary information along with the salary token number of the respective month, it should be known from the report whether the salary bill of that month has already been submitted.
+  In case of a partial bill in the joining month, the bill must be submitted manually through the accounting office."
+"After submitting the pay bill online, an officer finds that the pay bill cannot be found for forwarding to his DDO's id, what to do in this case?
+","Accounting office knows Employee Name, Employee Type, Pay Point, Designation, Date of Birth, Mobile no, Office, Own DDO, GPF Number, Bank/Branch Office and under which DDO entry is made with respect to Employee - NID Must be, and pay bill forwarded with proper DDO
+"
+How to enter PRL bill?,"Save with correct detailed entry in Master Data-->Service Stage Management-->PRL Entry option. After approval of PRL information by the Accounts Office/DDO, bills for full month and partial bills should be submitted manually (in hard copy) through the Accounts Office."
+"What is Master Data → Service Stage Management ?
+","Service Stage Management: In order to facilitate the service of government employees from iBAS++ and to avoid the hassle of going to and from the accounting office, the following new options under the title of Service Stage have been added to the iBAS++ system.
+* After clicking Service Stage Management, under Stages:
+* Attachment: (Official holding a permanent post in a department working temporarily against his original post attached to any other department within a Ministry/Department)
+* PRL: Retirement Northern Leave Benefit
+* Deputation:
+Deputation (Budgetary Central Govt)
+Deputation (Outside the budgetary central government)
+Lien: To work temporarily in any project/programme/organization or organization outside of direct revenue subject to the permission of the government while keeping the original position of the officer of a ministry/department under the government revenue budget intact.
+Suspension: Suspension from employment
+Leave: Leave
+"
+"What is Partial Bill?
+","Stages of employment [“Attachment”, “PRL Entry”, “Deputation”, “Lien”, “Suspension”, “Leave”] in all cases do not start on the 1st date of any calendar month and end on the last date of the calendar month. With the change of stage in the service, in most cases the allowance changes Partial Bills are payable in cases where the commencement and termination dates are not on the first and last dates of the month, but on any date in between."
+"When to use Map Office with Region and Map Employee with Region?
+","a) Map Office with Region - This option should be used if all the officers/employees are located outside the region.
+b) Map Employee with Region - If the location of the concerned office is in the city area but the workplace of a part of the staff/employees is outside the city area, then this option has to be used.
+Caution: These 2 options have been added only for the Accounts Officers of those City Areas where the mentioned problem exists. These options are not applicable to all accounting officers.
+"
+"If the child's birth is not registered, can his name be added?
+","Name cannot be added, must be left blank. As soon as possible after birth registration, edit the information and give the birth registration entry."
+"Can nominee names be changed in future funds?
+",Yes. The nominee can be changed through the officer who has opened the account in the account keeping office by filling up GPF 9B and 9C forms.
+"After changing any information in an officer's pay bill, an error message ‘Basic amount does not match with pay fixation amount’  is displayed when clicking on the save button, what to do in this case?
+","* Select Pay Fixation Detail Report from the Reports menu.
+* National Identity Card (NID) Number: Type NID in this box and click on the view information button. Then check the basic salary of the officer from the report.
+
+* Master Data-->Employee Management-->Employee Salary Information must be selected.
+* Employee Type: GOB Officer must be selected.
+* Type NID and click on the GO button.
+* Emoluments and Allowances : See if there is any difference in the salary shown in the Detail Report of the Amount of Economic- 3111101- Basic pay (Officer) in this part.
+* If a difference in basic salary is observed (if increment is not applied) then salary determination should be updated first.
+* Then Economic- 3111101- Basic pay (Officer) Amount from Employee Information Entry (Single Step) and click on save button.
+"
+"What if an officer wants to reduce/increase his/her pay bill GPF contribution in July?
+","* GPF Subscription Configuration must be selected from the Accounting Transaction-GPF menu.
+* Pay Point: will be displayed automatically.
+* National ID: Type NID and click on GO button.
+* Employee Name, Current Office, GPF A/C No, Current Basic Pay, Subscription Amount, Commencement Date will be displayed automatically.
+* Subscription Amount: Change the GPF subscription amount in this room and click on save button.
+"
+"What should be done if an officer does not want to deduct GPF contribution from his salary?
+"," * GPF Subscription Configuration must be selected from the Accounting Transaction-GPF menu.
+ * Pay Point: will be displayed automatically.
+ * National ID: Type NID and click on the GO button.
+ * Employee Name, Current Office, GPF A/C No, Current Basic Pay, Subscription Amount, Commencement Date will be displayed automatically.
+ * Check the Active box and click on the Save button."
+"What if someone does not want to pay GPF interest?
+","* GPF Subscription Configuration must be selected from the Accounting Transaction-GPF menu. 
+* Pay Point: will be displayed automatically.
+* National ID: Type NID and click on the GO button.
+* Employee Name, Current Office, GPF A/C No, Current Basic Pay, Subscription Amount, Commencement Date will be displayed automatically.
+* Check the Exclude Interest box and click the Save button.
+"
+"An officer submitting the salary bill online saw that the name in Bengali is not displayed correctly in the salary bill report. What should be done in this case?
+","By clicking on Master Data -> Employee Management ->Employee Basic Information ->Select Employee Type->NID->Go->NID Info Re-Fetch option through Accounting Office, Bangla Name will automatically be displayed with respect to NID,  English Name need to be type/edit .
+"
+"Master    Data-->Employee    Management-->Employee   Salary   Information - Whether to add BF, GI and stamp duty entry in deduction section during salary bill configuration of an officer?
+","BF, GI and Stamp duty are automatically added to the salary bill of the officer, so there is no need to add BF, GI and Stamp duty in the new Employee Salary Information.
+"
+"What if an officer (of C C D F section employed in pension) does not want deduction from the pay bill?
+","* Select BF/GI Exception from Master data→Employee Management menu.
+* Pay Point: will be displayed automatically.
+* National ID: Type NID and click on GO button.
+* Employee Name, Designation, Office will be displayed automatically.
+* Select Extension Period From and To by ticking the Employee On Extension box and click Save button.
+"
+"Accounting officer has given check information to another accounting office, what to do in this case?
+","* Change Checkbook Pay Point must be selected from the Check menu of Accounting Transaction.
+* Check Book No: Select the check book number in this cell.
+* Check Series, Check No, Existing Pay Point will be displayed automatically.
+* New Pay Point: Select the accounting office in this room and click the Save button."
+"One token's check has been mistakenly entered in another token, in this case how to enter the correct check of the correct token?
+","Check number can be corrected before sending Bank Advice to Bangladesh Bank. In this case, it should be remembered that the CGA office sends Bank Advice electronically to Bangladesh Bank every day between 12:00 noon and 2:30 p.m. Bank Advice can be amended in the following manner before dispatch:
+* Select Edit Check Number from the Accounting Transaction-Cheque menu.
+* Fiscal Year: Fiscal Year must be selected in this cell.
+* Token No: Type Token No in this box and click on the GO button.
+* Month, Token Date, DDO, Payee Name, Current Check Number, Check Issue Date will be displayed automatically.
+* New Check Number: Select the series number of the check and type the check number in this cell.
+* Click on Save button.
+"
+"What should I do to change the issue date of the check?
+","Check date cannot be changed to date earlier than Current Date
+* From the Accounting Transaction-Cheque menu, select Check Issue Date Edit.
+* Fiscal Year: Fiscal Year must be selected in this cell.
+* Token No: Type Token No in this box and click on the GO button.
+* Month, Token Date, DDO, Payee Name, Current Check Number, Check Issue Date will be displayed automatically.
+* Check Issue Date: Change the check date in this room and click Save button.
+"
+"If a check is canceled, can another check entry be made in that token?
+","No new check entries can be made in that token. Because if the check is canceled, the bill will be deleted and the token will be returned at the same time.
+"
+"The check is returned from Bangladesh Bank because the advice of the check is not available, what should be done in this case?
+","You have to contact the IT branch of the CGA office. Because Bank Advice is electronically sent to Bangladesh Bank every day at 12 noon and 2.30 pm from the CGA office.
+"
+"An officer said that he did not receive the SMS of the EFT of the salary bill, what to do in this case?
+","* EFT-EFT SMS new menu to see if EFT SMS has been sent.
+*From Master Data-->Employee Contact Information, check whether the official's mobile number is correct. In some cases it is seen that Mobile No :00 or 0171-2345698 wrong mobile number is entered. If there is a mistake, it should be corrected. You will receive regular SMS from next month.
+"
+"While entering the GPF final payment bill, after clicking on the generate button, the closing balance is displayed as zero. What to do in this case?
+","Edit and approve GPF Opening Balance of 2018-19 financial year and forward the information to next year.
+"
+"How to edit DDO information?
+","* Select DDO Information Entry (Single Step) from Master Data-DDO Management menu.
+*Office Type: Office Type should be selected in this cell.
+*Sub Office: Select Sub Office in this cell.
+*If you click on the GO button, Bank account Name, Payee Name, Post Title, No of Staff, EFT Ceiling, Status and Edit button will automatically appear in the table below.
+*Click on the Edit button.
+*Information will be automatically displayed in Post, EFT Ceiling, No of Staff, Mobile, Bank Account Name, Bank Account Number, Bank Account Type, Bank, Bank Branch, Routing No cells.
+If you change the required information and click on the Save button, the DDO information will be changed.
+"
+"An official who submitted the salary bill online said that the amount of money in his bill is wrong and therefore the bill has to be returned. In that case, how to return the bill?", Bill must be canceled from Unapproved Bill Cancellation.
+"How to find employee tokens filed online?
+","Select Approve Staff Bill from the Bill menu. Select Fiscal Year, Month of Accounting, DDO and click on the GO button. All the tokens for that month will be displayed below.
+"
+"The accounting month is not received while DDO sending the salary bill submitted online, what to do in this case?
+","In this case, the Accounting Month should be opened at the appointed time through the accounting office.
+* Month must be open from Master Data-Month-Open.
+"
+"What to do if the bill is approved and the bill needs to be returned?
+","The bill must be returned through Approved Bill Cancellation from the Bill menu.
+"
+"How are the salaries of the employees working on the master role?
+","Employees working on Master Roll are not paid, they are paid wages or remuneration, which will be through Contingency Bills.
+"
+"While submitting the salary bill, an officer found that both the principal and interest of his house construction loan were deducted but only the interest installments would be deducted. what to do in this case?
+","Both principal and interest are not deducted from the salary bill at the same time. Only the interest installment will start after the actual deduction is over. In this case, the problem has arisen because the concerned officer has not correctly entered the Installment Start Year and Installment Start Month in the Loan Information of the Loans and Advance Sanction menu. Correct data entry will solve this problem.
+"
+"Why does the 1976 pay scale not enter online?
+","No pay scale was given in 1976. Scale provided in 1973/1977/1985/1991/1997/2005/2009 and 2015. In 1973 only 4 grades were implemented from grade 7 to 10, there is no opportunity to keep any other grade system except those 4 grades.
+"
+"If there is no allocation of duty allowance in case of current duty, whether duty allowance entry can be given?
+","Entries can be made, No allowance will be available in the bill without budget allocation on Online Duty Allowance Economic Code.
+"
+"What is to be done for payment of first month salary and fall salary of an officer?
+","* An officer can receive salary by submitting a pay bill online from the date of self-registration in iBAS++. However, registration can take salary and allowances for the previous period manually by doing Pay Fixation or NID bypass.
+*In case of PRL, in the Service Stage Management option, the order can be paid in pre-entry or pre-entry PRL.
+"
+"What is the method of name correction if the name is wrong in the master data even though the name is correct in NID ?
+","The Bengali name of the NID can be corrected by clicking on the NID information Re-Fetch button of the concerned officer under the Basic Information option of Employee Management.
+"
+"If the officer needs to correct the bank/mobile  information, who will do it in what manner?
+","In case of correction of bank information, correction can be done by going to the Bank Employee Management option and going to the Bank Information Sub option. To change the mobile number can be modified by going to the Employee Contact Information option .
+"
+"What is the procedure if the employee's designation is incorrect or needs to be changed?
+","If the Employee's Designation is wrong or needs to be changed, the following steps should be followed-
+Master Data→Employee Management→Employee Service information→Present OPST→Select last name from drop down list
+"
+"What to do if an employee needs to add/remove their Education Allowance?
+",Education Allowance Eligibility If the child is more than 5 years and less than 23 years then maximum 2 children are eligible for Education Allowance. Employee Basic Information → Family particulars of spouse → particulars of children then Employee salary information → 3111306 selection code should be selected → add or remove can be done.
+"When else is the attachment entry required in the Service Stage Management menu?
+","An officer-employee working under the same ministry and the same department from one office to another office for a temporary period is called attachment. After the attachment is ordered, he has to enter the information related to the attachment in the Service Stage Menu."
+"What should be done if the data is not found during the bill submission of an officer?
+","An officer should contact the concerned account office if no data is found during Bill Submission.
+"
+"What needs to be done to GPF Vol. No/Page Entry/Interest Exclude or not want to GPF deduct  after 52 years?
+"," GPF Vol. For No/Page Entry the following steps are to be followed-
+* Accounting Transaction→GPF→GPF Information→Volume No and Page No can be entered.
+* In case of GPF Interest Excluded, GPF Subscription Configuration→ Subscription Configuration→ NID→ Go → Save by ticking the Exclude Interest option on the GPF information screen will stop the Interest Service.
+* If you don't want to deduct GPF after 52 years, check Active option in GPF Subscription Configuration → Subscription Configuration → NID → Go → GPF information screen, then deduction GPF will be stopped.
+"
+"What is the procedure for payment of salary arrears of an officer after retirement?
+","The procedure for payment of salary arrears of an officer after retirement is as follows:
+In Master Data→Employee Management→Employee Joining, the concerned officer has to establish a link with the concerned office. After that the salary allowance can be paid to the official by manual token system.
+"
+"Who has to do what to  change the first appointment, office, mobile number, surname in the pay-fixation module?
+","In order to change the first appointment, office, mobile number, designation in the Pay-Fixation module, the concerned officer/employee should contact the respective account office and the account officer will correct the information in the following manner in the Verified Data correction option.
+*You can change the information by going to Entry Approval→Verified Data Correction menu.
+"
+"Procedure for Loans and Advance Entry/correction?
+","The required information can be corrected by going to Accounting Transaction → Loans and Advances → Loan and Advance sanction option.
+"
+"After an officer joins from one job to another job, how to pay his GPF including other dues?
+","If an officer joins another job from one job, he has to pay all the money of his previous job with interest. Later, a new GPF account should be opened in another job (if there is no continuity of service. If there is continuity of service then Fund Transfer or Ledger Transfer should be done.
+"
+"Procedure for Interest Free Car Loan, Bill payment?
+","Interest Free Car Loan, Bill payment, Process:
+*After entering Accounting Transaction→Loan and Advance→Loan and Advance Sanction and saving, go to Token→Token Entry (others) and select all information.
+*Loan and Advance bill Entry→ Bill types →Accounting transaction→ Loan to Govt. Employee (72151XX)→Payee type (Employee will give DDO/Employee NID)→Save Accounting Transaction→Loan and Advance→Loan and Advance Bill Entry→If Token No is given in Bill Details→Loan Selection type should be done after selection.
+"
+"House Building Loan, Bill entry Advance, Entry, Edit etc.","What to do in case of House Building Loan, Bill entry Advance, Entry, Edit add:
+*After entering Accounting Transaction→Loan and Advance→Loan and Advance Sanction and saving, go to Token→Token Entry (others) and select all information.
+*Loan and Advance bill Entry→ Bill types →Accounting transaction→ Loan to Govt. Employee (72151XX)→Payee type (Employee will give DDO/Employee NID)→Save Accounting Transaction→Loan and Advance→Loan and Advance Bill Entry→If Token No is given in Bill Details→Loan Selection type should be done after selection."
+How is the entry of the token/Bill  of the authorization budget?,"Method of Token Entry of Authorization Budget:
+*Accounting Transaction → Token → Token Entry (others) → Ministry selection/ DDO selection → Month selection (current month) → DDO Bill No → Bill Type → Payee Type → DDO /supplier/ Concern Officer → *NID (If Concern Officer only select NID Yes. If it is DDO then select DDO. If it is Supplier then select supplier's NID/TIN no/Mobile no/VAT registration number) then save with Net Amount.
+
+Method of Bill Entry of Authorization Budget:
+*Accounting Transaction→Bill→Bill Entry (others)→Ministry selection→DDO (the DDO given at the time of token issue)→office code→Fiscal Year→Accounting Month(current month)→Token No→Go Then Details *will be displayed in Bill Transaction→ On this screen Economic Code→Organization→Operation/General/Activity→Mode of Financing→Debit and Credit Amount Entry→Save.
+"
+"When and why is employee NID needed?
+","NID is required at the time of entry of details of officer/employee in iBAS++ system for filing Online Pay Bill of an officer/employee.
+"
+"If no code is found  for the gas bill, which code will be entered?
+","Gas Bill Codes:
+1. 8172401- Titus Gas Bill
+2. 8172402- Bakhrabad Gas Bill
+3. 8172403- Jalalabad Gas Bill
+4. 8172404- Karnaphuli Gas Bill
+5. 8172405- Western Region Gas Bill
+
+ Employee Salary Information → Next → Deduction → Gas code selection → In the drop down menu of Fund → (20000000) Public Account of the Republic → Amount → add → save If you do not get the code for the gas bill, you can select the code from the 5 codes mentioned and make an entry.
+"
+"What is the process of signing or releasing a user as a DDO? And how to do DDO user registration?
+","As DDO of DDO module, DDO can give release and joining of an employee in Online Pay Bill Menu. In that case the following steps are to be followed –
+*Budget Execution→Online Pay Bill→Release an Employee
+*Budget Execution→Online Pay Bill→Employee joining
+"
+"What is the mode of payment of deceased officers in case a new DDO is appointed on the death of an officer?
+","In case the DDO is appointed for the deceased, the salary and allowances due to the deceased (excluding pension and gratuity) can be paid from the bank account of the concerned DDO.
+"
+"Is there a need to change the ddo’s mobile number? If so, why and what to do?
+","*There is a need to change the mobile number of DDO because OTP messages will be sent to DDO's mobile after online pay-bill submission.
+*Since the salary bill of the officer cannot be submitted online without OTP, in case of transfer of DDO, another officer will replace him, but if he complies, his mobile number will be replaced.
+*To Do: Change the mobile number of DDO by contacting iBAS++ support team.
+"

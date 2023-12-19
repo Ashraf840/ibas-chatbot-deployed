@@ -1,0 +1,2140 @@
+version: '3.0'
+nlu:
+- intent: selected_category
+  examples: |
+    - নির্বাচিত বিভাগ হল: [ফাইন্যান্স](category_title)
+    - নির্বাচিত বিভাগ হল: [অন্যান্য](category_title)
+    - নির্বাচিত বিভাগ হল: [বাজেট](category_title)
+    - নির্বাচিত বিভাগ হল: [স্যালারি](category_title)
+    - নির্বাচিত বিভাগ হল: [Finance](category_title)
+    - নির্বাচিত বিভাগ হল: [Budget](category_title)
+    - নির্বাচিত বিভাগ হল: [Others](category_title)
+    - নির্বাচিত বিভাগ হল: [Salary](category_title)
+    - selected category is [ফাইন্যান্স](category_title)
+    - selected category is [অন্যান্য](category_title)
+    - selected category is [বাজেট](category_title)
+    - selected category is [স্যালারি](category_title)
+    - selected category is [Finance](category_title)
+    - selected category is [Budget](category_title)
+    - selected category is [Others](category_title)
+    - selected category is [Salary](category_title)
+    - বেছে গেছেন: [ফাইন্যান্স](category_title)
+    - আপনি বাছাই করেছেন: [অন্যান্য](category_title)
+    - বাছাই করা হয়েছে: [বাজেট](category_title)
+    - বেছে নেয়া হয়েছে: [স্যালারি](category_title)
+    - [Finance](category_title) বিভাগটি চয়ন করা হয়েছে
+    - [Budget](category_title) বিভাগটি আপনি নির্বাচন করেছেন
+    - [Others](category_title) বিভাগটি আপনি বেছে গেছেন
+    - এই নির্বাচিত হয়েছে: [Salary](category_title)
+    - [ফাইন্যান্স](category_title) বিভাগটি নির্বাচিত হয়েছে
+    - [অন্যান্য](category_title) বিভাগটি নির্বাচিত হয়েছে
+    - [বাজেট](category_title) বিভাগটি চয়ন করা হয়েছে
+    - [স্যালারি](category_title) বিভাগটি আপনি বেছে নেয়া হয়েছে
+    - এই [Finance](category_title) বিভাগটি আপনি নির্বাচন করেছেন
+    - এই [Budget](category_title) বিভাগটি আপনি বেছে গেছেন
+    - এই [Others](category_title) বিভাগটি নির্বাচিত হয়েছে
+    - এই [Salary](category_title) বিভাগটি চয়ন করা হয়েছে
+    - নির্বাচিত বিভাগ: [Technology](category_title)
+    - আপনি চয়ন করেছেন: [Health](category_title)
+    - [শিক্ষা](category_title) বিভাগটি নির্বাচিত করেছেন
+    - [Travel](category_title) বিভাগটি চয়ন করা হয়েছে
+    - নির্বাচিত হয়েছে: [Entertainment](category_title)
+    - এই [Sports](category_title) বিভাগটি নির্বাচিত হয়েছে
+    - এই [Fashion](category_title) বিভাগটি আপনি চয়ন করেছেন
+    - এই [Food](category_title) বিভাগটি বেছে নেয়া হয়েছে
+
+- intent: telling_something_en
+  examples: |
+    - Tell me something about IBAS
+    - Share some information with me
+    - I want to know more
+    - Can you provide details on IBAS?
+    - Tell me something interesting
+    - Share some insights
+    - I'm curious, tell me more
+    - Provide me with information
+    - What can you tell me about IBAS?
+    - I'd like to learn more
+    - Enlighten me about IBAS
+    - Tell me a fact
+    - I'm interested, tell me something
+    - Share a tidbit of information
+    - Educate me on IBAS
+    - Let me know something
+    - I want to be informed
+    - What should I know about IBAS?
+    - Feed me some details
+    - Tell me a story
+    - Enlighten me
+
+- intent: telling_something_bn
+  examples: |
+    - তোমার সম্পর্কে আমাকে কিছু বল
+    - কিছু বল
+    - tmr somporke amk kichu bolo
+    - kichu bolo
+    - তোমার কি কাজের ক্ষেত্রে কিছু বলতে পারবে?
+    - tomar ki kajer khetre kichu bolbe?
+    - kaj shompore kichu bolo
+    - আমাকে তোমার কথা শোনাতে পারো?
+    - amake tomar kotha shonate paro?
+    - তোমার মূল কাজ কি?
+    - tomar mul kaj ki?
+    - কিছু সংক্ষেপে তোমার সম্পর্কে বলো
+    - tomar shomporke kichu shongkhiptop bolo
+    - আপনি কি কাজ করেন?
+    - apni ki kaj koren?
+    - আমি তোমার কাছে কিছু জানতে চাচ্ছি, একটু কিছু বলবেন?
+    - ami tomar kache kichu jante chacchi
+    - kichu ekta bolen
+    - তোমার দায়িত্ব কি?
+    - tomar dyaitto ki
+    - তোমার সংস্থা/প্রতিষ্ঠানের প্রধান কাজ কি?
+    - tomar protishthan er prodhan kaj ki?
+
+- intent: asking_something_en
+  examples: |
+    - How can you help me?
+    - What can you do?
+    - Can you provide assistance?
+    - In what ways can you assist me?
+    - Tell me about your capabilities.
+    - What services do you offer?
+    - Explain how you can be of help.
+    - Share information on your abilities.
+    - How are you able to support me?
+    - Clarify your role in assisting users.
+    - Elaborate on the ways you can aid me.
+    - What kind of support do you provide?
+    - Describe your assistance features.
+    - How do you offer help?
+    - What assistance is available?
+    - Enlighten me on your capabilities.
+    - Provide details on how you can assist.
+    - What do you bring to the table?
+    - What is within your capacity to do?
+    - How do you contribute to users' needs?
+
+- intent: asking_something_bn
+  examples: |
+    - আপনি কিভাবে আমাকে সাহায্য করতে পারেন?
+    - আপনি কি করতে পারেন?
+    - apni kivhabe amk sahajjo korte paren?
+    - apni ki korte paren?
+    - আপনি কীভাবে মদদ করতে পারেন?
+    - তোমার কি কাজের ক্ষেত্রে আমাকে সাহায্য করা যাবে?
+    - tumar ki kajer khetre amake sahajjo kora jabe?
+    - তোমার কিভাবে আমাকে সাহায্য করা যাবে?
+
+- intent: greet_sorry_en
+  examples: |
+    - sorry
+    - sorry, don't understand
+    - didn't understand
+    - I apologize
+    - my apologies
+    - I'm sorry, can you repeat that?
+    - sorry, I didn't get that
+    - didn't catch that, sorry
+    - my apologies, I'm confused
+    - sorry, could you say that again?
+    - I'm sorry, I didn't comprehend
+    - sorry for the confusion
+    - my apologies, it's unclear
+    - sorry, I'm a bit lost
+
+- intent: greet_sorry_bn
+  examples: |
+    - Dukhito
+    - Dukhito, bujhlam na
+    - Bujhte parini
+    - Bujhte parlam na
+    - Dukhito
+    - Dukhito, bujhlam na
+    - Bujhte parini
+    - Bujhte parlam na
+    - Ami dukhito
+    - Dukhito, bujhte parini
+    - Ami bujhte parini
+    - Ami bujhte parlam na
+    - Dukhito, eta bujhte paratam na
+    - Dukhito, bujhte paratam na
+    - Bujhte paratam na
+    - Bujhte paratam na
+    - দুঃখিত
+    - দুঃখিত, বুঝলাম না
+    - বুঝতে পারিনি
+    - বুঝতে পারলাম না
+    - দুঃখিত
+    - দুঃখিত, বুঝলাম না
+    - বুঝতে পারিনি
+    - বুঝতে পারলাম না
+    - আমি দুঃখিত
+    - দুঃখিত, বুঝতে পারিনি
+    - আমি বুঝতে পারিনি
+    - আমি বুঝতে পারলাম না
+    - দুঃখিত, এটা বুঝতে পারতাম না
+    - দুঃখিত, বুঝতে পারতাম না
+    - বুঝতে পারতাম না
+    - বুঝতে পারতাম না
+
+- intent: affirmative_greet_en
+  examples: |
+    - ok
+    - okay
+    - yes
+    - sure
+    - of course
+    - yes. of course
+    - Thanks
+    - Thank you
+    - Thank you, goodbye
+    - That's helpful, thanks!
+    - Alright
+    - Got it
+    - Thanks for letting me know
+    - Thanks for the info.
+    - i understand
+    - perfect
+    - good to know
+    - absolutely
+    - affirmative
+    - affirmative, thank you
+    - certainly
+    - indeed
+    - absolutely right
+    - absolutely correct
+    - definitely
+    - definitely, thank you
+    - positively
+    - positively, thanks
+    - understood
+    - crystal clear
+    - acknowledged
+    - acknowledged, thanks
+    - roger that
+    - affirmative, captain
+    - sure thing
+    - you got it
+    - that works
+    - no problem
+    - cool
+    - fine
+    - great
+    - awesome
+
+- intent: affirmative_greet_bn
+  examples: |
+    - Thik ache
+    - Haan
+    - Dhonnobad
+    - Apni ke dhonnobad
+    - Dhonnobad, biday
+    - Eta sahayyokor, dhonnobad!
+    - Bujhte parlam
+    - Bujechi
+    - Thik ache
+    - Haan
+    - Dhonnoband
+    - Apni ke dhonnobad
+    - Eita sahayyokor, dhonnobad
+    - Bujechi
+    - Bujte perechi
+    - Oboshoyi
+    - Nishchit
+    - Abashyoi
+    - Hum
+    - Thik ache, dhonnobad
+    - Abashyoi, dhonnobad
+    - Apni thik bolchen
+    - Eti apnar moto
+    - Nishchit, dhonnobad
+    - Sammat
+    - Sammat, dhonnobad
+    - Tatporyo ache
+    - Tatporyo: dhonnobad
+    - Abashyoi bujhte parchi
+    - Khub bhalo
+    - Thik ache, dhonnobad
+    - Thikana
+    - ঠিক আছে
+    - হ্যাঁ
+    - ধন্যবাদ
+    - আপনাকে ধন্যবাদ
+    - ধন্যবাদ, বিদায়
+    - এটা সাহায্যকর, ধন্যবাদ!
+    - বুঝতে পারলাম
+    - বুঝেছি
+    - thik ache
+    - haa
+    - dhonnoband
+    - apnk dhonnobad
+    - eita sahajjokor, dhonnobad
+    - bujechi
+    - bujte perechi
+    - অবশ্যই
+    - নিশ্চিত
+    - আবশ্যই
+    - হুম
+    - ঠিক আছে, ধন্যবাদ
+    - অবশ্যই, ধন্যবাদ
+    - আপনি ঠিক বলছেন
+    - এটি আপনার মত
+    - নিশ্চিত, ধন্যবাদ
+    - সম্মত
+    - সম্মত, ধন্যবাদ
+    - তাত্পর্য আছে
+    - তাত্পর্যঃ ধন্যবাদ
+    - অবশ্যই বুঝতে পারছি
+    - খুব ভালো
+    - ঠিক আছে, ধন্যবাদ
+    - ঠিকানা
+
+- intent: greet_asking_bn
+  examples: |
+    - Apni kemon ashen?
+    - Tomar naam ki?
+    - Apnar naam ki?
+    - Tumi kemon asho?
+    - Kemon cholche tomar din?
+    - Tomar swastho kemon?
+    - Kemon katche somoy?
+    - Kemon asho?
+    - Tumi birkotikor?
+    - Tomar din kemon katche?
+    - Apni kemon vashchen?
+    - Tumi ekhane ki korcho?
+    - Apni ki prostut ashen?
+    - Kemon ashen, asha kori bhalo?
+    - Tomar mon kemon ashe?
+    - Apni ekhane kemon ashlen?
+    - Tomar brhottorder kemon ashe?
+    - Kemon kore kaj cholche?
+    - Tumi ei somoye ki korcho?
+    - Kemon katche tomar somoy?
+    - Tumi ki porcho?
+    - Apni ki khacchen?
+    - Kemon ashen, apni ki chintachchen?
+    - Tumi ki shonchho?
+    - Apni ki dekhchhen?
+    - Kemon ashen, tomar somoy kemon katche?
+    - Tumi ki porcho?
+    - Apni ki kichu bachcho?
+    - Kemon ashen, apni ki chintachchen?
+    - Tumi ki shunchho?
+    - Apni ki dekhchhen?
+    - Kemon ashen, tomar kichu kharap cholche ki?
+    - Tumi ki kichu miss korchho?
+    - Apni ki jani khachchhen?
+    - Kemon ashen, apni ki kichu khacchen?
+    - Tumi ki kichu miss korchho?
+    - Apni ki khub alpo pryase ki pachchhen?
+    - Kemon ashen, apni ki khusi?
+    - Tumi ki bhalo basho?
+    - আপনি কেমন আছেন?
+    - তোমার নাম কী?
+    - আপনার নাম কি?
+    - তুমি কেমন আছ?
+    - কেমন চলছে তোমার দিন?
+    - তোমার স্বাস্থ্য কেমন?
+    - কেমন কাটছে সময়?
+    - কেমন আছো?
+    - তুমি বিরক্তিকর?
+    - তোমার দিন কেমন কাটছে?
+    - আপনি কেমন ভাসছেন?
+    - তুমি এখানে কি করছো?
+    - আপনি কি প্রস্তুত আছেন?
+    - কেমন আছেন, আশা করি ভালো?
+    - তোমার মন কেমন আছে?
+    - আপনি এখানে কেমন আসলেন?
+    - তোমার বৃহত্তরদের কেমন আছে?
+    - কেমন করে কাজ চলছে?
+    - তুমি এই সময়ে কি করছো?
+    - কেমন কাটছে তোমার সময়?
+    - তুমি কি পড়ছো?
+    - আপনি কি খাচ্ছেন?
+    - কেমন আছেন, আপনি কি চিন্তা করছেন?
+    - তুমি কি শোনছো?
+    - আপনি কি দেখছেন?
+    - কেমন আছেন, তোমার সময় কেমন কাটছে?
+    - তুমি কি ভালোবাসছো?
+    - আপনি কি হাসতে ভালোবাসেন?
+    - কেমন আছেন, তোমার কি খোব চলছে?
+    - তুমি কি খোব চলছো?
+    - আপনি কি খুব অল্প প্রয়াসে কি পাচ্ছেন?
+    - কেমন আছেন, আপনি কি খুশি?
+    - তুমি কি খুশি?
+
+- intent: greet_asking_en
+  examples: |
+    - What's your name?
+    - Do you have a name?
+    - How are you today?
+    - How's your day going?
+    - How's your financial health?
+    - How are your services doing?
+    - How's your day unfolding in the financial world?
+    - Where do you operate?
+    - Can you share some financial tips?
+    - What's your take on the current market trends?
+    - How do you handle financial queries?
+    - What's your favorite financial topic?
+    - Can you give me insights into the latest financial news?
+    - How do you assist with financial planning?
+    - Tell me a financial joke!
+    - What's your approach to investment strategies?
+    - How do you ensure the security of financial information?
+    - How do you stay updated on financial regulations?
+    - Do you provide information on budgeting?
+    - How do you assist with savings goals?
+    - What's your opinion on cryptocurrency?
+    - How do you help users with credit management?
+    - Can you share some financial success stories?
+    - What's your stance on sustainable finance?
+    - How do you handle financial challenges?
+    - What's your favorite financial technology innovation?
+  
+- intent: greet_en
+  examples: |
+    - Hi
+    - Hey
+    - Hello
+    - I want to report an issue
+    - I have a question
+    - I have an issue
+    - I have a problem
+    - I need some help
+    - Help needed
+    - I want to know about a problem
+    - Can anybody help?
+    - Can you help me?
+    - Good morning
+    - Good evening
+    - Good afternoon
+    - Good night
+    - Greetings
+    - How are you?
+    - Is anyone available to assist?
+    - Hello there
+    - What's up?
+    - Any support available?
+    - Need assistance
+    - Hello team
+    - Reporting an error
+    - Need help urgently
+    - I'm facing a difficulty
+    - Support required
+    - Looking for help
+
+- intent: greet_bn
+  examples: |
+    - আমার একটা সমস্যা ছিল
+    - আমার একটা প্রশ্ন ছিল
+    - কেউ কি সাহায্য করতে পারেন?
+    - আমার একটা ইস্যু ছিলো
+    - সমস্যা হয়েছে
+    - শুভ প্রভাত
+    - শুভ সকাল
+    - শুভ অপরাহ্ন
+    - হ্যালো
+    - নমস্কার
+    - শুভ রাত্রি
+    - নমস্কার
+    - আমি একটা প্রশ্ন করতে চাচ্ছি
+    - একটা সমস্যা আছে, আমি সাহায্য চাই
+    - কেউ আছেন কি যিনি সাহায্য করতে পারে?
+    - আমি একটা সমস্যা রিপোর্ট করতে চাই
+    - কেউ থাকলে একটু সাহায্য করতে পারবেন?
+    - আমি কিছু জানতে চাচ্ছি
+    - একটা সমস্যা হয়েছে, কেউ সাহায্য করতে পারবেন?
+    - আমার একটা প্রশ্ন আছে
+    - কেউ একটা সমস্যা হয়েছে, কি সাহায্য করতে চাচ্ছেন?
+    - Amar ekta somossha chhilo
+    - Amar ekta proshno chhilo
+    - Keu ki sahajjo korte paren?
+    - Amar ekta issue chhilo
+    - Somossha hoyeche
+    - Shubh prohbat
+    - Shubho shokal
+    - Shubho oporahno
+    - Nomoskar
+    - Shubho ratri
+    - Nomoskar
+    - Ami ekta proshno korte chachhi
+    - Ekta somossha hoyeche, ami sahajjo chai
+    - Keu achhen ki jini sahajjo korte pare?
+    - Ami ekta somossha report korte chai
+    - Keu thakle ekto sahajjo korte parben?
+    - Ami kichu jante chai
+    - Ekta somossha hoyeche, keu sahajjo korte pare?
+    - Amar ekta proshno achhe
+    - Keu ekta somossha hoyeche, ki sahajjo korte chachhen?
+    - Shubho ratri
+    - Nomoskar
+    - Namaskar
+    - Shubho ratri
+    - Namaskar
+    - Ami ekta proshno korte chachhi
+    - Ekta somossha hoyeche, ami sahajjo chai
+    - Keu ki sahajjo korte pare?
+    - Amar ekta issue achhe, sahajjo chai
+    - Kichu jante chai, keu sahajjo korte pare?
+    - Amar ekta proshno achhe
+    - Keu achhen ki jini sahajjo korte pare?
+    - Ami ekta somossha report korte chai
+    - Keu thakle ekto sahajjo korte parben?
+    - Ami kichu jante chai
+    - Ekta somossha hoyeche, keu sahajjo korte pare?
+    - Amar ekta proshno achhe
+    - Keu ekta somossha hoyeche, ki sahajjo korte chachhen?
+    - Ami ekta somossha report korte chai
+    - Kichu jante chai, keu sahajjo korte pare?
+    - Amar ekta proshno achhe
+    - Keu achhen ki jini sahajjo korte pare?
+    - Ami ekta somossha report korte chai
+    - Keu thakle ekto sahajjo korte parben?
+    - Ami kichu jante chai
+    - Ekta somossha hoyeche, keu sahajjo korte pare?
+    - Amar ekta proshno achhe
+    - Keu ekta somossha hoyeche, ki sahajjo korte chachhen?
+    - Ami ekta somossha report korte chai
+    - Kichu jante chai, keu sahajjo korte pare?
+    - Amar ekta proshno achhe
+    - Keu achhen ki jini sahajjo korte pare?
+    - Ami ekta somossha report korte chai
+    - Keu thakle ekto sahajjo korte parben?
+    - Ami kichu jante chai
+    - Ekta somossha hoyeche, keu sahajjo korte pare?
+    - Amar ekta proshno achhe
+    - Keu ekta somossha hoyeche, ki sahajjo korte chachhen?
+    - Ami ekta somossha report korte chai
+    - Kichu jante chai, keu sahajjo korte pare?
+
+- intent: greet_salam_bn
+  examples: |
+    - আসসালামু আলাইকুম, আমার এক্টা সমস্যা ছিল
+- intent: greet_salam_en
+  examples: |
+    - assalamualaikum, i have a problem
+- intent: ques_0
+  examples: |
+    - অনেক সময় কাম্পিউটার এ বিল এন্টি করতে গেলে বাজেট insufficient দেখায়। অফিস কোড ১০৭০৩০৫১০১১১৪০ অফিস কোড (১৩৬০১০১xxxxxxx) অপারেশন কোড ১২০০০২৪০১ অর্থনৈতিক কোড ৩২৫৬১০৭, বিল পোষ্টিং করার সময় insufficient বাজেট দেখায়।&#10; বিভিন্ন অর্থনৈতিক কোডে বরাদ্দ পর্যাপ্ত থাকা সত্তেও নির্ধারিত কোডে বিল পরিশোধ করা যায় না|
+    - onek shomoy computer e bill entry korte gele budget insufficient dekhay.office code 10703051011140 office code (1360101xxxxxxx) operation code 120002401 orthonoitik code 3256107, bill posting korar shomoy insufficient budget dekhay. bivinno orthonoitik code boraddo porjapto thaka shotteo nirdharito code e bill porishodh kora jay na.
+- intent: ques_1
+  examples: |
+    - বাজে বরাদ্দ এবং অর্থছাড় করার পর বিল বিল পাশ করা যাবে?
+    - budget boraddo ebong ortho char korle ki bill pash kora jabe?
+- intent: ques_2
+  examples: |
+    - জুলাই/১৮ ও আগষ্ট/১৮ মাসে ইউএও অফিসের বিল&#10;পাশ করা হয়। এখন কিভাবে সংশ্লিষ্ট অফিসের বিপরীতে ব্যয় দেখাতে হবে?
+    - july/18 august/ 18 mashe UAO office er bill pash kora hoy. ekhon kivabe shonglishto officer biporite byay dekhate hobe?
+- intent: ques_3
+  examples: |
+    - Authority সিএও অপিসের endrose করার দরকার আছে কি?
+    - authority CEO office er endorse korar dorkar ache ki?
+- intent: ques_4
+  examples: |
+    - উপজেলা পরিষদের টাকা কিভাবে পরিশোধ করা হবে?
+    - Upazila parishader taka kivabe porishodh kora hobe?
+- intent: ques_5
+  examples: |
+    - উপজেলা পরিষদেরবেতন বাতা ও সরকারি কর্মচারিগণের বেতন বাতার আলাদা কোড হয় কেন?
+    - Upazilla parishader beton vata o shorkari kormocharigonder beton bhatar alada code hoy keno?
+- intent: ques_6
+  examples: |
+    - গ্রুপ Leveal এ সরকারি কর্মচারীদের বেতন ভাতাদি এর পরিবর্তে বেতন ও মজুরী ব্যবহার করা হয়েছে কেন?
+    - Group level e shorkari kormocharider beton bhatadi er poriborte beton o mojuri byabohar kora hoyeche keno?
+- intent: ques_7
+  examples: |
+    - আনুষাংগিক প্রতিষ্ঠান ও আউট-সোর্সিং এর মধ্যে পার্থক্য কি?
+    - Anushangik prothishthan o outsourcing er moddhe parthokko ki?
+- intent: ques_8
+  examples: |
+    - প্রাইমারী স্কুলের দপ্তারীরা কোন ধরনের কর্মচারী?
+    - Primary school er doptorira kon dhoroner kormochari?
+- intent: ques_9
+  examples: |
+    - ৫৯ বছর কর্মকর্তা/কর্মচারীর ইনক্রিমেন্ট দেয়া যাবে কি?
+    - 59 bochorer kormokorta ba kormocharider increment deya jabe ki?
+- intent: ques_10
+  examples: |
+    - মুক্তিযোদ্ধাদের কিভাবে আইডেন্টিফাই (চিহ্নিদ) করা যাবে।
+    - Muktijoddhader kivabe identify ba chinnhito kora jabe?
+- intent: ques_11
+  examples: |
+    - সচিবালয়, মাধ্যমিক ও উচ্চ শিক্ষা বিভাগ এর  ১২৫০১০১১৩৭৯৫২- ৩৯১১১১১ কোড পাওয়া যায় না।
+    - Shochibaloy, maddhomik o uccho shikkha bibhag er 1250101137952- 3911111 code paowa jay na
+- intent: ques_12
+  examples: |
+    - বিভিন্ন প্রতিষ্ঠানিক কোডে অর্থনৈতিক কোডে পাওয়া যাচ্ছে না।
+    - Bibhinno prathishthanik orthonoitik code paowa jacche na
+- intent: ques_13
+  examples: |
+    - ম্যানেজার সোনালী ব্যাংক আমবাড়ী শাখা এল এস ডি,  খাদ্য অধিদপ্তর পার্বতীপুর, দিনাজপুর, প্রাতিষ্ঠানিক কোড-১৪৮০২০৭১৩১১১, অপারেশন- খাদ্য সংগ্রহেও বিতরণ কার্যক্রম-অভ্যন্তরীণ খাদ্য সংগ্রহ। অর্থনৈতিক কোড- ৩২২১১০৮, ৪১২৪১০১ পাওয়া যাচ্ছে না।
+    - manager soali bank ambari shakha LSD, khaddho odhidoptor parbotipur, dinajpur, prathishtanik code 148020713111, operation khaddo shongrohe ow bitoron karjokrom- ovvontorin khaddo shongroho. orthonoitik code -3221108, 4124101 paowa jacche na.
+- intent: ques_14
+  examples: |
+    - ১০৯০৩০১১০১৪৩৮ সিজিএ অফিসের বরাদ্দ এবং ১০৯০৩০৫১০১৭৫৮ ইউএও/চিতলমারী, বাগেরহাট, অর্থতিক কোড ৩২৫৭৩০১ পাওয়া যায় না।
+    - 1090301101438 CGA office er boraddo ebong 1090305101758 UAO/Chitolmari, bagerhat, orthonoitik code 3257301 paowa jacche na.
+- intent: ques_15
+  examples: |
+    - অফিস কোড (১৩৭০১০১xxxxxx) (২২১০০০৪০০) এর বরাদ্দ পত্রের মধ্যে অর্থনৈতিক কোড নেই
+    - office code (1370101xxxxxx) (221000400) er boraddo potrer moddhe orthonoitik code nei
+- intent: ques_16
+  examples: |
+    - টোকেন এন্টির ক্ষেত্রে কোডের রেঞ্জ পাওয়া যায় না।
+    - Token entryr khetre coder renge paowa jay na
+- intent: ques_17
+  examples: |
+    - উন্নয়ন প্রকল্পের বিল প্রদানের ক্ষেত্রে বিল টাইপ Wages to non government employees দিয়ে টোকেন দিলেও বিল এন্টির সময় অর্থনৈতিক কোড পাওয়া যায় না।
+    - unnoyon prokolper bil prodaner khetre bill type Wages to non government employees diye token dileo bill entryr shomoy orthonoitik code paowa jay na
+- intent: ques_18
+  examples: |
+    - পূর্ববর্তী iBAS System এ Code permission এর ব্যবস্থা ছিল। এতে প্রয়োজন অনুযায়ী কোড খোলে DDO করে তাৎক্ষনিক ভাবে বিল পাশ করা যেত কিন্তু বর্তমান iBAS System এ Code permission এর ব্যবস্থা না থাকায় জরুরী অনুদানের বিলগুলি পাস করাযোয় না। এ ক্ষেত্রে iBAS System এ Code permission এর ব্যবস্থা থাকা প্রয়োজন।
+    - purboborti IBAS System e code permission er bebostha chilo. ete proyojon onujayi code khule DDO kore tatkhonik vabe bill pash kora jeto kintu bortomanIBAS System e code permission er bebostha na thakay joruri onudaner bilguli pash kora jay na. ekhetre iBAS SAystem e code permission er bebostha thaka proyojon
+- intent: ques_19
+  examples: |
+    - প্রকল্পের কর্মরত বিল এন্ট্রি দেওয়ার সময় Economic Code পাওয়া যাচ্ছে না।
+    - prokolper kormoroto bill entry deoar shomoy Economic code paowa jacche na
+- intent: ques_20
+  examples: |
+    - নির্বাচন অফিসের জামানত ফেরত (মেম্বার/ চেয়ারম্যান) এর বিল উপজেলা নির্বাচন কর্মকর্তার ডিডিও দিয়ে others deposit বির টাইপে টোকেন প্রদানের পর বিল এন্ট্রিতে কোনে ইকনোমিক কোড পাওয়ার যায় না।
+    - Nirbachon officer jamanot ferot (member/ Chairman) er bill upazilla nirbachon kormookrtar DDO diye others deposit Bir typer token prodaner por bill entryte kono economic code paowa jay na
+- intent: ques_21
+  examples: |
+    - জামানত ফেরতের অর্থনৈতিক কোড পাওয়া যাচ্ছে না। অফিস কোড (১৩৭০১০১xxxxxx) (২২১০০০৪০০) সিকিউরিটি ডিপোজিট বির টোকেন দেওয়ার সময় বিল টাইপ কি হবে এবং উক্ত কোডের সিকিউরিটি ডিপোজিট উত্তোলনের অর্থনৈতিক কোড কত হবে।
+    - jamanot feroter otrhonoitik code paowa jacche na.&#10; office code (1370101xxxxxx) (221000400) Security deposit bir tokern deowar shomoy bill type ki hobe ebong ukto coder security deposit uttoloner orthonoitik code koto hobe?
+- intent: ques_22
+  examples: |
+    - উপজেলা পুলিশের তদন্তবিল কিভাবে/কোথায় পরিশোধ করা হবে।
+    - upazilla police er todontobil kivabe/kothay porishodh kora hobe
+- intent: ques_23
+  examples: |
+    - ওসির টিএ বিল ইতোপূর্বে জেলা বরাদ্ধ হতে উজেলা হিসাবরক্ষণ অফিস কর্তৃক ডিডিও এর সাথে লিংকের মাধ্যমে পরিশোধ করা হতো। বর্তমানে বিভিন্ন উপজেলা হতে পরিশোধ করা যায় না।
+    - OC er TA bil itopurbe jela boradd hote upozilla hoshabrokkhon office kortik video er shathe linker maddhome porishodh kora hoto. Bortomane bivinno upazilla hote porishodh kora jay na
+- intent: ques_24
+  examples: |
+    - বকেয়া বেতন বিল পরিশোধ এর অর্থনৈতিক কোড নেই।
+    - bokeya beton bill porishodh er orthonoitik code nei
+- intent: ques_25
+  examples: |
+    - পুরাতন কোড – ৭-৩৭০৫-৩৬০৯-৯৩২৬ উপজেলা পরিষদের বাড়ী ভাড়া পরিশোধ করা যাচ্ছে না। পরিষদের বাসা ভাড়া বিল পরিশোধ করতে গেলে অর্থনৈতিক কোড ৯৩২৬ এর পরিবর্তে ৮১১৩১১০ কোড পাওয়া যাচ্ছে না।
+    - puraton code- 7.3705-36099326 upozilla porishod bari bhara porishodh kora jacche na&#10; porishoder basha bhara bill porishodh korte gele orthonoitik code 9326 er poriborte 8113110 code paowa jacche na
+- intent: ques_26
+  examples: |
+    - প্রতিষ্ঠান কোড – ১০৭০৩০৫১০১১০৯২,অর্থনৈতিক কোড – ১৪৪১২০২ – (অতিরিক্ত গৃহিত টাকা আদায়) পাওয়া যাচ্ছে না।  অতি: গৃহিত অর্থ কর্তনের কোড পাওয়া যাচ্ছে না। আনুতোষিক প্রদানের ক্ষেত্রে অতিরিক্ত গৃহিত টাকা সরকারী কোষাগারে জমার অর্থনৈতিক কোড পাওয়া যাচ্ছে না। পেনশনারের মাসিক পেনশন হতে অতিরিক্ত গৃহিত অর্থ কর্তনের কোড পাওয়া যাচ্ছে না।
+    - pratishanik code - 10703051011092, orthonoitik code - 1441202 - (otirikto grihito taka aday) paowa jacche na.&#10; oti grihito ortho kortoner code paowa jacche na  onutoshik prodaner khetre otirikto krihito taka shorkari koshagare jomar orthonoitikk code paowa jacche na&#10; pennshoner mashik penshon hote otirikto grihito taka shorkari koshagare jomar orthonoiteik code paowa jacche na.&#10;
+- intent: ques_27
+  examples: |
+    - বিলুপ্ত মন্ত্রণালয়: ১। ০২,০৪,১৮/ ২। ১৯,২৬,৩২,৪৭ / ৩। ৫৪,৫৬,৬৩,৬৫/ ৭২,৭৩,৭৪ বিল সমূহ কোন মন্ত্রণালয়ে Entry দিতে হবে তার কোন নির্দেশনা থাকে না।&#10;
+    - bilupto montronaloy: 1| 02,04,18/2| 19,26,32,47/3| 54,56,63,65/72, 74 bill shomuho kon montronaloye entry dite hobe tar kono nirdeshona thake na.
+- intent: ques_28
+  examples: |
+    - সকল DDO তে ভ্যাট ও আইটি কোড পাওয়া যায় না।&#10; নারী ও শিশু নির্যাতন দমন ট্রাইবুনাল বিল পোস্টিং এ ভ্যাট ও আইটি কোড নেই। &#10; খাদ্য পুণর্ভরন বিলের কমিশন বিলের ভ্যাট, আয়করের অর্থনৈতিক কোড ৩২১১১০৮ পাওয়া যায় না।  &#10; পুরাতন কোড 3-0401-0001-5811 নতুন কোড 1070302-3631101 DDO-DC বিল হতে ভ্যাট কর্তনের কোড পাওয়া যাচ্ছে না।&#10; ভ্রমণ ব্যয় বিল হতে ভ্যাট কর্তনের কোড পাওয়া যাচ্ছে না। &#10;
+    - Shokol DDO te vat o it code paowa jay na&#10; nari o shishu nirjaton domon traibunal bill posting e VAT o IT code nei&#10; khaddo punorbon biler komishon biler vat, aykorer orthonoitik code 3211108 paoa jay na&#10; puraton code 3-040100015811 notun code 10703023631101 DDO-DC bill hote VAT kortoner code paoa jacche na&#10; bhromon byay bill hote vat kortoner code paoa jacche na
+- intent: ques_29
+  examples: |
+    - বিল Entry তে Economic Code ভ্রমানুসারে না থাকা, জানা Option না থাকা, জামানতের বিল থেকে অনেক সময় জরিমানা কর্তন করে, পরিশোধ করতে হয় জরিমানা বাবদ ফেরত নেওয়ার জন্য, কর্তনের Economic Code না থাকায় বিল এন্ট্রিতে সমস্যা হয়। &#10; জামানতের বিল থেকে অনেক সময় জরিমানা/আয়কর/ভ্যাট কর্তন করে Economic Code এর ব্যবস্থা থাকা প্রয়োজন।&#10; জামানত বিল পাশ করার সময় Insufficient Budget দেখা যায়। &#10;
+    - bill entry te Economic code kromanushare na thaka, jana option na thaka, jamanoter bill theke onek shomoy jorimana korton kore, porishodh korte hoy jorimana babod ferot neyar jony, kortoner economic code na thakay bill entry shomossha hoy.&#10; Jamanoter bill theke onek shomoy jorimana/aykor/vat korton kore economic code er bebostha thaka proyojon&#10;Jamanot bill pash korar shomoy insufficient budget dekha jay
+- intent: ques_30
+  examples: |
+    - টেলিফোন বিল Entry তে Supplier না থাকা: DDO Option থাকলে Supplier Option পাওয়া যায় না। &#10;
+    - telephone bill entry te supplier na thaka: DDO option thakle supplier option paowa jay na
+- intent: ques_31
+  examples: |
+    - উপজেলা স্বাস্থ্য কমপ্লেক্স, টাঙ্গাইল সদর অফিসে আইডি পাওয়া যায় না। &#10;
+    - upozilla shahtho complex, tangail sodor office e ID paowa jay na
+- intent: ques_32
+  examples: |
+    - প্রাপ্তির কোডে ভুল থাকলে তা সংশোধন করা যায় না। সংশোধন অপশন থাকা আবশ্যক। &#10; ভুল কোডে চালানের টাকা জমা হলে সংশোধন করা যাবে কি?&#10;
+    - prapti code e vul thakle ta shongshodhon kora jay na. Shongshodhon option thaka abosshok&#10; vul code e chalaner taka joma hole shongshodhon kora jabe ki?
+- intent: ques_33
+  examples: |
+    - Book Traansfer Entry এই অপশনে জেলা কারাগার, জেরা আনসার ও ভিডিপি এবং পুলিশ সুপারের কার্যালয়ে রেশন সামগ্রীর জন্য বরাদ্দ পাওয়া যায়। যাহা Book Traansfer Entry এর মাধ্যমে সংশ্লিষ্ট অফিসের কোডে ডেবিট এবং খাদ্য খাত (চাউল+গম) ক্রেডিট করা হয়, কিন্তু উক্ত অপশনগুলি পাওয়া যাচ্ছে না।&#10;
+    - Book transfer entry ei option e jela karagar, jera ansar q VSP ebong police super karjaloyer reshon shamogrir jonno boraddo paowa jay. Nook transfer entry er maddhome shoglishto office er code e debit ebong khaddo khat (chaul+gom) credit kora hoy, kintu ukto optionguli paowa jacche na
+- intent: ques_34
+  examples: |
+    - iBAS++ জেলা পুলিশ, মুক্তিযোদ্ধা এবং এন,এস,আই কার্যালয়ের রেশন সামগ্রী কাতে যে বরাদ্দ পাওয়া যায় পাওয়া যায় তাহা PL খাতে Book Traansfer এর মাধ্যমে জমা এবং খরচ দেখানো হয়া। কিন্তু উক্ত কোড পাওয়া যাচ্ছে না্।&#10;
+    - IBAS++ zilla polize, muktijoddha ebong NSI karjaloyer reshon shamogrite je boraddo paowa jay taha PL khate Book transfer er maddhone joma ebong khoroch dekhano hoy. Ukto code paowa jacche na
+- intent: ques_35
+  examples: |
+    - বুক ট্যান্সফার শুণ্য value দিয়ে টোকেন এন্ট্রি করে বিল এন্ট্রি করতে হয়। কিন্তু কোন পেমেন্ট ইস্যু করা যাবে না। এই অপশন চালু কা হয় নাই।&#10;
+    - Book transfer shunno/zero value diye Token entry kore bill entry korte hoy. Kinty kono payment issu kora jabe na. Ei option chalu kora hoy nai.
+- intent: ques_36
+  examples: |
+    - পুলিশ বাহিনীর রেশন ক্রয়ের বিল book Adjustment করার সময় পূর্বে অর্থনৈতিক কোড-৮৪২১ এর বিপরীতে কোড পাওয়া যায় না।&#10; পুলিশের রেশন ভাতা BT করার ক্ষেত্রে কোড পাওয়া যাচ্ছে না।&#10;
+    - police bahinir reshon kroyer bill book adjustment korar shomoy purbe orthonoitik code 8421 er biporite code paowa jay na.&#10; police er betin bhata/vata BT korar Khetre code paowa jay na
+- intent: ques_37
+  examples: |
+    - Book transfer এ অর্থনৈতিক কোড ৩২১১১১৯ পাওয়া যায় না।&#10;
+    - Book Transfer e orthonoitik code 3211119 paowa jay na
+- intent: ques_38
+  examples: |
+    - ভূমি উন্নয়ন কর এর টাকা BT করা যাচ্ছে না।&#10;
+    - bhumi/vumi unnoyon kor er taka BT kora jacche na
+- intent: ques_39
+  examples: |
+    - বুক ট্রান্সফার এন্ট্রিতে জিফিএফ সংক্রান্ত এলপিসি প্রাপ্তি ও প্রেরণ করা যাচ্ছে না।&#10;
+    - book transfer entry te GGF shongkranto LPC prapto o preron kora jacche na
+- intent: ques_40
+  examples: |
+    - Postal Book adjustment এর ক্ষেত্রে ৩-৫৪৩১-xxxx-৩২১১-এর নতুন অফিস কোড আসেন্।&#10;
+    - Postal Book adjustment er khetre 3-5431-xxxx-3211 er notun office code ashena
+- intent: ques_41
+  examples: |
+    - পেনশন আনুতোষিক প্রদানের কোড পাওয়া যাচ্ছে না।&#10;
+    - pension anutoshik prodaner code paowa jacche na
+- intent: ques_42
+  examples: |
+    - বিটিসিএল মাসিক পেনশন পরিশোধ করা যাচ্ছে না।&#10; বাইরে থেকে আসা বিটিসিএল এর পেনশনারের আইডি খোলা যাচ্ছে না।&#10;
+    - BTCL mashik pension porishodh kora jacche na&#10; Bahire theke asha BTCL er penshoner ID khola jacche na
+- intent: ques_43
+  examples: |
+    - পেনশন পুনর্ভরন বিল পরিশোধ করা যাচ্ছে না।&#10;
+    - pension punorvoron bil porishodh kora jacche na
+- intent: ques_44
+  examples: |
+    - নতুন পেনশন কেইস ২০১৫-১৬ অর্থবছরের হলে, এক্ষেত্রে পেনশন Strat From ২০১৫-১৬ অপশন দেওয়া নাই।&#10;
+    - notun pension case 2015-16 orthobochorer hole, ekhetre pension Strat From 2015 16 option deowa nai
+- intent: ques_45
+  examples: |
+    - সিএও- স্বারাষ্ট হতে বদলী হয়ে ডিএও/নোয়াখালী আসে বর্তমানে ৫% বর্ধিত পেনশন রিপোর্ট বের করতে ডাটা আসেন। এবং পুনঃ ডাটা এন্ট্রি করা যাচ্ছে না।&#10;
+    - CAO- shorashtro hote bodli hoye DAO/Noakhali ashe bortomane 5% bordhito pension report ber korte data ashen ebong punoray entry kora jacche na
+- intent: ques_46
+  examples: |
+    - কোন কর্মকর্তা/কর্মচারীদের আনুতোষিক পরিশোধের ক্ষেত্রে Pensioner Management Pensioner Information এ কর্মকর্তা/ কর্মচারীর তথ্য এন্ট্রি করার পর Save করলে Mobile number. Already Exist Massage পরিলক্ষিত হয়, ফলে কর্মকর্তা/কর্মচারীর আনুতোষিক পরিশোধ করা যাচ্ছে না। &#10;
+    - kono kormokorta/korocharider anutoshik porishodher khetre pensioner management - pensioner information e kormokorta/kormocharir tottho entry korar por save korle mobile number already exist message porilokkhito hoy, fole kormokorta/kormocharir anutoshik porishodh kora jacche na
+- intent: ques_47
+  examples: |
+    - উন্নয়ন খাতের কর্মকর্তা/কর্মচারীদের বেতন ভাতাদির বিল Contingent Staff অর্থনৈতিক কোড থেকে দেওয়া হবে না কি? Wages to non government Employee অর্থনৈতিক কোড থেকে দেওয়া হবে এ ব্যাপারে সুস্পষ্ট নির্দেশনা দেওয়া প্রয়োজন।&#10;
+    - unnoyon khater kormokorta/kormocharider beton vatadi bill contingent staff orthonoitik code deowa hoye na ki? Wages to non government employee orthonoitik code theke deowa hobe e bepare susposhto nirdeshona deowa proyojon
+- intent: ques_48
+  examples: |
+    - প্রকল্প কোডের বেতন ভাতাদির বাজেট বিস্তারিত কোডে তাকে কিন্তু বিল পাশ করতে হয় wages to non government employees কোড হতে এ ক্ষেত্রে করণীয় কি?&#10;
+    - prokolpo coder beton bhatadir budget bistarito code e take kintu bill pash korte hoy wages to non government employees code hote e khetre koronio ki?
+- intent: ques_49
+  examples: |
+    - Report Menu Register 04, Register of payment & Recoveries  (Office wise), Summary (DDO wise) Summary (Office wise)-এ প্রদর্শিত প্রতিটি কোডের বিপরীতে পরিচিতি থাকা আবশ্যক। যেমন- Office code-: 1090305101747-Upazila Accounts Office Basail Tangail.&#10;
+    - Report menu register 04, Register of payment & Recoveries(office wise), Summary (DDO wise) Summary (office wise)- e prodorshito protiti code r biporite porichito thaka abosshok. &#10;Jemon - office code : 0190305101747 -upozilla accounts office barisail tangail
+- intent: ques_50
+  examples: |
+    - অটো জেনারেট সিস্টেমে গেজেটেড কর্মকর্তাগণের কর্তনকৃত জিপিএফ এর টাকা রিপোর্ট অপশনে জিপিএফ চাঁদা দেখা যায় না।তাছাড়া নন গেজেটেড কর্মকর্তাগণের জিপিএফ হিসাব সঠিক আছে কিনা বুঝার উপায় কি?&#10;
+    - Auto generate systeme gadgeted kormokortagoner kortonkrito G{F er taka report operation GPF CHada dekha jay na - tachara non gadgeted kormokotagoner GPF hishab shothik ache kina bujhar upay ki?
+- intent: ques_51
+  examples: |
+    - Progress Report থেকে খরচের হিসাব প্রদর্শিত হয় না।&#10; iBAS++ system এ Userদের special, support এবং Development এর বাজেট দেখার Option নাই।&#10;
+    - progress report theke khorocher hishab prodorshito hoy na&#10; IBAS++ system e user der special support and development er budget dekhar por option nai
+- intent: ques_52
+  examples: |
+    - প্রগ্রেস রিপোর্টে প্রজেক্ট ও স্বায়ত্বশাসিত খাতে পূর্বের নিয়মে বাজেট বরাদ্দ দেখা যায় না, কিন্তু প্রদান করা যায়, কিভাবে বাজেট দেখা যাবে?&#10;
+    - progress report project o shayottoshashito khate purber niyome budget boraddo dekha jay na, kintu prodan kora jay, kivabe budget kora jabe?
+- intent: ques_53
+  examples: |
+    - অফিসারদের জিপিএফ একাউন্টস স্লিপ online এর মাধ্যমে ইস্যু করা যায় তেমনি নন-গেজেটেড কর্মচারীদের জিপিএফ একাউন্টস স্লিপ online এর মাধ্যমে ইস্যু করার বিষয়টি অতি দ্রুত কার্যকর করা দরকার।&#10;
+    - Officerder GPF accounts slip online er maddhome issue kora jay temoni non gadgeted kormocharider GPF accounts slip online er maddhome issue korar bishoyti oti druto karjokor kora dorkar
+- intent: ques_54
+  examples: |
+    - জিপিএফ এবং দীর্ঘমেয়াদী ঋণের কর্তন জেনারেল এক্টিভিটি এবং পাবলিক ফান্ড ম্যানেজমেন্ট দুই ক্ষেত্রেই প্রদর্শন করে এবং ডাবল কর্তন দেখায়।&#10; ১২৪,১২৫,১৪৬ মন্ত্রণালয় তে ডিপিএফ, দীর্ঘমেয়াদী ঋণ কর্তন duble অথবা nill দেখাচ্ছে।&#10;
+    - GPF ebong dirghomeyadi rin er korton general activity ebong public fund management dui khetrei prodorshon kore ebong double korton dekhay&#10; 124, 125, 146 montronaloy te DPFm durghomeyadi rin korton double othoba nill dekhacche
+- intent: ques_55
+  examples: |
+    - যে সকল ডিপার্টমেন্টে বাসা আছে ঐ সমস্ত ডিপার্টমেন্টের বিপরীতে বাসা ভাড়া কর্তনের কোড থাকা আবশ্যক। যেমন- কৃষি বিভাগের বি, এস কোয়াটার, পশু পালন বিভাগেরন বাসা ভাড়া কর্তন, উপজেলা পরিবার  পরিকল্পনা অফিসের বাসা ভাড়া কর্তন, খাদ্য বিভাগের বাসা ভাড়া কর্তন।&#10;
+    - je shokol departmente basha ache oi shomosto departmenter biporite basha vara/bhara/bara kortoner code thaka abosshok. jemon- krishi bivager BD quarter, poshupalon bivager basa vara/bhara korton, upazilla paribar/poribar porikolpona officer basha vara korton, khaddho bivag er basha vara korton
+- intent: ques_56
+  examples: |
+    - সিএও/সিজিএ এর বিপরীতে যে সকল কর্মচারী/কর্মকর্তা আছে তারা কোথা থেকে বেতন/ভাতাদি নেবে।&#10;
+    - CAO/CGA er biporite je shokol kormochari/kormokorta ache tara kotha theke beton bhata/vata nibe?
+- intent: ques_57
+  examples: |
+    - সিএও শিক্ষার বিপরীতে একজন অডিটর কর্মরত আছেন। কিন্তু তার বেতন ভাতা পরিশোধের সময় সিএও শিক্ষার কোড না পাওয়ায় ইউএও বাঘার পাড়ার বিপরীতে বেতন ভাতা প্রদান করা হয়েছে। যা সঠিক নয় বিধায় সিএও শিক্ষার কোড লিংক করে দেয়া প্রয়োজন।&#10;
+    - CAO shikkha biporite ekjon auditor kormoroto achnen kintu tara beton vata/bhata porishodh er shomoy CAO shikkhar coe na paoway UAO baghar parar biporite beton vata/bhata prodan kora hoyeche ja shothik noy bidhay CAO shikkhar code link kore deya proyojon
+- intent: ques_58
+  examples: |
+    - পুরাতন কোড -৩-৩৭০৫-৩৬১১-২৩০০ office of the CEO, District Council, Manikgonj, নতুন অফিস আইডি ০৬ ডিজিট নাই।&#10;
+    - puraton code -3-3705-3611-2300 office of the ceo, district council, manikhang notun office id 06 digit nai
+- intent: ques_59
+  examples: |
+    - ভ্রমণ ব্যয় ও অভ্যন্তরীণ ভ্রমণ এর মধ্যে পার্থক্য কি? &#10; বরাদ্ধে হার্ড কপির সাথে অন লাইনের সফট কপিতে গড় মিল দেখা যায় কারণ কি? (ভিডিপি)&#10;
+    - bhromon/vromon bay/byay/bey/ er moddhe partthoko ki?&#10; onliner soft copy te gormil dekha jaowar karon ki?
+- intent: ques_60
+  examples: |
+    - ভুল ভ্রান্তিসমূহ জার্নাল করার কোন ব্যবস্থা নেই।&#10; একটি বিল টাইপে বিল পরিশোধ করেছে এবং যাহা ভুল হয়েছে এখন ঐ টাকা একাধিক বিল টাইপে জার্নাল করা যায় না।&#10;
+    - bhul/vul bhranto shomuho journal korar kono bebostha nei&#10; ekti bill type e bill porsidhodh koreche ebong ja/jaha bhul/vul/bul hoyeche ekhon oi taka ekadhhik bill type e journal kora jay na
+- intent: ques_61
+  examples: |
+    - মাসিক হিসাবে Bank Summary কিভাবে এন্ট্রি করতে হবে?&#10; ডেভিট স্ক্রল কিভাবে ইমপোর্ট করা যাবে?&#10; ক্রেডিট স্ক্রল কিভাবে ইমপোর্ট, এডিট ও আপলোড করা যাবে।&#10;
+    - mashik hishabe Bank Summary kibane entry korte hobe?&#10;debit scroll kivabe import kora jabe&#10;credut scroll kivabe import, edit o upload kora jabe
+- intent: ques_62
+  examples: |
+    - Accounts: Debit scroll ও Credit Scroll Open না করা, প্রাপ্তির &#10;কোড সংশোধন করা যায় না।&#10;
+    - accounts debit scroll o credit scroll open na kora, praptir code shongshodhon kora jay na
+- intent: ques_63
+  examples: |
+    - সরাসরি ব্যাংক কতৃক গৃহিত সরকারী অর্থ প্রাপ্তির ক্ষেত্রে পূর্বের নিয়মে চালানে টাকা জমা করা যাচ্ছে কিন্তু বিল হইতে কর্তনকৃত অর্থ (ভ্যাট/আইটি) নতুন নিয়মে এন্ট্রি করতে হচ্ছে উভয় প্রাপ্তি কাত বিন্ন হওয়ার মাসিক হিসাব কিভাবে সম্পন্ন করা যাবে।&#10;
+    - shorkari bank kortik grihito shorkari ortho praptir khetre purber niyome chalane taka joma kora jacche kintu bil hoite kortonkrito ortho notun niyome entry korte hocche ubhoy prapti  khat binno howay mashik hishab kibhabe shomponno kora jabe
+- intent: ques_64
+  examples: |
+    - সাব-রেজিস্ট্রি অফিসের নকল পরিষদের পারশ্রমিক খাত-সম্মানী ভাতা (সরকারি কর্মচারী ব্যতিত) বরাদ্ধ হার্ড কপি ও অন লাইনের Soft Copy তে থাকা সত্বেও বির টাইপে তা না থাকায় ভিন্ন সম্মানী খাতে টোকেন ও বিল এন্ট্রি দেয়া হয়েছে অর্থনৈতিক কোড সঠিক না হওয়া সত্বেও বিল কিভাবে এন্ট্রি দেয়া গেল?&#10;
+    - sub-registry officer nokol porishoder parisromik khat shommanona bhata boraddo hard copy o onliner soft copy te thaka shotteo bir typee ta na thakay bhinno shommani khate token o bil entry deya hoyeche orthonoitik code shothik na howa shotteo bil kivabe entry deowa gelo
+- intent: ques_65
+  examples: |
+    - বস্ত্র ও পাট মন্ত্রণালয়ের অধীনে মন্ত্রণালয় পাওয়া যাচ্ছে, পাট অধিদপ্তর পাওয়া যাচ্ছে, কিন্তু মাঠ পর্যায়ে অফিস নর্ণয় করতে পাবনা পাট অফিস পাওয়া যাচ্ছে না। মোট কথা রাজশাহী বিভাগে কোন পাট অফিস পাওয়া যাচ্ছে না।&#10;
+    - "bostro o pat montronaloyer odhine montronaloy paoa jacche, pat odhidoptor paowa jacche kintu math porjaye office nirnoy korte pabna pat office paowa jacche na.&#10; mot kotha rajshahi bivage kono pat office paowa jacche na
+- intent: ques_66
+  examples: |
+    - চাকুরির দরখাস্ত করার ক্ষেত্রে চালান জমা দেওয়অর কোড দেওয়া হলেও ঐ কোডে ব্যাংকে টাকা জমা দেওয়া যাচ্ছে না।&#10;
+    - chakurir dorkhasto korar khetre chalan joma deowa or code deowa hole oi code e bank e taka joma deowa jacche na
+- intent: ques_67
+  examples: |
+    - partial payment হলে বকেয়া pay bill typeকি হবে pay bill এ  কর্তন option চালু করা।&#10;
+    - partial payment hole bokeya pay bill type ki hobe pay bill e korton option chalu kora
+- intent: ques_68
+  examples: |
+    - আবাসিক টেলিফোন ও ইন্টানেট নগদায়ন কিভাবে করতে হয়।&#10;
+    - abashik telephone o interne nogodayon kivabe korte hoy?
+- intent: ques_69
+  examples: |
+    - প্রধানমন্ত্রীর অনুদান এর ডিডিও কিভাবে নির্ধারণ করতে হবে?&#10;
+    - prodhanmontrir onudan er video kivabe nirdharon korte hobe?
+- intent: ques_70
+  examples: |
+    - একাধিক ডিডিও খোলা থাকলে কি করতে হবে?&#10; অব্যবহৃত ডিডিওগুলো Deactivate কিভাবে করবো?&#10;
+    - ekadhirk video khola thakle ki korte hobe? &#10; obebohrito video gulo deactivate kivabe korbo
+- intent: ques_71
+  examples: |
+    - প্রাথমিক বিদ্যালয়ের অফিস সহায়কের বেতন প্রদানের জন্য কে ডিডিও এর দায়িত্ব পালন করবেন।&#10;
+    - prathomik biddaloyer ofice shohayok er beton prodaner jonno ke video er daitto palon korben
+- intent: ques_72
+  examples: |
+    - ইউনিয়ন ভূমি অফিসের ডিডিও পাওয়া যাচ্ছে না।&#10;
+    - union vumi officer video paoa jaccheh na
+- intent: ques_73
+  examples: |
+    - ৩-৭৩৫১-০০১৫-পুরাতন অফিস কোড-এ DDO সিনিয়র জেলা সুপার। ১৭৩৫১০০১৫২৫০০- ১২০০০২৯০৮ নতুন কোর্ডে DDO নেই।&#10;
+    - 373510015 puratoc office code e DDO senior jela super 1735100152500- 120002908 notun code DDO nei
+- intent: ques_74
+  examples: |
+    - উন্নয়ন প্রকল্পের বিল প্রদানের ক্ষেত্রে ডিডিও লিংক করা যায় না।&#10;
+    - unnoyon prokolper bill prodaner khetre video link kora jay na
+- intent: ques_75
+  examples: |
+    - কোন কোন ডিডিওতে ধৌতভাতা/ডিপিএফ পাওয়া যায় না। আবার কোন কোন ডিডিওতে জিপিএফ কোড পুনরায় দিতে হয়।&#10; নতুন অফিসে ডিডিও open করলে জিপিএফ পাওয়া যায় না। তাই নতুন করে দিতে হয়। এ ক্ষেত্রে করণীয় কি&#10;
+    - kon kon video te dhoutobhata/DPF paoa jay na&#10; kon kon DDO te GPF code punoray dite hoy&#10;notun office DDO open orle GPF paoa jay na tai notun kore dite hoy ekhetre ki koronio
+- intent: ques_76
+  examples: |
+    - ডিডিও এডিট করার পরও অর্থনৈতিক কোড পাওয়া যায় না।&#10;
+    - DDO edit korar poro orthonoitik code paowa jay na
+- intent: ques_77
+  examples: |
+    - জেলা/উপজেলা/পৌরসভা/পরিষদের জামানত পরিশোধে ডিডিও সমস্যা হয়।&#10; প্রাতিষ্ঠানিক কোড-১৪৬০১০৪xxxxxx এর ডিডিও অফিস লিংক নেই।&#10;
+    - jela/ upazilla/pouroshova/parishad/porishoder jamanot porishodhe DDO shomossha hoy&#10; prathishtanik code 1460104xxxxxx er video office link nei
+- intent: ques_78
+  examples: |
+    - online paybill এ একই অফিস কোডের অধীনে অনেকগুলো ডিডিও আছে এবং officer multiple ডিডিওতে set করা আছে। যার দরুণ ডিডিও বিল send করতে পারে ন।&#10; অনলাইনে বেতন বিলে আইডি সমস্যা হয়।&#10;
+    - online paybill e ekoi office coder odhine onek gulo video ache ebong officer multiple videote set kora ache ja karone DDO bill send korte pari na&#10; online e beton bill e id shomossha hoy
+- intent: ques_79
+  examples: |
+    - পৌরসভা/জেলা পরিষদের পেমেন্টের ক্ষেত্রে ডিডিও কে হবে? &#10; ডিডিও করার ক্ষেত্রে প্রকল্পের বিপরীতে ডিডিও করতে হচ্ছে। কেননা স্বায়ত্বশাসিতে ঐ সকল প্রতিষ্ঠানে রাজস্বের কোন পদ নেই।&#10;
+    - pouroshova/jela/zilla/zila porishod/parishad er payment er khetre DDO ke hobe?&#10; ddo korar khetre prokolper biporite ddo korte hocche karon shayottoshashite oi shokol protishthaner rajosher kono pod nei
+- intent: ques_80
+  examples: |
+    - গেজেটেড অফিসার ডাবল এন্ট্রি হলে কি করতে হবে?&#10;
+    - gadgeted officer double entry hole ki korte hobe?
+- intent: ques_81
+  examples: |
+    - ড্রাইভারের বেতন কিভাবে দিতে হবে?&#10;
+    - driver er beton kivabe/khibhabe/kivhabe dite hobe?
+- intent: ques_82
+  examples: |
+    - টোকেন এন্ট্রিতে টাকার অংক ভুল হলে পরবর্তীতে এডিট করা যায় না।&#10; প্রকল্প কার্যালয়ের টোকেন এডিট করা যায় না।&#10; টোকেন এন্টির ক্ষেত্রে কোডের রেঞ্জ পাওয়া যায় না।&#10;
+    - token entry te takar onko vul/bhul hole poroborti te edir kora jay na&#10; prokolpo karjaloyer token edit kora jay na&#10; token entryr khetre code er range paoa jay na
+- intent: ques_83
+  examples: |
+    - ২০১৭-১৮ অর্থবছরে open না হওয়ার জিপিএফ সুদ entry যাচ্ছে না।&#10;
+    - 2017-18 orthobochorer open na howay GPF shud entry hocche na
+- intent: ques_84
+  examples: |
+    - LPC Entry: প্রাপ্তি/ইস্যুতে option দেওয়া নাই।&#10;
+    - lpc entry prapti/issue option deoa nai
+- intent: ques_85
+  examples: |
+    - এপিসি প্রেরণের ক্ষেত্রে সমস্যা হচ্ছে। যা অধিকাংশ ক্ষেত্রে সংশ্লিষ্ট পে-পয়েন্ট কর্তৃক সমস্যার সৃষ্টি হচ্ছে।&#10; এলপিসি প্রেরিত অডিট অফিসে কোন কারণে না আসা সত্ত্বেও বর্ধিত বেতন সংযুক্ত হওয়ায় প্রেরণ এবং প্রেরিত অডিট অফিস দেখতে পায় না।&#10;
+    - APC prorener khetre shomossha hocche ja odhokangsho khetre shonglishto pay poyent kortik shomoshar srishti hocche&#10;LPC prerito audit office kono karone na asha shotteo bordhito beton shungjukto howay preron ebong prerito audit office dekhte pay na
+- intent: ques_86
+  examples: |
+    - কর্মকর্তাদের ২০১৮-১৯ অর্থবছরে জিপিএফ এর প্রারম্ভিক জের জিপিএফ Opening Balance এ এন্ট্রি করে Save করার পর GPF Report মেনুতে গিয়ে GPF Sub-Ledger অথবা GPF Accounts Slip এ রিপোর্ট Run করালে ২০১৮-২০১৯ অর্থবছরে জিপিএফ এর প্রারম্ভিক জের দেখা যায় না। ফলে কর্মকর্তাদের LPC Issue সময় GPF হালনাগাদ করে OnLine এ LPC Issue করা সম্ভব হচ্ছে না।  ২০১৮-১৯ অর্থবছরে কর্মকর্তাদের GPF Final Payment পরিশোধ করা সম্ভব হচ্ছে না। বিষয়টি দ্রুত নিস্পত্তি হওয়া প্রয়োজন।&#10;
+    - kormokortader 2018-19 orthobochore GPF er prarombhik jer GPF opening balance e entry kore save okrar por GPF report menute giye GPF Sub-ledger othoba G{F accounts slip e report run korale 2018-2019 orthobochore GPF er prarombhik jer dekhay na &#10; 2018-19 orthobochore kormokortader GPF Final payment porishodh kora shomvob hocche na
+- intent: ques_87
+  examples: |
+    - কিছু ক্ষেত্রে অফিসারদের বেতন বিল পাশ করার সময় জিপিএফ এর চাঁদা প্রদর্শিত হয় না&#10; নির্দেশনা অনুযায়ী ডিডিও নতুন করে করার পর ও জিপিএফ এর চাঁদা প্রদর্শিত হয় না।&#10; জুলাই/১৮ মাসে ঠিক করে দেওয়ার পরেও আগষ্ট/১৮ মাসে একই ঘটনার পুনরাবৃত্তি ঘটেছে।&#10;
+    - kichu khetre officer der beton bill pass korar shomoy GPF er chada prodorshito hoy na&#10;nirdeshona onujayoi DDO notun kore korar por o GPF er chada prodorshito hoy na&#10; july mashe thik kore deoway poreo august mashe ekpo ghotonar punorabritti ghoteche
+- intent: ques_88
+  examples: |
+    - ২ জন গেজেটেড কর্মকর্তা ডাবল এনআইডি (রুবিনা সমবায় একাডেমিক সুপার) থাকায় টোকেন এন্ট্রির সময় তা ডাবল আসছে সঠিকটা রেখে ভুলটা কিভাবে বাদ দিতে হবে। &#10; ১ জন কর্মকর্তা (শফিকুল ইসলাম THA) বদলী হয়ে অন্যত্র চলে যাওয়ার পর যে এনআইডি রিলিজ করা হয়েছে সেটা ছাড়া অন্য এরআইডিতে তার টোকেন এন্ট্রির (এই খাতে) সময় তার তথ্যাদি আসছে এটা বাতিলের উপায় কি?&#10;
+    - 2 jon gadgeted kormokorta double ND thakay token entryr shomoy ta double ashche shothikta rekhe vulta kivabe bad dite hobe?&#10; 1 jon kormokorta bodli hoye onnotro chole jaowar por je NID releas kora hoyeche seta chara onno RID te tar token entryr shomoy/somoy tar totthadi ashche eta batiler upay ki?
+- intent: ques_89
+  examples: |
+    - ভবিষ্যৎ তহবিলের সুদ বিহীন কি ভাবে iBAS++ এন্ট্রি হবে?&#10;
+    - bhobisshiot/vobisshot/vobissot tohobiler sudbihin kivabe ibas++ entry hobe?
+- intent: ques_90
+  examples: |
+    - স্পেশাল এক্টিভিটি এবং সাপোর্ট এক্টিভিটি এর বরাদ্দের বিপরীতে বিল পাশের ক্ষেত্রে নানাবিধ সমস্যার সৃষ্টি হচ্ছে। &#10; ডিপার্টমেন্ট থেকে বাজেট ডিস্ট্রিবিউশন করা হলেও online এ নির্দিষ্ট কোডে বাজেট পাওয়া যায় না।&#10;
+    - special activity ebong support activity er boradder biporite bill passer  khetre nanabidh shomossha hocche&#10; department theke budget distribution kora holeo online e nidrishto code budget paowa jay na
+- intent: ques_91
+  examples: |
+    - অনলাইনে পে বিল দাখিলের ক্ষেত্রে information not available দেখায়। &#10; বিল দাখিল করা যায় না।&#10;
+    - online pay bill dakhiler khetre information not availbale dekhay&#10; bill dakhil kora jay na
+- intent: ques_92
+  examples: |
+    - অনলাইনে পে বিল দাখিলের ক্ষেত্রে অনেক সয় (-) ফিগার দেখানো সত্বেও সংশ্লিষ্ট কর্মকর্তা কর্তৃক তা দাখিল করায় পুনরায় সংশোধন করতে হচ্ছে।&#10;
+    - online pay bill dakhiler/dakiler khetre onek shomoy figure dekhano shotteo shonglishto kormokorta kortik ta dakhil koray punnoray shongshodhon korte hocche
+- intent: ques_93
+  examples: |
+    - Employee information single step এ কোন অফিসার এর তথ্য save করতে Error দেয়।&#10; Employee কোড remove দিলে তথ্য save এ ক্ষেত্রে করণীয় কি?&#10;
+    - employee information single step e kono officer er tottho save korte error dey&#10; Employee code remove dile toddho save a khetre koronio ki?
+- intent: ques_94
+  examples: |
+    - ইউনিয়ন ভূমি অফিস/ LSD এ deduction এর কোড নেই।&#10;
+    - union vumi office/LSD e/a dudeiction code nai
+- intent: ques_95
+  examples: |
+    - ডিসিএ রাজশহীতে নাসিং কর্মকর্তাদের (মেডিকেল কলেজ হাসপাতাল) অফিসে কর্মরত নার্সদের অফিস কোড পরিবর্তন হয়ে নার্সিং অফিস (নার্সিং ইনস্টিটিউ) কোডে অটো পরিবর্তন হয়ে যাচ্ছে, যা সংশোধন করা প্রয়োজন।&#10;
+    - DCA rajshahite nursing kormokortader (medical college hospital) office e kormoroto nurse der office code poriborton hoye nursing office code e auto poroborton hocche ja shongshohon kora proyojon
+- intent: ques_96
+  examples: |
+    - প্রকল্পের ফিল্ড অফিস তৈরীতে সমস্যা হচ্ছে।&#10;
+    - prokolpo field office toirite shomossha hocche
+- intent: ques_97
+  examples: |
+    - Help desk filtering option থাকে না তা দেয়া প্রয়োজন।&#10; Help desk assigned engineer selection এর মাধ্যমে সমস্যা খুজে পাওয়া যায় না। যার ফলে নিদিষ্ট সমস্যার সমাধান করা যায় না্&#10;
+    - Help desk filtering option na na ta deya proyojon&#10; Help desk assigned engineer selection er maddhome shomossha khuje paowa jay na jar fole nirdishto shomosshar shomadhan kora jay na
+- intent: ques_98
+  examples: |
+    - Help desk system এ call number/pay-point/division wise সার্চ করার অপশন দেয়া প্রয়োজন।&#10;
+    - Help desk system e call number/pay-point/division wise search option deya proyojon
+- intent: ques_99
+  examples: |
+    - রেডিও চেক এর একাউন্টিং লজিক দেয়া হয় নাই। যার দরুণ হিসবরক্ষণ অফিস মাসিক হিসাবে অন্তর্ভুক্ত করতে পারছে না।&#10;
+    - Radio check accounting logic deya hoy nai jar karone hishab rokkhon office mashik hishabe ontorbhukto korte parche na
+- intent: ques_100
+  examples: |
+    - আমি বর্তমানে কচুয়া উপজেলা ভূমি অফিসে কর্মরত। আমার বাসা ভাড়া ঢাকা রেটে দেখাচ্ছে, যেটি সঠিক নয় -এর সমাধান কি? উল্লেখ্য, আমি ঢাকায় সংযুক্তিতে ছিলাম।
+    - Ami bortomane kochua upazilla bhumi office e kormoroto. Amar basha nhara dhaka rate e dekhacche, jeti shothik noy. Er shomadhan ki? ullekkho, ami dhaka songjuktite chilam.
+- intent: ques_101
+  examples: |
+    - আমার বেতন বিলে পাহাড়ি ভাতা ( Hill Allowance )  দেখা যাচ্ছে না, করণীয় কি ?
+    - Amar beton bill e padhari bhata dekha jacche na, koronio ki?
+- intent: ques_102
+  examples: |
+    - আমার বেতন বিলে ঝুঁকি ভাতা (3111308-hazardous allowance) দেখা যাচ্ছে না,করণীয় কি ?
+    - Amar beton bill jhuki bhata (3111308-hazardous allowance) dekha jacche na, koronio ki?
+- intent: ques_103
+  examples: |
+    - আমার পূর্বোক্ত চার মাসের বকেয়া বেতন বিল online এ প্রদর্শিত হচ্ছে না। উল্লেখ্য, আমি এ মাসে IBAS++ এ তথ্য এন্ট্রি এবং অনলাইন রেজিস্ট্রেশন সম্পন্ন করেছি । কিভাবে সমাধান করবো?
+    - Amar purbokto char masher bokeya beton bill online e prodorshito hocche na. Ullekho, ami e mashe IBAS++ e tottho entry ebong online registration somponno korechi. Kibhabe somadhan korbo?
+- intent: ques_104
+  examples: |
+    - আমার ১৪/০৮/২০২২ থেকে ১৩/০৯/২০২২ পর্যন্ত অর্ধ গড় বেতনে ০১ মাস অর্জিত ছুটি মঞ্জুর হয়েছে। কিভাবে অর্ধ গড় বেতন বিলে প্রদর্শিত হবে?  আমার NID: 19721813135375738
+    - amar 14-08-2022 theke 13-09-2022 porhonto ordho gor betone 01 mash orjito chuti monjur hoyeche. Kibhabe ordho kor beton bill prodorshito hobe?
+- intent: ques_105
+  examples: |
+    - বেতন বিল প্রদান করতে গেলে  ‘Duplicate DDO coding block mapping found for 1411202 - interest on loan to government employees’ মেসেজ প্রদর্শিত হয়। কিভাবে এ সমস্যা সমাধান করবো?
+    - beton bill prodan korte gele 'Duplicate DDO coding block mapping found for 1411202 - interest on loan to government employees' message prodorshito hoy. kibhabe e somossha somadhan korbo?
+- intent: ques_106
+  examples: |
+    - উচ্চতর গ্রেডে বেতন বিল  সাবমিট করতে গেলে পূর্বের বেতন/ বিল বাকি আছে মর্মে একটি মেসেজ iBAS++ সিস্টেম প্রদর্শিত হচ্ছে। কিভাবে সমাধান করবো?
+    - Ucchotor grade e beton bill submit korte gele purber beton/bill baki ache morme ekti message IBAS++ system prodorshito hocche. Kibhabe somadhan korbo?
+- intent: ques_107
+  examples: |
+    - একজন কর্মচারী (স্টাফ) ০৩/০৮/২০২২ তারিখ হতে বরখাস্ত অবস্থায় আছেন। কিন্তু তার বেতন বিল ফরওয়ার্ড করার সময় তার মূল বেতনের অর্ধেক (খরপোষ ভাতা)  না দেখিয়ে সম্পূর্ণ বেতন দেখাচ্ছে। এ অবস্থায় করণীয় কি ?
+    - Ekjon kormochari 03-08-2022 tarikh hote borkhasto obosthay achen. Kintu tar beton bill forward korar somoy tar mul betoner ordhek (khorposh bhata) na dekhiye sompurno beton dekhacche.
+- intent: ques_108
+  examples: |
+    - একজন কর্মচারী/স্টাফের সাসপেনশনের তথ্য এন্ট্রি দেওয়ার পরেও তার মূল বেতন পুরোটাই প্রদর্শিত হচ্ছ-এর সমাধান কি?
+    - Ekjon kormochari/staff  saspenshon tottho entry deowar poreo tar mul betoner purotai prodorshito hocche - er shomadhan ki?
+- intent: ques_109
+  examples: |
+    - iBAS++ সিস্টেমে কিভাবে আমার ইমেইল পরিবর্তন করবো?
+    - IBAS++ systeme kibhabe amar email poriborton korbo?
+- intent: ques_110
+  examples: |
+    - আমি একজন কর্মচারী/স্টাফ। আমি iBAS++ সিস্টেমে ব্যাংক একাউন্ট এর তথ্য পরিবর্তন করতে চাই। কিভাবে করতে পারি?
+    - Ami ekjon kormochari/staff. Ami IBAS++ system e bank amount er tottho poriborton korte chai. Kibhabe korte pari?
+- intent: ques_111
+  examples: |
+    - আমি একজন গেজেটেড অফিসার/ কর্মকর্তা। আমি iBAS++ সিস্টেমে ব্যাংক একাউন্ট পরিবর্তন করতে চাই। কিভাবে করবো?
+    - Ami ekjon gadgeted officer/kormokorta. Ami IBAS++ system e bank account poriborton korte chai. Kibhabe korbo?
+- intent: ques_112
+  examples: |
+    - SDO হিসেবে রেজিস্ট্রেশন করতে গেলে স্ক্রিনে “You have already submitted your Ibas++ user account application which is in progress” মেসেজটি প্রকাশিত হয়। কেন?
+    - SDO hishebe registration korte gele screen "You have already submitted your Ibas++ user account application which is in progress" message ti prokashito hoy keno?
+- intent: ques_113
+  examples: |
+    - NID মার্জ করতে গেলে “Mobile number not matched with this 2 NID/code” এমন মেসেজ স্ক্রিনে প্রদর্শিত হয়। করণীয় কী?
+    - NID merge korte gele “Mobile number not matched with this 2 NID/code” emon message screen e prodorshito hoy. Koronio ki?
+- intent: ques_114
+  examples: |
+    - গফরগাঁও উপজেলাধীন গয়েশপুর খাদ্য গুদামের নিরাপত্তা প্রহরী জনাব মোঃ আব্দুল ওহাব কে ময়মনসিংহ জেলা খাদ্য নিয়ন্ত্রকের কার্যালয়, ময়মনসিংহে সংযুক্তি দেয়া হয়। তার সংযুক্তির আদেশ  অনলাইনে Attached করা হলে তার যাতায়ত ভাতা দুইটি কোডে পর্যায়ক্রমে অফিস কোড নং-১৪৮০২০৪১৩০৫৯৬ এর বিপরীতে ৩০০/-টাকা এবং কোড নং ১৪৮০২০৭১৩১১৬৮ এর বিপরীতে ৩০০/-টাকা দেখা যায়। কিভাবে এ সমস্যা সমাধান করা যায়?
+    - Goforgaon upazilladhin goyeshpur khaddo gudamer nirapotta prohori jonab mohammad abdul wahab ke mymensingh zilla khaddo niyontrok karjaloy, mymensingh songjukti deya hoy. tar songjuktir adesh online e Attached kora hole tar jatayat bhata duiti code e porjaykrome office code no. 14802051390596 er biporite 300 taka ebong code no . 1480207131168 er biporite300 taka dekha jay. kibhabe e shomosshar somadhan kora jay
+- intent: ques_115
+  examples: |
+    - আমি উপজেলা শিক্ষা অফিসার, লংগদু, রাঙ্গামাটি। আমার NID: ১৯৬৬৩০২২৯০৫১১১৫৮৪, User ID: imamuddin67। আমি iBAS++ এ লগইন করতে পারছি না। কিভাবে সমাধান করবো?
+    - Ami upazilla shikkha officer, longdu, rangamati. Amar NID: 19663022905111584, user ID: imamuddin67. Ami IBAS++ e login korte parchi na. Kibhabe somadhan korbo?
+- intent: ques_116
+  examples: |
+    - বেতন-ভাতা সাবমিট করতে গেলে স্ক্রিনে ‘Duplicate DDO coding block mapping found for 7215104 Motor car loan’ মেসেজ দেখায়। করণীয় কি?
+    - beton bhata submit korte gele screen e ‘Duplicate DDO coding block mapping found for 7215104 Motor car loan’ message dekhay. Koronio ki?
+- intent: ques_117
+  examples: |
+    - একজন কর্মকর্তাকে বদলি করতে গেলে দেখা যায় যে তার ২০২০ সালের একটি উৎসব ভাতা বাকি রয়েছে। এ অবস্থায় করণীয় কি?
+    - Ekjon kormokortake bodli korte gele dekha jay je tar 2020 shale ami utshob bhata baki hoyeche. E obosthay koronio ki?
+- intent: ques_118
+  examples: |
+    - আমার অগ্রিম লোন এবং জিপিএফ এর কর্তনের পরিমাণ যথাক্রমে ১৫০০ এবং ২০০০০ টাকা, পার্শিয়াল বিল করতে গেলে মোট কর্তনের পরিমাণ আমার বেতনের চেয়ে বেশি দেখাচ্ছে এর সমাধান কি?
+    - Amar ogrim loan ebong GPF er kortoner poriman jothakrome 1500 ebong 20000 taka, partial bill korte gele mot kortoner poriman amar betoner cheye beshi dekhacche er somadhan ki?
+- intent: ques_119
+  examples: |
+    - আমার বেতন বিল সাবমিট করতে গেলে ‘GL for GPF subscription not found’ মেসেজ প্রদর্শন করে। এটা কিভাবে সমাধান করবো?
+    - Amar beton bill submit korte gele ‘GL for GPF subscription not found’ message prodorshon kore. Eta kibhabe somadhan korbo
+- intent: ques_120
+  examples: |
+    - টোকেন দিতে গেলে ‘অফিস কোড: 1460404125073’ পাওয়া যাচ্ছে না। করণীয় কি?
+    - Token dite gele office code: 1460404125073 paowa jacche na. Koronio ki?
+- intent: ques_121
+  examples: |
+    - মাস্টার ডাটা এন্ট্রি করার সময় ভুলবশত আমার ধর্ম হিন্দুর বদলে মুসলিম হিসেবে অন্তর্ভুক্ত করা হয়।  এখন আর ঠিক করা যাচ্ছে না। এর সমাধান কি ?
+    - Master data entry korar somoy bhulboshoto amar dhorbo hindur bodole muslim hishebe ontorbhukto kora hoy. Ekhon ar thik kora jacche na. Er shomadhan ki?
+- intent: ques_122
+  examples: |
+    - আমার এনআইডিতে নামের বানান ভুল থাকার কারণে আইবাসে ভুল নাম সংযোজিত হয় । এখন কিভাবে নামের বানান  সংশোধন করতে পারি?
+    - Amar NID te namer banan bhul thakar karone IBAS e bhul nam shongjojito hoye. Ekhon kibhabe namer banan shongshodhon korte pari?
+- intent: ques_123
+  examples: |
+    - আমি ঢাকায় সংযুক্ত থাকার পরেও আমার বাড়ি ভাড়া ঢাকার রেটে দেখাচ্ছে না। এর সমাধান কি?
+    - Ami dhakay shongjukto thakar poreo amar bari bhara dhakar rate e dekhacche na. er shomadhan ki?
+- intent: ques_124
+  examples: |
+    - আমার মোবাইল নাম্বার এবং ব্যাংক অ্যাকাউন্টের তথ্য একই সাথে পরিবর্তন করতে চাই। কিভাবে করা যাবে?
+    - Amar mobile number ebong bank account tottho ekoi shathe poriborteon korte chai. kibhabe kora jabe?
+- intent: ques_125
+  examples: |
+    - আমার ইএফটি ট্রান্সমিট করার সময় ওটিপি আমার অন্য মোবাইল নাম্বারে যাচ্ছে এর সমাধান কি?
+    - Amar EFT transmit korar shomoy OTP amar kotha onno mobile numer e jacche er shomadhan ki?
+- intent: ques_126
+  examples: |
+    - সহকারী কমিশনার ভূমি DDO কোড নাম্বার 14604 পাওয়া যাচ্ছে না করণীয় কি?
+    - Shohokari comissioner bhumi DDO code number 14604 paowa jacche na koronio ki?
+- intent: ques_127
+  examples: |
+    - Washing Allowance এবং Conveyance Allowance কোডের বিপরীতে বাজেট বরাদ্দ থাকা সত্ত্বেও বেতন বিল সাবমিট করার সময় Washing Allowance এবং Conveyance Allowance পাওয়া যাচ্ছে না। কি করণীয় ?
+    - Washing Allowanche ebong Conveyance Allowance code er biporite budget boraddo thaka shotteo beton bill submit korar shomoy Washing Allowance Ebong Conveyance Allowance paowa jacche na. Koronio ki?
+- intent: ques_128
+  examples: |
+    - আমি আইবাসে লগইন করতে চাইলে ‘Multiple user ID registered with same NID’  মেসেজটি পাচ্ছি। এর সমাধান কি?
+    - Ami IBAS e login korte chaile ‘Multiple user ID registered with same NID’ message ti pacchi. Er shomadhan ki?
+- intent: ques_129
+  examples: |
+    - আমি বর্তমানে ভূমি অফিস শেরপুরে অতিরিক্ত দায়িত্ব পালনের জন্য মোবাইল নাম্বার পরিবর্তন করা জরুরি। কিভাবে করতে পারি?
+    - Ami bortomane bhumi office sherpur otirikto Dayitto paloner jonno mibile number poriborton kora joruri. Kibhabe korte pari?
+- intent: ques_130
+  examples: |
+    - আমি extra ordinary leave enrty দিতে গেলে সেটি  সংরক্ষিত না হয়ে ‘Duration exceeds the maximum limit of normal ground’ মেসেজ দেখাচ্ছে। করণীয় কি?
+    - Ami extra ordinary leave entry dite gele sheti songrokkhito na hoye ‘Duration exceeds the maximum limit of normal ground’ message dekhacche. Koronio ki?
+- intent: ques_131
+  examples: |
+    - iBAS++ এ  জন্ম তারিখ/ নামের বানান ভুল এন্ট্রি হলে করণীয় কি?
+    - IBAS++ e Jonmo tarikh/namer banan bhul entry hole koronio ki?
+- intent: ques_132
+  examples: |
+    - iBAS++ এ জন্ম তারিখ পে ফিক্সেশন  এবং মাস্টার ডাটায় দুইরকম এন্ট্রি হলে করণীয় কি?
+    - IBAS++ e jonmo tarkh pay fixation ebong master data te duirokom entry hole koronio ki?
+- intent: ques_133
+  examples: |
+    - আইবাসে বেতন ভাতা সাবমিশনের সময় বেতন প্রাপ্য স্কেল না পাওয়া গেলে কি করণীয় ?
+    - IBAS e beton submission er shomoy beton prappo scale na paowa gele koroniio ki?
+- intent: ques_134
+  examples: |
+    - কোন কর্মকর্তা / কর্মচারী উচ্চতর গ্রেডে উন্নীত হলে এটি আইবাস সিস্টমে কিভাবে আপডেট করতে হবে?
+    - Kono kormokorta/ kormochari ucchotoro grade e unnito hole eti IBAS system e kibhabe update korte hobe?
+- intent: ques_135
+  examples: |
+    - আইবাসে বেতন ভাতা সাবমিশনের সময় খোরপোষ ভাতার কোড পাওয়া যাচ্ছে না, এখন আইবাস সিস্টমে কিভাবে খোরপোষ ভাতার কোড ইনপুট দিব?
+    - IBAS e beton bhata submission er shomoy khor posh bhatar code paowa jacche na, ekhon IBAS system e kibhabe khorposh bhatar code input dibe?
+- intent: ques_136
+  examples: |
+    - মোবাইল নাম্বারের সাথে ইমেইল কি pay fixation এ এ্যাড করা যাবে?
+    - Mobile number er shathe email ki pay fixation e add kora jabe?
+- intent: ques_137
+  examples: |
+    - ২০২২~২৩ অর্থ বছরে মিশনে কর্মরত ব্যক্তির বর্ধিত বেতন দেখা যাচ্ছে না? স্বয়ংক্রিয়ভাবে বার্ষিক বেতন বর্ধিত করা সম্ভব কিনা?
+    - 2022-23 ortho bochore mission kormoroto bektir bordhito beton dekhacche na ? shoyongkriyo barshik beton bordhito kora shombhob kina?
+- intent: ques_138
+  examples: |
+    - জিপিএফ এ এন্ট্রি দেয়া সত্ত্বেও স্যালারি সাবমিশনের সময় জিপিএফ ডিডাকশন দেখা যাচ্ছে না ? করণীয় কি?
+    - GPF/Entry e entry deya shotteo salary submission er shomoy GPF deduction dekha jacche na. Koronio ki?
+- intent: ques_139
+  examples: |
+    - কর্মচারী / কর্মকর্তার রিলিজ করানোর সময় error দেখাচ্ছে “ইমপ্লয়ী সেলারি পেন্ডিং” মেসেজ দিয়ে। ফলে রিলিজ করানো যাচ্ছে না । কিভাবে সমাধান পেতে পারি?
+    - Kormochari/Kormokortar release koranor shomoy error dekhacche "employee salary pending" message deye fole release korano jacche na . kibhabe shomadhan pete pari?
+- intent: ques_140
+  examples: |
+    - আইবাসে ওয়েজ আর্নার ফি কিভাবে এন্ট্রি দিতে হয়?
+    - IBAS e wage earner fee kibhabe entry dite hoy
+- intent: ques_141
+  examples: |
+    - লোকাল ইমপ্ল্যয়ীদের সেলারি কিভাবে প্রসেস করব?
+    - Local employeeder salary kibhabe process korbo?
+- intent: ques_142
+  examples: |
+    - কিভাবে স্টাফদের স্যালারি দিতে হবে?
+    - Kibhabe Staff der Salary dite hobe?
+- intent: ques_143
+  examples: |
+    - জেনারেল এক্টিভিটির জন্য General Activity” ফান্ড সিলেকশন কোড কি হবে?
+    - General activity er jonno General Activity fund selection code ki hobe?
+- intent: ques_144
+  examples: |
+    - বেতন বিল দাখিল করার সময় “duplicate ddo code block mapping” error আসে। সমাধান কি?
+    - Beton bill dakhiler shomoy “duplicate ddo code block mapping” error ashe. Shomadhan ki?
+- intent: ques_145
+  examples: |
+    - অতিরিক্ত ডিডিও খোলার ক্ষেত্রে কি কি ডকুমেন্ট দিতে হবে?
+    - Otirikto DDO kholar khetre ki ki document dite hobe?
+- intent: ques_146
+  examples: |
+    - supplier এর বিল দেয়ার সময় ভিন্ন Bank account এ কিভাবে দিব?
+    - Supplier er bill deyar shomoy bhinno bank account e kibhabe dibo?
+- intent: ques_147
+  examples: |
+    - TIN number ছাড়া supplier add করার option আছে?
+    - TIN number chara supplier add korar option ache?
+- intent: ques_148
+  examples: |
+    - supplier এর নাম fixed থাকে। তাহলে ভিন্ন নামে বিল কিভাবে দিব একই TIN under এ?
+    - Supplier er nam fixed thake. Tahole bhinno name bill bibhabe dibo TIN under e?
+- intent: ques_149
+  examples: |
+    - iBAS++ এ লগইন করতে গেলে “User authentication failed. Please provide valid User ID, Password and Capcha”-এরর ম্যাসেজ আসে। করণীয় কি?
+    - IBAS++ e login korte gele “User authentication failed. Please provide valid User ID, Password and Capcha” - error message ashe. Koronio ki?
+- intent: ques_150
+  examples: |
+    - Password ভুলে গেলে করণীয় কি?
+    - Password bhule gele koronio ki?
+- intent: ques_151
+  examples: |
+    - User ID- ভুলে গেলে করণীয় কি?
+    - User ID bhule gele koronio ki?
+- intent: ques_152
+  examples: |
+    - iBAS++ এ User ID এর Password সেট করার শর্তসমূহ (ফরমেট) কি কি?
+    - IBAS++ e User ID er password set korar shoto somuho (format) ki ki?
+- intent: ques_153
+  examples: |
+    - Master Data -করার সময় “First Joining Office Not Found”-Error দেখালে করণীয় কি?
+    - Master Data - korar shomoy “First Joining Office Not Found”-Error dekhale koronio ki?
+- intent: ques_154
+  examples: |
+    - Self Drawing Officer দের user ID তে লগইন করার পর “Employee Information Not Found”-Error দেখালে করণীয় কি?
+    - Self Drawing Officer der user ID te login korar por “Employee Information Not Found”-Error dekhale koronio ki?
+- intent: ques_155
+  examples: |
+    - Registered Mobile No ঠিক থাকা সত্ত্বেও OTP না আসলে করণীয় কি?
+    - Registerrd Mobile No thik thaka shotteo OTP na ashle koronio ki?
+- intent: ques_156
+  examples: |
+    - অফিস কোড (১৩৭০১০১xxxxxx) (২২১০০০৪০০) এর বরাদ্দ পত্রের মধ্যে অর্থনৈতিক কোড খুঁজে পাওয়া যাচ্ছে না
+    - Office code (1370101xxxxxx) (221000400) er boraddo potrer moddhe orthonoitik code khuje paoaa jacche na
+- intent: ques_157
+  examples: |
+    - নতুন ডিডিও খোলার জন্য কি করবেন?
+    - Notun ddo kholar jonno ki korben?
+- intent: ques_158
+  examples: |
+    - কর্মচারীদের বেতন বিল কি ডিডিওকেই দাখিল ও করতে হবে?
+    - Kormocharider beton bill ki ddo kei dakhil o korte hbe?
+- intent: ques_159
+  examples: |
+    - একজন কর্মচারীর কতগুলো তথ্য এন্ট্রি হলে এফটি এর মাধ্যমে কি বিল দেওয়া যাবে?
+    - ekjon kormocharir kotogulu tothy entry hole EFT er madhoyme ki bill deoaa jabe?
+- intent: ques_160
+  examples: |
+    - একজন কর্মচারীর এমপ্লয়ী টাইপ(অফিসার টু স্টাফ, স্টাফ টু অফিয়াসের) করার ক্ষেত্রে করণীয় কি?
+    - ekjon kormocharir employee type(officer To staff, staff to offiicer) korar  khettre korNio ki?
+- intent: ques_161
+  examples: |
+    - কি কি কারণে NID বাইপাস করতে হয়? NID বাইপাস এর ধাপ সমূহ কি?
+    - ki ki karone NID Bypass korte hoi? Nid bypass er dhap smuh ki?
+- intent: ques_162
+  examples: |
+    - রিলিজিওন ইনফরমেশন এডিট করার ক্ষেত্রে করণীয় কি?
+    - Religion information edit korar khettre koronio ki?
+- intent: ques_163
+  examples: |
+    - NID সংশোধনের পর স্মার্ট কার্ড এর নম্বর দিলে সে ক্ষেত্রে করণীয় কি?
+    - NID songshodhoner por smart card er number dile se khettre kornio ki ?
+- intent: ques_164
+  examples: |
+    - iBAS++ এ স্টাফ এর তথ্য এন্ট্রি করার সময় এরর ম্যাসেজ প্রদর্শিত হয় "Employee not active in any post" এক্ষেত্রে করণীয় কি?
+    - iBAS++ e staff er totthy entry korar somoy error message prodorshito hy "Employee not active in any post" eikhettre koronio ki?
+- intent: ques_165
+  examples: |
+    - ডিডিও বাজেট এক্সেকিউশন-->মাস্টার ডাটা তে কোনো কর্মচারী NID এর সাপেক্ষে স্টাফ ইনফরমেশন এন্ট্রি,Employee - Basic Information,  Service Information, Salary Information,  GPF Information প্রদর্শনের সময়  এরর ম্যাসেজ প্রদর্শিত হয় “You are not authorized to view this employee” - এক্ষেত্রে করণীয় কি?
+    - ddio Budget Execution-->Master Data te kono kormochair NID er shapekkhe staff Staff Information Entry, Employee - Basic Information, Service Information, Salary Information, GPF Information  prodorshoner somoy error  message prodorshito hoi “You are not authorized to view this employee” eikhettre koronio ki ?
+- intent: ques_166
+  examples: |
+    - Release an Employee স্ক্রিন যে কোনো কর্মচারিকে রিলিজ করার সময় - স্টাফ এর ক্ষেত্রে এরর মেসেজ প্রদর্শিত হয় "Employee has staff pay bill in batch pending. Please clear those pending bills and try again "  এবং অফিসার এর ক্ষেত্রে "employee has bill for officers pending. Please clear those pending bills and try again" এই ক্ষেত্রে করণীয় কি?
+    - Release an employee screen e kono kormocharike release korar somoy - staff er khetre error message prodorshito hoi "employee has staff pay bill in batch pending. Please clear those pending bills and try again" ebong officer er khettre error message prodorshito hoi "employee has bill for officers pending. Please clear those pending bills and try again"  ei khettre koronio ki ?
+- intent: ques_167
+  examples: |
+    - কোনো SDO(Self Drawing Officer)  হিসাবে বেতন বিল দাখিলের পর দেখা গেলো তিনিই সংশ্লিষ্ট অফিস এর ডিডিও. এই ক্ষেত্রে করণীয় কি ?
+    - kono SDO hisabe beton bill dhakhiler por dekha gelo tinie songslisto office er DDio. ei khetre koronio ki ?
+- intent: ques_168
+  examples: |
+    - iBAS++  একজন কর্মকর্তার NID (Pay Fixation এর সাথে মিল রেখে) সংশোধনের প্রক্রিয়া কি ?
+    - ekjon kormokortar NID (Pay Fixation er sathe mil rekhe) songshodhoner prakriya ki ?
+- intent: ques_169
+  examples: |
+    - iBAS++  একজন কর্মকর্তার একাধিক NID থাকলে করণীয় কি?
+    - ibas++ e ekjon kormokorta ekadhik NID thakle koronio ki?
+- intent: ques_170
+  examples: |
+    - Employee Status স্ক্রীন  কেন্ ব্যবহার করা হয়?
+    - Employee Status screen ken bebohar kora hoi?
+- intent: ques_171
+  examples: |
+    - ডিডিও কর্তৃক Budget Execution --> Master Data  তে কোনো কর্মচারির NID এর সপক্ষে স্টাফ ইনফরমেশন এন্ট্রি তে তথ্য এন্ট্রি করার সময় error মেসেজ প্রদর্শিত হয় Invalid NID with DOB  এই ক্ষেত্রে করণীয় কি  ?
+    - ddo kortik Budget Execution --> Master Data te kono kormocharir NID er Sapkhe Staff Information Entry te totya entry korar somoy error message prodorshito hoi  “Invalid NID with DOB” ei khetre koronio ki ?
+- intent: ques_172
+  examples: |
+    - একজন Employee (Personal, Family & Bank)এর তথ্য এন্ট্রির পর সেভ বাটনে ক্লিক করার সময় এরর মেসেজ প্রদর্শিত হয় ‘Invalid date’. এই ক্ষেত্রে করণীয় কি?
+    - ekjon Employee (Personal, Family & Bank) er totty entrir por save buttone click korar somoy error message prodorshito hoi. ei khetre koronio ki?
+- intent: ques_173
+  examples: |
+    - iBAS++ এ একজন এমপ্লয়ী এর তথ্য Approve করার পর তার নিজের পিত/মাতার নাম সংসদন এর জন্য করণীয় কি?
+    - ibas++ e ekjon employee er totty approve korar por tar nijer pita/matar naam songshodon er jonno koronio ki?
+- intent: ques_174
+  examples: |
+    - iBAS++  এ তথ্য এন্ট্রি করার সময় ‘First joining date/office not found in Pay Fixation’ মেসেজ প্রদর্শিত হলে করণীয় কি?
+    - iBAS++ e totty entry korar somoy first joining date not found message prodorshito hole koronio ki ?
+- intent: ques_175
+  examples: |
+    - iBAS++ এ তথ্য এন্ট্রি করার সময় কোনো কর্মচারীর স্বামী/স্ত্রী এর NID না থাকলে করণীয় কি?
+    - iBAS++ e totya entry korar somoy kono kormocharir shami/stri er NID na thakle koronio ki?
+- intent: ques_176
+  examples: |
+    - 3111306- এডুকেশন এলাউন্স এর ক্ষেত্রে সন্তানের বয়স (৫-২৩) হলে, কিন্তু মা বাবা দুইজনেই সরকারি কর্মচারী হলে সন্তানের শিক্ষা ভাতা প্রাপ্যতার ক্ষেত্রে করণীয় কি?
+    - 3111306-education allowance er khetre sontaner boys (5-23) hole, kintu ma baba duijonei sorkari kormochari hole sontaner shikkha vata prappotar khetre koronio ki?
+- intent: ques_177
+  examples: |
+    - মাস্টার ডাটা তে কোনো কর্মচারির NID এর সাপেক্ষে Employee Information Entry/Staff Information Entry (New) Error মেসেজ প্রদর্শিত হয়. ‘Your pay point is not matched with the pay fixation of this employee. Please check the fixation or contact with Account office to his fixation.’ তে তথ্য এন্ট্রি করার সময় এরর মেসেজ প্রদর্শিত হয়. এই ক্ষেত্রে করণীয় কি?
+    - Master data te kono kormocharir NID er shapekkhe Employee information entry te totya entry korar somoy error message  ‘Your pay point is not matched with the pay fixation of this employee. Please check the fixation or contact with Account office to his fixation.’  prodorshito hoi. ei khetre koronio ki?
+- intent: ques_178
+  examples: |
+    - মাসের মাঝামাঝি সময় যে কেউ চাকুরীতে যোগদান করলে ibas++ থেকে বেতন প্রাপ্তির প্রক্রিয়া কি?
+    - masher majhamaji somoy e keu cakurite jogdan korle ibas++ theke beton praptir prakriya ki?
+- intent: ques_179
+  examples: |
+    - কর্মচারীর তথ্য আগে এন্ট্রি করতে হবে নাকি গ্রুপ আগে তৈরী করতে হবে?
+    - kormocharir totya aage entry korte hbe naki group aage toiri korte hbe?
+- intent: ques_180
+  examples: |
+    - এমপ্লয়ী স্যালারী ইনফরমেশন এ বেতন ভাতা এবং কর্তনে অর্থনৈতিক কোডের বিপরীতে টাকার তথ্য দেওয়া আছে - এই ক্ষেত্রে করণীয় কি?
+    - Employee salary information e beton vata ebong kortone orthonoitik koder biporite takar totya deoaa ache kintu beton bill e ta prodorshon kore na.ei khetre koronio ki?
+- intent: ques_181
+  examples: |
+    - অনলাইন এ বেতন বিল সাবমিট করার সময় একজন কর্মকর্তা তার Salary month খুঁজে পাচ্ছেন না , এই ক্ষেত্রে করণীয় কি?
+    - online e beton bill submit korar somoy ekjon kormokorta tar salary month khuje pacchen na , ei khetre koronio ki?
+- intent: ques_182
+  examples: |
+    - অনলাইন এ বেতন বিল সাবমিট করার পর একজন কর্মকর্তা জানতে পারলেন বেতন বিলটি তার ডিডিও এর ID তে ফরওয়ার্ড করার জন্য খুঁজে পাওয়া যাচ্ছে না, এই ক্ষেত্রে করণীয় কি?
+    - online e beton bill submit korar por ekjon kormokorta jante parlen beton bilti tar ddo er id te forward korar jonno khuje paoaa jache ne, ei khetre koronio ki?
+- intent: ques_183
+  examples: |
+    - PRL বিল কিভাবে এন্ট্রি দিতে হয়?
+    - PRL bil kivabe entry dite hoi?
+- intent: ques_184
+  examples: |
+    - Master Data → Service Stage Management কি?
+    - Master Data → Service Stage Management ki?
+- intent: ques_185
+  examples: |
+    - Partial Bill কি?
+    - Partial Bill ki?
+- intent: ques_186
+  examples: |
+    - Map Office with Region এবং  Map Employee with Region কখন ব্যবহার করতে হয়?
+    - Map Office with Region ebong Map Employee with Region kokhon bybohar korte hoi ?
+- intent: ques_187
+  examples: |
+    - সন্তানের জন্ম নিবন্ধন না থাকলে তার নাম অ্যাড করা যাবে কিনা?
+    - Sontaner jonmo nibondhon na thakle tar naam add kora jabe kina?
+- intent: ques_188
+  examples: |
+    - ভবিষ্যৎ তহবিলে নমিনির নাম পরিবর্তন করা যাবে কিনা?
+    - vobishyot tohobile nominir naam poriborton kora jabe kina?
+- intent: ques_189
+  examples: |
+    - একজন কর্মকর্তার বেতন বিলের যে কোনো তথ্য পৰিবৰ্তন করার পর সেভ বাটন এ ক্লিক করলে এরর মেসেজ ‘Basic amount does not match with pay fixation amount’ ’প্রদর্শিত হয়, এই ক্ষেত্রে করণীয় কি?
+    - ekjon kormokortar beton biller je kono totya proiborton korar por save button e click korle error message ‘Basic amount does not match with pay fixation amount’ prodorshito hoi, ei khetre koronio ki?
+- intent: ques_190
+  examples: |
+    - যদি কোনো কর্মকর্তা জুলাই মাসে তার বেতন বিল GPF এর চাঁদা হ্রাস/বৃদ্ধি করতে চান সেক্ষেত্রে করণীয় কি?
+    - jodi kono kormokorta july mashe tar beton bill GPF er chandaa hrash/briddhi korte chan sekhetre kornio ki?
+- intent: ques_191
+  examples: |
+    - যদি কোনো কর্মকর্তা তার বেতন বিল GPF এর চাঁদা কর্তন করতে না চান সেক্ষেত্রে করণীয় কি?
+    - jodi kono kormokorta tar beton bill GPF er chandaa korton korte na chan sekhetre kornio ki?
+- intent: ques_192
+  examples: |
+    - কেউ যদি GPF এর ইন্টারেস্ট দিতে না চান তাহলে কি করবেন?
+    - keu jodi GPF er interest dite na chan tahole ki korben?
+- intent: ques_193
+  examples: |
+    - অনলাইন এ বেতন বিল দাখিলকারী একজন কর্মকর্তা বেতন বিলের রিপোর্ট এ দেখলেন বাংলায় নাম সঠিকভাৱে প্রদর্শিত হচ্ছে না, এই ক্ষেত্রে করণীয় কি?
+    - online e beton bill dakhilkari ekjon kormokorta beton biller report e dekhlen banglai naam sothikvhabe prodorshito hocche na, ei khetre koronio ki?
+- intent: ques_194
+  examples: |
+    - Master    Data-->Employee    Management-->Employee   Salary   Information  একজন কর্মকর্তার বেতন বিল কনফিগারেশন এর সময় ডেডুকেশন অংশে BF, GI এবং stamp duty entry অ্যাড করতে হবে কিনা?
+    - Master    Data-->Employee    Management-->Employee   Salary   Information - e ekjon kormokortar beton bill configuration er somoy deduction ongshe BF,GI ebong stamp duty entry add korte hbe kina?
+- intent: ques_195
+  examples: |
+    - যদি কোনো কর্মকর্তা (পেনশনে নিযুক্ত CGDF অংশের) BF/GI বেতন বিল হতে কর্তন করতে না চান তাহলে কি করবেন?
+    - jodi kono kormokorta (pensione nijukto C G D F ongsher) beton bill hote korton korte na chan tahole ki korben?
+- intent: ques_196
+  examples: |
+    - হিসাবরক্ষণ অফিসার চেক ইনফরমেশন অন্য হিসাবরক্ষণ অফিস বহুলক্রমে দিয়ে ফেলেছে, এই ক্ষেত্রে করণীয় কি?
+    - hisabrokkhon officer cheque information onya hisabrokhon office vhulkrome diey feleche, ei khetre koronio ki?
+- intent: ques_197
+  examples: |
+    - এক টোকেনের চেক ভুল করে অন্য টোকেনে এন্ট্রি করে ফেলেছেন, এইক্ষেত্রে কিভাবে সঠিক টোকেন যে সঠিক চেক এন্ট্রি করবেন?
+    - ek tokener cheque vul kore onya tokene entry kore felechen, eikhetre kivabe sothik token e sothik cheque entry korben?
+- intent: ques_198
+  examples: |
+    - চেকের ইসু তারিখ পরিবর্তন করতে হলে কি করবো?
+    - chequer issue tarikh poriborton korte hole ki korbo?
+- intent: ques_199
+  examples: |
+    - একটি চেক ক্যানসেল করা হলে, সেক্ষেত্রে ঐ টোকেনে আর একটি চেক এন্ট্রি করা যাবে কিনা?
+    - ekti cheque cancel kora hole, sekhetre aoi tokene ar ekti cheque entry kora jabe kina?
+- intent: ques_200
+  examples: |
+    - চেক এর এডভাইস পাওয়া যায় না বলে বাংলাদেশ ব্যাংক থেকে চেক ফেরত এসেছে, এক্ষেত্রে করণীয় কি?
+    - cheque er advice paoa jai na bole bangladesh bank theke cheque ferot esheche, ekhetre koronio ki?
+- intent: ques_201
+  examples: |
+    - একজন কর্মকর্তা জানালেন যে, বেতন বিলের EFT এর SMS পান নি, এক্ষেত্রে কি করবেন?
+    - ekjon kormokorta janalen je, beton biller EFT er sms pan ni, eikhetre ki korben?
+- intent: ques_202
+  examples: |
+    - GPF ফাইনাল পেমেন্ট বিল এন্ট্রি দেওয়ার সময় জেনারেট বাটন এ ক্লিক করে দেখা গেল ক্লোসিং ব্যালান্স শূন্য প্রদর্শিত হচ্ছে, এক্ষেত্রে কি করবেন?
+    - GPF final payment bill entry deoar somoy generate button e click kore dekha gelo closing balance shunno prodorshito hocche, ekhetre ki korben?
+- intent: ques_203
+  examples: |
+    - কিভাবে ডিডিও এর তথ্য এডিট করবেন?
+    - kivabe ddio er totya edit korben?
+- intent: ques_204
+  examples: |
+    - অনলাইন এ বেতন বিল দাখিলকারী একজন কর্মকর্তা জানালেন যে উনার বিলের টাকার অংক ভুল আছে বিধায় বিল রিটার্ন করতে হবে. সেক্ষেত্রে কিবহবে বিল রিটার্ন করবেন?
+    - online e beton bill dakhilkari ekjon kormokorta janalen je unar biller takar onko vul ache bidhai bill return korte hbe. sekhetre kivhabe bill return korben?
+- intent: ques_205
+  examples: |
+    - অনলাইন এ দাখিলকৃত কর্মচারীর টোকেন কিভাবে খুঁজে পাবেন?
+    - online e dakhilkrito kormocharir token kivabe khuje paben?
+- intent: ques_206
+  examples: |
+    - DDO অনলাইনে দাখিলকৃত বেতন বিল পাঠাতে গিয়ে একাউন্টিং Month পাচ্ছেন না, এক্ষেত্রে কি করবেন?
+    - DDO online dakhilkrito beton bill pathate giey accounting month pacchen na, ekhetre ki korben?
+- intent: ques_207
+  examples: |
+    - বিল এপ্প্রভ হইয়াছে তারপর ও বিল ফেরত দেওয়ার প্রয়োজন হলে কি করবেন?
+    - bill approve hoeiyche tarpor o bill ferot deoar proiojon hole ki korben?
+- intent: ques_208
+  examples: |
+    - মাস্টার রোলে কর্মরত কর্মচারীদের বেতন কিভাবে হয়?
+    - master role kormoroto kormocharider beton kivabe hoi?
+- intent: ques_209
+  examples: |
+    - বেতন বিল দাখিল করার সময় একজন কর্মকর্তা দেখলেন যে উনার গৃহ নির্মান রিনের আসল এবং সুদ উভয কর্তন হয়েছে কিন্তু শুদু সুদের কিস্তি কর্তন হবে . এক্ষেত্রে কি করবেন?
+    - beton bill dakhil korar somoy ekjon kormokorta dekhlen je unar griho nirman riner asol ebong sud uvho korton hoieyche kintu shudu suder kisti korton hbe . ekhetre ki korben?
+- intent: ques_210
+  examples: |
+    - ১৯৭৬ সালের বেতন স্কেল অনলাইনে এন্ট্রি করা যাই না কেন?
+    - 1976 saler beton scale online e entry kora jai na keno?
+- intent: ques_211
+  examples: |
+    - চলতি দায়িত্বর ক্ষেত্রে দায়িত্ব ভাতার বরাদ্দ না থাকলে দাইত্ত ভাতা এন্ট্রি দেওয়া যাবে কিনা?
+    - cholti daeittor khetre daeitto vatar boraddo na thakle daietto vata entry deoa jabe kina?
+- intent: ques_212
+  examples: |
+    - একজন কর্মকর্তার প্রথম মাসের বেতন এবং PRL বেতন প্রদানের জন্য করণীয় কি?
+    - ekjon kormokortar prothom masher beton ebong PRL beton prodaner jonno koronio ki?
+- intent: ques_213
+  examples: |
+    - NID তে নাম ঠিক থাকা সত্তেও মাস্টার ডাটা তে নাম ভুল থাকলে নাম কারেকশন করার পদ্ধতি কি?
+    - NID te naam thik thak sotteo master data te naam vul thakle naam correction korar poddhoti ki?
+- intent: ques_214
+  examples: |
+    - কর্মকর্তার Bank/Mobile information correction কারেকশন করার প্রয়োজন হলে কে কোন পদ্ধতিতে করবে?
+    - kormokorta bank/mobile  information correction korar proyojon hole ke kon poddhotite korbe?
+- intent: ques_215
+  examples: |
+    - এমপ্লয়ী এর Designation ভুল থাকলে অথবা পরিবর্তন করার প্রয়োজন হলে তার পদ্ধতি কি?
+    - Employee er designation vul thakle othoba poriborton korar proiojon hole tar poddhti ki?
+- intent: ques_216
+  examples: |
+    - এমপ্লয়ী এর এডুকেশন এলাউন্স অ্যাড/রিমুভ করার প্রয়োজন হলে করণীয় কি?
+    - Employee er education allowance add/remove korar proyojon hole koronio ki?
+- intent: ques_217
+  examples: |
+    - সার্ভিস স্টেজ ম্যানেজমেন্ট মেনুতে এটাচমেন্ট এন্ট্রি অন্য কখন প্রয়োজন হয়?
+    - service stage management menute attachment entry onya kokhon proyojon hoi?
+- intent: ques_218
+  examples: |
+    - একজন কর্মকর্তার বিল সাবমিশন এর সময় No data found  হলে কি করা উচিত?
+    - ekjon kormokortar bill submission er somoy no data found hole ki kora uchit?
+- intent: ques_219
+  examples: |
+    - GPF Vol. No/Page Entry/Interest Exclude করতে কি করা প্রয়োজন অথবা ৫২ বছর পর GPF কর্তন করতে না চাইলে কি করনীয়?
+    - GPF Vol. No/Page Entry/Interest Exclude  korte ki kora proyojon othoba 52 bochor por GPF  korton korte na caile ki koronio?
+- intent: ques_220
+  examples: |
+    - পেনশন গমনের পর একজন কর্মকর্তার বকেয়া বেতন প্রদান করার পদ্ধতি কি?
+    - pension gomoner por ekjon kormokortar bokeya beton prodan korar poddhoti ki?
+- intent: ques_221
+  examples: |
+    - পে-ফিক্সেশন মডিউলে প্রথম নিয়োগ, অফিস, মোবাইল নম্বর, পদবি পরিবর্তন করার জন্য কার কি করণীয়?
+    - Pay-fixation module prothom niog, office, mobile number , podobi poriborton korar jonno kar ki koronio?
+- intent: ques_222
+  examples: |
+    - Loans and Advance Entry/correction করার পদ্ধতি?
+    - loan and advance entry/correction korar poddhoti?
+- intent: ques_223
+  examples: |
+    - কোনো কর্মকর্তা এক চাকুরী হতে অন্য চাকুরিতে যোগদানের পর তার GPF  জমাসহ অন্যান্য বকেয়া কিভাবে প্রদান করতে হবে?
+    - kono kormokorta ek cakuri hote onya cakurite jogdaner por tar GPF jomasho onanya bokeya kivabe prodan korte hbe?
+- intent: ques_224
+  examples: |
+    - সুদমুক্ত গাড়ি ঋণ, বিল পরিশোধ, প্রক্রিয়া?
+    - sudhmukto garir rin, bill parishod prokriya?
+- intent: ques_225
+  examples: |
+    - হাউস বিল্ডিং লোন, বিল এন্ট্রি অ্যাডভান্স, এন্ট্রি, এডিট ইত্যাদি।
+    - House Building Loan, Bill entry Advance, Entry, Edit er khetre koronio ki?
+- intent: ques_226
+  examples: |
+    - Authorization এর বাজেট এর টোকেন/Bill  কিভাবে এন্ট্রি করা হয়?
+    - authorization er budget er token kivabe entry kora hoi?
+- intent: ques_227
+  examples: |
+    - এমপ্লয়ী এর NID কখন, কেন প্রয়োজন হয়?
+    - employee er information kokhon, keno proyojon hoi?
+- intent: ques_228
+  examples: |
+    - গ্যাসের বিলের ক্ষেত্রে কোড না পেলে কোন কোড Entry করবে?
+    - gaser biller khetre code na pele kon code entry korbe?
+- intent: ques_229
+  examples: |
+    - ডিডিও হিসেবে ইউসার জয়েনিং অথবা রিলিজ করার পদ্ধতি কি এবং ডিডিও ইউসার রেজিস্ট্রেশন কিভাবে করবে?
+    - DDIO hisebe User joining othoba release korar poddhoti ki? ebong DDIO user registration kivabe korbe?
+- intent: ques_230
+  examples: |
+    - কর্মকর্তার মৃত্যুতে নতুন ডিডিও নিয়োগ করা হয় সেক্ষেত্রে মৃত কর্মকর্তার পেমেন্ট পদ্ধতি কি?
+    - kormokortar mritute notun DDIO niog kora hoi sekhetre mrito kormokortar payment poddhoti ki?
+- intent: ques_231
+  examples: |
+    - ডিডিও এর মোবাইল নম্বর পরিবর্তন করার প্রয়োজন আছে কি? থাকলে কেন এবং কি করণীয়?
+    - DDIO er mobile number poriborton korar proyojon ache ki? thakle keno ebong ki koronio?
+- intent: ques_232
+  examples: |
+    - Many times when you want to enter the bill on the computer, the budget shows insufficient.  Office code 10703051011140 Office code (1360101xxxxxxx) Operation code 120002401 Economic code 3256107, it shows insufficient budget while posting the bill. &#10; The bill cannot be paid
+- intent: ques_233
+  examples: |
+    - Can the bill be passed after bad allocation and deduction?
+- intent: ques_234
+  examples: |
+    - UAO office bills were passed in July/18 and August/18. Now how to show the expenses against the concerned office?
+- intent: ques_235
+  examples: |
+    - Authority CAO office need to endrose?
+- intent: ques_236
+  examples: |
+    - Upazila Parishad money will be paid how?
+- intent: ques_237
+  examples: |
+    - Why is there a different code for upazila parishad salary sheet and government employee salary sheet?
+- intent: ques_238
+  examples: |
+    - Why is Salary and Wages used instead of Salaries and Allowances of Government Employees in Group Level?
+- intent: ques_239
+  examples: |
+    - What is the difference between outsourcing and outsourcing?
+- intent: ques_240
+  examples: |
+    - What kind of employees are primary school officials?
+- intent: ques_241
+  examples: |
+    - 59 years officer/employee increment can be given?
+- intent: ques_242
+  examples: |
+    - How can freedom fighters be identified?
+- intent: ques_243
+  examples: |
+    - 1250101137952- 3911111 code of Secretariat, Secondary and Higher Education Department is not available.
+- intent: ques_244
+  examples: |
+    - Economic codes are not available in various organizational codes.
+- intent: ques_245
+  examples: |
+    - Manager Sonali Bank Ambari Branch LSD, Directorate of Food Parvatipur, Dinajpur, Institutional Code-148020713111, Operation- Food Procurement and Distribution Activities- Domestic Food Procurement. Economic code- 3221108, 4124101 not available.
+- intent: ques_246
+  examples: |
+    - Allotment of 1090301101438 CGA Office and 1090305101758 UAO/Chitalmari, Bagerhat, Financial Code 3257301 is not available.
+- intent: ques_247
+  examples: |
+    - Office code (1370101xxxxxx) (221000400) does not have economic code in allotment letter.
+- intent: ques_248
+  examples: |
+    - Code range is not available for token entries.
+- intent: ques_249
+  examples: |
+    - In case of development project bill payment, economic code is not available during bill entry even if token is given with bill type Wages to non government employees.
+- intent: ques_250
+  examples: |
+    - Previous iBAS System had Code permission system. In this, the bill could be passed immediately by opening the code as required by DDO, but due to the lack of Code permission system in the current iBAS system, emergency grant bills cannot be passed. In this case, it is necessary to have Code permission system in iBAS System.
+- intent: ques_251
+  examples: |
+    - Economic Code is not available while making project working bill entry.
+- intent: ques_252
+  examples: |
+    - No economic code can be obtained in the bill entry after paying the token in the type of others deposit with the DDO of the upazila election officer of the election office deposit return (member/chairman) bill.
+- intent: ques_253
+  examples: |
+    - Economic code for deposit refund is not available. Office code (1370101xxxxxx) (221000400) What will be the bill type while issuing security deposit b token and what will be the economic code for withdrawal of security deposit of that code.
+- intent: ques_254
+  examples: |
+    - How/where the upazila police investigation bill will be paid.
+- intent: ques_255
+  examples: |
+    - OC's TA bill was earlier paid by District Accounts Office through link with DDO from District Baradh. At present, payments cannot be made from different upazilas.
+- intent: ques_256
+  examples: |
+    - Paying outstanding salary bills has no economic code.
+- intent: ques_257
+  examples: |
+    - Old code - 7-3705-3609-9326 Upazila Parishad house rent cannot be paid.  8113110 code is not available instead of economic code 9326 to pay the council house rent bill.
+- intent: ques_258
+  examples: |
+    - Organization Code – 10703051011092, Economic Code – 1441202 – (Collection of additional receivables) is not available.  Over: Deduction code not available. Economic code for deposit of excess receipts in government treasury is not available. Code for deduction of excess receipts from pensioner's monthly pension is not available.
+- intent: ques_259
+  examples: |
+    - Abolished Ministries: 1. 02,04,18/2. 19,26,32,47 / 3. Bills 54,56,63,65/ 72,73,74 do not have any instructions on which ministry to enter.
+- intent: ques_260
+  examples: |
+    - VAT & IT code is not available in all DDOs.&#10; Women and Child Abuse Tribunal Bill Posting No VAT & IT code. &#10; Food Replenishment Bill Commission Bill VAT, Income Tax Economic Code 3211108 is not available. &#10; Old Code 3-0401-0001-5811 New Code 1070302-3631101 VAT Deduction Code not available from DDO-DC Bill.&#10; VAT Deduction Code not available from Travel Expense Bill. &#10;
+- intent: ques_261
+  examples: |
+    - Not having Economic Code in Bill Entry, not having known option, many times penalty is deducted from security bill, have to pay to get back due to penalty, problem in bill entry due to lack of Economic Code of deduction. &#10; It is necessary to have Economic Code system by deducting penalty/income tax/VAT from bail bill many times. &#10; Insufficient Budget is seen while passing bail bill. &#10;
+- intent: ques_262
+  examples: |
+    - Missing Supplier in Telephone Bill Entry: Supplier Option is not available if DDO Option is present. &#10;
+- intent: ques_263
+  examples: |
+    - ID is not available in Upazila Health Complex, Tangail Sadar Office. &#10;
+- intent: ques_264
+  examples: |
+    - Errors in the receipt code cannot be corrected. Must have correction option. &#10; Can rectification be done if invoice amount is deposited in wrong code?&#10;
+- intent: ques_265
+  examples: |
+    - Book Traansfer Entry In this option allocation for ration material is available in District Jail, Jera Ansar and VDP and Superintendent of Police offices. Which through Book Transfer Entry debit and credit food sector (Rice+Wheat) in concerned office code, but the said options are not available.&#10;
+- intent: ques_266
+  examples: |
+    - iBAS++ District Police, Muktijoddha and NSI office ration material allocations available in PL sector through Book Traansfer showing deposit and expenditure. But the said code is not available.&#10;
+- intent: ques_267
+  examples: |
+    - Book transfer has to do bill entry by entering token with zero value. But no payment can be issued. This option is not enabled.
+- intent: ques_268
+  examples: |
+    - Code is not available against previous economic code-8421 while making bill book adjustment of ration purchase of police force. &#10; Code is not available for making police ration allowance BT.&#10;
+- intent: ques_269
+  examples: |
+    - Economic code 3211119 is not available in Book transfer.&#10;
+- intent: ques_270
+  examples: |
+    - Land development tax money cannot be BT.&#10;
+- intent: ques_271
+  examples: |
+    - Unable to receive and transmit LPC related to GIFF in book transfer entry.&#10;
+- intent: ques_272
+  examples: |
+    - In case of Postal Book adjustment, new office code of 3-5431-xxxx-3211 has come.&#10;
+- intent: ques_273
+  examples: |
+    - Pension Gratuity Payment Code not available.&#10;
+- intent: ques_274
+  examples: |
+    - Unable to pay BTCL monthly pension.&#10; Unable to open BTCL pensioner ID from outside.&#10;
+- intent: ques_275
+  examples: |
+    - Unable to pay Pension Replenishment Bill.&#10;
+- intent: ques_276
+  examples: |
+    - If the new pension case is for the financial year 2015-16, in this case Pension Strat From 2015-16 option is not given.
+- intent: ques_277
+  examples: |
+    - CAO- transferred from Swarasht to DAO/Noakhali currently data comes to issue 5% increased pension report. And cannot re-enter data.&#10;
+- intent: ques_278
+  examples: |
+    - In the case of any officer/employee's satisfaction payment, after entering the officer's/employee's information in Pensioner Management Pensioner Information, save the Mobile number. Already Exist Massage is observed, resulting in officer/employee satisfaction not being paid. &#10;
+- intent: ques_279
+  examples: |
+    - Will not the bill of salaries and allowances of development sector officers/employees be paid from Contingent Staff economic code? Wages to non government employee will be given from the economic code, it is necessary to give clear instructions.&#10;
+- intent: ques_280
+  examples: |
+    - But he has to pass the bill in the detailed code of the project code, wages to non government employees, what should be done in this case?
+- intent: ques_281
+  examples: |
+    - Report Menu Register 04, Register of payment & Recoveries (Office wise), Summary (DDO wise) Summary (Office wise) against each code displayed must have contact. Like- Office code-: 1090305101747-Upazila Accounts Office Basail Tangail.&#10;
+- intent: ques_282
+  examples: |
+    - In the auto generate system, the amount of GPF deducted by gazetted officers does not show the GPF contribution in the report option. Also, what is the way to understand whether the GPF calculation of non-gazetted officers is correct?&#10;
+- intent: ques_283
+  examples: |
+    - Cost calculation is not displayed from Progress Report. &#10; iBAS++ system does not have option to view budget of users special, support and development. &#10;
+- intent: ques_284
+  examples: |
+    - The progress report does not show the budget allocation for projects and autonomous sectors as per previous rules, but can be provided, how can the budget be seen?&#10;
+- intent: ques_285
+  examples: |
+    - Issue of GPF accounts slips of officers through online as well as issuance of GPF accounts slips of non-gazetted employees through online should be implemented very soon.&#10;
+- intent: ques_286
+  examples: |
+    - GPF and Long Term Debt Deduction shows both General Activity and Public Fund Management and shows double deduction.&#10; 124,125,146 Ministries DPF, Long Term Debt Deduction showing duble or nill.&#10;
+- intent: ques_287
+  examples: |
+    - House rent deduction code must be there against all the departments in which there is a house. For example - B, S quarters of agriculture department, house rent deduction of animal husbandry department, house rent deduction of upazila family planning office, house rent deduction of food department.
+- intent: ques_288
+  examples: |
+    - From where all employees/officers who are against CAO/CGA will draw salary/allowances.&#10;
+- intent: ques_289
+  examples: |
+    - An auditor is employed against the CAO education. But at the time of payment of his salary allowance, CAO education code is not available and salary allowance has been paid against UAO Baghar Para. Which is not correct so it is necessary to link the CAO education code.&#10;
+- intent: ques_290
+  examples: |
+    - Old code -3-3705-3611-2300 office of the CEO, District Council, Manikgonj, new office ID 06 digit no.&#10;
+- intent: ques_291
+  examples: |
+    - What is the difference between travel expenses and domestic travel? &#10; What is the average similarity between hard copy and online soft copy? (VDP)&#10;
+- intent: ques_292
+  examples: |
+    - There is no mechanism to journalize errors.&#10; Paid a bill in one bill type and what went wrong cannot now be journalized in multiple bill types.&#10;
+- intent: ques_293
+  examples: |
+    - How to enter Bank Summary monthly?  How to import debit scroll?  How to import, edit and upload credit scroll.
+- intent: ques_294
+  examples: |
+    - Accounts: Debit scroll and Credit scroll not opened, receipt &#10;code cannot be modified.&#10;
+- intent: ques_295
+  examples: |
+    - In case of receipt of government money received directly from the bank, money is being deposited in the challan as per the previous rule, but the amount deducted from the bill (VAT/IT) has to be entered in the new rule.
+- intent: ques_296
+  examples: |
+    - Sub-Registry Office Duplicate Parishad Remuneration Sector-Honorary Allowance (Except Government Employees) Blocked hard copy and online soft copy but not in B type, token and bill entry given in different honorarium sector despite incorrect economic code, how to enter bill Was it given?&#10;
+- intent: ques_297
+  examples: |
+    - Ministry under Ministry of Textiles and Jute is available, Directorate of Jute is available, but Pabna Jute Office is not available to appoint office at field level. In general no jute office is available in Rajshahi division.&#10;
+- intent: ques_298
+  examples: |
+    - In the case of applying for a job, even if the invoice submission code is given, the money cannot be deposited in the bank.&#10;
+- intent: ques_299
+  examples: |
+    - In case of partial payment, what will be the type of outstanding pay bill? Deduction option on the pay bill. &#10;
+- intent: ques_300
+  examples: |
+    - How to monetize residential telephone and internet.&#10;
+- intent: ques_301
+  examples: |
+    - How to determine DDO of Prime Minister's grant?
+- intent: ques_302
+  examples: |
+    - What to do if multiple DDOs are open?&#10; How to Deactivate unused DDOs?&#10;
+- intent: ques_303
+  examples: |
+    - Who will perform the duty of DDO to pay the salary of Primary School Office Assistant.&#10;
+- intent: ques_304
+  examples: |
+    - DDO of Union Land Office is also not available.&#10;
+- intent: ques_305
+  examples: |
+    - 3-7351-0015-DDO Senior District Supt in Old Office Code. 1735100152500 - 120002908 No DDO in new code.&#10;
+- intent: ques_306
+  examples: |
+    - DDO cannot be linked for payment of development project bills.&#10;
+- intent: ques_307
+  examples: |
+    - Washing allowance/DPF not available on some DDOs. Again, GPF code has to be re-entered in some DDO. &#10; GPF is not available when DDO is opened in new office. So it has to be renewed. What to do in this case?
+- intent: ques_308
+  examples: |
+    - Even after editing the DDO, the economic code is not available.&#10;
+- intent: ques_309
+  examples: |
+    - District/Upazila/Municipality/Parishad has DDO problem in deposit payment.&#10; Institutional code-1460104xxxxxx has no DDO office link.&#10;
+- intent: ques_310
+  examples: |
+    - There are multiple DDOs under the same office code in online paybill and officer multiple DDO is set. Due to which DDO cannot send bill.&#10; ID problem in online pay bill.&#10;
+- intent: ques_311
+  examples: |
+    - Who will be the DDO in case of payment to Municipal/Zilla Parishad? &#10; In case of DDO, DDO has to be done against the project. Because there is no post of revenue in all those institutions in autonomy.&#10;
+- intent: ques_312
+  examples: |
+    - What to do if gazetted officer double entry?&#10;
+- intent: ques_313
+  examples: |
+    - How to pay driver's salary?&#10;
+- intent: ques_314
+  examples: |
+    - If the amount of money in the token entry is wrong, it cannot be edited later.&#10; The token of the project office cannot be edited.&#10; The code range is not available in the case of token entry.&#10;
+- intent: ques_315
+  examples: |
+    - GPF interest entry for non-opening in FY 2017-18 is not going.&#10;
+- intent: ques_316
+  examples: |
+    - LPC Entry: No option given in Receipt/Issue.&#10;
+- intent: ques_317
+  examples: |
+    - Having trouble sending APC. Which in most cases is causing problem by the concerned pay point.&#10; LPC does not come to the sending audit office for any reason but does not see the dispatch and the sending audit office as the increased salary is attached.&#10;
+- intent: ques_318
+  examples: |
+    - After entering and saving the opening balance of GPF in the fiscal year 2018-19, go to GPF Report menu and run the report in GPF Sub-Ledger or GPF Accounts Slip, the opening balance of GPF in the fiscal year 2018-2019 is not visible. As a result it is not possible for officials to issue LPC online by updating GPF during LPC issue.  It is not possible to pay the GPF Final Payment of officers in the financial year 2018-19. The matter needs to be resolved quickly.&#10;
+- intent: ques_319
+  examples: |
+    - In some cases the GPF contribution is not displayed while passing the pay bill of the officers&#10; After renewing the DDO as per instructions and the GPF contribution is not displayed.&#10; Even after fixing in July/18 August/18 The same incident repeated itself in the month.&#10;
+- intent: ques_320
+  examples: |
+    - Since 2 gazetted officers have double NID (Rubina Cooperative Academic Super), it is coming double during token entry, how to remove the wrong one by keeping the correct one. &#10; After transfer of 1 officer (Shafiqul Islam THA) his information is coming in ERID other than the NID released (in this sector) what is the way to cancel it?&#10;
+- intent: ques_321
+  examples: |
+    - How is iBAS++ entry for future fund interest free?&#10;
+- intent: ques_322
+  examples: |
+    - Various problems are arising in the bill side against the allocation of Special Activities and Support Activities. &#10; Even though the budget distribution is done from the department, the budget is not available in the specific code online.&#10;
+- intent: ques_323
+  examples: |
+    - Shows information not available in case of online pay bill submission. &#10; Bill cannot be submitted.&#10;
+- intent: ques_324
+  examples: |
+    - In the case of submission of pay bill online, despite showing many zero (-) figures, it has to be re-corrected as it is submitted by the concerned officer.&#10;
+- intent: ques_325
+  examples: |
+    - Employee information gives an error to save the information of an officer in single step. &#10;
+- intent: ques_326
+  examples: |
+    - There is no code for deduction in Union Land Office/LSD.&#10;
+- intent: ques_327
+  examples: |
+    - Office code of nurses working in office of Nursing Officers (Medical College Hospital) in DCA Rajshahi is being changed to Nursing Office (Nursing Institute) code automatically, which needs to be rectified.&#10;
+- intent: ques_328
+  examples: |
+    - There is a problem in setting up the field office of the project.&#10;
+- intent: ques_329
+  examples: |
+    - Help desk filtering option is not available. &#10; Help desk assigned engineer selection is not able to find the problem. As a result, specific problems cannot be solved.
+- intent: ques_330
+  examples: |
+    - Call number/pay-point/division wise search option should be given in help desk system.&#10;
+- intent: ques_331
+  examples: |
+    - Accounting logic for radio checks is not provided. Due to which accounting office is not able to include monthly.&#10;
+- intent: ques_332
+  examples: |
+    - I am currently working in Kachua Upazila Land Office. My house rent is showing Dhaka rate, which is not correct - what is the solution? Note that I was attached to Dhaka.
+- intent: ques_333
+  examples: |
+    - Hill Allowance is not showing in my pay bill, what to do?
+- intent: ques_334
+  examples: |
+    - Hazard allowance (3111308-hazardous allowance) is not showing in my salary bill, what to do?
+- intent: ques_335
+  examples: |
+    - My arrears of the above four months salary bill is not showing online. Note that I completed data entry and online registration in IBAS++ this month. How to solve?
+- intent: ques_336
+  examples: |
+    - I have been granted 01 month earned leave on half average pay from 14/08/2022 to 13/09/2022. How does half average pay appear on the bill? My NID: 19721813135375738
+- intent: ques_337
+  examples: |
+    - When paying the salary bill, the message 'Duplicate DDO coding block mapping found for 1411202 - interest on loan to government employees' is displayed. How to solve this problem?
+- intent: ques_338
+  examples: |
+    - A message iBAS++ system is showing that previous pay/bills are pending when submitting pay bills for higher grades. How to solve?
+- intent: ques_339
+  examples: |
+    - An employee (Staff) is under suspension with effect from 03/08/2022. But while forwarding his salary bill showing full salary without showing half of his basic salary (Kharposh Bhata). What to do in this situation?
+- intent: ques_340
+  examples: |
+    - What is the solution for an employee/staff showing full basic pay after entering suspension information?
+- intent: ques_341
+  examples: |
+    - How do I change my email in the iBAS++ system?
+- intent: ques_342
+  examples: |
+    - I am an employee/staff. I want to change bank account information in iBAS++ system. How can I do?
+- intent: ques_343
+  examples: |
+    - I am a gazetted officer. I want to change bank account in iBAS++ system. how to do
+- intent: ques_344
+  examples: |
+    - When registering as an SDO, the message “You have already submitted your Ibas++ user account application which is in progress” appears on the screen. Why?
+- intent: ques_345
+  examples: |
+    - When trying to merge NID, the message “Mobile number not matched with this 2 NID/code” is displayed on the screen. What to do?
+- intent: ques_346
+  examples: |
+    - Mr. Md. Abdul Wahab, Security Guard of Goeshpur Food Warehouse under Gafargaon Upazila, has been attached to Mymensingh District Food Controller's Office, Mymensingh. When his attachment order is attached online, his traveling allowance is shown in two codes respectively Rs.300/-against Office Code No-1480204130596 and Rs.300/-against Code No.1480207131168. How to solve this problem?
+- intent: ques_347
+  examples: |
+    - I am Upazila Education Officer, Longadu, Rangamati. My NID: 19663022905111584, User ID: imamuddin67. I cannot login to iBAS++. How to solve?
+- intent: ques_348
+  examples: |
+    - When submitting the salary, the screen shows the message 'Duplicate DDO coding block mapping found for 7215104 Motor car loan'. What to do?
+- intent: ques_349
+  examples: |
+    - When an officer is transferred, it is found that he has one festival allowance remaining for the year 2020. What to do in this situation?
+- intent: ques_350
+  examples: |
+    - My advance loan and GPF deduction amount is 1500 and 20000 taka respectively, when doing partial bill the total deduction amount is showing more than my salary what is the solution?
+- intent: ques_351
+  examples: |
+    - GL for GPF subscription not found' message displayed when trying to submit my salary bill. How to solve it?
+- intent: ques_352
+  examples: |
+    - Office code: 1460404125073' is not available when trying to issue token. What to do?
+- intent: ques_353
+  examples: |
+    - While doing master data entry my religion was mistakenly entered as Muslim instead of Hindu. Can't fix it now. What is the solution?
+- intent: ques_354
+  examples: |
+    - Wrong name added in ibus due to misspelling of name in my NID. Now how can I correct the spelling of the name?
+- intent: ques_355
+  examples: |
+    - My house rent is not showing in Dhaka rates even though I am connected to Dhaka. What is the solution?
+- intent: ques_356
+  examples: |
+    - I want to change my mobile number and bank account information simultaneously. How can it be done?
+- intent: ques_357
+  examples: |
+    - What is the solution for OTP going to my other mobile number while transmitting my EFT?
+- intent: ques_358
+  examples: |
+    - Assistant Commissioner Land DDO code number 14604 not available what to do?
+- intent: ques_359
+  examples: |
+    - Washing Allowance and Conveyance Allowance are not available while submitting the pay bill despite budget allocation against Washing Allowance and Conveyance Allowance codes. what to do
+- intent: ques_360
+  examples: |
+    - I am getting the message 'Multiple user ID registered with same NID' when I want to login to ibus. What is the solution?
+- intent: ques_361
+  examples: |
+    - I currently need to change my mobile number to perform additional duties in Land Office Sherpur. How can I do?
+- intent: ques_362
+  examples: |
+    - When I go to give extra ordinary leave entry, it is not saved but shows the message 'Duration exceeds the maximum limit of normal ground'. What to do?
+- intent: ques_363
+  examples: |
+    - What to do if date of birth/name is spelled wrongly in iBAS++?
+- intent: ques_364
+  examples: |
+    - What to do if there are two types of entry in date of birth pay fixation and master data in iBAS++?
+- intent: ques_365
+  examples: |
+    - What to do if the pay scale is not available at the time of salary allowance submission in ibus?
+- intent: ques_366
+  examples: |
+    - How to update in ibus system when an officer/employee is promoted to higher grade?
+- intent: ques_367
+  examples: |
+    - During salary allowance submission in IBUS, the code of health allowance is not available, now how to input the code of health allowance in ibus system?
+- intent: ques_368
+  examples: |
+    - Can email be added to pay fixation with mobile number?
+- intent: ques_369
+  examples: |
+    - 2022-23 FY 2022-23 not seeing increased salary of mission personnel? Whether it is possible to increase the annual salary automatically?
+- intent: ques_370
+  examples: |
+    - GPF Deduction not showing during Salary Submission despite giving entry in GPF? What to do?
+- intent: ques_371
+  examples: |
+    - Error is showing while releasing employee/officer with “Employee Salary Pending” message. As a result, it cannot be released. How can I get the solution?
+- intent: ques_372
+  examples: |
+    - How to enter wage earner fee in Ibus?
+- intent: ques_373
+  examples: |
+    - How to process salary of local employees?
+- intent: ques_374
+  examples: |
+    - How to pay staff salaries?
+- intent: ques_375
+  examples: |
+    - What will be the “General Activity” Fund Selection Code for General Activity?
+- intent: ques_376
+  examples: |
+    - duplicate ddo code block mapping" error while submitting salary bill. What is the solution?
+- intent: ques_377
+  examples: |
+    - What documents should be given in case of opening additional DDO?
+- intent: ques_378
+  examples: |
+    - How to give the supplier's bill to a different bank account?
+- intent: ques_379
+  examples: |
+    - Is there an option to add supplier without TIN number?
+- intent: ques_380
+  examples: |
+    - Supplier name is fixed. How to bill under different name under the same TIN?
+- intent: ques_381
+  examples: |
+    - To login to iBAS++ “User authentication failed. Please provide valid User ID, Password and Capcha” error message. What to do?
+- intent: ques_382
+  examples: |
+    - What to do if you forget the password?
+- intent: ques_383
+  examples: |
+    - What to do if you forget User ID?
+- intent: ques_384
+  examples: |
+    - What are the conditions (format) for setting the password of User ID in iBAS++?
+- intent: ques_385
+  examples: |
+    - What to do if "First Joining Office Not Found"-Error appears while doing Master Data?
+- intent: ques_386
+  examples: |
+    - What to do if "Employee Information Not Found"-Error is displayed after logging in to Self Drawing Officer's user ID?
+- intent: ques_387
+  examples: |
+    - What to do if the OTP is not received even though the Registered Mobile No is correct?
+- intent: ques_388
+  examples: |
+    - Office code (1370101xxxxxx) (221000400) does not have economic code in allotment letter.
+- intent: ques_389
+  examples: |
+    - What to do to open a new DDO?
+- intent: ques_390
+  examples: |
+    - Do employees' salary bills have to be submitted to DDO?
+- intent: ques_391
+  examples: |
+    - How many data entries of an employee can be billed through FT?
+- intent: ques_392
+  examples: |
+    - What to do in case of employee type (officer to staff, staff to office) of an employee?
+- intent: ques_393
+  examples: |
+    - What are the reasons to bypass NID? What are the steps of NID Bypass?
+- intent: ques_394
+  examples: |
+    - What to do in editing religion information?
+- intent: ques_395
+  examples: |
+    - What to do in case of smart card number after correction of NID?
+- intent: ques_396
+  examples: |
+    - While entering the information of staff in iBAS++ error message is displayed "Employee not active in any post" What to do in this case?
+- intent: ques_397
+  examples: |
+    - DDO Budget Execution-->Staff Information Entry, Employee - Basic Information, Service Information, Salary Information, GPF Information with respect to any employee NID in master data error message is displayed “You are not authorized to view this employee” - What to do in this case What?
+- intent: ques_398
+  examples: |
+    - Release an Employee Screen While releasing any employee - error message is displayed in case of staff "Employee has staff pay bill in batch pending. Please clear those pending bills and try again" and in case of officer "employee has bill for officers pending. Please clear those pending bills and try again" What to do in this case?
+- intent: ques_399
+  examples: |
+    - After submitting the salary bill as an SDO (Self Drawing Officer), it was found that he is the DDO of the concerned office. What to do in this case?
+- intent: ques_400
+  examples: |
+    - iBAS++ What is the procedure for correction of NID (with respect to Pay Fixation) of an officer?
+- intent: ques_401
+  examples: |
+    - iBAS++ What to do if an officer has multiple NIDs?
+- intent: ques_402
+  examples: |
+    - Why is the Employee Status screen used?
+- intent: ques_403
+  examples: |
+    - Budget Execution --> Master Data by DDO while entering information in staff information entry against an employee's NID error message is displayed Invalid NID with DOB What to do in this case?
+- intent: ques_404
+  examples: |
+    - After entering the information of an Employee (Personal, Family & Bank) while clicking on the save button, the error message 'Invalid date' is displayed. What to do in this case?
+- intent: ques_405
+  examples: |
+    - After approving the information of an employee in iBAS++ what should be done for his/her own father/mother name Sangsan?
+- intent: ques_406
+  examples: |
+    - What to do if 'First joining date/office not found in Pay Fixation' message appears while entering information in iBAS++?
+- intent: ques_407
+  examples: |
+    - What to do if an employee's spouse's NID is missing while entering data in iBAS++?
+- intent: ques_408
+  examples: |
+    - 3111306- If the child is age (5-23) for education allowance, but both parents are government employees, what should be done regarding the availability of education allowance?
+- intent: ques_409
+  examples: |
+    - An Employee Information Entry/Staff Information Entry (New) Error message is displayed with respect to an employee's NID in the master data. Your pay point is not matched with the pay fixation of this employee. Please check the fixation or contact with Account office to his fixation.' error message is displayed while entering the information. What to do in this case?
+- intent: ques_410
+  examples: |
+    - What is the process of receiving salary from ibas++ if someone joins the job in the middle of the month?
+- intent: ques_411
+  examples: |
+    - Employee information should be entered first or group should be created first?
+- intent: ques_412
+  examples: |
+    - In Employee Salary Information, Allowances and Deductions are given amount information against economic code - what to do in this case?
+- intent: ques_413
+  examples: |
+    - An officer cannot find his salary month while submitting the salary bill online, what to do in this case?
+- intent: ques_414
+  examples: |
+    - After submitting the pay bill online, an officer finds that the pay bill is not found for forwarding to his DDO ID, what to do in this case?
+- intent: ques_415
+  examples: |
+    - How to pay entry to PRL bill?
+- intent: ques_416
+  examples: |
+    - Master Data → Service Stage Management কি?
+- intent: ques_417
+  examples: |
+    - What is Partial Bill?
+- intent: ques_418
+  examples: |
+    - When to use Map Office with Region and Map Employee with Region?
+- intent: ques_419
+  examples: |
+    - If the child's birth is not registered, his name can be added?
+- intent: ques_420
+  examples: |
+    - Can nominee name be changed in future fund?
+- intent: ques_421
+  examples: |
+    - An error message 'Basic amount does not match with pay fixation amount' is displayed when clicking on the save button after changing any information in the pay bill of an officer, what to do in this case?
+- intent: ques_422
+  examples: |
+    - What if an officer wants to reduce/increase GPF contribution in his pay bill in July?
+- intent: ques_423
+  examples: |
+    - What if an officer does not want to deduct GPF contribution from his salary bill?
+- intent: ques_424
+  examples: |
+    - What if someone does not want to pay the interest of GPF?
+- intent: ques_425
+  examples: |
+    - An officer submitting the salary bill online saw that the name in Bengali is not displayed correctly in the salary bill report, what should be done in this case?
+- intent: ques_426
+  examples: |
+    - Master Data-->Employee Management-->Employee Salary Information Whether to add BF, GI and stamp duty entry in deduction section during salary bill configuration of an officer?
+- intent: ques_427
+  examples: |
+    - What if an officer (of CGDF part employed on pension) does not want to deduct BF/GI from the pay bill?
+- intent: ques_428
+  examples: |
+    - Accounting officer has given check information to other accounting office, what to do in this case?
+- intent: ques_429
+  examples: |
+    - One token's check has been mistakenly entered in another token, in this case, how to enter the correct check of the correct token?
+- intent: ques_430
+  examples: |
+    - What should I do to change the issue date of the check?
+- intent: ques_431
+  examples: |
+    - If a check is cancelled, can another check entry be made in that token?
+- intent: ques_432
+  examples: |
+    - The check is returned from Bangladesh Bank because the advice of the check is not available, what should be done in this case?
+- intent: ques_433
+  examples: |
+    - An officer said that he did not receive the EFT SMS of the salary bill, what to do in this case?
+- intent: ques_434
+  examples: |
+    - While entering the GPF Final Payment Bill, after clicking on the generate button, the closing balance is shown as zero, what to do in this case?
+- intent: ques_435
+  examples: |
+    - How to edit DDO information?
+- intent: ques_436
+  examples: |
+    - An official who submitted the salary bill online said that the amount of money in his bill is wrong and therefore the bill has to be returned. In that case, how to return the bill?
+- intent: ques_437
+  examples: |
+    - How to find employee token filed online?
+- intent: ques_438
+  examples: |
+    - DDO is not getting accounting month while sending salary bill submitted online, what to do in this case?
+- intent: ques_439
+  examples: |
+    - What to do if the bill is approved and then the bill needs to be returned?
+- intent: ques_440
+  examples: |
+    - How are the salaries of the employees working on the master roll?
+- intent: ques_441
+  examples: |
+    - While submitting the salary bill, an officer found that both the principal and interest of his house construction loan were deducted but only the interest installments would be deducted. What to do in this case?
+- intent: ques_442
+  examples: |
+    - 1976 pay scale online entry why not?
+- intent: ques_443
+  examples: |
+    - If there is no allocation of duty allowance in case of current duty, whether duty allowance entry can be given?
+- intent: ques_444
+  examples: |
+    - What to do for payment of first month salary and PRL salary of an officer?
+- intent: ques_445
+  examples: |
+    - What is the procedure for name correction if the name is wrong in the master data even though the name is correct in NID?
+- intent: ques_446
+  examples: |
+    - If the officer needs to make Bank/Mobile information correction, who will do it in which way?
+- intent: ques_447
+  examples: |
+    - What is the procedure if the employee's designation is wrong or needs to be changed?
+- intent: ques_448
+  examples: |
+    - What to do if employee's education allowance needs to be added/removed?
+- intent: ques_449
+  examples: |
+    - When else is the attachment entry required in the Service Stage Management menu?
+- intent: ques_450
+  examples: |
+    - What should an officer do if no data found during bill submission?
+- intent: ques_451
+  examples: |
+    - GPF Vol. What should be done to exclude No/Page Entry/Interest or not want to deduct GPF after 52 years?
+- intent: ques_452
+  examples: |
+    - What is the procedure for payment of salary arrears of an officer after retirement?
+- intent: ques_453
+  examples: |
+    - Who has to do to change first appointment, office, mobile number, surname in pay-fixation module?
+- intent: ques_454
+  examples: |
+    - Loans and Advance Entry/correction method?
+- intent: ques_455
+  examples: |
+    - How should an officer pay his GPF deposit and other dues after joining from one service to another service?
+- intent: ques_456
+  examples: |
+    - Interest Free Car Loan, Bill payment, process?
+- intent: ques_457
+  examples: |
+    - House Building Loan, Bill entry Advance, Entry, Edit etc.
+- intent: ques_458
+  examples: |
+    - How is the entry of authorization budget token/bill?
+- intent: ques_459
+  examples: |
+    - When and why is employee's NID required?
+- intent: ques_460
+  examples: |
+    - If you don't get the code for the gas bill, which code will you enter?
+- intent: ques_461
+  examples: |
+    - What is the process of joining or releasing a user as a DDO and how to do the DDO user registration?
+- intent: ques_462
+  examples: |
+    - What is the mode of payment of deceased officer in case new DDO is appointed on death of officer?
+    

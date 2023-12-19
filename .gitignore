@@ -1,0 +1,10 @@
+# Ignoring all the virtual environments
+env/
+venv/
+
+# Ignore all the pyc files
+
+*.pyc
+*.out
+*.log
+

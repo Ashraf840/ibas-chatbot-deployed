@@ -1,0 +1,49 @@
+<!-- <head>
+    <link rel="stylesheet"
+          href="https://npm-scalableminds.s3.eu-central-1.amazonaws.com/@scalableminds/chatroom@master/dist/Chatroom.css"/>
+</head>
+<body>
+<div class="chat-container"></div>
+
+<script src="https://npm-scalableminds.s3.eu-central-1.amazonaws.com/@scalableminds/chatroom@master/dist/Chatroom.js"/>
+</script>
+<script type="text/javascript">
+    var chatroom = new window.Chatroom({
+        host: "http://localhost:5005",
+        title: "Chat with Cello",
+        container: document.querySelector(".chat-container"),
+        welcomeMessage: "Say Hello to my little friend",
+        speechRecognition: "en-US",
+        voiceLang: "en-US"
+    });
+    chatroom.openChat();
+</script> -->
+
+<div id="rasa-chat-widget" data-websocket-url="http://172.16.6.3:5001"></div>
+<script src="https://unpkg.com/@rasahq/rasa-chat" type="application/javascript"></script>
+
+<!-- <div id="rasa-chat-widget" data-websocket-url="http://172.16.4.132:5005"></div>
+<script src="https://unpkg.com/@rasahq/rasa-chat" type="application/javascript"></script> -->
+
+<!--<script>!(function () {-->
+<!--  let e = document.createElement("script"),-->
+<!--    t = document.head || document.getElementsByTagName("head")[0];-->
+<!--  (e.src =-->
+<!--    "https://cdn.jsdelivr.net/npm/rasa-webchat@1.x.x/lib/index.js"),-->
+<!--    // Replace 1.x.x with the version that you want-->
+<!--    (e.async = !0),-->
+<!--    (e.onload = () => {-->
+<!--      window.WebChat.default(-->
+<!--        {-->
+<!--          customData: { language: "en" },-->
+<!--          socketUrl: "http://localhost:5005",-->
+<!--          // add other props here-->
+<!--        },-->
+<!--        null-->
+<!--      );-->
+<!--    }),-->
+<!--    t.insertBefore(e, t.firstChild);-->
+<!--})();-->
+<!--</script>-->
+
+<!-- </body> -->
