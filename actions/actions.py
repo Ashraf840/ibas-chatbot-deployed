@@ -9,7 +9,7 @@ from .ticketing.ticketing_api import create_issue_v2, get_project_list, get_cate
 from .ticketing.ticketing_api import reqres,category_oid, issue_text
 
 import sys
-sys.path.append("/home/zubair/workstation_2/")
+sys.path.append("/home/ishtiak/Office/ibas++/")
 from lang_detection.text_lang_detect import lang_detect
 from gibberish_identification.gibberish_detection import is_gibberish
 
@@ -59,7 +59,7 @@ class ActionCreateIssue(Action):
                 print("Nothing matched")
         #################################
 
-        response = requests.get(f'http://172.16.6.91:80/home/api/user-chatbot/socket/{sender_id}/')
+        response = requests.get(f'http://127.0.0.1:8080/home/api/user-chatbot/socket/{sender_id}/')
         data = response.json()
 
         print("Data:   ",data)
@@ -79,7 +79,7 @@ class ActionCreateIssue(Action):
         if response['code'] == 200:
             print("Code is reaching here")
 
-            new_update_dataset = '/home/zubair/workstation_2/source/aug_data_sen.xlsx'
+            new_update_dataset = '/home/ishtiak/Office/ibas++/source/aug_data_sen.xlsx'
             existing_df = pd.read_excel(new_update_dataset, sheet_name='Sheet1', engine='openpyxl')
 
             updated_df = pd.concat([existing_df, pd.DataFrame({'Augmented_text': [issue_desc]})],ignore_index=True)
@@ -91,7 +91,7 @@ class ActionCreateIssue(Action):
             else :
                 dispatcher.utter_message(text=f"Thank you for informing us about your issue.")
             ################ hit api to redirect to the chatroom###################
-            url = "http://172.16.6.91:80/home/api/user-chatroom/socket/"
+            url = "http://127.0.0.1:8080/home/api/user-chatroom/socket/"
 
             payload = json.dumps({
                 "user_email": f"{data['user_email']}",
