@@ -5,7 +5,13 @@ from rasa_sdk import Action, Tracker, FormValidationAction
 from rasa_sdk.events import SlotSet, EventType, SessionStarted, ActionExecuted, FollowupAction
 from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.types import DomainDict
-from .ticketing.ticketing_api import create_issue_v2, get_project_list, get_category_list_by_project_oid, get_user_detail, redirect_to_cso_chatroom
+from .ticketing.ticketing_api import (
+    # create_issue_v2, 
+    get_project_list, 
+    get_category_list_by_project_oid, 
+    get_user_detail, 
+    redirect_to_cso_chatroom
+    )
 from .ticketing.ticketing_api import reqres,category_oid, issue_text
 
 import sys
@@ -71,14 +77,44 @@ class ActionCreateIssue(Action):
             return []
         else:
             # If an authenticated user after logging into the system comes back to the login page & start using the chatbot.
-            print("TMS Issue & chatroom create API!")
+            # print("TMS Issue & chatroom create API!")
+
+            # Fetch user detail from from the api & use an old static issue (without creating any issue to TMS), call the chatroom create API.
+            print("Fetch an old unresolved issue from TMS!")
+            # response = fetch_tms_issue()
+            # print("Old Issue detail:", response)
+            
+            response = requests.get(f'http://127.0.0.1:8080/home/api/user-chatbot/socket/{sender_id}/')
+            data = response.json()
+
             if text_language == 'bn':
-                dispatcher.utter_message(text=f"ব্যবহারকারী লগ ইন অবস্থায়ে অছেন।")
-            else:
-                dispatcher.utter_message(text=f"User is logged in.")
+                dispatcher.utter_message(text=f"আপনার সমস্যা সম্পর্কে আমাদের অবহিত করার জন্য আপনাকে ধন্যবাদ।")
+            else :
+                dispatcher.utter_message(text=f"Thank you for informing us about your issue.")
+            ################ hit api to redirect to the chatroom###################
+            url = "http://127.0.0.1:8080/home/api/user-chatroom/socket/"
+
+            payload = json.dumps({
+                "user_email": f"{data['user_email']}",
+                "chatbot_socket_id": f"{sender_id}",
+                "issuerOid": "03209c1c-aef4-46a2-9a9e-418575467be1",
+
+                "user_organization": f"{data['user_organization']}",
+                "location": f"{data['location']}",
+                "district": f"{data['district']}",
+                "division": f"{data['division']}",
+                "prompt_user": "True",
+            })
+            headers = {
+            'Content-Type': 'application/json'
+            }
+
+            response = requests.post(
+                url, payload,
+                headers= headers
+            )
+
             return []
-
-
 
         
 
