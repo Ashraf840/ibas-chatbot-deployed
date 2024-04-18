@@ -70,4 +70,15 @@ rules:
   steps:
   - intent: greet_salam_en
   - action: utter_greet_salam_en
-
+- rule: calculate_rule_TADA
+  steps:
+  - intent: calculate_TADA
+  - action: utter_calculate_TADA
+- rule: calculate_rule_TA
+  steps:
+  - intent: calculate_TA
+  - action: utter_calculate_TA
+- rule: calculate_rule_DA
+  steps:
+  - intent: calculate_DA
+  - action: utter_calculate_DA  

@@ -8,3 +8,8 @@ venv/
 *.out
 *.log
 
+# Rasa cache files
+.rasa/cache/
+
+# Model archives
+models/*.tar.gz

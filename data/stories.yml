@@ -4,5 +4,15 @@ stories:
   steps:
   - intent: greet_salam_en
   - action: utter_greet_salam_en
-
-
+- story: calculate_story_TADA
+  steps:
+  - intent: calculate_TADA
+  - action: utter_calculate_TADA
+- story: calculate_story_TA
+  steps:
+  - intent: calculate_TA
+  - action: utter_calculate_TA
+- story: calculate_story_DA
+  steps:
+  - intent: calculate_DA
+  - action: utter_calculate_DA

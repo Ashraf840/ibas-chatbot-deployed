@@ -516,3 +516,20 @@ nlu:
 - intent: greet_salam_en
   examples: |
     - assalamualaikum, i have a problem
+- intent: calculate_TADA
+  examples: |
+    - I want to calculate TADA
+    - calculate TADA
+    - calculate travel and daily allowance
+- intent: calculate_DA
+  examples: |
+    - I want to calculate_DA
+    - I want to calculate Daily Allowance
+    - please calculate Daily Allowance
+    - Daily allowance calculate
+- intent: calculate_TA
+  examples: |
+    - I want to calculate_TA
+    - I want to calculate Travel Allowance
+    - please calculate Travel Allowance
+    - Travel allowance calculate  

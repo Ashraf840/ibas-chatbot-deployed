@@ -16,6 +16,9 @@ intents:
 - affirmative_greet_bn
 - greet_asking_en
 - greet_asking_bn
+- calculate_TADA
+- calculate_DA
+- calculate_TA
 
 entities:
 - category_title
@@ -31,6 +34,15 @@ forms:
     required_slots:
     - category_title
 responses:
+  utter_calculate_TA:
+  - text: |
+      travel_allowance
+  utter_calculate_DA:
+  - text: |
+      daily_allowance
+  utter_calculate_TADA:
+  - text: |
+      travel_and_daily_allowance
   utter_greet_asking_bn:
   - text: |
       একটি কৃত্রিম বুদ্ধিমত্তা সিস্টেম হিসাবে আমার অনুভূতি বা ব্যক্তিগত অভিজ্ঞতা নেই, তাই আমি সুস্থতার অবস্থা অনুভব করি না। আপনি সর্বদা আমাকে তথ্য বা সহায়তার জন্য জিজ্ঞাসা করতে পারেন এবং আমি সাহায্য করতে প্রস্তুত।সাহায্য করতে পারি আপনাকে?
