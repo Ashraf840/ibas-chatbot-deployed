@@ -87,6 +87,14 @@ class ActionCreateIssue(Action):
             response = requests.get(f'http://127.0.0.1:8080/home/api/user-chatbot/socket/{sender_id}/')
             data = response.json()
 
+            # Add the new fallback message of chatbot to 'Augmented Data Sentence excel file'
+            new_update_dataset = '/media/robin/Documents/PersonalWorks/ibas_project/source/aug_data_sen.xlsx'
+            existing_df = pd.read_excel(new_update_dataset, sheet_name='Sheet1', engine='openpyxl')
+
+            updated_df = pd.concat([existing_df, pd.DataFrame({'Augmented_text': [issue_desc]})],ignore_index=True)
+
+            updated_df.to_excel(new_update_dataset, index=False, engine='openpyxl')
+
             if text_language == 'bn':
                 dispatcher.utter_message(text=f"আপনার সমস্যা সম্পর্কে আমাদের অবহিত করার জন্য আপনাকে ধন্যবাদ।")
             else :
@@ -300,7 +308,7 @@ class ActionShowCategoryList(Action):
             #dispatcher.utter_message("দুঃখিত, আপনার সমস্যাটি এই মুহুর্তে সমাধান করা সম্ভব হচ্ছে না, আমাদের প্রতিনিধি খুব শীঘ্রই বিষয়টি নিয়ে আপ্নার সাথে যোগাযোগ করবেন")
             
             # dispatcher.utter_message("দুঃখিত, আমরা বর্তমানে আপনার প্রশ্নের উত্তর দিতে পারছি না। <br>আপনার সমস্যাটির শ্রেণী নির্বাচন করুনঃ ", buttons = buttons)
-            dispatcher.utter_message("দুঃখিত, আমি বর্তমানে আপনার প্রশ্নের উত্তর দিতে পারছি না। <br>আপনি কি একজন HDO এর সংযোগ করতে চান?", buttons = buttons)
+            dispatcher.utter_message("দুঃখিত, আমি বর্তমানে আপনার প্রশ্নের উত্তর দিতে পারছি না। আপনি কি একজন HDO এর সংযোগ করতে চান?", buttons = buttons)
        
         else:
             for project_data in list['data']:
