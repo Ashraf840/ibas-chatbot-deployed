@@ -42,7 +42,6 @@ nlu:
     - এই [Sports](category_title) বিভাগটি নির্বাচিত হয়েছে
     - এই [Fashion](category_title) বিভাগটি আপনি চয়ন করেছেন
     - এই [Food](category_title) বিভাগটি বেছে নেয়া হয়েছে
-
 - intent: telling_something_en
   examples: |
     - Tell me something about IBAS
@@ -66,7 +65,6 @@ nlu:
     - Feed me some details
     - Tell me a story
     - Enlighten me
-
 - intent: telling_something_bn
   examples: |
     - তোমার সম্পর্কে আমাকে কিছু বল
@@ -91,7 +89,6 @@ nlu:
     - tomar dyaitto ki
     - তোমার সংস্থা/প্রতিষ্ঠানের প্রধান কাজ কি?
     - tomar protishthan er prodhan kaj ki?
-
 - intent: asking_something_en
   examples: |
     - How can you help me?
@@ -114,7 +111,6 @@ nlu:
     - What do you bring to the table?
     - What is within your capacity to do?
     - How do you contribute to users' needs?
-
 - intent: asking_something_bn
   examples: |
     - আপনি কিভাবে আমাকে সাহায্য করতে পারেন?
@@ -125,7 +121,6 @@ nlu:
     - তোমার কি কাজের ক্ষেত্রে আমাকে সাহায্য করা যাবে?
     - tumar ki kajer khetre amake sahajjo kora jabe?
     - তোমার কিভাবে আমাকে সাহায্য করা যাবে?
-
 - intent: greet_sorry_en
   examples: |
     - sorry
@@ -142,7 +137,6 @@ nlu:
     - sorry for the confusion
     - my apologies, it's unclear
     - sorry, I'm a bit lost
-
 - intent: greet_sorry_bn
   examples: |
     - Dukhito
@@ -177,7 +171,6 @@ nlu:
     - দুঃখিত, বুঝতে পারতাম না
     - বুঝতে পারতাম না
     - বুঝতে পারতাম না
-
 - intent: affirmative_greet_en
   examples: |
     - ok
@@ -222,7 +215,6 @@ nlu:
     - fine
     - great
     - awesome
-
 - intent: affirmative_greet_bn
   examples: |
     - Thik ache
@@ -289,7 +281,6 @@ nlu:
     - খুব ভালো
     - ঠিক আছে, ধন্যবাদ
     - ঠিকানা
-
 - intent: greet_asking_bn
   examples: |
     - Apni kemon ashen?
@@ -364,7 +355,6 @@ nlu:
     - আপনি কি খুব অল্প প্রয়াসে কি পাচ্ছেন?
     - কেমন আছেন, আপনি কি খুশি?
     - তুমি কি খুশি?
-
 - intent: greet_asking_en
   examples: |
     - What's your name?
@@ -393,7 +383,6 @@ nlu:
     - What's your stance on sustainable finance?
     - How do you handle financial challenges?
     - What's your favorite financial technology innovation?
-  
 - intent: greet_en
   examples: |
     - Hi
@@ -425,7 +414,6 @@ nlu:
     - I'm facing a difficulty
     - Support required
     - Looking for help
-
 - intent: greet_bn
   examples: |
     - আমার একটা সমস্যা ছিল
@@ -509,7 +497,6 @@ nlu:
     - Keu ekta somossha hoyeche, ki sahajjo korte chachhen?
     - Ami ekta somossha report korte chai
     - Kichu jante chai, keu sahajjo korte pare?
-
 - intent: greet_salam_bn
   examples: |
     - আসসালামু আলাইকুম, আমার এক্টা সমস্যা ছিল
@@ -528,8 +515,305 @@ nlu:
     - please calculate Daily Allowance
     - Daily allowance calculate
 - intent: calculate_TA
+  examples: "- I want to calculate_TA\n- I want to calculate Travel Allowance\n- please\
+    \ calculate Travel Allowance\n- Travel allowance calculate  "
+- intent: ques_0
   examples: |
-    - I want to calculate_TA
-    - I want to calculate Travel Allowance
-    - please calculate Travel Allowance
-    - Travel allowance calculate  
+    - অনেক সময় কাম্পিউটার এ বিল এন্টি করতে গেলে বাজেট insufficient দেখায়।&#10; অফিস কোড ১০৭০৩০৫১০১১১৪০ অফিস কোড (১৩৬০১০১xxxxxxx) অপারেশন কোড ১২০০০২৪০১ অর্থনৈতিক কোড ৩২৫৬১০৭, বিল পোষ্টিং করার সময় insufficient বাজেট দেখায়।&#10; বিভিন্ন অর্থনৈতিক কোডে বরাদ্দ পর্যাপ্ত থাকা সত্তেও নির্ধারিত কোডে বিল পরিশোধ করা যায় না।&#10;onek shomoy computer e bill entry korte gele budget insufficient dekhay.&#10;office code 10703051011140 office code (1360101xxxxxxx) operation code 120002401 orthonoitik code 3256107, bill posting korar shomoy insufficient budget dekhay. &#10;bivinno orthonoitik code boraddo porjapto thaka shotteo nirdharito code e bill porishodh kora jay na.&#10;
+- intent: ques_1
+  examples: |
+    - জুলাই/১৮ ও আগষ্ট/১৮ মাসে ইউএও অফিসের বিল&#10
+- intent: ques_2
+  examples: |
+    - সচিবালয়, মাধ্যমিক ও উচ্চ শিক্ষা বিভাগ এর  ১২৫০১০১১৩৭৯৫২- ৩৯১১১১১ কোড পাওয়া যায় না।&#10;shochibaloy, maddhomik o uccho shikkha bibhag er 1250101137952- 3911111 code paowa jay na
+- intent: ques_3
+  examples: |
+    - ম্যানেজার সোনালী ব্যাংক আমবাড়ী শাখা এল এস ডি,  খাদ্য অধিদপ্তর পার্বতীপুর, দিনাজপুর, প্রাতিষ্ঠানিক কোড-১৪৮০২০৭১৩১১১, অপারেশন- খাদ্য সংগ্রহেও বিতরণ কার্যক্রম-অভ্যন্তরীণ খাদ্য সংগ্রহ। অর্থনৈতিক কোড- ৩২২১১০৮, ৪১২৪১০১ পাওয়া যাচ্ছে না।&#10; manager soali bank ambari shakha LSD, khaddho odhidoptor parbotipur, dinajpur, prathishtanik code 148020713111, operation khaddo shongrohe ow bitoron karjokrom- ovvontorin khaddo shongroho. orthonoitik code -3221108, 4124101 paowa jacche na.
+- intent: ques_4
+  examples: |
+    - ১০৯০৩০১১০১৪৩৮ সিজিএ অফিসের বরাদ্দ এবং ১০৯০৩০৫১০১৭৫৮ ইউএও/চিতলমারী, বাগেরহাট, অর্থতিক কোড ৩২৫৭৩০১ পাওয়া যায় না।&#10; 1090301101438 CGA office er boraddo ebong 1090305101758 UAO/Chitolmari, bagerhat, orthonoitik code 3257301 paowa jacche na.
+- intent: ques_5
+  examples: |
+    - জামানত ফেরতের অর্থনৈতিক কোড পাওয়া যাচ্ছে না।&#10
+- intent: ques_6
+  examples: |
+    - পুরাতন কোড – ৭-৩৭০৫-৩৬০৯-৯৩২৬ উপজেলা &#10
+- intent: ques_7
+  examples: |
+    - প্রতিষ্ঠান কোড – ১০৭০৩০৫১০১১০৯২,অর্থনৈতিক কোড – ১৪৪১২০২ – (অতিরিক্ত গৃহিত টাকা আদায়) পাওয়া যাচ্ছে না। &#10; অতি: গৃহিত অর্থ কর্তনের কোড পাওয়া যাচ্ছে না।&#10; আনুতোষিক প্রদানের ক্ষেত্রে অতিরিক্ত গৃহিত টাকা সরকারী কোষাগারে জমার অর্থনৈতিক কোড পাওয়া যাচ্ছে না।&#10; পেনশনারের মাসিক পেনশন হতে অতিরিক্ত গৃহিত অর্থ কর্তনের কোড পাওয়া যাচ্ছে না।&#10; pratishanik code - 10703051011092, orthonoitik code - 1441202 - (otirikto grihito taka aday) paowa jacche na.&#10; oti grihito ortho kortoner code paowa jacche na&#10; onutoshik prodaner khetre otirikto krihito taka shorkari koshagare jomar orthonoitikk code paowa jacche na&#10; pennshoner mashik penshon hote otirikto grihito taka shorkari koshagare jomar orthonoiteik code paowa jacche na.&#10;
+- intent: ques_8
+  examples: |
+    - বিলুপ্ত মন্ত্রণালয়: ১। ০২,০৪,১৮/ ২। ১৯,২৬,৩২,৪৭ / ৩। ৫৪,৫৬,৬৩,৬৫/ ৭২,৭৩,৭৪ বিল সমূহ কোন মন্ত্রণালয়ে Entry দিতে হবে তার কোন নির্দেশনা থাকে না।&#10; bilupto montronaloy: 1| 02,04,18/2| 19,26,32,47/3| 54,56,63,65/72, 74 bill shomuho kon montronaloye entry dite hobe tar kono nirdeshona thake na.
+- intent: ques_9
+  examples: |
+    - সকল DDO তে ভ্যাট ও আইটি কোড পাওয়া যায় না।&#10; নারী ও শিশু নির্যাতন দমন ট্রাইবুনাল বিল পোস্টিং এ ভ্যাট ও আইটি কোড নেই। &#10; খাদ্য পুণর্ভরন বিলের কমিশন বিলের ভ্যাট, আয়করের অর্থনৈতিক কোড ৩২১১১০৮ পাওয়া যায় না।  &#10; পুরাতন কোড 3-0401-0001-5811 নতুন কোড 1070302-3631101 DDO-DC বিল হতে ভ্যাট কর্তনের কোড পাওয়া যাচ্ছে না।&#10; ভ্রমণ ব্যয় বিল হতে ভ্যাট কর্তনের কোড পাওয়া যাচ্ছে না। &#10; Shokol DDO te vat o it code paowa jay na&#10; nari o shishu nirjaton domon traibunal bill posting e VAT o IT code nei&#10; khaddo punorbon biler komishon biler vat, aykorer orthonoitik code 3211108 paoa jay na&#10; puraton code 3-040100015811 notun code 10703023631101 DDO-DC bill hote VAT kortoner code paoa jacche na&#10; bhromon byay bill hote vat kortoner code paoa jacche na
+- intent: ques_10
+  examples: |
+    - বিল Entry তে Economic Code ভ্রমানুসারে না থাকা, জানা Option না থাকা, জামানতের বিল থেকে অনেক সময় জরিমানা কর্তন করে, পরিশোধ করতে হয় জরিমানা বাবদ ফেরত নেওয়ার জন্য, কর্তনের Economic Code না থাকায় বিল এন্ট্রিতে সমস্যা হয়। &#10; জামানতের বিল থেকে অনেক সময় জরিমানা/আয়কর/ভ্যাট কর্তন করে Economic Code এর ব্যবস্থা থাকা প্রয়োজন।&#10; জামানত বিল পাশ করার সময় Insufficient Budget দেখা যায়। &#10; bill entry te Economic code kromanushare na thaka, jana option na thaka, jamanoter bill theke onek shomoy jorimana korton kore, porishodh korte hoy jorimana babod ferot neyar jony, kortoner economic code na thakay bill entry shomossha hoy.&#10; Jamanoter bill theke onek shomoy jorimana/aykor/vat korton kore economic code er bebostha thaka proyojon&#10;Jamanot bill pash korar shomoy insufficient budget dekha jay
+- intent: ques_11
+  examples: |
+    - উপজেলা স্বাস্থ্য কমপ্লেক্স, টাঙ্গাইল সদর অফিসে আইডি পাওয়া যায় না। &#10;upozilla shahtho complex, tangail sodor office e ID paowa jay na
+- intent: ques_12
+  examples: |
+    - প্রাপ্তির কোডে ভুল থাকলে তা সংশোধন করা যায় না। সংশোধন অপশন থাকা আবশ্যক। &#10
+- intent: ques_13
+  examples: |
+    - পুলিশ বাহিনীর রেশন ক্রয়ের বিল book Adjustment করার সময় পূর্বে অর্থনৈতিক কোড-৮৪২১ এর বিপরীতে কোড পাওয়া যায় না।&#10
+- intent: ques_14
+  examples: |
+    - বিটিসিএল মাসিক পেনশন পরিশোধ করা যাচ্ছে না।&#10
+- intent: ques_15
+  examples: |
+    - নতুন পেনশন কেইস ২০১৫-১৬ অর্থবছরের হলে, এক্ষেত্রে পেনশন Strat From ২০১৫-১৬ অপশন দেওয়া নাই।&#10;notun pension case 2015-16 orthobochorer hole, ekhetre pension Strat From 2015 16 option deowa nai
+- intent: ques_16
+  examples: |
+    - প্রগ্রেস রিপোর্টে প্রজেক্ট ও স্বায়ত্বশাসিত খাতে পূর্বের নিয়মে বাজেট বরাদ্দ দেখা যায় না, কিন্তু প্রদান করা যায়, কিভাবে বাজেট দেখা যাবে?&#10;progress report project o shayottoshashito khate purber niyome budget boraddo dekha jay na, kintu prodan kora jay, kivabe budget kora jabe?
+- intent: ques_17
+  examples: |
+    - জিপিএফ এবং দীর্ঘমেয়াদী ঋণের কর্তন জেনারেল এক্টিভিটি এবং পাবলিক ফান্ড ম্যানেজমেন্ট দুই ক্ষেত্রেই প্রদর্শন করে এবং ডাবল কর্তন দেখায়।&#10; ১২৪,১২৫,১৪৬ মন্ত্রণালয় তে ডিপিএফ, দীর্ঘমেয়াদী ঋণ কর্তন duble অথবা nill দেখাচ্ছে।&#10; GPF ebong dirghomeyadi rin er korton general activity ebong public fund management dui khetrei prodorshon kore ebong double korton dekhay&#10; 124, 125, 146 montronaloy te DPFm durghomeyadi rin korton double othoba nill dekhacche
+- intent: ques_18
+  examples: |
+    - যে সকল ডিপার্টমেন্টে বাসা আছে ঐ সমস্ত ডিপার্টমেন্টের বিপরীতে বাসা ভাড়া কর্তনের কোড থাকা আবশ্যক। যেমন- কৃষি বিভাগের বি, এস কোয়াটার, পশু পালন বিভাগেরন বাসা ভাড়া কর্তন, উপজেলা পরিবার  পরিকল্পনা অফিসের বাসা ভাড়া কর্তন, খাদ্য বিভাগের বাসা ভাড়া কর্তন।&#10;je shokol departmente basha ache oi shomosto departmenter biporite basha vara/bhara/bara kortoner code thaka abosshok. jemon- krishi bivager BD quarter, poshupalon bivager basa vara/bhara korton, upazilla paribar/poribar porikolpona officer basha vara korton, khaddho bivag er basha vara korton
+- intent: ques_19
+  examples: |
+    - ভ্রমণ ব্যয় ও অভ্যন্তরীণ ভ্রমণ এর মধ্যে পার্থক্য কি? &#10
+- intent: ques_20
+  examples: |
+    - ভুল ভ্রান্তিসমূহ জার্নাল করার কোন ব্যবস্থা নেই।&#10
+- intent: ques_21
+  examples: |
+    - মাসিক হিসাবে Bank Summary কিভাবে এন্ট্রি করতে হবে?&#10; ডেভিট স্ক্রল কিভাবে ইমপোর্ট করা যাবে?&#10; ক্রেডিট স্ক্রল কিভাবে ইমপোর্ট, এডিট ও আপলোড করা যাবে।&#10; mashik hishabe Bank Summary kibane entry korte hobe?&#10;debit scroll kivabe import kora jabe&#10;credut scroll kivabe import, edit o upload kora jabe
+- intent: ques_22
+  examples: |
+    - বস্ত্র ও পাট মন্ত্রণালয়ের অধীনে মন্ত্রণালয় পাওয়া যাচ্ছে, পাট অধিদপ্তর পাওয়া যাচ্ছে, কিন্তু মাঠ পর্যায়ে অফিস নর্ণয় করতে পাবনা পাট অফিস পাওয়া যাচ্ছে না। মোট কথা রাজশাহী বিভাগে কোন পাট অফিস পাওয়া যাচ্ছে না।&#10;"bostro o pat montronaloyer odhine montronaloy paoa jacche, pat odhidoptor paowa jacche kintu math porjaye office nirnoy korte pabna pat office paowa jacche na.&#10; mot kotha rajshahi bivage kono pat office paowa jacche na
+- intent: ques_23
+  examples: |
+    - একাধিক ডিডিও খোলা থাকলে কি করতে হবে?&#10
+- intent: ques_24
+  examples: |
+    - কোন কোন ডিডিওতে ধৌতভাতা/ডিপিএফ পাওয়া যায় না। আবার কোন কোন ডিডিওতে জিপিএফ কোড পুনরায় দিতে হয়।&#10
+- intent: ques_25
+  examples: |
+    - জেলা/উপজেলা/পৌরসভা/পরিষদের জামানত পরিশোধে ডিডিও সমস্যা হয়।&#10
+- intent: ques_26
+  examples: |
+    - online paybill এ একই অফিস কোডের অধীনে অনেকগুলো ডিডিও আছে এবং officer multiple ডিডিওতে set করা আছে। যার দরুণ ডিডিও বিল send করতে পারে ন।&#10
+- intent: ques_27
+  examples: |
+    - পৌরসভা/জেলা পরিষদের পেমেন্টের ক্ষেত্রে ডিডিও কে হবে? &#10
+- intent: ques_28
+  examples: |
+    - টোকেন এন্ট্রিতে টাকার অংক ভুল হলে পরবর্তীতে এডিট করা যায় না।&#10
+- intent: ques_29
+  examples: |
+    - এপিসি প্রেরণের ক্ষেত্রে সমস্যা হচ্ছে। যা অধিকাংশ ক্ষেত্রে সংশ্লিষ্ট পে-পয়েন্ট কর্তৃক সমস্যার সৃষ্টি হচ্ছে।&#10
+- intent: ques_30
+  examples: |
+    - Where the employees/officers opposite the CAO/CGA will take salary/rice.
+- intent: ques_31
+  examples: |
+    - কর্মকর্তাদের ২০১৮-১৯ অর্থবছরে জিপিএফ এর প্রারম্ভিক জের জিপিএফ Opening Balance এ এন্ট্রি করে Save করার পর GPF Report মেনুতে গিয়ে GPF Sub-Ledger অথবা GPF Accounts Slip এ রিপোর্ট Run করালে ২০১৮-২০১৯ অর্থবছরে জিপিএফ এর প্রারম্ভিক জের দেখা যায় না। ফলে কর্মকর্তাদের LPC Issue সময় GPF হালনাগাদ করে OnLine এ LPC Issue করা সম্ভব হচ্ছে না।  ২০১৮-১৯ অর্থবছরে কর্মকর্তাদের GPF Final Payment পরিশোধ করা সম্ভব হচ্ছে না। বিষয়টি দ্রুত নিস্পত্তি হওয়া প্রয়োজন।&#10; kormokortader 2018-19 orthobochore GPF er prarombhik jer GPF opening balance e entry kore save okrar por GPF report menute giye GPF Sub-ledger othoba G{F accounts slip e report run korale 2018-2019 orthobochore GPF er prarombhik jer dekhay na &#10; 2018-19 orthobochore kormokortader GPF Final payment porishodh kora shomvob hocche na
+- intent: ques_32
+  examples: |
+    - কিছু ক্ষেত্রে অফিসারদের বেতন বিল পাশ করার সময় জিপিএফ এর চাঁদা প্রদর্শিত হয় না&#10
+- intent: ques_33
+  examples: |
+    - ২ জন গেজেটেড কর্মকর্তা ডাবল এনআইডি (রুবিনা সমবায় একাডেমিক সুপার) থাকায় টোকেন এন্ট্রির সময় তা ডাবল আসছে সঠিকটা রেখে ভুলটা কিভাবে বাদ দিতে হবে। &#10
+- intent: ques_34
+  examples: |
+    - স্পেশাল এক্টিভিটি এবং সাপোর্ট এক্টিভিটি এর বরাদ্দের বিপরীতে বিল পাশের ক্ষেত্রে নানাবিধ সমস্যার সৃষ্টি হচ্ছে। &#10
+- intent: ques_35
+  examples: |
+    - অনলাইনে পে বিল দাখিলের ক্ষেত্রে information not available দেখায়। &#10
+- intent: ques_36
+  examples: |
+    - Employee information single step এ কোন অফিসার এর তথ্য save করতে Error দেয়।&#10
+- intent: ques_37
+  examples: |
+    - ডিসিএ রাজশহীতে নাসিং কর্মকর্তাদের (মেডিকেল কলেজ হাসপাতাল) অফিসে কর্মরত নার্সদের অফিস কোড পরিবর্তন হয়ে নার্সিং অফিস (নার্সিং ইনস্টিটিউ) কোডে অটো পরিবর্তন হয়ে যাচ্ছে, যা সংশোধন করা প্রয়োজন।&#10;DCA rajshahite nursing kormokortader (medical college hospital) office e kormoroto nurse der office code poriborton hoye nursing office code e auto poroborton hocche ja shongshohon kora proyojon
+- intent: ques_38
+  examples: |
+    - Help desk filtering option থাকে না তা দেয়া প্রয়োজন।&#10
+- intent: ques_39
+  examples: |
+    - আমি বর্তমানে কচুয়া উপজেলা ভূমি অফিসে কর্মরত। আমার বাসা ভাড়া ঢাকা রেটে দেখাচ্ছে, যেটি সঠিক নয় -এর সমাধান কি? উল্লেখ্য, আমি ঢাকায় সংযুক্তিতে ছিলাম। s
+- intent: ques_40
+  examples: |
+    - আমার বেতন বিলে পাহাড়ি ভাতা ( Hill Allowance )  দেখা যাচ্ছে না, করণীয় কি ?
+- intent: ques_41
+  examples: |
+    - আমার বেতন বিলে ঝুঁকি ভাতা (3111308-hazardous allowance) দেখা যাচ্ছে না,করণীয় কি ?
+- intent: ques_42
+  examples: |
+    - What to do if an employee's spouse doesn't have NID while entering information in ibas++?
+- intent: ques_43
+  examples: |
+    - আমার পূর্বোক্ত চার মাসের বকেয়া বেতন বিল online এ প্রদর্শিত হচ্ছে না। উল্লেখ্য, আমি এ মাসে IBAS++ এ তথ্য এন্ট্রি এবং অনলাইন রেজিস্ট্রেশন সম্পন্ন করেছি । কিভাবে সমাধান করবো?
+- intent: ques_44
+  examples: |
+    - আমার ১৪/০৮/২০২২ থেকে ১৩/০৯/২০২২ পর্যন্ত অর্ধ গড় বেতনে ০১ মাস অর্জিত ছুটি মঞ্জুর হয়েছে। কিভাবে অর্ধ গড় বেতন বিলে প্রদর্শিত হবে?  আমার NID: 19721813135375738
+- intent: ques_45
+  examples: |
+    - বেতন বিল প্রদান করতে গেলে  ‘Duplicate DDO coding block mapping found for 1411202 - interest on loan to government employees’ মেসেজ প্রদর্শিত হয়। কিভাবে এ সমস্যা সমাধান করবো?
+- intent: ques_46
+  examples: |
+    - উচ্চতর গ্রেডে বেতন বিল  সাবমিট করতে গেলে পূর্বের বেতন/ বিল বাকি আছে মর্মে একটি মেসেজ iBAS++ সিস্টেম প্রদর্শিত হচ্ছে। কিভাবে সমাধান করবো?
+- intent: ques_47
+  examples: |
+    - একজন কর্মচারী (স্টাফ) ০৩/০৮/২০২২ তারিখ হতে বরখাস্ত অবস্থায় আছেন। কিন্তু তার বেতন বিল ফরওয়ার্ড করার সময় তার মূল বেতনের অর্ধেক (খরপোষ ভাতা)  না দেখিয়ে সম্পূর্ণ বেতন দেখাচ্ছে। এ অবস্থায় করণীয় কি ?
+- intent: ques_48
+  examples: |
+    - একজন কর্মচারী/স্টাফের সাসপেনশনের তথ্য এন্ট্রি দেওয়ার পরেও তার মূল বেতন পুরোটাই প্রদর্শিত হচ্ছ-এর সমাধান কি?
+- intent: ques_49
+  examples: |
+    - iBAS++ সিস্টেমে কিভাবে আমার ইমেইল পরিবর্তন করবো?
+- intent: ques_50
+  examples: |
+    - আমার অগ্রিম লোন এবং জিপিএফ এর কর্তনের পরিমাণ যথাক্রমে ১৫০০ এবং ২০০০০ টাকা, পার্শিয়াল বিল করতে গেলে মোট কর্তনের পরিমাণ আমার বেতনের চেয়ে বেশি দেখাচ্ছে এর সমাধান কি?
+- intent: ques_51
+  examples: |
+    - আমি একজন কর্মচারী/স্টাফ। আমি iBAS++ সিস্টেমে ব্যাংক একাউন্ট এর তথ্য পরিবর্তন করতে চাই। কিভাবে করতে পারি?
+- intent: ques_52
+  examples: |
+    - আমি একজন গেজেটেড অফিসার/ কর্মকর্তা। আমি iBAS++ সিস্টেমে ব্যাংক একাউন্ট পরিবর্তন করতে চাই। কিভাবে করবো?
+- intent: ques_53
+  examples: |
+    - SDO হিসেবে রেজিস্ট্রেশন করতে গেলে স্ক্রিনে “You have already submitted your Ibas++ user account application which is in progress” মেসেজটি প্রকাশিত হয়। কেন?
+- intent: ques_54
+  examples: |
+    - NID মার্জ করতে গেলে “Mobile number not matched with this 2 NID/code” এমন মেসেজ স্ক্রিনে প্রদর্শিত হয়। করণীয় কী?
+- intent: ques_55
+  examples: |
+    - গফরগাঁও উপজেলাধীন গয়েশপুর খাদ্য গুদামের নিরাপত্তা প্রহরী জনাব মোঃ আব্দুল ওহাব কে ময়মনসিংহ জেলা খাদ্য নিয়ন্ত্রকের কার্যালয়, ময়মনসিংহে সংযুক্তি দেয়া হয়। তার সংযুক্তির আদেশ  অনলাইনে Attached করা হলে তার যাতায়ত ভাতা দুইটি কোডে পর্যায়ক্রমে অফিস কোড নং-১৪৮০২০৪১৩০৫৯৬ এর বিপরীতে ৩০০/-টাকা এবং কোড নং ১৪৮০২০৭১৩১১৬৮ এর বিপরীতে ৩০০/-টাকা দেখা যায়। কিভাবে এ সমস্যা সমাধান করা যায়?
+- intent: ques_56
+  examples: |
+    - আমি উপজেলা শিক্ষা অফিসার, লংগদু, রাঙ্গামাটি। আমার NID: ১৯৬৬৩০২২৯০৫১১১৫৮৪, User ID: imamuddin67। আমি iBAS++ এ লগইন করতে পারছি না। কিভাবে সমাধান করবো?
+- intent: ques_57
+  examples: |
+    - বেতন-ভাতা সাবমিট করতে গেলে স্ক্রিনে ‘Duplicate DDO coding block mapping found for 7215104 Motor car loan’ মেসেজ দেখায়। করণীয় কি?
+- intent: ques_58
+  examples: |
+    - একজন কর্মকর্তাকে বদলি করতে গেলে দেখা যায় যে তার ২০২০ সালের একটি উৎসব ভাতা বাকি রয়েছে। এ অবস্থায় করণীয় কি?
+- intent: ques_59
+  examples: |
+    - আমার বেতন বিল সাবমিট করতে গেলে ‘GL for GPF subscription not found’ মেসেজ প্রদর্শন করে। এটা কিভাবে সমাধান করবো?
+- intent: ques_60
+  examples: |
+    - টোকেন দিতে গেলে ‘অফিস কোড: 1460404125073’ পাওয়া যাচ্ছে না। করণীয় কি?
+- intent: ques_61
+  examples: |
+    - মাস্টার ডাটা এন্ট্রি করার সময় ভুলবশত আমার ধর্ম হিন্দুর বদলে মুসলিম হিসেবে অন্তর্ভুক্ত করা হয়।  এখন আর ঠিক করা যাচ্ছে না। এর সমাধান কি ?
+- intent: ques_62
+  examples: |
+    - আমার এনআইডিতে নামের বানান ভুল থাকার কারণে আইবাসে ভুল নাম সংযোজিত হয় । এখন কিভাবে নামের বানান  সংশোধন করতে পারি?
+- intent: ques_63
+  examples: |
+    - আমি ঢাকায় সংযুক্ত থাকার পরেও আমার বাড়ি ভাড়া ঢাকার রেটে দেখাচ্ছে না। এর সমাধান কি?
+- intent: ques_64
+  examples: |
+    - আমার মোবাইল নাম্বার এবং ব্যাংক অ্যাকাউন্টের তথ্য একই সাথে পরিবর্তন করতে চাই। কিভাবে করা যাবে?
+- intent: ques_65
+  examples: |
+    - আমার ইএফটি ট্রান্সমিট করার সময় ওটিপি আমার অন্য মোবাইল নাম্বারে যাচ্ছে এর সমাধান কি?
+- intent: ques_66
+  examples: |
+    - সহকারী কমিশনার ভূমি DDO কোড নাম্বার 14604 পাওয়া যাচ্ছে না করণীয় কি?
+- intent: ques_67
+  examples: |
+    - Washing Allowance এবং Conveyance Allowance কোডের বিপরীতে বাজেট বরাদ্দ থাকা সত্ত্বেও বেতন বিল সাবমিট করার সময় Washing Allowance এবং Conveyance Allowance পাওয়া যাচ্ছে না। কি করণীয় ?
+- intent: ques_68
+  examples: |
+    - আমি আইবাসে লগইন করতে চাইলে ‘Multiple user ID registered with same NID’  মেসেজটি পাচ্ছি। এর সমাধান কি?
+- intent: ques_69
+  examples: |
+    - আমি বর্তমানে ভূমি অফিস শেরপুরে অতিরিক্ত দায়িত্ব পালনের জন্য মোবাইল নাম্বার পরিবর্তন করা জরুরি। কিভাবে করতে পারি?
+- intent: ques_70
+  examples: |
+    - আইবাসে ওয়েজ আর্নার ফি কিভাবে এন্ট্রি দিতে হয়?
+- intent: ques_71
+  examples: |
+    - আমি extra ordinary leave enrty দিতে গেলে সেটি  সংরক্ষিত না হয়ে ‘Duration exceeds the maximum limit of normal ground’ মেসেজ দেখাচ্ছে। করণীয় কি?
+- intent: ques_72
+  examples: |
+    - iBAS++ এ  জন্ম তারিখ/ নামের বানান ভুল এন্ট্রি হলে করণীয় কি?
+- intent: ques_73
+  examples: |
+    - iBAS++ এ জন্ম তারিখ পে ফিক্সেশন  এবং মাস্টার ডাটায় দুইরকম এন্ট্রি হলে করণীয় কি?
+- intent: ques_74
+  examples: |
+    - আইবাসে বেতন ভাতা সাবমিশনের সময় বেতন প্রাপ্য স্কেল না পাওয়া গেলে কি করণীয় ?
+- intent: ques_75
+  examples: |
+    - কোন কর্মকর্তা / কর্মচারী উচ্চতর গ্রেডে উন্নীত হলে এটি আইবাস সিস্টমে কিভাবে আপডেট করতে হবে?
+- intent: ques_76
+  examples: |
+    - আইবাসে বেতন ভাতা সাবমিশনের সময় খোরপোষ ভাতার কোড পাওয়া যাচ্ছে না, এখন আইবাস সিস্টমে কিভাবে খোরপোষ ভাতার কোড ইনপুট দিব?
+- intent: ques_77
+  examples: |
+    - মোবাইল নাম্বারের সাথে ইমেইল কি pay fixation এ এ্যাড করা যাবে? (মিশন)
+- intent: ques_78
+  examples: |
+    - ২০২২~২৩ অর্থ বছরে মিশনে কর্মরত ব্যক্তির বর্ধিত বেতন দেখা যাচ্ছে না? স্বয়ংক্রিয়ভাবে বার্ষিক বেতন বর্ধিত করা সম্ভব কিনা?
+- intent: ques_79
+  examples: |
+    - জিপিএফ এ এন্ট্রি দেয়া সত্ত্বেও স্যালারি সাবমিশনের সময় জিপিএফ ডিডাকশন দেখা যাচ্ছে না ? করণীয় কি?
+- intent: ques_80
+  examples: |
+    - কর্মচারী / কর্মকর্তার রিলিজ করানোর সময় error দেখাচ্ছে “ইমপ্লয়ী সেলারি পেন্ডিং” মেসেজ দিয়ে। ফলে রিলিজ করানো যাচ্ছে না । কিভাবে সমাধান পেতে পারি?
+- intent: ques_81
+  examples: |
+    - লোকাল ইমপ্ল্যয়ীদের সেলারি কিভাবে প্রসেস করব?
+- intent: ques_82
+  examples: |
+    - কিভাবে স্টাফদের স্যালারি দিতে হবে?
+- intent: ques_83
+  examples: |
+    - কিভাবে স্টাফদের স্যালারি দিতে হবে?
+- intent: ques_84
+  examples: |
+    - জেনারেল এক্টিভিটির জন্য General Activity” ফান্ড সিলেকশন কোড কি হবে?
+- intent: ques_85
+  examples: |
+    - বেতন বিল দাখিল করার সময় “duplicate ddo code block mapping” error আসে। সমাধান কি?
+- intent: ques_86
+  examples: |
+    - অতিরিক্ত ডিডিও খোলার ক্ষেত্রে কি কি ডকুমেন্ট দিতে হবে?
+- intent: ques_87
+  examples: |
+    - supplier এর নাম fixed থাকে। তাহলে ভিন্ন নামে বিল কিভাবে দিব একই TIN under এ?
+- intent: ques_88
+  examples: |
+    - iBAS++ এ লগইন করতে গেলে “User authentication failed. Please provide valid User ID, Password and Capcha”-এরর ম্যাসেজ আসে। করণীয় কি?
+- intent: ques_89
+  examples: |
+    - Password ভুলে গেলে করণীয় কি?
+- intent: ques_90
+  examples: |
+    - User ID- ভুলে গেলে করণীয় কি?
+- intent: ques_91
+  examples: |
+    - User ID- ভুলে গেলে করণীয় কি?
+- intent: ques_92
+  examples: |
+    - Self Drawing Officer দের user ID তে লগইন করার পর “Employee Information Not Found”-Error দেখালে করণীয় কি?
+- intent: ques_93
+  examples: |
+    - Registered Mobile No ঠিক থাকা সত্ত্বেও OTP না আসলে করণীয় কি?
+- intent: ques_94
+  examples: |
+    - নতুন ডিডিও খোলার জন্য কি করবেন?
+    - Notun ddo kholar jonno ki korben?
+- intent: ques_95
+  examples: |
+    - কর্মচারীদের বেতন বিল কি ডিডিওকেই দাখিল ও করতে হবে?
+    - Kormocharider beton bill ki ddo kei dakhil o korte hbe?
+- intent: ques_96
+  examples: |
+    - একজন কর্মচারীর কতগুলো তথ্য এন্ট্রি হলে এফটি এর মাধ্যমে কি বিল দেওয়া যাবে?
+    - ekjon kormocharir kotogulu tothy entry hole EFT er madhoyme ki bill deoaa jabe?
+- intent: ques_97
+  examples: |
+    - If the budget allocates and the money can be passed by the bill can be passed&#10
+- intent: ques_98
+  examples: |
+    - UAO office bills in July/5 and August/6 months&#10

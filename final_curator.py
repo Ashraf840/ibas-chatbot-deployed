@@ -370,7 +370,9 @@ def create_new_files(df):
 def main():
     # df = pd.read_csv("./data/new_update_dataset.csv")
     # df = pd.read_csv("new_update_dataset.csv")
-    df = pd.read_excel("/home/tanjim/workstation/ibas-project/source/final_dataset.xlsx")
+    # df = pd.read_excel("/home/tanjim/workstation/ibas-project/source/final_dataset.xlsx")
+    # df = pd.read_excel("/media/robin/Documents/PersonalWorks/ibas_project/source/Final-updated-dataset.xlsx")   # Use it after creating new curator file
+    df = pd.read_excel("/media/robin/Documents/PersonalWorks/ibas_project/source/final_dataset_old.xlsx")
 
     create_new_files(df)
     print("curated")
