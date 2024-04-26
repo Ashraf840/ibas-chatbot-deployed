@@ -26,7 +26,7 @@ def monitor_log_file(log_file):
             line = f.readline()
             if line:
                 # Send the line through the WebSocket
-                send_message_to_django(line)  # Sneds all the lines
+                send_message_to_django(line)  # Sends all the lines
             else:
                 # Sleep for a short interval before checking for new lines again
                 time.sleep(1)

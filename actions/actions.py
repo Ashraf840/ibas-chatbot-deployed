@@ -15,7 +15,7 @@ from .ticketing.ticketing_api import (
 from .ticketing.ticketing_api import reqres,category_oid, issue_text
 
 import sys
-sys.path.append("/home/robin/Downloads/iba_chat_system_tada_module_collaborated_branch/new")
+sys.path.append("/media/robin/Documents/PersonalWorks/ibas_project")
 from lang_detection.text_lang_detect import lang_detect
 from gibberish_identification.gibberish_detection import is_gibberish
 
@@ -96,9 +96,9 @@ class ActionCreateIssue(Action):
             updated_df.to_excel(new_update_dataset, index=False, engine='openpyxl')
 
             if text_language == 'bn':
-                dispatcher.utter_message(text=f"আপনার সমস্যা সম্পর্কে আমাদের অবহিত করার জন্য আপনাকে ধন্যবাদ।")
+                dispatcher.utter_message(text=f"আপনার সমস্যা সম্পর্কে আমাদের অবহিত করার জন্য আপনাকে ধন্যবাদ। শীঘ্রই একজন হেল্প ডেস্ক অফিসার আপনার সাথে যোগাযোগ করবে।")
             else :
-                dispatcher.utter_message(text=f"Thank you for informing us about your issue.")
+                dispatcher.utter_message(text=f"Thank you for informing us about your issue. A help desk officer will contact you shortly")
             ################ hit api to redirect to the chatroom###################
             url = "http://127.0.0.1:8080/home/api/user-chatroom/socket/"
 

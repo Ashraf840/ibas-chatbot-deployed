@@ -18,39 +18,39 @@ def send_message_to_django(message):
     ws.close()
 
 
-def progress():
-    for progress in range(0, 101):
-        send_message_to_django(json.dumps(progress))
-        time.sleep(.2)
+# def progress():
+#     for progress in range(0, 101):
+#         send_message_to_django(json.dumps(progress))
+#         time.sleep(.2)
 
 
-class SendProgressThread(threading.Thread):
+# class SendProgressThread(threading.Thread):
     
-    def __init__(self):
-        threading.Thread.__init__(self)
+#     def __init__(self):
+#         threading.Thread.__init__(self)
 
-    def run(self):
-        progress()
+#     def run(self):
+#         progress()
 
 
-def monitor_log_file(log_file):
-    # Open log file in read mode
-    with open(log_file, 'r') as f:
-        # Continuously monitor the log file
-        while True:
-            # Use tail command to get new lines added to the file
-            tail_process = subprocess.Popen(['tail', '-f', log_file], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+# def monitor_log_file(log_file):
+#     # Open log file in read mode
+#     with open(log_file, 'r') as f:
+#         # Continuously monitor the log file
+#         while True:
+#             # Use tail command to get new lines added to the file
+#             tail_process = subprocess.Popen(['tail', '-f', log_file], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
-            # Read new lines from the tail process
-            for line in tail_process.stdout:
-                print(line)
-                # send_message_to_django(line)
-                # # Extract epoch value using regular expression
-                # epoch_match = re.search(r'Epoch: (\d+)', line.decode('utf-8'))
-                # if epoch_match:
-                #     epoch_value = epoch_match.group(1)
-                #     # Send WebSocket message
-                #     send_message("New epoch value: " + epoch_value)
+#             # Read new lines from the tail process
+#             for line in tail_process.stdout:
+#                 print(line)
+#                 # send_message_to_django(line)
+#                 # # Extract epoch value using regular expression
+#                 # epoch_match = re.search(r'Epoch: (\d+)', line.decode('utf-8'))
+#                 # if epoch_match:
+#                 #     epoch_value = epoch_match.group(1)
+#                 #     # Send WebSocket message
+#                 #     send_message("New epoch value: " + epoch_value)
 
 
 class ShellScriptThread(threading.Thread):
