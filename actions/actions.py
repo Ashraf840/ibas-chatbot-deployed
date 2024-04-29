@@ -69,11 +69,22 @@ class ActionCreateIssue(Action):
         
         if not user_auth_data['is_authenticated']:
             print("Please login first!")
+            print("issue - in unauthenticated user section:", issue_desc)
 
+            # messages = [
+            #     {"issue_desc": f"{issue_desc}"},
+            # ]
+            
             if text_language == 'bn':
+                # messages.append({"text": "দয়া করে প্রথমে লগ ইন করুন।"})
+                # dispatcher.utter_message(messages)
                 dispatcher.utter_message(text=f"দয়া করে প্রথমে লগ ইন করুন।")
+                dispatcher.utter_message(text=f"{issue_desc}")
             else :
+                # messages.append({"text": "Please login first."})
+                # dispatcher.utter_message(messages)
                 dispatcher.utter_message(text=f"Please login first.")
+                dispatcher.utter_message(text=f"{issue_desc}")
             return []
         else:
             # If an authenticated user after logging into the system comes back to the login page & start using the chatbot.
